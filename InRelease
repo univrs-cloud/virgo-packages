@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Mon, 01 Apr 2024 19:30:36 +0000
+MD5Sum:
+ 1c7c16621216e584f8494820705fe7f4             1305 Packages
+ 1931d7a79abb4bb5faa9debf7e5bc76f              689 Packages.gz
+ 4526a5c4832a7b00e0b69be7cf8240d1               38 Release
+SHA1:
+ a2da0f27d18873747455a110d0b8ac5e63259341             1305 Packages
+ 95764765d838629a5a6fb321c478749a452f3dde              689 Packages.gz
+ 911832c4ace003546552b53d5d0ae2767de611e7               38 Release
+SHA256:
+ 7acfce9f5f59bd42eed8f08d184bc23a428486f077e6c01b48c9285710a971a4             1305 Packages
+ 692a3b9b04144b85b0de6087f17e6ab2d01c9349736ceebb22503133d6fdd279              689 Packages.gz
+ c5d37efe82b2332bef52f8a759b905784e8b8bd6a16fded06cd140ae755591ec               38 Release
+SHA512:
+ 3ff4a93d80438794b5ac8172623ff64c9c9486a4dcc4164ce6d0c3ac51a42b06414a6ca803d316c493a2be76aebf41dc27e744740d3141c88f25f8efa6f39fe5             1305 Packages
+ edc10f3e3d7e7d1feb4d859ca4e78d4c3fee5a8353281168c28dba502a588e8f13b1e78908cedecc838e39cdb62bfdb508fab477bbe15fa16af074e5cd4bb97a              689 Packages.gz
+ 60b1b0dad042cd40bce453be4a718c05e68ffed752cdf9cf74596bfba2ddb144ffe973af7224927cbdee3669af556e653a1dd7265fea966fc294d131958afc1a               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEEXWRj79bzqGkQ8aPWotAq3InS0XMFAmYLC4AVHHZveWFnZXJA
+dW5pdnJzLmNsb3VkAAoJEKLQKtyJ0tFzyngP/2rSVWdxM9DvZG1zwLcuvQC7gWh2
+yXup8qZ/dpKtCcJPOXtBmO0ZcSi0t2wq2Je06MGxGEg+3spiwCtj6j56oPlpRmjw
+RfPGYIuL0/5+S5ZD4FNxswSWt1wTxUPxypVnQ8os7/5nvSGwDBzcvt1AwzBYyPJ/
+r6tML/ifRNsFuX477w1YZzfCuJMPqk3nz+iR2n/Oaa5UejFjwNbkWSEsA9+6ddji
+T9R7Lv9bOc7eHyiRCAcaXZG2YljwtuWJjEO71zgF8L9PsVOzwPWMs8WmeNaTjFyK
+LQxJTMD7f9OQ0p5VizumVGb3J87r99lFaFG2tICYs1EfjqJTuAKdSPQHl5d5fDtM
+PiwHszHVfKb6odCFbAxxLyFlRtb17f/kaTHObTnylSE4/d101g1wySxKvMqA6rT8
+G+AuQH+tTBO7dWkXBKRq9iw4l+XMoT53IaDqSBvFR3MFMndG0lbYRCjixN4+CZyP
+lssZcbdzJ9uaq4ETbY1WZSPLkico3PYrLPaFYxwn9PTLoipkhDLbacu0/BU7OSH8
+7kd0rDEJSYhpZyabvc3wwRk8ZhechNln6tvxYKq28YwduicHYfoaV5xHh6tkjZSI
+EQzclCCGAEoA1awEf2h5SmeRlmoBimsWrEUcp2v6NN4W+Os5RHdCdwbEo0mwDuha
+WHHO1qtaWr0ewhnc
+=pc9w
+-----END PGP SIGNATURE-----
