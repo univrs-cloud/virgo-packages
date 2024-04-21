@@ -79,6 +79,19 @@ Section: base
 Priority: optional
 Description: virgo UI
 
+Package: virgo-ui
+Version: 1.0.3
+Architecture: all
+Maintainer: univrs
+Filename: ./virgo-ui/virgo-ui_1.0.3_all.deb
+Size: 26836976
+MD5sum: bf3d56546848d77798d0e7ca173ff8af
+SHA1: 175dcffd7957755a4ee762864be74ca835bda418
+SHA256: 97ef46444a3cc6887f630a753effc4bce23b4e11da8477de0d0a6f9a8fa8f135
+Section: base
+Priority: optional
+Description: virgo UI
+
 Package: virgo-ups
 Version: 1.1.0
 Architecture: all
