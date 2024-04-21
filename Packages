@@ -26,6 +26,20 @@ Section: base
 Priority: optional
 Description: virgo API
 
+Package: virgo-api
+Version: 1.0.2
+Architecture: all
+Maintainer: univrs
+Depends: zfsutils-linux,apt-show-versions
+Filename: ./virgo-api/virgo-api_1.0.2_all.deb
+Size: 8614526
+MD5sum: 69379befb8676df693a0c2dc8d279e97
+SHA1: 3ef2761fd0575c65fb78d5cf11fb393b731a9938
+SHA256: 4a72994477f0f3203792cf8a1308b979d328201fa98f459bfe8055ab862ed404
+Section: base
+Priority: optional
+Description: virgo API
+
 Package: virgo-ui
 Version: 1.0.0
 Architecture: all
@@ -48,6 +62,19 @@ Size: 26810952
 MD5sum: 4e4f9c9dfd7cf289397889ee047ddd7b
 SHA1: 1b45a97b9a00e71beeb51819a9c50727375ad84d
 SHA256: 9f61935c44c65454f1d5b716cdb6d1cd1301a5bd5c5e31d872803035bc6dc08f
+Section: base
+Priority: optional
+Description: virgo UI
+
+Package: virgo-ui
+Version: 1.0.2
+Architecture: all
+Maintainer: univrs
+Filename: ./virgo-ui/virgo-ui_1.0.2_all.deb
+Size: 26836422
+MD5sum: 3cd328f273a81b434bb63d568ffaf181
+SHA1: 13215b4eba76288be4f0ce71b7b318a8691cbbc7
+SHA256: 478968605a74f14c34da2f9630bca47c78795140f310df091d736390a1d3e6cf
 Section: base
 Priority: optional
 Description: virgo UI
