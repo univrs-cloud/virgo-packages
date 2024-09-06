@@ -53,22 +53,6 @@ Priority: optional
 Description: virgo UI
 
 Package: virgo-ups
-Version: 1.1.1
-Architecture: all
-Maintainer: Mihai Balint <balint.mihai@gmail.com>
-Installed-Size: 40
-Depends: python3-smbus, python3-pip
-Filename: ./virgo-ups/virgo-ups_1.1.1_all.deb
-Size: 6198
-MD5sum: b32279b778106e624af0e1e0b2f77912
-SHA1: a0a6c467a585aa62b43ca9a9c3dcf25537062dae
-SHA256: 3993f452cf004bada23acfd207d617035347bc1fd78e60584bc653b0b76ae59e
-Section: utils
-Priority: extra
-Description: UPS monitoring and automatic power-off services package
- Ensures that UPS monitoring and automatic power-off service is installed and running
-
-Package: virgo-ups
 Version: 1.1.2
 Architecture: all
 Maintainer: Mihai Balint <balint.mihai@gmail.com>
@@ -79,6 +63,22 @@ Size: 6078
 MD5sum: a78afb59fac10c9b841aa67e8810a74e
 SHA1: 42f6a25ba1adbeee34d86ff572ec687bffba606f
 SHA256: d0abd161735daf366985ab5cb11e0c0882dcdcdbd3135a99163239d650ac9887
+Section: utils
+Priority: extra
+Description: UPS monitoring and automatic power-off services package
+ Ensures that UPS monitoring and automatic power-off service is installed and running
+
+Package: virgo-ups
+Version: 1.2.0
+Architecture: all
+Maintainer: Mihai Balint <balint.mihai@gmail.com>
+Installed-Size: 40
+Depends: python3-smbus, python3-pip
+Filename: ./virgo-ups/virgo-ups_1.2.0_all.deb
+Size: 6214
+MD5sum: 27c987d66366387c0830753ee2542311
+SHA1: 7175291af95d67f5f93d2d122d1658ad880cf78a
+SHA256: 3a024cea29b1e7f7f5e38fc570b174fa9a8852a8db8c5446b6e2585da890e0ab
 Section: utils
 Priority: extra
 Description: UPS monitoring and automatic power-off services package
