@@ -27,19 +27,6 @@ Priority: optional
 Description: virgo API
 
 Package: virgo-ui
-Version: 1.0.39
-Architecture: all
-Maintainer: univrs
-Filename: ./virgo-ui/virgo-ui_1.0.39_all.deb
-Size: 26901896
-MD5sum: 19142b8adaaae6f5a68a343c516bad10
-SHA1: 946b3261d763767d5ec31389add8162d5d7dc3de
-SHA256: f3df796243f0e644b78e38df743c3af9d370396fac4307e34500cdd3cb099d07
-Section: base
-Priority: optional
-Description: virgo UI
-
-Package: virgo-ui
 Version: 1.0.40
 Architecture: all
 Maintainer: univrs
