@@ -44,10 +44,10 @@ Version: 1.0.40
 Architecture: all
 Maintainer: univrs
 Filename: ./virgo-ui/virgo-ui_1.0.40_all.deb
-Size: 26900008
-MD5sum: a752c27538881927f26bc783ae435445
-SHA1: e53553e647b6e853f57ec3618707e24f636a8657
-SHA256: 69a851babe676f52895bdb9036dcbf7b6802579062f782a313d275a112d08bda
+Size: 26888840
+MD5sum: 0cc5ae362eb6ffdd4f8535236532baa4
+SHA1: 784ccb837ca6367621a39f731ccd05fd59f71711
+SHA256: a49a7d815b1a9b17feb0e298d9fe49a4fd4a290beabf5a07ceb868589421a946
 Section: base
 Priority: optional
 Description: virgo UI
