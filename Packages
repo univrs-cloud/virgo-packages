@@ -1,18 +1,4 @@
 Package: virgo-api
-Version: 1.1.11
-Architecture: all
-Maintainer: univrs
-Depends: zfsutils-linux,apt-show-versions,smartmontools,jq
-Filename: ./virgo-api/virgo-api_1.1.11_all.deb
-Size: 9155020
-MD5sum: 9c67b25752c80a40ae0d6f66de820f6c
-SHA1: aa9316e1371d35b49dcb8a837d41bd4c1f42199f
-SHA256: a1fe2f06ef52fb0d201abf819b18a69a5c956f34552fb7df6ee46a38cac7fa62
-Section: base
-Priority: optional
-Description: virgo API
-
-Package: virgo-api
 Version: 1.1.12
 Architecture: all
 Maintainer: univrs
@@ -22,6 +8,20 @@ Size: 9154158
 MD5sum: f965e07f57547747ece8ee8650caee82
 SHA1: 33bd4a9cb16b6a1453e5afe6c2ae60282ce57775
 SHA256: 0d77c768685a3a77878442e2a80761dfae6777b420f7deac3fa7e407303ac5d0
+Section: base
+Priority: optional
+Description: virgo API
+
+Package: virgo-api
+Version: 1.1.13
+Architecture: all
+Maintainer: univrs
+Depends: zfsutils-linux,apt-show-versions,smartmontools,jq
+Filename: ./virgo-api/virgo-api_1.1.13_all.deb
+Size: 9154726
+MD5sum: 049b1d10ee23c3068a33757ccf8c3c5e
+SHA1: 7066088feefe3788355ff4ea1bc38922b8dffa13
+SHA256: 64105913abb27668233dad4c316918a40bbd6042ea29b9833facf1c7ecb280b3
 Section: base
 Priority: optional
 Description: virgo API
