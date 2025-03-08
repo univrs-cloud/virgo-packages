@@ -27,14 +27,14 @@ Priority: optional
 Description: virgo API
 
 Package: virgo-ui
-Version: 2.2.8
+Version: 2.2.10
 Architecture: all
 Maintainer: univrs
-Filename: ./virgo-ui/virgo-ui_2.2.8_all.deb
-Size: 28691236
-MD5sum: 79e629f778db78c69a32c21eed1916b7
-SHA1: 8d911b6257ad7ee6ea7fb64aa438e945eff47f93
-SHA256: da6dff9361758f6cab43aad3a4a7e2596c4b5cc27492427c3c926815969d3294
+Filename: ./virgo-ui/virgo-ui_2.2.10_all.deb
+Size: 28692176
+MD5sum: 2b95cbdc5dcf2964d6345d3182a06b1e
+SHA1: ec3e634a3469c5653a01e122f5979991db3da15a
+SHA256: 9d87d357dcf8eca18d6dd6f26d276f936de73778ce6bcf12eada243f3f192e30
 Section: base
 Priority: optional
 Description: virgo UI
