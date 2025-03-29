@@ -13,15 +13,15 @@ Priority: optional
 Description: virgo API
 
 Package: virgo-api
-Version: 1.2.27
+Version: 1.2.28
 Architecture: all
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx
-Filename: ./virgo-api/virgo-api_1.2.27_all.deb
-Size: 10109384
-MD5sum: 6f5d0a6057923ffcf56b864409f56443
-SHA1: 07abe8a35ea09322a379617cc5f1ec88d45665b1
-SHA256: df2ec397ad2b4fe7b574f81524cb215ee44306206339dacef2fdaaf8941e6ab9
+Filename: ./virgo-api/virgo-api_1.2.28_all.deb
+Size: 10109046
+MD5sum: ddf750dca61e95d4aba10b7ffce5b61f
+SHA1: 70cafee9cc69f62a7a7f3ad04ed2f1766dfa05aa
+SHA256: 98f17931a35a8d55057c1cdd6f9ac3dc319cbf2943a93a421bbd3273372ffc6f
 Section: base
 Priority: optional
 Description: virgo API
