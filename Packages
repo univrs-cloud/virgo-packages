@@ -1,18 +1,4 @@
 Package: virgo-api
-Version: 1.2.24
-Architecture: all
-Maintainer: univrs
-Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx
-Filename: ./virgo-api/virgo-api_1.2.24_all.deb
-Size: 10006904
-MD5sum: ed8023f0ed84484118f2f9bb05d02db6
-SHA1: 7807e4d2adc01db5543d3a4d96082439ec6c3727
-SHA256: 5f092cc1178155aa2273176acfdfa8bf1d906c92c7534eb4ba1a12c9cb26adf8
-Section: base
-Priority: optional
-Description: virgo API
-
-Package: virgo-api
 Version: 1.2.28
 Architecture: all
 Maintainer: univrs
@@ -22,6 +8,20 @@ Size: 10109046
 MD5sum: ddf750dca61e95d4aba10b7ffce5b61f
 SHA1: 70cafee9cc69f62a7a7f3ad04ed2f1766dfa05aa
 SHA256: 98f17931a35a8d55057c1cdd6f9ac3dc319cbf2943a93a421bbd3273372ffc6f
+Section: base
+Priority: optional
+Description: virgo API
+
+Package: virgo-api
+Version: 1.2.29
+Architecture: all
+Maintainer: univrs
+Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx
+Filename: ./virgo-api/virgo-api_1.2.29_all.deb
+Size: 10106050
+MD5sum: 160614902a7510cdacb11dc2d7740d7b
+SHA1: 4333f1cbc11173e2c8c915ffb8957a2db75e20ad
+SHA256: 5de0680e7a77c6fcd10c53273c3d542ee671a4df6e881ca742efed0757d010f0
 Section: base
 Priority: optional
 Description: virgo API
