@@ -5,7 +5,6 @@ cd dists/stable/main/binary-arm64
 
 # Generate package lists
 dpkg-scanpackages --multiversion . > Packages
-sed -i 's|Filename: \./|Filename: |g' Packages
 gzip -k -f Packages
 
 # Go back to the dists/stable directory
