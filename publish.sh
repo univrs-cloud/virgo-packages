@@ -3,7 +3,7 @@
 cd stable/main/binary-arm64
 dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
-cd ../
+cd ../../
 cat > Release <<EOF
 Suite: stable
 Codename: stable
