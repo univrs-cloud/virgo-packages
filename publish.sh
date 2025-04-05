@@ -1,19 +1,25 @@
 #!/bin/bash -e
 
+# Go to the directory with the .deb files
 cd dists/stable/main/binary-arm64
+
+# Generate package lists
 dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
-cd ../../../.. # Navigate back to the root of the repository
 
-cat > dists/stable/Release <<EOF
+# Go back to the dists/stable directory
+cd ../../
+
+# Create Release file
+cat > Release <<EOF
 Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
 EOF
-apt-ftparchive release dists/stable >> dists/stable/Release
-gpg --default-key "voyager@univrs.cloud" -abs -o dists/stable/Release.gpg dists/stable/Release
-gpg --default-key "voyager@univrs.cloud" --clearsign -o dists/stable/InRelease dists/stable/Release
+apt-ftparchive release . >> Release
+gpg --default-key "voyager@univrs.cloud" -abs -o Release.gpg Release
+gpg --default-key "voyager@univrs.cloud" --clearsign -o InRelease Release
 
 git add -A
 git commit -m update
