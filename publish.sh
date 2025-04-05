@@ -5,6 +5,8 @@ dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
 cd ../../
 cat > Release <<EOF
+Suite: stable
+Codename: stable
 Architectures: all
 Components: main
 EOF
