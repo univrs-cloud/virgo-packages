@@ -1,0 +1,17 @@
+Date: Sat, 05 Apr 2025 17:14:45 +0000
+MD5Sum:
+ bcf223f8c24ee787d10f04140027a64d               38 Release
+ e67ea725c2d8ad6e4e9f838b4a33d99b             2638 main/binary-all/Packages
+ c9c5f000a7a23b9bde9a861a963d90b0             1035 main/binary-all/Packages.gz
+SHA1:
+ 8bf7c466fab79867f30a8d404d74560df8e432b6               38 Release
+ 06cf19606044e82ce23d3b2cd1c8cc0aca2c512a             2638 main/binary-all/Packages
+ 9cccca5382a71e8ebec9c79f157a6514e3dcdd73             1035 main/binary-all/Packages.gz
+SHA256:
+ 2e466d68b5d5647e6012b5d9e56dbafa638c5a9bcc4064b49c8f71e9f757fcd3               38 Release
+ fd952be45bacd45ad48e53ea31dc618f28074740e26ddf5a519e3c51b4e3ebfe             2638 main/binary-all/Packages
+ 3e5e12a4b7de94f922fd98783b38cc7ff32a0fe8b1a9379d4ea07b64e900fc8f             1035 main/binary-all/Packages.gz
+SHA512:
+ e188b195ec0b56cc7f6730df16de96cc4376adb8f52f5da2ad8693b9fa8022436db87841f36a283177c8a49a60ccacc8f0b1928cc86bb481b3415ff0929c224f               38 Release
+ 7826845150d94f5455f9c71e609d94308dd85b55dc4e5837df6de8bef9f7c3ac4806180c648dcb2bb06d2ad1466288c55694d19557ad345091f8ccf1935bcea4             2638 main/binary-all/Packages
+ 92866c606c4d5411ee825a14992e7a41600623d21a97c81d58c6d19326411abc431da52d80b643e004575b1c9d4791f0621a0f6cb4b262082f089144227c6e7a             1035 main/binary-all/Packages.gz
