@@ -5,9 +5,6 @@ dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
 cd ../../
 cat > Release <<EOF
-Origin: univrs.cloud
-Suite: stable
-Codename: stable
 Architectures: all
 Components: main
 EOF
