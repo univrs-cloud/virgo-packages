@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Suite: stable
+Codename: stable
+Architectures: arm64
+Components: main
+Date: Sat, 05 Apr 2025 19:04:08 +0000
+MD5Sum:
+ 49ef98edf2579c98d4f5a2bc1a432654              107 Release
+ 13e6397da0a437e09bee2ba161a02bc2             1883 main/binary-arm64/Packages
+ e1042b4dc94311240a5dd9a97ae19982              833 main/binary-arm64/Packages.gz
+SHA1:
+ c66414f91ac22b729ef70d036af688e10b7a2513              107 Release
+ 44280627c52e18bb8bf9e27ebdca2c3fd30937a3             1883 main/binary-arm64/Packages
+ e43950f9bc43a07e02712ee876b5c471f3fdc934              833 main/binary-arm64/Packages.gz
+SHA256:
+ f08d19c684728b27175260fba5fc732cd6cded38cfc84db1b5e13d2bf19ea9d6              107 Release
+ 02126e7ed4120213497d0aecf3aaac03f5faf823ccb78b291c88a39a00f25303             1883 main/binary-arm64/Packages
+ b36e5b9dd63011cb58206a61b3a0f090d210d4cd9039a36e6df411c449ceec2d              833 main/binary-arm64/Packages.gz
+SHA512:
+ dedd8fdce68196bb48bcd23ec5f459409b5c360ebd7e8a5c28a1a416c4aa18492a5d02d5280ecf87b81a401032e69a22e59831fe35f89db81fe3444925911968              107 Release
+ ff0f754efed780a439f3b203ec8a9e59611d27d16b36785fc25b9256597abb2443f1b5735a58f1c4b09c9a5dba1fcffded698a29d73588e9b09df0f514a640b5             1883 main/binary-arm64/Packages
+ cb45f2e1dcad23abc0ce178cfb9f294ae80f96de55a7dec540027d4c900b8b5af489416035c5c2cfd4a5e386a0e6642ba11037fd572bb89e2416043db32b8217              833 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEEXWRj79bzqGkQ8aPWotAq3InS0XMFAmfxfqgVHHZveWFnZXJA
+dW5pdnJzLmNsb3VkAAoJEKLQKtyJ0tFzJhYP/33+Wh0DhyWNUSQbkzo5ZvUuRK97
+DuMZgOCVL21vSQsHvS5W1NohWrO/WWxQ49lkjPyyxc2QqVA0fjEikd3bJZjPiYme
+zWMg8dNEe8HZmuG89fVJklnTHADHaOyCX3eRleILZgDyY/6pEOlwloYYXoo4pERg
+daQe0dyeBI0HvjzXaWB8yxU0XAcA/pimPnRbM09c8CCiKNzQdd1K1+txtNoAEPB6
+no32h+bQoEnwA5Od6JEtou8YnU/VZ9nhAbt1sqxmFiSFWEv7g/lV0lb3rK6BtgzF
+ply669QVcjsioZFK2fvRVYGJZE9hqGHpwoGhijHWEqI4GAM/ogTMHcBQKnJmijTj
+kclAoelNzJyO8HKYOZPuFTp98zp8ESbbXKgIzj4/MZcTGJ5WfnhjC+ev/ddAC1bg
+uosf7IN5KAOyXWGQaYGq2rybpHnTvbe7VM5Iltw+Sfnlu2ORItlgWmXYgtDUMp2D
+lFw8VHemHb66osOm5xWD5lt5PXWRRcNxSdZF4jgq7NFIvzxJ/ibcKdAHgBdww1lm
+p8Cp/ws4hwrh2IIeUh6Wegs1iT+VZEJNlw+4GhhGxoxz8iSOCXt4Jylkt8o59A3t
+aGPLwX7XOg1KuAxKvK968U5iTD8lKL1HTNmnzRh/8/GjjQ4eYuOsMlGWqc0IH4cN
+y4bb55aeOoQHdKZz
+=ADUk
+-----END PGP SIGNATURE-----
