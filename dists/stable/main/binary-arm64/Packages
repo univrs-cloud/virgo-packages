@@ -3,7 +3,7 @@ Version: 1.2.34
 Architecture: all
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server
-Filename: ./virgo-api_1.2.34_all.deb
+Filename: ./virgo-api_1.2.34_arm64.deb
 Size: 11084940
 MD5sum: a9405ee424c69938a8658daf7426fcb8
 SHA1: 9196dee5a37d95ec7609e3cce0c2f6138841e5db
@@ -17,7 +17,7 @@ Version: 1.2.35
 Architecture: all
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server
-Filename: ./virgo-api_1.2.35_all.deb
+Filename: ./virgo-api_1.2.35_arm64.deb
 Size: 11053716
 MD5sum: 4affbc4d08c73e76194d2a83a4c68e6c
 SHA1: af96c741a02c8b70c4363d457418aec2ed93bec9
@@ -30,7 +30,7 @@ Package: virgo-ui
 Version: 2.2.37
 Architecture: all
 Maintainer: univrs
-Filename: ./virgo-ui_2.2.37_all.deb
+Filename: ./virgo-ui_2.2.37_arm64.deb
 Size: 29233930
 MD5sum: 8a42f538d3f9d6c47574249c426c2f88
 SHA1: 677ffb53a521d9c0f48e0beafa7613dc4616e546
@@ -43,7 +43,7 @@ Package: virgo-ui
 Version: 2.2.40
 Architecture: all
 Maintainer: univrs
-Filename: ./virgo-ui_2.2.40_all.deb
+Filename: ./virgo-ui_2.2.40_arm64.deb
 Size: 29212668
 MD5sum: d21a93924e2bd73a5eb643d2ac67d2e1
 SHA1: dec9bbe97cb4053ebd68237f68adca23281f015e
@@ -58,7 +58,7 @@ Architecture: all
 Maintainer: Mihai Balint <balint.mihai@gmail.com>
 Installed-Size: 40
 Depends: python3-smbus, python3-pip
-Filename: ./virgo-ups_1.2.0_all.deb
+Filename: ./virgo-ups_1.2.0_arm64.deb
 Size: 6214
 MD5sum: 27c987d66366387c0830753ee2542311
 SHA1: 7175291af95d67f5f93d2d122d1658ad880cf78a
@@ -74,7 +74,7 @@ Architecture: all
 Maintainer: Mihai Balint <balint.mihai@gmail.com>
 Installed-Size: 40
 Depends: python3-smbus, python3-pip
-Filename: ./virgo-ups_1.2.1_all.deb
+Filename: ./virgo-ups_1.2.1_arm64.deb
 Size: 6090
 MD5sum: ea54b28e707d661a30d8aefb503da6f7
 SHA1: 7f3dabea3da79cd14598e1305270101a2e7a421b
