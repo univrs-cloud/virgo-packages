@@ -1,18 +1,4 @@
 Package: virgo-api
-Version: 1.2.38
-Architecture: arm64
-Maintainer: univrs
-Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server
-Filename: ./dists/stable/main/binary-arm64/virgo-api_1.2.38_arm64.deb
-Size: 11050542
-MD5sum: 9db08ed6b92b5346ef1cc4ebcaaad09d
-SHA1: b438685d3514baca57eee85f9519d144a68b7435
-SHA256: ced1f1f476860a4b1b8dd8aa10c320609c68d9d45c32574dac960d0eaa5e0388
-Section: base
-Priority: optional
-Description: virgo API
-
-Package: virgo-api
 Version: 2.0.0
 Architecture: arm64
 Maintainer: univrs
@@ -26,18 +12,19 @@ Section: base
 Priority: optional
 Description: virgo API
 
-Package: virgo-ui
-Version: 2.2.44
+Package: virgo-api
+Version: 2.0.1
 Architecture: arm64
 Maintainer: univrs
-Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.2.44_arm64.deb
-Size: 29220950
-MD5sum: a64cad5ca653c046e0211a21da73c32f
-SHA1: b5dd22f2c3f55394149aad2007b7ebbbb2236cbe
-SHA256: 9b7a8176099ba2fcc8f25defb190aca89fb3a4346346b2624659ea2f9d40d563
+Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server
+Filename: ./dists/stable/main/binary-arm64/virgo-api_2.0.1_arm64.deb
+Size: 11051128
+MD5sum: 38e4f913168c525a21e368258097a5a1
+SHA1: f7ba34dbb9d5445343b21cb35fe6873241c3a7f4
+SHA256: d861e99565881164433c9df519959416edb0c9ec9f76ba3d15b8425f04cd19d1
 Section: base
 Priority: optional
-Description: virgo UI
+Description: virgo API
 
 Package: virgo-ui
 Version: 2.2.46
@@ -48,6 +35,19 @@ Size: 29228880
 MD5sum: ffed29d1d08f2c5bc343bb3b51d57b2a
 SHA1: a301a311bf71d561da59ea980e38fdc77c839eef
 SHA256: cbdc05b568ed766b547eba2655457f4a6d620ef14a7bb9aa55f644b0d7f05452
+Section: base
+Priority: optional
+Description: virgo UI
+
+Package: virgo-ui
+Version: 2.2.47
+Architecture: arm64
+Maintainer: univrs
+Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.2.47_arm64.deb
+Size: 29227412
+MD5sum: 1ec30c743f449d0b1a8a96d9e1e7b2c4
+SHA1: ea7234a6076c64d76025fcb670959cef373e23b5
+SHA256: 1c7d05a3f144da1b7d8e006e0ca3d8f62b6c764010f5aa36d0fbe45b37caf6da
 Section: base
 Priority: optional
 Description: virgo UI
