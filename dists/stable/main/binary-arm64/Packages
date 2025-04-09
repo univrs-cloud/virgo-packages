@@ -1,45 +1,29 @@
 Package: virgo-api
-Version: 2.0.2
+Version: 2.0.3
 Architecture: arm64
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server
-Filename: ./dists/stable/main/binary-arm64/virgo-api_2.0.2_arm64.deb
-Size: 11050070
-MD5sum: f7c66421bf66ca3cb49b5c3cbd4473c2
-SHA1: 467d09f23e0e01e61785a47b8338717a4fa048c3
-SHA256: 16f8ec3ef765070f18693c4be6aeb5e08a9366facb05f5485f2d9cb890c9885d
+Filename: ./dists/stable/main/binary-arm64/virgo-api_2.0.3_arm64.deb
+Size: 11053130
+MD5sum: 8c6ff4bec8e0b21de6ad5c545b121be7
+SHA1: e829528c27fb81333aceb1dcc9de04d8577dcfbe
+SHA256: fb4639d7517c6ee18c452f8b9eebb0ac59c8a32acd5ce716240f48703e42a4bb
 Section: base
 Priority: optional
 Description: virgo API
 
 Package: virgo-ui
-Version: 2.2.47
+Version: 2.2.48
 Architecture: arm64
 Maintainer: univrs
-Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.2.47_arm64.deb
-Size: 29227412
-MD5sum: 1ec30c743f449d0b1a8a96d9e1e7b2c4
-SHA1: ea7234a6076c64d76025fcb670959cef373e23b5
-SHA256: 1c7d05a3f144da1b7d8e006e0ca3d8f62b6c764010f5aa36d0fbe45b37caf6da
+Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.2.48_arm64.deb
+Size: 29224268
+MD5sum: 7444d6aefc9ab92f5580fc04c21e81a9
+SHA1: e6c6a134f1516570291ee20c471522a7d273486b
+SHA256: 2fdd8be4a4b48479e768c637bfa5a7d478fef2541a7ad6134d2e5a8beec05852
 Section: base
 Priority: optional
 Description: virgo UI
-
-Package: virgo-ups
-Version: 1.2.0
-Architecture: all
-Maintainer: Mihai Balint <balint.mihai@gmail.com>
-Installed-Size: 40
-Depends: python3-smbus, python3-pip
-Filename: ./dists/stable/main/binary-arm64/virgo-ups_1.2.0_arm64.deb
-Size: 6214
-MD5sum: 27c987d66366387c0830753ee2542311
-SHA1: 7175291af95d67f5f93d2d122d1658ad880cf78a
-SHA256: 3a024cea29b1e7f7f5e38fc570b174fa9a8852a8db8c5446b6e2585da890e0ab
-Section: utils
-Priority: extra
-Description: UPS monitoring and automatic power-off services package
- Ensures that UPS monitoring and automatic power-off service is installed and running
 
 Package: virgo-ups
 Version: 1.2.1
