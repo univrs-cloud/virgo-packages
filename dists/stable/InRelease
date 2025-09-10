@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Suite: stable
+Codename: stable
+Architectures: arm64
+Components: main
+Date: Wed, 10 Sep 2025 11:32:41 +0000
+MD5Sum:
+ 5a8d3a412a503e5537716af75fa76c93              107 Release
+ 9991823995ae28f2f27ae4f27dea985a             1421 main/binary-arm64/Packages
+ c28af4b8d804d828fa626248bd53542b              744 main/binary-arm64/Packages.gz
+SHA1:
+ 1cbbf751c61f20ca5e3fc17ac4cc2e6800cf8e46              107 Release
+ 7ccbc67079211015a6a789e2d083f7601575db21             1421 main/binary-arm64/Packages
+ 812c405798925d8ac011182cf9ce7c6e5785efc8              744 main/binary-arm64/Packages.gz
+SHA256:
+ d085d7758a774514d15bbfc7b4f9c1e6a728120992f5ba88f43dc5b64b3be7fa              107 Release
+ fd6818a80d078e9db5ffaaa615b0918ea0f1f6bd3a0bc3e3df1bb2430b127b60             1421 main/binary-arm64/Packages
+ 0b565ceb377e12d092adac75acbe201cd364d17ffce37f6d1c74136a90c6c8da              744 main/binary-arm64/Packages.gz
+SHA512:
+ 484b266b597e75211c2782fbd41b579b44e8ada19b5fb8b9ee19eb90dd42ec98af139cd4b4d2e8958314540873e966372b8d933da5010dfc5f26be60150a59fb              107 Release
+ b5faf7b0d7e5ec36a9296e3397a75470d6661eef182927c5f3da9c52a908a73025d6dc8d6f7cce9cf3772465ab916ddd609b0852c533fc8c31240bcd4a371018             1421 main/binary-arm64/Packages
+ 972bfee98df02a91a18449e1b6e2c2c58a19778da6ba039cd329335a3d9a8e1a35ffc02ebf44c78110a2a5d0d5bb771ab74b9817834a143e1dec4fe8af4eb382              744 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEEXWRj79bzqGkQ8aPWotAq3InS0XMFAmjBYdkVHHZveWFnZXJA
+dW5pdnJzLmNsb3VkAAoJEKLQKtyJ0tFzY9UP/jd/nOcQS6tZJSKCCoaN+oBlj+Y3
+VgVtaAO5xLl+bKrT6nQGVbNotElAlfQqx254sv/mEAGUjVdegS72gUWj0dSOVCFr
+tctxnYsZU/mX4ZDamCTEXLv7ZvMkoVzWxHsivJqDACG4IB87DeIDWwy4zS4bsrQx
+ktR6o6i5aGk1vxJL4UNiJHpAxbawA7AYDsx/sx8m7h+DFLgIvNJ1hSovEXseqkbA
+AzMNDcNULmYPJ61k4tw6h/2MyeD8NBTyPUs/hVX/AhbnGwU3DaqJZ48qZF13C/8J
+SMjch3aRgxp8E4HXegRMO/D268KOK9Qn/A3X64od0FHjKQWlHnvLFgv4XKfGkFqJ
+tMA7NSCmpqNCUSSogyCCNoaNp9cWYwipRyKd5ZovIrzGo9Yj3A7xz0T7eqETTMMp
+ZEuk0fjxoBH/spPSJanCm0ErEJ1bWCRR/kLxZu1iFZcNUN6KAwSD/eSPVH3IrffY
+amajESQPICGcqaWZYY8l+vu921J7azULhorpnz9FZW9/iZATBUpGNlRaitPRdCpy
+hjXEsYhpCU2qe49uaXJtYMokaB4y6SuHd1mzu85CiTuqSeBiMiIwSQ0raeVjSqTw
+kX7+mcAb5pdbAzaRGx1Y4vb7FLAVHb/5cKiuhdGXeBOFCHQy3fY0+yKl/sgI6Fmr
+BD13fmX51Yuh1ux3
+=8AEa
+-----END PGP SIGNATURE-----
