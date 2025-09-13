@@ -17,10 +17,10 @@ Version: 2.4.32
 Architecture: arm64
 Maintainer: univrs
 Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.4.32_arm64.deb
-Size: 12647524
-MD5sum: 6eef3e4c08f2d8c072d08decb2e11191
-SHA1: 12f9106a0651c93eb2700c898aab36a9645968a1
-SHA256: dd97b9445ad5f421251f84c0496abb97cb6e26a036ef006b44ec8c5efbdf8981
+Size: 12684076
+MD5sum: 95a94897a1a2996b092d8e463182bdec
+SHA1: e204dd7aabc0306d736eb553b8e693a51fa5c554
+SHA256: 785a0a541b9368fa756995799a639ca79a8909ad36699d76c4be30eb54a89fa0
 Section: base
 Priority: optional
 Description: virgo UI
