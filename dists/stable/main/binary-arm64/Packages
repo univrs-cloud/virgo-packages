@@ -4,10 +4,10 @@ Architecture: arm64
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server
 Filename: ./dists/stable/main/binary-arm64/virgo-api_2.6.15_arm64.deb
-Size: 11207362
-MD5sum: d16fee9aaa5f11904ba0b54e5b96eee1
-SHA1: 8004a0390694d79e126d25c99c48af6d33359f9f
-SHA256: 513737713b3487d96cd766892276067bf05a854ecad89bdb77cd9efb5644e652
+Size: 11207800
+MD5sum: b18fc3b12a0c716de40960f37356f5e1
+SHA1: c46f5990a89922627faa81e46035c9d438bea818
+SHA256: 456221621945340356f4bb281a51dc1d18d53b55659e00526e1010863f2112e2
 Section: base
 Priority: optional
 Description: virgo API
