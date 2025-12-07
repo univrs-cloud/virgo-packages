@@ -2,20 +2,20 @@ Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
-Date: Sun, 07 Dec 2025 09:55:36 +0000
+Date: Sun, 07 Dec 2025 12:29:59 +0000
 MD5Sum:
- 2c603c82d51d05a926e52bc5553149a2              107 Release
- 984abb1cef797c969f90fbdf190a9f61             5712 main/binary-arm64/Packages
- 601b2427e5572349fbd5469c46bdd7ad             1779 main/binary-arm64/Packages.gz
+ ccf400ab95b4b6304a80b878a0a4eec8              107 Release
+ fb4d75a297fc598022546277ef3ff3bd             6086 main/binary-arm64/Packages
+ c8fd48ec559462742dd4a216cc6be7ed             1886 main/binary-arm64/Packages.gz
 SHA1:
- e8903a14df0c7d37da92908a931ec07b65c361ff              107 Release
- 790951387e7f58a4e242a5fceed1b086ab936995             5712 main/binary-arm64/Packages
- 5e43a09af9fca1286d42aa1083a711d520dd4f11             1779 main/binary-arm64/Packages.gz
+ 1b5970d8460b5a36df12a6758db69dab593fc331              107 Release
+ 62ac6b1699f97304eb22a004ad1ec09a445677ec             6086 main/binary-arm64/Packages
+ 340969c1bd30e543f5e58aaa7be06c2a1e757177             1886 main/binary-arm64/Packages.gz
 SHA256:
- df1b790571ee1b8668b395f020a68e02f4f20c660392a1b09bc6aee2b8fa98e2              107 Release
- 680bc78c0cc32340804e7c33808799ff4339b7a98839a39d3095e4e45d6a32a4             5712 main/binary-arm64/Packages
- a5a25c4c91e1454ec094d7fcc753e826e9ee1bc65149876cbcf503a2f061639e             1779 main/binary-arm64/Packages.gz
+ 865890dfdea12ad23547f987690f1acb24baf1d64f0bdcc70fe1993714210ce7              107 Release
+ fbf53ca5bc6246c90716c506f43165f71fb9b79984b5e4f3c51b57f100871832             6086 main/binary-arm64/Packages
+ 93fc201630d6307c0a4131853d21e69e5ce4b16fb0c7e36b0625ea74a8a354eb             1886 main/binary-arm64/Packages.gz
 SHA512:
- 48b23b2c3c183afcfc29db8a3c5198c00896479b93f5bd4962b2bf874a35a3b6004a2f478beadd7313d9894aca51a9368fb1cfd68969c4434cebc854471c5079              107 Release
- 1feb2c7a10ea8683aa4608ab65e3e318cb8697c047a70b6ac9b759b6e78a71c00f7af4c30774d2ec4d2eb06f4df56baf2129b6b49c3778961f2df151227dc2b1             5712 main/binary-arm64/Packages
- 0a11794d0551fd0b5d0d70a9f4a4e45e6f58e635a95dd77d022a8aa481f610c02cf813585b87d0cbc042cf8ba8d0c44a08b4d1d48fd03be8d4151e8f69f9a078             1779 main/binary-arm64/Packages.gz
+ 43910fd6966349f3f0f12b07cc25a664e6cbfe1f29356503370fa50221e29ab974263c57a75b97fae6d9ce424a069b54a2b1ae639300e6b220407829a33aec7d              107 Release
+ 451cf2160216aa1f56ace48ce23ffd9d80b9fd36e8bdbe49ed9ef0947ff71d4fc3d6909e51fa9c574c7d1ec4eda87292374efdc55e26804167f025649fb04f2f             6086 main/binary-arm64/Packages
+ 98b5ae4f9c6903bf4aa01e1e08cd92650225ac8060b7678abd84f617dcbe19a070ca9a622caba9567af3dcf0f4136e53dc16a62dbec468fd27ec8a198c22ac28             1886 main/binary-arm64/Packages.gz
