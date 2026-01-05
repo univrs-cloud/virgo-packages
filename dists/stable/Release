@@ -2,20 +2,20 @@ Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
-Date: Mon, 05 Jan 2026 15:19:27 +0000
+Date: Mon, 05 Jan 2026 15:41:40 +0000
 MD5Sum:
- 517bd1b832edfba33b59f79ff9e28f07              107 Release
- cd3e060cf8348c4338f02a04d42d661d             8993 main/binary-arm64/Packages
- c01eb8b800f847d084efae12ed32fc3d             2624 main/binary-arm64/Packages.gz
+ 7a165456308ec7273d3ccb2cd99133a1              107 Release
+ 5797542306052a73169ee10435578c5e             9456 main/binary-arm64/Packages
+ 69d4c55c0cacbed091b08e798aaa4cff             2727 main/binary-arm64/Packages.gz
 SHA1:
- 1ebb02c47cb40914ac080d5d2954e075a07980f5              107 Release
- e6787d052e5b61d02e85905168993d87a569742a             8993 main/binary-arm64/Packages
- cd8e4428eb2f2f6e53d1d7601ac6fa8756c4464c             2624 main/binary-arm64/Packages.gz
+ 0fc706c5f46d39de2e36ea6384c1301093de2cd5              107 Release
+ 48dc780c5f9751ff12840b67104943505608a574             9456 main/binary-arm64/Packages
+ 04808ea2028ebb1221974d9719d657cadb59ceee             2727 main/binary-arm64/Packages.gz
 SHA256:
- 5d263010bbf61d8ac57449b5a1983f4ca1cbce996c40bc0e50708635179e10cf              107 Release
- 25b89bda48649b681311a29e3cb6ecbc5c360a01b5a72ced5100cbe1a955f0d0             8993 main/binary-arm64/Packages
- c497ccf8c1e446e759f9f7e9b837ef36cf805e21d40d8b19ae1a0975c67d413f             2624 main/binary-arm64/Packages.gz
+ 373c512d321ddcfc2ed4e102855e3dd231ac3cf02e6fe46db4aad2773a4e169e              107 Release
+ 94245f55edd170c3b52b312e3a6907b34d1c1af090b214f3fb36f98c898afb77             9456 main/binary-arm64/Packages
+ ffec86b1cf3b45ea24fc76bf1ebcce55cc22e8433d0decc320862de4ee6bd59d             2727 main/binary-arm64/Packages.gz
 SHA512:
- 9568e1b40920b35620882b05094b2157c81c54a8b280bc0498458dd8093af5d6db0fcd1179f12c60eab747c3ec75632ef428dd4b656e2817aaff7178011ae3ab              107 Release
- 2f629eddb9c908a4f60dccc9594e6b38ce8d0ee040fbc78cb591d650dfa941c11da1f24ca916b1fd98481d2c817b7ebd441a2731d95dc792a44fc6d7802d962b             8993 main/binary-arm64/Packages
- bfc606a05d59275e4ce10c8bd78fefab4b3f6266f894b267b96cff7e21805e0c20173469c64e0620bdaff9e215fe2098d6621ea5ebcafcb7389200637b890fbb             2624 main/binary-arm64/Packages.gz
+ 23fa9796790cd58339fe3e5b0bd49c8cc354c87b58220daf0967e705a6d4d4b766669b54379f32e8b36bb70a15a6342a1922940d53160ed1ceaa665e60ecf27e              107 Release
+ ef624d7a9de28ea300da5869869abdf3dfa69babd9942a5f7638db79a1add82cc17f5621e546214c5d2fadb1dccc5db98d0b27be8321b1c33c0a7880a9a3210d             9456 main/binary-arm64/Packages
+ 17cf1d229475b4425bfe374780e52515ac9b26690114fd2dda65137f76e3dcf37a06bd1ad00bff845d63f49949e16790e139c82e2e78c5f676ced7f58642ec1c             2727 main/binary-arm64/Packages.gz
