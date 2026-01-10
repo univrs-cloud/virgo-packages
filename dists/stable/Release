@@ -2,20 +2,20 @@ Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
-Date: Mon, 05 Jan 2026 19:08:16 +0000
+Date: Sat, 10 Jan 2026 13:24:35 +0000
 MD5Sum:
- 5eca8a5794d8d883821bbc0fdac5f037              107 Release
- c6efcf34e5fdcd0bc9ec17841f294052            10845 main/binary-arm64/Packages
- 4f92ee6214d59d4ddd2d6afb82b2477b             3030 main/binary-arm64/Packages.gz
+ 57854f87749b688a7709c79c8f082a34              107 Release
+ f736c13953f35ac402dddc2d663b4639             2012 main/binary-arm64/Packages
+ 042e5b450cd538ac636186d2060244c0              859 main/binary-arm64/Packages.gz
 SHA1:
- 2411d3e58829f3623efd43a576d505d8459bf854              107 Release
- 718c1bde5b4c2e89a21a696b90e9ec400ddfc356            10845 main/binary-arm64/Packages
- 30e54082822bd1cd9702d68ecc190351a27adf87             3030 main/binary-arm64/Packages.gz
+ 2b5d6e141cda1a08fc114aa814ef5a64f695072f              107 Release
+ 4422f426b125fb9ee618837be78f4f2ecd44e8fd             2012 main/binary-arm64/Packages
+ 748277dd8c5dfbb1e074e6c847a38ef0922160d5              859 main/binary-arm64/Packages.gz
 SHA256:
- 96a181e91a7bbc6536784423fab08f9ac5910c65ccd64107d3e92ffd203e5572              107 Release
- 85c68e69f0d60c7ef8dbb3e1dd976ded62968741878f5b8eef1e133ea76e1b29            10845 main/binary-arm64/Packages
- 9e559a04f341946bbb5efc06432312b7b508640e024a9e13a6f07b394e7fdbfb             3030 main/binary-arm64/Packages.gz
+ ceb74bba47e6779cca62c5636358fcf3e9c031f3a30ee4f389ab9192cc4316b0              107 Release
+ 0412c450317bdd9e1d267d71ddef279d76ae36b8f679ccac8e3eb40149c9f2f2             2012 main/binary-arm64/Packages
+ 96dd2746d65e95cfd1a00b0beddad026e5d6b03562679b294a38dd6cb54c2dfd              859 main/binary-arm64/Packages.gz
 SHA512:
- 6a1f18f7df0674e9c2d8750caf3b4ef225130179b2d9390507099fd75d0dd18ba7209b14764266c26c152675ab974c6d222f413669d459f8a8fed2a74e1fe226              107 Release
- 900390df2c3e4c17d3218a03e1d12cbadc1906d432928cd8cfc81c0613b3248d3006706f7493a15d5015e56197133921f6d8b3b5fc0ea9dc83f1e35376f882df            10845 main/binary-arm64/Packages
- 492af94644ad8f939383b4ab7dc8a919df2ede0f11fab32eb0a5ccf5ee54c15a1a344dafdbdeb0877bf5d976b398a0395638e4ec89a34e559d04d9e88822fac9             3030 main/binary-arm64/Packages.gz
+ c8be54c68ff4a900f4f3ba8d993f8b90764f04a8b0f0a783cb5da12d5e16e62754955d97e43c306964ed3fa30abc4b094bc158d8eeebeecfb066568b11673965              107 Release
+ 1f85f42b6ea4638c2cb06c34e87fc20fba46ced9cda0fdbdd14b3cd8a3b7395f5366f1732890e00db7d5dc368844ceea60ec10677f82d92bd97bed83bdbf6644             2012 main/binary-arm64/Packages
+ b6e274beac59ec4baf19cd5bb268de6e872ddcf339ffccb1fc602f8afca13b069cee0af890d394a1fb07cb1dc21db1e9625a1d61bd570fbaf724cea6adaceda4              859 main/binary-arm64/Packages.gz
