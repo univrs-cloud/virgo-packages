@@ -69,16 +69,16 @@ Description: UPS monitoring and automatic power-off services package
  Ensures that UPS monitoring and automatic power-off service is installed and running
 
 Package: virgo-ups
-Version: 2.0.0
+Version: 2.0.1
 Architecture: arm64
 Maintainer: Mihai Balint <balint.mihai@gmail.com>
-Installed-Size: 58
+Installed-Size: 59
 Depends: python3-smbus, python3-pip
-Filename: ./dists/stable/main/binary-arm64/virgo-ups_2.0.0_arm64.deb
-Size: 10656
-MD5sum: d7fecde39b48c37fdf73de77a2644ed7
-SHA1: a61891fd805e5b4525e66dc80a3c41262399983e
-SHA256: 3907d5ba882fa7139d510cd0503097824fafc3ee0e52ec9b9760300d24e1ab50
+Filename: ./dists/stable/main/binary-arm64/virgo-ups_2.0.1_arm64.deb
+Size: 10882
+MD5sum: 0e48e56757074cef655260b64d00f1bb
+SHA1: efd14ea1cdbbf96b0ea90e56b377a2cd9d5f93f7
+SHA256: f628858a2e99f53920c5fdcf531629fceb9dbeb19dd6ce683c636b26e019adb4
 Section: utils
 Priority: extra
 Description: UPS monitoring and automatic power-off services package
