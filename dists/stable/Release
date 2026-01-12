@@ -2,20 +2,20 @@ Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
-Date: Sun, 11 Jan 2026 15:30:54 +0000
+Date: Mon, 12 Jan 2026 16:55:04 +0000
 MD5Sum:
- cfb522f72390886a1f1bfe54855592bf              107 Release
- 68a868af6940ad33e44dcc140ba184ef             1425 main/binary-arm64/Packages
- 42a45bcdb4e9925d64c02b32464edbcd              738 main/binary-arm64/Packages.gz
+ 87cb947520262d0d9f0ee3870fd16926              107 Release
+ fe5f5961dbf1b21c394194a548bbddc7             1425 main/binary-arm64/Packages
+ 8d398432c39b2ca56fb3140b5cfc5f7b              739 main/binary-arm64/Packages.gz
 SHA1:
- 3f31051f1c6e3352a253ce6c094e794486c608b2              107 Release
- 189dead9d6bab75cfbbf1c6ef573d7bfa75bf3af             1425 main/binary-arm64/Packages
- 6d19459e4e45c19ba21c3ca029b2659251665e69              738 main/binary-arm64/Packages.gz
+ 03e15c44a7e8fa0f5e97043436701ce72eb077ed              107 Release
+ 63c742605c57b9a2998df7a6bb8eafc27464883d             1425 main/binary-arm64/Packages
+ e9454b945745903087bf2bb2f85c041de415b92c              739 main/binary-arm64/Packages.gz
 SHA256:
- ea86c0c8ad218196d55a7ee6e202aff0e84f7e81f2d6d2c672574d0e1ea30cb5              107 Release
- b1f144b86e8721af1dfd7fef73d662b8cf4c09276558fb78a38c320312e0b064             1425 main/binary-arm64/Packages
- 7ce1aa4b2eac72d275e3b25ef10a3a54a7a8ef3b12d8e6fdac7e57a5d90ab855              738 main/binary-arm64/Packages.gz
+ 45da3ba338f069668a66020848cb633f9da221bcc71401ada33556bd230c22c3              107 Release
+ 3e61143eb6a2ad0cbaae8f393822138978b62e91991c772e14b5f92fa257f2ae             1425 main/binary-arm64/Packages
+ c077a3c66fbac62383e6b7c59bdd3cc391fc3372b354e53211070f79eb621ef9              739 main/binary-arm64/Packages.gz
 SHA512:
- 1634ca50052214940d3198eceae4ff05cf4e5c09aa9815e5f2cfb4dc0435f6ef65975b9f4e06dae3547489fde67ae436030f503df706f7683ac4565b119ffc96              107 Release
- 4f7c71eaa277c63f75fe9d8abf6fe87b38ad1135b862bbf71e9042308548e1446453c3129371fb2b1ff3d43f87bd98aa855371fc2c03e82f9f03bef482ae4006             1425 main/binary-arm64/Packages
- 732e57b6869463eba0fea28974c1baaab477755bf75aa4bd67652ba54c5e4ebe23d837f96e5b4d1f62e549e10a67ddba76321ddbc59c21052d7ea652344cf955              738 main/binary-arm64/Packages.gz
+ 17955e43ca765ae0cfeb2fe48518c45432873b9fe36a251e53a8594c72005e013705c4ac8eb5642de322e50c962a64ef40dd77ea9bb0254ce34da7b5902a1e1d              107 Release
+ 69dba0f75284709b054d664696d09f2c21e9f4fecbbbdbd4d5c4769f9d4cdeec546f0423d0644bf80e1e6168814c3f9cd38818739018e40e298136e8a07013c2             1425 main/binary-arm64/Packages
+ 5b056f51cfef4387825eb506091371daff041f9a6ed82c1c4ce37db699709179d91c81bf9d8eacc88b6c13d60b869d29328b6917ba0d58da0c0bd3f2abeb29bb              739 main/binary-arm64/Packages.gz
