@@ -2,20 +2,20 @@ Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
-Date: Tue, 13 Jan 2026 17:27:37 +0000
+Date: Tue, 13 Jan 2026 17:40:49 +0000
 MD5Sum:
- b13abaca4724cde940f1260fed9f11a4              107 Release
+ b174b925f6f1fd732f83011ec6b22da2              107 Release
  34b9ab02929262ecb5b3f0ae7b076e31             4407 main/binary-arm64/Packages
- 960d2de660fc74d4aad5b98cdc9d4741             1469 main/binary-arm64/Packages.gz
+ 1eb3a76f64ea2a6074a4471f324fd1cf             1469 main/binary-arm64/Packages.gz
 SHA1:
- 2285360c089667ebf2f8b435a44c2e53af088cc1              107 Release
+ e53aa3c6eefff6b4a4f4c9864d4cb68f42c87c73              107 Release
  9beac4c79fe394924cff78c84ab75c6078f37e7b             4407 main/binary-arm64/Packages
- 9c863438ba02255941c1f7704deb861a437f7cec             1469 main/binary-arm64/Packages.gz
+ 8e01707f27614d4c870e6572716219e427e2bd0f             1469 main/binary-arm64/Packages.gz
 SHA256:
- 6ea94c71882b31377079b5ec7d581002374eba98461f983438082f947a5458f0              107 Release
+ c80e615d0b06b724fcdb3b9411f840cacbd53dd204193db9ce32a699adee749a              107 Release
  d70a927492a4dfcc817afbf90aa69ec2ddf047572fede7b1cfb11fa4b46a23b0             4407 main/binary-arm64/Packages
- dd78b7db59a2b5451e00a0e1f77670aa332e81dec10307ee70d9cadbdae8364a             1469 main/binary-arm64/Packages.gz
+ 6b97a2c8379ca94b55c7f3fd1e9dd8bd6cf35ef7aa353687235ff83f18d016a3             1469 main/binary-arm64/Packages.gz
 SHA512:
- 00e5bef57f2cbc7e3e85a721a239c9f08d5e2847b2300abf7db95b4a737d389263caecfc811e1aba490152a09a56b926ecfde7b1cb6b7838640ab351eac98fb9              107 Release
+ 1278d00d15d8a83a2fa467364082c5e212374f62eddfe0d9ba6f57fb0375021f49883dcfe2d14b2e08ded2953d77dd0f13271e6ff57ed3678b93556a132b8325              107 Release
  e76d82dff0f72822f7f505bb5b8079f5ce2dc53785775022aea11efcb3243c7f1697134ea6cf505864dbc6a6066f8dbdffc674593a2ca15b0ddcc1dcae833fb7             4407 main/binary-arm64/Packages
- c58b6c487efc9c939fa90717b2b87228d87ae5f5eb6062ab0319b71f890ac2debf6b1166a0ca4991b5237b8c254bb6d797dafbeb5c3de5cfafa198b6b1b68f8f             1469 main/binary-arm64/Packages.gz
+ 24cd6af6ddf92fae10e888b558561dbd15c1d6c31e21b087cf1c131627a5a695da8851bfaded1afcb999985786a9a571e2448fac89f2e15a1bd7d330461a6b17             1469 main/binary-arm64/Packages.gz
