@@ -2,20 +2,20 @@ Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
-Date: Fri, 23 Jan 2026 18:40:00 +0000
+Date: Sat, 24 Jan 2026 10:11:58 +0000
 MD5Sum:
- 1d4d0cdced3255ae3a7abb4a8aa474d2              107 Release
- 87aef78c1c7180575cce88b59c679158            15049 main/binary-arm64/Packages
- 049b74167d93cc1800bfeefab2e19277             4027 main/binary-arm64/Packages.gz
+ f9e95c87074b9059e6ef0b41c61951be              107 Release
+ 0b3615f7c24e7ec0e4be75cc17205156            15890 main/binary-arm64/Packages
+ 198ffeb96c6ce9f3c84839db7076b480             4233 main/binary-arm64/Packages.gz
 SHA1:
- d35040f1678edd3396b12b4ac6013ef235c3ade7              107 Release
- 763e86e31982933cfbfbf08e242a44ed765124c7            15049 main/binary-arm64/Packages
- 69aa36c0e23180b158b5ff285885371fa23bd604             4027 main/binary-arm64/Packages.gz
+ 98da9c3bdfbfb1c747adf3e38c4518e1b21b22e7              107 Release
+ 9dc539db58b22fac929f622fa36a42ad47af7164            15890 main/binary-arm64/Packages
+ 3efaa5914cb98d54a5c6cdd3c24ebb5f78b937e9             4233 main/binary-arm64/Packages.gz
 SHA256:
- 097c59dd492f44a79748fa72f75ce2212c34f0a9aefb444f4aaa0b403624eca1              107 Release
- 572ed9cc58a93e5e2765f161b689fe94d80065033ecf8008ec56d7fb77d7cf41            15049 main/binary-arm64/Packages
- 073a55fb8f8066df079864f546da06594d7c97d105844dee441e6d908529a61c             4027 main/binary-arm64/Packages.gz
+ 79a1852c40e981539711515c2ba11c739948a8758dfd67db436aadba8896338e              107 Release
+ 0e5c3e18c470e8e36be98d66e0ce1347eeee9b180709cf219f0e269672abe97e            15890 main/binary-arm64/Packages
+ 43cf4e13ab21ad319500a6796616e10d8eedac7d2ae60d6dbf96da4b2e011fc0             4233 main/binary-arm64/Packages.gz
 SHA512:
- 3798514435314c457db5da13ffb9d0a8f8b39311f186974db8c7a47ab1b6e90132d9c3de64c8031d33ba889a3b3cb66bb4e005fa6c631882a41da588ef7ca902              107 Release
- a016e23c26610e45cb1b133f80416ae32534285a6e1335a9614041a9c0a551442dd6bb9ece181b3a4c417a22557f808594a7ac308fd781e3471da8cbb5dc86dd            15049 main/binary-arm64/Packages
- 6226168b4a1bdedcb0c37d57a2f8c3e57d54bbe4052ca442fc317c597d549f6d66ea29c890c21065be3e82f3c9c87e4aa873159b92ac31b62a872abb239a16fa             4027 main/binary-arm64/Packages.gz
+ 5a4694b5ce013536ad6b1b511bd845c8150b63455cd27ea854cb57b3987a4a17da5b78b56332abe6a641088c0554b465c80ffb17f67feeb81433658a6da9c6f9              107 Release
+ 01cf02464d543d99ddbf0780b4dd641eecff092f6383761df2cd696cf1becc22f505de501b7876a9a99f8e53f14978000a479a40c9f7aba857500b699a458faa            15890 main/binary-arm64/Packages
+ 26cd88d303defdb12d333478cba860b6bf4a1530f3b625ae80e70160903ff540f3660f25ad64d3ca91bb75a647d9d7a72b142236bcbc501f5e3d00479aebb4c7             4233 main/binary-arm64/Packages.gz
