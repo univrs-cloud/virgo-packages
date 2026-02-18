@@ -1,4 +1,18 @@
 Package: virgo-api
+Version: 2.12.10
+Architecture: arm64
+Maintainer: univrs
+Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server
+Filename: ./dists/stable/main/binary-arm64/virgo-api_2.12.10_arm64.deb
+Size: 11636376
+MD5sum: c7e4b63202886a085f3ccc47aa858c57
+SHA1: fc61f5da07798108d430b0ca8abc95fccb8befb1
+SHA256: a2501e89a9b59a9c41f74cbdddb891804768e75f9afb84a45d3e3ceb6dfe484c
+Section: base
+Priority: optional
+Description: virgo API
+
+Package: virgo-api
 Version: 2.12.2
 Architecture: arm64
 Maintainer: univrs
