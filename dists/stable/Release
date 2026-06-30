@@ -2,20 +2,20 @@ Suite: stable
 Codename: stable
 Architectures: arm64
 Components: main
-Date: Tue, 30 Jun 2026 14:31:41 +0000
+Date: Tue, 30 Jun 2026 19:44:53 +0000
 MD5Sum:
- 5b5c7d3758b22a9ed55fc29dc8c0a96d              107 Release
- 4c66254fcc5bba3220fd518d60c6b49d             6465 main/binary-arm64/Packages
- af90ea4b49e1f83bd8e780fd8943dc86             1995 main/binary-arm64/Packages.gz
+ 24e325721f8569178421e56c583d68db              107 Release
+ 0525b043cf9404184f178112493b67b7             6839 main/binary-arm64/Packages
+ 6f35c32ca98b6e7c5bb8b5202c4894f3             2099 main/binary-arm64/Packages.gz
 SHA1:
- dabc7688dab05231c47e3b560f6dfaca5b99498d              107 Release
- 2f6fe003f643179450bd9fde23f90d925772669a             6465 main/binary-arm64/Packages
- 1a0b230a942a2990eb178b292945ce2dc82e78dc             1995 main/binary-arm64/Packages.gz
+ dc6b721e5ec62846d64e0cd6fca8f79c963644bd              107 Release
+ a6470692ea7b3754174024b545fad2fc84a7597a             6839 main/binary-arm64/Packages
+ 36dd042655365cc0752ea393b3e5e4c857b94443             2099 main/binary-arm64/Packages.gz
 SHA256:
- 2b92947172b90dd6963e93df7669bd111c636264f4c8404f6978bde957323645              107 Release
- 7f554894c11c9f4d255c2fdd8e19512578f24b8a1f5c5da3030b0aee84f5eeba             6465 main/binary-arm64/Packages
- 2fe213211e248ec9cebbd7a74218cd4d976656bca72579e47288063f6f45ba60             1995 main/binary-arm64/Packages.gz
+ c87bb97f64cc9857a9f4a4b9f45546a05f40c0d3cbce0cec3764f6c0fabb89f0              107 Release
+ acb5825f42b89fd522fefb3ee2c3f18925c945cca7011bee9bf9189ad5fde8c2             6839 main/binary-arm64/Packages
+ df4842f53d3ff214af52fb3291928306d57f4c51728597b0fc43c9b76d885498             2099 main/binary-arm64/Packages.gz
 SHA512:
- e0e6df67018fb6f9a1aa675673cc8394c82a058f18a22ccc56bc7a36504b23c937f1bb79cfb087d287ce6990c7a311a22a1101cd3fb0d310e6d44b0b61e2030c              107 Release
- 28a3d074c64ca0e1b2beb6d2961467a5520bef6f8d61f171b22e8d3aa8e900369059e1d2607e82a533d79583eb7a930e9a41df3c21c75d36ecba002690ad60f1             6465 main/binary-arm64/Packages
- e986907861e6fcfc605c34795db33761af4a288e01048267ed33d286ff89e650b23ddf1114a8aa93ce0ba00c577d24fbff9467afbd9b98ece51a049c2b44b697             1995 main/binary-arm64/Packages.gz
+ c6cf65e0e51532efbbbe7b94315e3482ca789e86b83c54887cda919462738e829b3fb6891ef6cd3661c7a55b762942a3f336f95709363ce64e8b4c1472a49068              107 Release
+ 08b3b20d3fd131f5810ee5dc683aabe4961f7deec3c1df9526b2e0aa686057a8dbcceb95939825decd31decc1d7bd1c2a64991f33a4c47eb811105e3438cef27             6839 main/binary-arm64/Packages
+ a11844d0b493394bbaa987a324864ec850c01f57b87c84dd6db642be7b8c0942eafa15bf2ed779d0c62822c9ca49e778d40d1eb4c538c84e79be4331dfa7ee1e             2099 main/binary-arm64/Packages.gz
