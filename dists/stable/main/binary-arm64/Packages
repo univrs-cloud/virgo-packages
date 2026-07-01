@@ -200,6 +200,19 @@ Section: base
 Priority: optional
 Description: virgo UI
 
+Package: virgo-ui
+Version: 2.14.1
+Architecture: arm64
+Maintainer: univrs
+Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.14.1_arm64.deb
+Size: 20507346
+MD5sum: eda4acc10039ee5660d1e981cb75b4e5
+SHA1: 286dc46f0fc15d5ecf61a22edb3d1dfabea28c69
+SHA256: 2ec438a6cd5ac7a84f4ac031becc1d9ab51b47aee2e51c10e94b8ede9026eb58
+Section: base
+Priority: optional
+Description: virgo UI
+
 Package: virgo-ups
 Version: 2.1.1
 Architecture: arm64
