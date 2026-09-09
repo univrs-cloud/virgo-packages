@@ -21,44 +21,44 @@ jobs:
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE }}
       
-      - name: Download virgo-api .deb
+      - name: Download .deb packages
         run: |
-          curl -s https://api.github.com/repos/univrs-cloud/virgo-api/releases/latest \
-          | jq -r '.assets[] | select(.name | endswith("_arm64.deb")) | .browser_download_url' \
-          | xargs -I{} sh -c 'curl -L -o dists/stable/main/binary-arm64/$(basename "{}") "{}"'
-      
-      - name: Download virgo-ui .deb
-        run: |
-          curl -s https://api.github.com/repos/univrs-cloud/virgo-ui/releases/latest \
-          | jq -r '.assets[] | select(.name | endswith("_arm64.deb")) | .browser_download_url' \
-          | xargs -I{} sh -c 'curl -L -o dists/stable/main/binary-arm64/$(basename "{}") "{}"'
+          for repo in virgo-api virgo-ui; do
+            release=$(curl -s "https://api.github.com/repos/univrs-cloud/$repo/releases/latest")
+            for arch in arm64 amd64; do
+              dir="dists/stable/main/binary-$arch"
+              mkdir -p "$dir"
+              url=$(echo "$release" | jq -r --arg suffix "_$arch.deb" \
+                '.assets[] | select(.name | endswith($suffix)) | .browser_download_url')
+              if [ -z "$url" ]; then
+                echo "::warning::latest $repo release has no $arch package"
+                continue
+              fi
+              curl -L -o "$dir/$(basename "$url")" "$url"
+            done
+          done
 
       - name: Cleanup old versions
-        working-directory: dists/stable/main/binary-arm64
+        working-directory: dists/stable/main
         run: |
           shopt -s nullglob
-          declare -A latest
-          for f in *.deb; do
-            base=${f%.deb}
-            pkg=${base%%_*}
-            rest=${base#*_}
-            ver=${rest%_*}
-            arch=${rest##*_}
-            key="${pkg}_${arch}"
-            if [ -z "${latest[$key]:-}" ] || dpkg --compare-versions "$ver" gt "${latest[$key]}"; then
-              latest[$key]=$ver
-            fi
-          done
-          for f in *.deb; do
-            base=${f%.deb}
-            pkg=${base%%_*}
-            rest=${base#*_}
-            ver=${rest%_*}
-            arch=${rest##*_}
-            if [ "$ver" != "${latest[${pkg}_${arch}]}" ]; then
-              echo "Removing $f (keeping ${pkg}_${latest[${pkg}_${arch}]}_${arch}.deb)"
-              rm -f "$f"
-            fi
+          for dir in binary-*/; do
+            for pkg in $(ls "$dir"*.deb 2>/dev/null | xargs -n1 basename | cut -d_ -f1 | sort -u); do
+              keep=
+              for f in "$dir$pkg"_*.deb; do
+                ver=$(basename "$f" .deb | cut -d_ -f2)
+                if [ -z "$keep" ] || dpkg --compare-versions "$ver" gt "$keep"; then
+                  keep=$ver
+                fi
+              done
+              for f in "$dir$pkg"_*.deb; do
+                ver=$(basename "$f" .deb | cut -d_ -f2)
+                if [ "$ver" != "$keep" ]; then
+                  echo "Removing $f (keeping ${pkg}_${keep}_*.deb)"
+                  rm -f "$f"
+                fi
+              done
+            done
           done
       
       - name: Sign and publish

@@ -1,8 +1,14 @@
 #!/bin/bash -e
 
+ARCHITECTURES="arm64 amd64"
+
 # Generate package lists
-dpkg-scanpackages --multiversion . > dists/stable/main/binary-arm64/Packages
-gzip -k -f dists/stable/main/binary-arm64/Packages
+for arch in $ARCHITECTURES; do
+  dir="dists/stable/main/binary-$arch"
+  mkdir -p "$dir"
+  dpkg-scanpackages --multiversion "./$dir" > "$dir/Packages"
+  gzip -k -f "$dir/Packages"
+done
 
 # Go back to the dists/stable directory
 cd dists/stable
@@ -11,7 +17,7 @@ cd dists/stable
 cat > Release <<EOF
 Suite: stable
 Codename: stable
-Architectures: arm64
+Architectures: $ARCHITECTURES
 Components: main
 EOF
 apt-ftparchive release . >> Release
