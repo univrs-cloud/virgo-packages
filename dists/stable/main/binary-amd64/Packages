@@ -26,16 +26,16 @@ Priority: optional
 Description: virgo UI
 
 Package: virgo-ups
-Version: 2.1.5
+Version: 2.1.6
 Architecture: amd64
 Maintainer: Mihai Balint <balint.mihai@gmail.com>
-Installed-Size: 81
+Installed-Size: 84
 Depends: python3-smbus, python3-gpiozero
-Filename: ./dists/stable/main/binary-amd64/virgo-ups_2.1.5_amd64.deb
-Size: 17162
-MD5sum: b680ae5ff77f60cb2eb39ae9f16bdcd5
-SHA1: 638b429484a012bee346c93ddc8702799d6616ce
-SHA256: e11c8900ffaee6a51bc4bb456e9fc9505eb32664e7567f25da8872d92ea85dae
+Filename: ./dists/stable/main/binary-amd64/virgo-ups_2.1.6_amd64.deb
+Size: 17754
+MD5sum: 753a0b292f7e0c57fee331ce444b4862
+SHA1: 93472d85a5570dcc16da52ae7613b61e149a7b03
+SHA256: 332aa4064e843623a4c5deb77d1b4e88201abf22a45d4213a56477bfa3cf9c1c
 Section: utils
 Priority: extra
 Description: UPS monitoring and automatic power-off services package
