@@ -23,7 +23,7 @@ jobs:
       
       - name: Download .deb packages
         run: |
-          for repo in virgo-api virgo-ui; do
+          for repo in virgo-api virgo-ui virgo-ups; do
             release=$(curl -s "https://api.github.com/repos/univrs-cloud/$repo/releases/latest")
             for arch in arm64 amd64; do
               dir="dists/stable/main/binary-$arch"
