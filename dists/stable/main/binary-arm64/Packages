@@ -13,29 +13,29 @@ Priority: optional
 Description: virgo API
 
 Package: virgo-ui
-Version: 2.18.58
+Version: 2.18.59
 Architecture: arm64
 Maintainer: univrs
-Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.18.58_arm64.deb
-Size: 21100064
-MD5sum: 18b515b9c97bddf0d5c2a75d36adb131
-SHA1: aee989497ba15eea1ea4567f4b6492b7d31cc750
-SHA256: 9438535ae2fb1bb7e9710b8ddc4935aa36ab21b742c6a212a85536c28192502a
+Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.18.59_arm64.deb
+Size: 21129574
+MD5sum: 38a0c6ecc666dd19e760df7074002272
+SHA1: c1146266f4bb213205092f2ed8121fb3e2a09fa2
+SHA256: 356cd5d52ff37c5fbb78f1e7dc006bc27b8b6c5031b7d4907bd13935301a2a1f
 Section: base
 Priority: optional
 Description: virgo UI
 
 Package: virgo-ups
-Version: 2.1.9
+Version: 2.1.10
 Architecture: arm64
 Maintainer: Mihai Balint <balint.mihai@gmail.com>
-Installed-Size: 84
+Installed-Size: 92
 Depends: python3-smbus, python3-gpiozero, nut-client, nut-server
-Filename: ./dists/stable/main/binary-arm64/virgo-ups_2.1.9_arm64.deb
-Size: 17974
-MD5sum: 3fe4c9274f90494c3e265a2c2b0d8c44
-SHA1: 45dd6ef0b706435feb29891d09cf87d6b5dc7433
-SHA256: 154cbad438f20d76c0907a7a7f2efa19d4b762df8f022d5b5106434784d8ebeb
+Filename: ./dists/stable/main/binary-arm64/virgo-ups_2.1.10_arm64.deb
+Size: 19756
+MD5sum: 3347417eae0ed4fdd30add395bacb042
+SHA1: 6c8b2b33befc92bd2cb8ca7175780aa52e14a576
+SHA256: 5527e1c2e1b8440474ded53d7d434451b5feadc6e3aa8b28662797a139e23e5d
 Section: utils
 Priority: extra
 Description: UPS monitoring and automatic power-off services package
