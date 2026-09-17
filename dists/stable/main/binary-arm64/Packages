@@ -1,41 +1,41 @@
 Package: virgo-api
-Version: 2.18.53
+Version: 2.19.0
 Architecture: arm64
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server,iputils-arping,network-manager,avahi-daemon,avahi-utils
-Filename: ./dists/stable/main/binary-arm64/virgo-api_2.18.53_arm64.deb
-Size: 14856814
-MD5sum: edd93fd35ac15ef6748e05453292c485
-SHA1: 04e4d3ca92d30cff2819a8bb4ff37b551e372036
-SHA256: 6c5f50ae1597bff6ec4cde157c9c8d2a7e47644f5eb9f3b77901cda1e24285fc
+Filename: ./dists/stable/main/binary-arm64/virgo-api_2.19.0_arm64.deb
+Size: 14893324
+MD5sum: 7b9b389c86ba3ac4f8b45f846a70fc34
+SHA1: 9ac1e0978a1f83dccc1988f30356366427cb4ef0
+SHA256: 0603cd8c34d6690a279f723bc0a7cefd2963f2236e72ddcd4440d64e2d409c05
 Section: base
 Priority: optional
-Description: virgo API
+Description: virgoOS API
 
 Package: virgo-ui
-Version: 2.18.66
+Version: 2.19.0
 Architecture: arm64
 Maintainer: univrs
-Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.18.66_arm64.deb
-Size: 21129326
-MD5sum: e63c319ed409b100012cc2d23607abdd
-SHA1: d8e51c9cf46c7a107a20b2ec5316599ee87c06a9
-SHA256: d9171323bce92d46931c3b952f8b1ef27bd961d78cadf54ede717ef959f5a48a
+Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.19.0_arm64.deb
+Size: 21136908
+MD5sum: e5c79fd82b6c1fd0f3714f732a2dcd59
+SHA1: 36ad8e506ef832585c6cb6068e1e75a9d008dd9c
+SHA256: 09063ca0c38ee545cd1e1aa04ae24907d78c8044947c570c28373a0a918c981d
 Section: base
 Priority: optional
-Description: virgo UI
+Description: virgoOS UI
 
 Package: virgo-ups
-Version: 2.1.10
+Version: 2.2.0
 Architecture: arm64
 Maintainer: Mihai Balint <balint.mihai@gmail.com>
-Installed-Size: 92
+Installed-Size: 91
 Depends: python3-smbus, python3-gpiozero, nut-client, nut-server
-Filename: ./dists/stable/main/binary-arm64/virgo-ups_2.1.10_arm64.deb
-Size: 19756
-MD5sum: 3347417eae0ed4fdd30add395bacb042
-SHA1: 6c8b2b33befc92bd2cb8ca7175780aa52e14a576
-SHA256: 5527e1c2e1b8440474ded53d7d434451b5feadc6e3aa8b28662797a139e23e5d
+Filename: ./dists/stable/main/binary-arm64/virgo-ups_2.2.0_arm64.deb
+Size: 18550
+MD5sum: 9019a95e06bad2ab2554edafd6cddbdd
+SHA1: 8bb833f0918a2096052cde07a182c18f9f2f59f2
+SHA256: 361a60497441f7d94a86da47e3f438dcc6c2ea282296219c4a5bd29a5e998e95
 Section: utils
 Priority: extra
 Description: UPS monitoring and automatic power-off services package
