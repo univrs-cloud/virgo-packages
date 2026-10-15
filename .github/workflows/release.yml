@@ -1,0 +1,69 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    
+    steps:
+      - uses: actions/checkout@v6
+      
+      - name: Install dependencies
+        run: sudo apt update && sudo apt install -y jq gnupg apt-utils curl gzip
+      
+      - name: Import GPG private key
+        run: |
+          gpg --batch --import <<EOF
+          $GPG_PRIVATE_KEY
+          EOF
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE }}
+      
+      - name: Download .deb packages
+        run: |
+          for repo in virgo-api virgo-ui virgo-ups; do
+            release=$(curl -s "https://api.github.com/repos/univrs-cloud/$repo/releases/latest")
+            for arch in arm64 amd64; do
+              dir="dists/stable/main/binary-$arch"
+              mkdir -p "$dir"
+              url=$(echo "$release" | jq -r --arg suffix "_$arch.deb" \
+                '.assets[] | select(.name | endswith($suffix)) | .browser_download_url')
+              if [ -z "$url" ]; then
+                echo "::warning::latest $repo release has no $arch package"
+                continue
+              fi
+              curl -L -o "$dir/$(basename "$url")" "$url"
+            done
+          done
+
+      - name: Cleanup old versions
+        working-directory: dists/stable/main
+        run: |
+          shopt -s nullglob
+          for dir in binary-*/; do
+            for pkg in $(ls "$dir"*.deb 2>/dev/null | xargs -n1 basename | cut -d_ -f1 | sort -u); do
+              keep=
+              for f in "$dir$pkg"_*.deb; do
+                ver=$(basename "$f" .deb | cut -d_ -f2)
+                if [ -z "$keep" ] || dpkg --compare-versions "$ver" gt "$keep"; then
+                  keep=$ver
+                fi
+              done
+              for f in "$dir$pkg"_*.deb; do
+                ver=$(basename "$f" .deb | cut -d_ -f2)
+                if [ "$ver" != "$keep" ]; then
+                  echo "Removing $f (keeping ${pkg}_${keep}_*.deb)"
+                  rm -f "$f"
+                fi
+              done
+            done
+          done
+      
+      - name: Sign and publish
+        run: |
+          git config --global user.name "Robert"
+          git config --global user.email "veloaddict@@users.noreply.github.com"
+          chmod +x publish.sh
+          ./publish.sh
