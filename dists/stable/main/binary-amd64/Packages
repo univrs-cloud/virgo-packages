@@ -1,26 +1,26 @@
 Package: virgo-api
-Version: 2.21.27
+Version: 2.21.28
 Architecture: amd64
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server,iputils-arping,network-manager,avahi-daemon,avahi-utils,zip
-Filename: ./dists/stable/main/binary-amd64/virgo-api_2.21.27_amd64.deb
-Size: 14955380
-MD5sum: 51fbf0ca00b9a94e422d63f16794d2fb
-SHA1: f887ef248505ffdd4fd9f82b44cff22a8e827297
-SHA256: dc8759277bc132774ea39804ab1af07b290edb60e3660d5ae04a815a70f06770
+Filename: ./dists/stable/main/binary-amd64/virgo-api_2.21.28_amd64.deb
+Size: 14956954
+MD5sum: 0a785cc1a85dc625fdcfd307651ff1cd
+SHA1: 3cfa2f38077e241d356e863ec4249dc3ad5f9fe2
+SHA256: 5c58315da77ee831d7e47dc7ab3213bde62d6b14ef64b18e57e9cee34a90bf0c
 Section: base
 Priority: optional
 Description: virgoOS API
 
 Package: virgo-ui
-Version: 2.21.47
+Version: 2.21.48
 Architecture: amd64
 Maintainer: univrs
-Filename: ./dists/stable/main/binary-amd64/virgo-ui_2.21.47_amd64.deb
-Size: 21812362
-MD5sum: 6bd6ce83bc0d9e471a2e878315acb863
-SHA1: c74afbfa73b6821fc2c8862b9cde969508bcfe6b
-SHA256: 099b56d9516d4920dfb935c60e802ee7826846f0b780ff15a992453e51aa7466
+Filename: ./dists/stable/main/binary-amd64/virgo-ui_2.21.48_amd64.deb
+Size: 21812068
+MD5sum: 53ab4cd09afa638f0248ea53e5567888
+SHA1: 662d0c9e57e0ce609baebe31b38ccd5aefd657a8
+SHA256: e275fe8815aa8f0dde72915d2ae33a172a0fbcd53ef1763d6b806c4044307e5b
 Section: base
 Priority: optional
 Description: virgoOS UI
