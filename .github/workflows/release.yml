@@ -28,13 +28,13 @@ jobs:
             for arch in arm64 amd64; do
               dir="dists/stable/main/binary-$arch"
               mkdir -p "$dir"
-              url=$(echo "$release" | jq -r --arg suffix "_$arch.deb" \
-                '.assets[] | select(.name | endswith($suffix)) | .browser_download_url')
+              read -r name url < <(echo "$release" | jq -r --arg suffix "_$arch.deb" \
+                '.assets[] | select(.name | endswith($suffix)) | "\(.name) \(.url)"')
               if [ -z "$url" ]; then
                 echo "::warning::latest $repo release has no $arch package"
                 continue
               fi
-              curl -L -o "$dir/$(basename "$url")" "$url"
+              curl -fL -H "Accept: application/octet-stream" -o "$dir/$name" "$url"
             done
           done
 
