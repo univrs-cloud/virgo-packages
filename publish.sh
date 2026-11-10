@@ -7,7 +7,7 @@ for arch in $ARCHITECTURES; do
   dir="dists/stable/main/binary-$arch"
   mkdir -p "$dir"
   dpkg-scanpackages --multiversion "./$dir" > "$dir/Packages"
-  gzip -k -f "$dir/Packages"
+  rm -f "$dir/Packages.gz"
 done
 
 # Go back to the dists/stable directory

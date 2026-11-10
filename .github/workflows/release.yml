@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v6
       
       - name: Install dependencies
-        run: sudo apt update && sudo apt install -y jq gnupg apt-utils curl gzip
+        run: sudo apt update && sudo apt install -y jq gnupg apt-utils curl
       
       - name: Import GPG private key
         run: |
