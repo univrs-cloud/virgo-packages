@@ -34,6 +34,8 @@ cd dists/stable
 
 # Create Release file
 cat > Release <<EOF
+Origin: univrs
+Label: univrs
 Suite: stable
 Codename: stable
 Architectures: $ARCHITECTURES
