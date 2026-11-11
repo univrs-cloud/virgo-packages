@@ -1,42 +1,44 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+Origin: univrs
+Label: univrs
 Suite: stable
 Codename: stable
 Architectures: arm64 amd64
 Components: main
 Changelogs: https://packages.univrs.cloud/changelogs/@CHANGEPATH@_changelog
-Date: Wed, 11 Nov 2026 10:44:38 +0000
+Date: Wed, 11 Nov 2026 10:54:16 +0000
 MD5Sum:
- cc4b238f6c1538a5897cd56c73626eab              189 Release
+ 19c11274ac69fa23832e9ecc68be1a5a              218 Release
  d541a4cb5517ac6fe9f50bc6e598af83             1522 main/binary-amd64/Packages
  9d2f399858af376a4900c455fc6dc8bc             1522 main/binary-arm64/Packages
 SHA1:
- 2efc40e050ac6868c779672c69e247d2b4c7e8e2              189 Release
+ 322a4bacdae716bd601d4fc7a6f1f5620116f41a              218 Release
  b2ddcd2da4e81e0d1315ae88735415afc9f9fdf7             1522 main/binary-amd64/Packages
  e7f18318dfb943337e391394921e798782f3bd26             1522 main/binary-arm64/Packages
 SHA256:
- 314192fe0ef44fb879aed73156dafd44c858179e55c4906991b7d11d876e38f0              189 Release
+ db88d4d6408d36fad2303f3a44c2c8dd3c9d0f848e6651770f586c3d4f986b42              218 Release
  9475ca1261c5e6d46d86aacee1945eddcfd967edb29d0f7989b654f5b2ac41c6             1522 main/binary-amd64/Packages
  0d2bb52010ea153723bd40d0a7336e6b860ad4d9eb2fa6e3f5d723f496cc5662             1522 main/binary-arm64/Packages
 SHA512:
- 980d9ef9392ac03b9b93c535d166c62d93f8c35f125210b6975df92c5bfdd2d00ea1828080ac9abbf254952140c7a654d1dca8eb745eeb0ab26601e33cb0e1b7              189 Release
+ a6f6fc6c27cf80557602cd60e211703be5d8b260a4a46ecb6a5879cf7b0d3e58959d9b5395556bd7533c415452d4b99bb75e429e7c0e504f44d9d0f8d313d1b0              218 Release
  c53eb95e46ec77e2af09792c013c917d0038121514f1f149b8c290d750c07a434b151c2a94186530eac66f31b7e5385996f601f3ba614f03ee53304adbae096a             1522 main/binary-amd64/Packages
  8d15b588dcde6e6f8d4beba93468bacdeba0a1f976779798e85c80656054d2f145e74992062e952abc63c818eb650de2797d6622d07b517acad0bce494ee8ff9             1522 main/binary-arm64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQJJBAEBCgAzFiEEXWRj79bzqGkQ8aPWotAq3InS0XMFAmr0RxYVHHZveWFnZXJA
-dW5pdnJzLmNsb3VkAAoJEKLQKtyJ0tFz0NQP/j9eGfCFzsEvOm0s9XjzJLOW758z
-g163yNECO8o4L7pe59+n7tIEGgvvV6PIgHgY01kwd4e7Ww3zJkM6KR0fh++KNK7O
-dCgzbiH00NXnQm9EKo5dYgkg5IecfGUB5DP6ZN9ErJgV53U5LfRn1awR0kW3yb++
-RDMyRq31w5v2Bxgygl2qJqV16A+GKlvIGtA/TARG8t9T27ETIzCUlKeZVP/kiUZW
-oTz0SDllh2hF5SrAY4gzHWrstKc9v7U4CLYIFvxZx8qsy9GHQLpU6vlc2jP/eneA
-RsED63mF/2F6/yQvWwkqCcfLPcxbFsYjmM4+x/BSaC6Rfk6QKBH/jqWN+8dFDPVi
-cIbg91YuzOiM46PNvln1Fa7hMOSH0/9SsGzXS/BvZBQ8FZUT9d4K4UWb5aUXDdJT
-dDf5LPYcN6GZAqyobA0ltIdtPS0IKUVSV6OdZFLboNXz2hZIUHgdYpMUgrpB0Jpl
-5xZGsRCY2nx7L/Zp4w2PrPrR8GpeQp+Vy7GZ3Y1pl5MF52E7V4outE1lergXcETJ
-sQI/R8gxBQ09eKFfnhj75j0Z6z4NWAWGzMeK9dIA9iejWXAwl3Shg/hBlVXtxfsM
-vjdSQ0zxQXdoyx1AE+pyMdYCg88Lw8WvL/J27R4UIOPSIV+GDWpTrQfgc9y/U86S
-Z0/lGhY1bxr4v97o
-=Dkr/
+iQJJBAEBCgAzFiEEXWRj79bzqGkQ8aPWotAq3InS0XMFAmr0SVgVHHZveWFnZXJA
+dW5pdnJzLmNsb3VkAAoJEKLQKtyJ0tFzgSsP/jdbt65NC/VD3GX9Jye4PJIBSWPZ
+u007WHxGsyOwwJ/1YBTXbea+4ZWmi5050ZOzEZIg1j1+Q232UfY5SaAITCBS1U1F
+grD3Y6Bq1OVfmpkPVhPdSLT/2mpTTXiD0+6WnWLlyv+tWx9u7kC79FEE45UqpH2A
+ufZRxLEBRgNM5KIqTeEUgeA5H56iGVStQez/B8X+Hk7WOvUZyuGo5wudJEM+A2g1
+nJ7cT6UxrsnVM7oQlnseWcdHkZhBAG+MvDttAr/rXZa9gQXIdQVLKzIrA+NMl4Mg
+6xSxI9+q/W9eQSVp9G7HVgTBeYkaVhZu1LS6NYviJ5oXFoz1iyLgQedE62iQ374T
+f570H79+48EU16UY8q+6bidHuCNjdG43YWb0l6KeJTizxCMSNwLvPS4XAlQKS6pj
+biACWqDlNQTJibDRSLSC31Q1o5j4h0Vt2aLqRxhtBwIUyxeJKpSO/f10OGU+vGdG
+NmJ7xZ1M7F80+xY/U//OL/6ejypQQemftmTex+r8rYhDNrQpjt2QlzvK9+x1/e0y
+EXmrfJV2SejByI5buA0lebjRiiKw55/yk1Pvil3kxctlJ8tZiPS/EKoCCVwGgxXd
+zPU9jst1pSxh6DlZ+6FgiGf63r1eXFMcjQiZFsmznmfMKAWzbMHEe0ET6qU/kiBx
+sZW3/nLOjUYbO1VY
+=8l32
 -----END PGP SIGNATURE-----
