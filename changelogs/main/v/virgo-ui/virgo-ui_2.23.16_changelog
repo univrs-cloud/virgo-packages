@@ -1,3 +1,10 @@
+virgo-ui (2.23.16) stable; urgency=low
+
+  Features
+  * animate the menu collapsing and expanding
+
+ -- univrs <voyager@univrs.cloud>  Wed, 11 Nov 2026 23:33:11 +0200
+
 virgo-ui (2.23.15) stable; urgency=low
 
   Features
