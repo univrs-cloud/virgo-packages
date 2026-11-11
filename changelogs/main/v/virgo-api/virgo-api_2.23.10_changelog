@@ -1,0 +1,5455 @@
+virgo-api (2.23.10) stable; urgency=low
+
+  Features
+  * include each pending update's changelog in the updates list
+
+ -- univrs <voyager@univrs.cloud>  Wed, 11 Nov 2026 12:41:27 +0200
+
+virgo-api (2.23.9) stable; urgency=low
+
+  Other
+  * bump bullmq, express-rate-limit and plist
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 23:33:50 +0200
+
+virgo-api (2.23.8) stable; urgency=low
+
+  Other
+  * split the changelog and release notes on the version commits instead of the tags
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 20:31:50 +0200
+
+virgo-api (2.23.7) stable; urgency=low
+
+  Other
+  * use the changelog entry of each release as its GitHub release notes
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 20:08:10 +0200
+
+virgo-api (2.23.6) stable; urgency=low
+
+  Other
+  * ship a changelog of the commit messages since each release in the package
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 20:04:43 +0200
+
+virgo-api (2.23.5) stable; urgency=low
+
+  Features
+  * replace a failed, failing or healthy pool drive with an unused drive of the same type and at least its size
+
+  Other
+  * pass drive ids to zpool create and add and let zfs find them under /dev/disk/by-id
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 17:18:31 +0200
+
+virgo-api (2.23.4) stable; urgency=low
+
+  Features
+  * reread the drives and pools on request and send them back
+
+ -- univrs <voyager@univrs.cloud>  Mon, 9 Nov 2026 16:26:55 +0200
+
+virgo-api (2.23.3) stable; urgency=low
+
+  Features
+  * offer expanding a pool with unused drives of matching type and size, and add a sync script
+
+ -- univrs <voyager@univrs.cloud>  Mon, 9 Nov 2026 10:00:13 +0200
+
+virgo-api (2.23.2) stable; urgency=low
+
+  Features
+  * offer striped mirrors at every drive count, leaving an odd drive unused
+
+ -- univrs <voyager@univrs.cloud>  Sun, 8 Nov 2026 21:46:02 +0200
+
+virgo-api (2.23.1) stable; urgency=low
+
+  Features
+  * explain a missing certificate with Let's Encrypt's own error and what to check for the domain
+
+ -- univrs <voyager@univrs.cloud>  Sun, 8 Nov 2026 20:35:28 +0200
+
+virgo-api (2.23.0) stable; urgency=low
+
+  Features
+  * offer pool layouts per drive type, with faster and more space variants and one recommended layout
+
+  Other
+  * bump bullmq, commander, cron-parser and plist
+
+ -- univrs <voyager@univrs.cloud>  Sun, 8 Nov 2026 14:39:08 +0200
+
+virgo-api (2.22.6) stable; urgency=low
+
+  Fixes
+  * detect a needed reboot by comparing the running kernel and ZFS module with the installed ones
+
+ -- univrs <voyager@univrs.cloud>  Sat, 7 Nov 2026 21:36:12 +0200
+
+virgo-api (2.22.5) stable; urgency=low
+
+  Other
+  * bump bullmq to 6.7.1
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 10:49:20 +0200
+
+virgo-api (2.22.4) stable; urgency=low
+
+  Fixes
+  * move the backup disks under /time_capsule with their parent in the time capsule migration
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 00:12:59 +0200
+
+virgo-api (2.22.3) stable; urgency=low
+
+  Fixes
+  * unmount the time machines before renaming them so the time capsule migration does not get stuck busy
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 00:05:46 +0200
+
+virgo-api (2.22.2) stable; urgency=low
+
+  Fixes
+  * wait for samba to exit before moving the time capsule mountpoint
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 23:48:40 +0200
+
+virgo-api (2.22.1) stable; urgency=low
+
+  Features
+  * rename time machines to backup disks on a time capsule and migrate existing pools
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 23:39:54 +0200
+
+virgo-api (2.22.0) stable; urgency=low
+
+  Features
+  * notify the client when a service log stream disconnects
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 00:21:20 +0200
+
+virgo-api (2.21.30) stable; urgency=low
+
+  Other
+  * send app and service logs in batches instead of one message per line
+
+ -- univrs <voyager@univrs.cloud>  Tue, 3 Nov 2026 11:48:03 +0200
+
+virgo-api (2.21.29) stable; urgency=low
+
+  Other
+  * bump bullmq and express-rate-limit
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Nov 2026 21:18:05 +0200
+
+virgo-api (2.21.28) stable; urgency=low
+
+  Other
+  * pass the dataset to the scope helpers and give test snapshots a full name
+  * bump bullmq and cron-parser
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Nov 2026 10:59:37 +0200
+
+virgo-api (2.21.27) stable; urgency=low
+
+  Fixes
+  * disable MPTCP
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Oct 2026 13:47:26 +0200
+
+virgo-api (2.21.26) stable; urgency=low
+
+  Fixes
+  * leave the folders root dataset out of the catalogue
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 19:09:34 +0200
+
+virgo-api (2.21.25) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 15:27:19 +0200
+
+virgo-api (2.21.24) stable; urgency=low
+
+  Features
+  * catalogue folders and let search, browse, download and restore work on a folder's snapshots
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 15:25:03 +0200
+
+virgo-api (2.21.23) stable; urgency=low
+
+  Features
+  * limit snapshot search to a folder and match underscores in paths literally
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 14:04:41 +0200
+
+virgo-api (2.21.22) stable; urgency=low
+
+  Features
+  * read the snapshot list a minute after each sanoid run instead of hourly
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 13:40:05 +0200
+
+virgo-api (2.21.21) stable; urgency=low
+
+  Features
+  * report ZFS ARC hits and misses
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 21:35:46 +0200
+
+virgo-api (2.21.20) stable; urgency=low
+
+  Features
+  * record ZFS ARC size in the stats history
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 20:02:18 +0200
+
+virgo-api (2.21.19) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 19:56:22 +0200
+
+virgo-api (2.21.18) stable; urgency=low
+
+  Features
+  * roll an app back to any snapshot that records its image digests
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 18:43:43 +0200
+
+virgo-api (2.21.17) stable; urgency=low
+
+  Features
+  * refuse a rollback when the snapshot lacks its project files or an image is gone
+  * record image digests on sanoid snapshots of apps
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 14:23:58 +0200
+
+virgo-api (2.21.16) stable; urgency=low
+
+  Features
+  * roll an app back to the snapshot taken before its last update
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 12:36:07 +0200
+
+virgo-api (2.21.15) stable; urgency=low
+
+  Features
+  * set the zfs arc maximum live and across reboots, reinstall core apps only when their settings change, emit state after every load
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 09:21:05 +0200
+
+virgo-api (2.21.14) stable; urgency=low
+
+  Other
+  * container list from docker events, app stats polled only while a browser watches them
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 Oct 2026 12:11:26 +0300
+
+virgo-api (2.21.13) stable; urgency=low
+
+  Other
+  * one-shot docker stats for running containers only, cpu temperature and fan read from sysfs, host:cpu:stats renamed to host:cpu:sensors
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 21:33:58 +0300
+
+virgo-api (2.21.12) stable; urgency=low
+
+  Fixes
+  * wait for the last stats save before exiting on stop, restart or reload
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 19:20:33 +0300
+
+virgo-api (2.21.11) stable; urgency=low
+
+  Other
+  * look up the default interface only when interfaces reload instead of every stats sample, multi-line event listeners
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 18:34:51 +0300
+
+virgo-api (2.21.10) stable; urgency=low
+
+  Fixes
+  * report which shares each smb session has files open on
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 18:24:53 +0300
+
+virgo-api (2.21.9) stable; urgency=low
+
+  Features
+  * keep the last hour of per-second cpu, ram and network stats in stats.db, bump execa
+
+  Other
+  * pin node 24.22.1 in the release build
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 17:41:38 +0300
+
+virgo-api (2.21.8) stable; urgency=low
+
+  Other
+  * enforce node 24.22.1 and npm 11.19.1 or newer and update bullmq
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 16:33:11 +0300
+
+virgo-api (2.21.7) stable; urgency=low
+
+  Fixes
+  * resolve the cluster name to the virtual IP over mDNS
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 01:11:16 +0300
+
+virgo-api (2.21.6) stable; urgency=low
+
+  Features
+  * announce shares from the virtual IP holder and report smb clients and storage
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 00:46:56 +0300
+
+virgo-api (2.21.5) stable; urgency=low
+
+  Fixes
+  * count app traffic on every network a container joins
+
+ -- univrs <voyager@univrs.cloud>  Sun, 18 Oct 2026 22:03:51 +0300
+
+virgo-api (2.21.4) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 18 Oct 2026 20:50:27 +0300
+
+virgo-api (2.21.3) stable; urgency=low
+
+  Other
+  * always set up the latest node 24
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 00:48:32 +0300
+
+virgo-api (2.21.2) stable; urgency=low
+
+  Other
+  * update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 00:04:39 +0300
+
+virgo-api (2.21.1) stable; urgency=low
+
+  Features
+  * snapshot an app with its image digests before every update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 16 Oct 2026 14:11:25 +0300
+
+virgo-api (2.21.0) stable; urgency=low
+
+  Features
+  * write each app's folder into its env as APP_DIR
+
+ -- univrs <voyager@univrs.cloud>  Fri, 16 Oct 2026 12:36:25 +0300
+
+virgo-api (2.20.21) stable; urgency=low
+
+  Other
+  * update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 20:12:30 +0300
+
+virgo-api (2.20.20) stable; urgency=low
+
+  Fixes
+  * export the cluster domain the session cookie is scoped to
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 10:54:30 +0300
+
+virgo-api (2.20.19) stable; urgency=low
+
+  Fixes
+  * restore sign in and session lookup broken by the rename
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 10:46:39 +0300
+
+virgo-api (2.20.18) stable; urgency=low
+
+  Fixes
+  * recognize the current session after virgo-api restarts
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 09:57:53 +0300
+
+virgo-api (2.20.17) stable; urgency=low
+
+  Features
+  * track active sessions and let users revoke other sessions
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Oct 2026 15:34:08 +0300
+
+virgo-api (2.20.16) stable; urgency=low
+
+  Fixes
+  * report the certificate state during setup after a restart or a pool import
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 17:38:55 +0300
+
+virgo-api (2.20.15) stable; urgency=low
+
+  Features
+  * reinstall the installed core apps when the node's name or address changes
+
+  Fixes
+  * stop reserving the euro-office node name
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 17:27:49 +0300
+
+virgo-api (2.20.14) stable; urgency=low
+
+  Features
+  * report the firewall rules and blocked addresses and let an address be unblocked
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 13:44:14 +0300
+
+virgo-api (2.20.13) stable; urgency=low
+
+  Fixes
+  * disable snapshots on nodes whose ignore template keeps old snapshots
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 10:22:59 +0300
+
+virgo-api (2.20.12) stable; urgency=low
+
+  Features
+  * let a new folder be created without snapshots
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 10:14:38 +0300
+
+virgo-api (2.20.11) stable; urgency=low
+
+  Features
+  * report the next scheduled scrub of each pool
+  * read the sanoid configuration and switch snapshotting per app and folder
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 09:27:39 +0300
+
+virgo-api (2.20.10) stable; urgency=low
+
+  Fixes
+  * clear the account cookie at every domain once the session is gone and tell open pages
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 09:35:17 +0300
+
+virgo-api (2.20.9) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 01:16:44 +0300
+
+virgo-api (2.20.8) stable; urgency=low
+
+  Features
+  * report the node's own address so its name can point at it
+
+  Fixes
+  * refresh what other nodes advertise after adoption and virtual ip changes
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 15:20:48 +0300
+
+virgo-api (2.20.7) stable; urgency=low
+
+  Fixes
+  * keep proxy backend details from non-admin users
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 01:48:05 +0300
+
+virgo-api (2.20.6) stable; urgency=low
+
+  Fixes
+  * end every process started from a console when it closes
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 00:56:49 +0300
+
+virgo-api (2.20.5) stable; urgency=low
+
+  Features
+  * record whether an app can be embedded from its template
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 23:22:56 +0300
+
+virgo-api (2.20.4) stable; urgency=low
+
+  Fixes
+  * run recreate one at a time alongside updates and installs
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 16:33:03 +0300
+
+virgo-api (2.20.3) stable; urgency=low
+
+  Features
+  * run start, stop and restart on several apps at once while updates and installs stay one at a time
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 16:21:15 +0300
+
+virgo-api (2.20.2) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 01:11:39 +0300
+
+virgo-api (2.20.1) stable; urgency=low
+
+  Fixes
+  * load the node database only during an indexing run so tests never open it
+
+ -- univrs <voyager@univrs.cloud>  Tue, 6 Oct 2026 02:12:05 +0300
+
+virgo-api (2.20.0) stable; urgency=low
+
+  Features
+  * browse, download and restore a selection of files from a nextcloud snapshot
+
+  Fixes
+  * report replaced files as modified when comparing a snapshot to now
+  * keep deleted files in their snapshot folder after the folder is renamed
+  * keep file history intact when a folder is renamed in the same snapshot as other changes
+  * index each snapshot in one transaction and correct pruning, scope moves, search paging, diff and history
+  * record the replaced file's size and keep removed files at their own path in diffs
+  * apply a snapshot's events by what each path meant in the previous snapshot, in any order
+  * keep a file and a folder of the same name as separate histories
+  * keep set-aside files outside the tree and return them to where their folder moved
+
+  Other
+  * add a test suite checked against zfs 2.4.4 and read hard-link and pipe diff lines correctly
+
+ -- univrs <voyager@univrs.cloud>  Tue, 6 Oct 2026 02:06:53 +0300
+
+virgo-api (2.19.44) stable; urgency=low
+
+  Features
+  * report metrics and allow actions for unmanaged stacks and containers
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Oct 2026 21:01:02 +0300
+
+virgo-api (2.19.43) stable; urgency=low
+
+  Other
+  * keep compose files in each app's dataset and drop the compose dataset
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Oct 2026 19:25:22 +0300
+
+virgo-api (2.19.42) stable; urgency=low
+
+  Fixes
+  * own restored files and created folders as voyager:users
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 22:09:24 +0300
+
+virgo-api (2.19.41) stable; urgency=low
+
+  Features
+  * restore files from snapshots into nextcloud folders, creating missing folders on the way
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 22:06:48 +0300
+
+virgo-api (2.19.40) stable; urgency=low
+
+  Features
+  * install templates flagged multiple as named instances
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 18:43:28 +0300
+
+virgo-api (2.19.39) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 02:43:41 +0300
+
+virgo-api (2.19.38) stable; urgency=low
+
+  Fixes
+  * name the account cookie after the node so cluster peers keep their own
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 02:42:33 +0300
+
+virgo-api (2.19.37) stable; urgency=low
+
+  Other
+  * drop restore zones now that restore is nextcloud-only
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 Oct 2026 23:53:21 +0300
+
+virgo-api (2.19.36) stable; urgency=low
+
+  Other
+  * index only nextcloud user files, store each version's path and drop the toggle and stats
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 Oct 2026 23:13:10 +0300
+
+virgo-api (2.19.35) stable; urgency=low
+
+  Features
+  * store each app's restore zones from the templates on every fetch
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 Oct 2026 10:23:24 +0300
+
+virgo-api (2.19.34) stable; urgency=low
+
+  Features
+  * skip certificate and key files, .cache and config/keys folders and purge them from existing indexes
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 Oct 2026 09:52:54 +0300
+
+virgo-api (2.19.33) stable; urgency=low
+
+  Features
+  * download files and folders from snapshots at the path each version had
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 23:00:20 +0300
+
+virgo-api (2.19.32) stable; urgency=low
+
+  Fixes
+  * keep the virtual ip on the interface after a change
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 21:47:17 +0300
+
+virgo-api (2.19.31) stable; urgency=low
+
+  Features
+  * skip log files and purge them from existing indexes
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 21:01:20 +0300
+
+virgo-api (2.19.30) stable; urgency=low
+
+  Features
+  * return the old path of renamed versions in search
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 20:36:55 +0300
+
+virgo-api (2.19.29) stable; urgency=low
+
+  Features
+  * skip all of nextcloud appdata and purge it from existing indexes
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 20:23:45 +0300
+
+virgo-api (2.19.28) stable; urgency=low
+
+  Fixes
+  * keep files deleted after a surviving snapshot and restore the ones already dropped
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 19:55:31 +0300
+
+virgo-api (2.19.27) stable; urgency=low
+
+  Features
+  * add a state filter to search and re-diff across deleted snapshots so changes are not lost
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 19:31:45 +0300
+
+virgo-api (2.19.26) stable; urgency=low
+
+  Fixes
+  * keep the proxy settings of a shortcut whose subdomain has a dot
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 17:52:04 +0300
+
+virgo-api (2.19.25) stable; urgency=low
+
+  Features
+  * return every version and the last seen snapshot in search results
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 08:28:10 +0300
+
+virgo-api (2.19.24) stable; urgency=low
+
+  Features
+  * search snapshots over the socket and keep --json output pure
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 07:27:30 +0300
+
+virgo-api (2.19.23) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Tue, 29 Sep 2026 12:58:08 +0300
+
+virgo-api (2.19.22) stable; urgency=low
+
+  Features
+  * list network and apps before indexer and drop the promote alias
+  * allow pool drives to differ in size by up to 10%
+
+  Other
+  * let DEB_ARCH decide the package architecture
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Sep 2026 16:27:49 +0300
+
+virgo-api (2.19.21) stable; urgency=low
+
+  Fixes
+  * send the stored node token when re-registering
+  * propose a persisted registration token so interrupted registrations can retry
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Sep 2026 08:29:39 +0300
+
+virgo-api (2.19.20) stable; urgency=low
+
+  Fixes
+  * verify session tokens with the hashed node token fleet signs with
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Sep 2026 07:51:31 +0300
+
+virgo-api (2.19.19) stable; urgency=low
+
+  Features
+  * report the certificate resolver after setup
+
+ -- univrs <voyager@univrs.cloud>  Sat, 26 Sep 2026 00:17:04 +0300
+
+virgo-api (2.19.18) stable; urgency=low
+
+  Features
+  * advertise the cluster, keep adoption and setup within it
+  * forward http-01 challenges for peer names
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 22:32:38 +0300
+
+virgo-api (2.19.17) stable; urgency=low
+
+  Fixes
+  * reload templates on recreate and update when the startup fetch failed
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 21:40:12 +0300
+
+virgo-api (2.19.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 20:52:18 +0300
+
+virgo-api (2.19.15) stable; urgency=low
+
+  Fixes
+  * answer 421 for names this node doesn't serve
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 20:52:00 +0300
+
+virgo-api (2.19.14) stable; urgency=low
+
+  Fixes
+  * import config for the ACME caller check
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 19:03:19 +0300
+
+virgo-api (2.19.13) stable; urgency=low
+
+  Features
+  * forward every peer's names through the virtual IP holder, keep proxied shortcuts off node names
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 18:30:02 +0300
+
+virgo-api (2.19.12) stable; urgency=low
+
+  Features
+  * name the virtual IP promote command as take-over
+  * install the terminal as the first core app, connected to the node's own address
+  * take the cluster as its own field, reserve app names for nodes, serve proxied apps under the cluster
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 18:05:47 +0300
+
+virgo-api (2.19.11) stable; urgency=low
+
+  Features
+  * refuse to disable fleet while the domain is on univrs.cloud
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 14:01:07 +0300
+
+virgo-api (2.19.10) stable; urgency=low
+
+  Fixes
+  * harden pairing, reconcile on a timer, refuse clustered nodes
+
+  Other
+  * pair from either side, order by a logical clock, trim removals
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 11:21:29 +0300
+
+virgo-api (2.19.9) stable; urgency=low
+
+  Features
+  * offer only app templates that support the host platform
+  * adopt as a full mesh so clusters can grow past two nodes
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 10:49:14 +0300
+
+virgo-api (2.19.8) stable; urgency=low
+
+  Features
+  * redirect direct ip:3000 page loads to the node's domain after setup
+
+ -- univrs <voyager@univrs.cloud>  Thu, 24 Sep 2026 21:45:19 +0300
+
+virgo-api (2.19.7) stable; urgency=low
+
+  Features
+  * enforce univrs.cloud naming rules and validate input with validator
+
+ -- univrs <voyager@univrs.cloud>  Thu, 24 Sep 2026 13:02:21 +0300
+
+virgo-api (2.19.6) stable; urgency=low
+
+  Fixes
+  * accept ACME hook requests only from traefik
+
+ -- univrs <voyager@univrs.cloud>  Wed, 23 Sep 2026 22:55:21 +0300
+
+virgo-api (2.19.5) stable; urgency=low
+
+  Fixes
+  * reject line breaks in passwords before they reach chpasswd
+  * drop the wildcard CORS header
+
+ -- univrs <voyager@univrs.cloud>  Wed, 23 Sep 2026 22:44:42 +0300
+
+virgo-api (2.19.4) stable; urgency=low
+
+  Fixes
+  * quote and escape .env values so secrets survive docker compose parsing
+  * reject cross-origin socket connections
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 23 Sep 2026 21:41:02 +0300
+
+virgo-api (2.19.3) stable; urgency=low
+
+  Other
+  * decide audience, replay and commands from one declaration
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Sep 2026 01:27:43 +0300
+
+virgo-api (2.19.2) stable; urgency=low
+
+  Other
+  * name imported and created pools messier server-side and drop draid parsing
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Sep 2026 15:09:04 +0300
+
+virgo-api (2.19.1) stable; urgency=low
+
+  Fixes
+  * preserve nested vdev topology when parsing importable pools
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Sep 2026 14:21:40 +0300
+
+virgo-api (2.19.0) stable; urgency=low
+
+  Other
+  * Update description
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 20:50:58 +0300
+
+virgo-api (2.18.53) stable; urgency=low
+
+  Other
+  * emit UPS faults as objects instead of a plain string
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 19:42:59 +0300
+
+virgo-api (2.18.52) stable; urgency=low
+
+  Features
+  * report SMART health for every drive including the system disk
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 18:43:27 +0300
+
+virgo-api (2.18.51) stable; urgency=low
+
+  Fixes
+  * mark the short-lived fleet sockets as transient
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Sep 2026 19:32:31 +0300
+
+virgo-api (2.18.50) stable; urgency=low
+
+  Features
+  * install Node in a chroot too
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 15 Sep 2026 15:16:24 +0300
+
+virgo-api (2.18.49) stable; urgency=low
+
+  Fixes
+  * register with fleet without shadowing the email module
+  * install the avahi allowlist generator instead of a fixed list
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 21:13:18 +0300
+
+virgo-api (2.18.48) stable; urgency=low
+
+  Features
+  * build the pool from whatever drives the node has
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 20:43:25 +0300
+
+virgo-api (2.18.47) stable; urgency=low
+
+  Other
+  * Improve network interface management
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 18:28:56 +0300
+
+virgo-api (2.18.46) stable; urgency=low
+
+  Other
+  * Add network-manager as dependency
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 18:04:46 +0300
+
+virgo-api (2.18.45) stable; urgency=low
+
+  Fixes
+  * bond the NICs the kernel actually named
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 17:54:56 +0300
+
+virgo-api (2.18.44) stable; urgency=low
+
+  Fixes
+  * make the ACME firewall rule migration verifiable
+
+  Other
+  * rewrite promise chains as async/await
+
+ -- univrs <voyager@univrs.cloud>  Thu, 10 Sep 2026 00:02:42 +0300
+
+virgo-api (2.18.43) stable; urgency=low
+
+  Fixes
+  * refresh n on every install and fix the up-to-date check
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 21:22:33 +0300
+
+virgo-api (2.18.42) stable; urgency=low
+
+  Other
+  * reach the database module by name
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 19:12:55 +0300
+
+virgo-api (2.18.41) stable; urgency=low
+
+  Fixes
+  * open the pool database whenever it appears
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 18:31:12 +0300
+
+virgo-api (2.18.40) stable; urgency=low
+
+  Fixes
+  * open the node before its pool exists
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 18:00:51 +0300
+
+virgo-api (2.18.39) stable; urgency=low
+
+  Fixes
+  * allow installing on x64
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 17:00:04 +0300
+
+virgo-api (2.18.38) stable; urgency=low
+
+  Features
+  * build and release amd64 packages alongside arm64
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 16:56:02 +0300
+
+virgo-api (2.18.37) stable; urgency=low
+
+  Fixes
+  * index every by-id alias per drive
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Sep 2026 18:31:26 +0300
+
+virgo-api (2.18.36) stable; urgency=low
+
+  Fixes
+  * pair drive temperature thresholds by device
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Sep 2026 17:22:16 +0300
+
+virgo-api (2.18.35) stable; urgency=low
+
+  Fixes
+  * skip the rename migration once icons have moved
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Sep 2026 18:09:07 +0300
+
+virgo-api (2.18.34) stable; urgency=low
+
+  Other
+  * rename bookmarks to shortcuts
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Sep 2026 17:51:08 +0300
+
+virgo-api (2.18.33) stable; urgency=low
+
+  Fixes
+  * report core app installs truthfully
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Sep 2026 12:41:01 +0300
+
+virgo-api (2.18.32) stable; urgency=low
+
+  Fixes
+  * authenticate the domain availability check
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Sep 2026 10:58:10 +0300
+
+virgo-api (2.18.31) stable; urgency=low
+
+  Other
+  * Fix time machine shares reporting no free space
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Sep 2026 01:54:41 +0300
+
+virgo-api (2.18.30) stable; urgency=low
+
+  Fixes
+  * preserve WebRTC sessions and restore proxy request context
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 18:09:02 +0300
+
+virgo-api (2.18.29) stable; urgency=low
+
+  Features
+  * compress responses served by the node
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 15:03:12 +0300
+
+virgo-api (2.18.28) stable; urgency=low
+
+  Features
+  * gzip proxied assets on both node paths
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 09:59:48 +0300
+
+virgo-api (2.18.27) stable; urgency=low
+
+  Features
+  * flow-control asset streaming with receiver credits
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 02:49:25 +0300
+
+virgo-api (2.18.26) stable; urgency=low
+
+  Features
+  * stream local assets with backpressure and heartbeat support
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 01:23:18 +0300
+
+virgo-api (2.18.25) stable; urgency=low
+
+  Fixes
+  * bind peer connections to the node address
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 23:12:33 +0300
+
+virgo-api (2.18.24) stable; urgency=low
+
+  Features
+  * add backpressure and explicit session lifecycle
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 22:31:29 +0300
+
+virgo-api (2.18.23) stable; urgency=low
+
+  Other
+  * Validate WebRTC continuation frames, bound session lifetime
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 20:52:49 +0300
+
+virgo-api (2.18.22) stable; urgency=low
+
+  Other
+  * Remove asset worker
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 20:20:29 +0300
+
+virgo-api (2.18.21) stable; urgency=low
+
+  Other
+  * Add WebRTC signaling for direct browser-to-node proxying
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 19:44:54 +0300
+
+virgo-api (2.18.20) stable; urgency=low
+
+  Other
+  * Report peer adoption to fleet
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 19:07:20 +0300
+
+virgo-api (2.18.19) stable; urgency=low
+
+  Other
+  * Report peers to fleet
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 18:31:30 +0300
+
+virgo-api (2.18.18) stable; urgency=low
+
+  Other
+  * Gate requests while starting, wait for authelia after setup
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 14:22:37 +0300
+
+virgo-api (2.18.17) stable; urgency=low
+
+  Other
+  * Emite services after loaded
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 13:54:19 +0300
+
+virgo-api (2.18.16) stable; urgency=low
+
+  Other
+  * host:reboot true is emitted before execa('reboot'), not after
+  * Fix shutdown events
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 13:33:02 +0300
+
+virgo-api (2.18.15) stable; urgency=low
+
+  Other
+  * Emit after restart and data loaded in case sockets connected before data has loaded (in case of reboot for example)
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 13:26:08 +0300
+
+virgo-api (2.18.14) stable; urgency=low
+
+  Other
+  * Restart avahi, reload does not trigger an announce
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 12:48:41 +0300
+
+virgo-api (2.18.13) stable; urgency=low
+
+  Other
+  * Reannounce mDNS
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 12:38:15 +0300
+
+virgo-api (2.18.12) stable; urgency=low
+
+  Other
+  * Only the holder may change the virtual IP
+  * Propagate a virtual IP change to adopted nodes
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 12:01:56 +0300
+
+virgo-api (2.18.11) stable; urgency=low
+
+  Other
+  * Update code comment
+  * Update dependencies
+  * Stage file write outside watched directory
+  * Reduce network wait times at boot
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 11:37:44 +0300
+
+virgo-api (2.18.10) stable; urgency=low
+
+  Other
+  * Reconciling trusts only an address discovery published for that node id, never the stored one and never our own. A stale or wrong address makes the answer meaningless, and dialling ourselves answers a question about the peer with our own state. A grace period after adoption keeps the check out of the window where the adopter has not yet stored its side.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 23:25:58 +0300
+
+virgo-api (2.18.9) stable; urgency=low
+
+  Other
+  * Send the adopter's own address when adopting
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 23:14:30 +0300
+
+virgo-api (2.18.8) stable; urgency=low
+
+  Other
+  * Propagate the virtual IP when a node is adopted
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 22:53:53 +0300
+
+virgo-api (2.18.7) stable; urgency=low
+
+  Other
+  * fleet.js turned out to be pure refactor — the lanIp change was already committed.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 19:18:40 +0300
+
+virgo-api (2.18.6) stable; urgency=low
+
+  Other
+  * Mark authelia and traefik as apps that cannot be removed
+
+ -- univrs <voyager@univrs.cloud>  Tue, 1 Sep 2026 11:33:44 +0300
+
+virgo-api (2.18.5) stable; urgency=low
+
+  Other
+  * Refuse to be framed
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 1 Sep 2026 11:10:41 +0300
+
+virgo-api (2.18.4) stable; urgency=low
+
+  Other
+  * Enhance Docker session management by ensuring clients are notified when a container or terminal session disconnects. Added emit statements to inform clients of session termination, preventing confusion over live streams. Refactored cleanup logic for better session tracking and management in the terminal module. Additionally, introduced a settling mechanism in the discovery module to improve peer management and prevent premature deletions during network changes.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 20:57:47 +0300
+
+virgo-api (2.18.3) stable; urgency=low
+
+  Other
+  * Enhance advertisement and discovery modules by introducing a new utility function to retrieve the node's own address, improving address handling in advertisements. Refactor code for better readability and maintainability, including updates to comments and error handling.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 16:34:25 +0300
+
+virgo-api (2.18.2) stable; urgency=low
+
+  Other
+  * Refactor advertisement and discovery modules to improve service advertisement handling and peer management. Introduced a promise queue for serialized advertisements, enhanced error handling, and optimized code formatting for better readability. Updated export structure in discovery module for clarity.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 16:18:45 +0300
+
+virgo-api (2.18.1) stable; urgency=low
+
+  Other
+  * Refactor host discovery module to enhance peer management and introduce a robust watching mechanism. Added support for service key generation, improved error handling, and established a backoff strategy for service restarts. Exposed new utility functions for peer processing and updated the export structure.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 15:58:01 +0300
+
+virgo-api (2.18.0) stable; urgency=low
+
+  Other
+  * Implement virtual IP management and discovery features, including systemd service integration and certificate generation script
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 15:36:43 +0300
+
+virgo-api (2.17.20) stable; urgency=low
+
+  Other
+  * Wait for Fleet
+  * Pass the subdomain resolver to traefik
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 07:34:13 +0300
+
+virgo-api (2.17.19) stable; urgency=low
+
+  Other
+  * Fix cert polling
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 05:22:16 +0300
+
+virgo-api (2.17.18) stable; urgency=low
+
+  Other
+  * Relay ACME DNS-01 challenges to fleet
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 04:42:49 +0300
+
+virgo-api (2.17.17) stable; urgency=low
+
+  Other
+  * Relay ACME DNS-01 challenges to fleet
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 02:46:53 +0300
+
+virgo-api (2.17.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Aug 2026 14:13:29 +0300
+
+virgo-api (2.17.15) stable; urgency=low
+
+  Other
+  * Implement UPS reporting in fleet configuration
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Aug 2026 22:18:10 +0300
+
+virgo-api (2.17.14) stable; urgency=low
+
+  Other
+  * Enhance incremental flush context and path handling in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 20:30:28 +0300
+
+virgo-api (2.17.13) stable; urgency=low
+
+  Other
+  * Enhance file version management in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 19:23:17 +0300
+
+virgo-api (2.17.12) stable; urgency=low
+
+  Other
+  * Enhance performance metrics tracking in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 18:35:40 +0300
+
+virgo-api (2.17.11) stable; urgency=low
+
+  Other
+  * Enhance snapshot management and error handling in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 18:32:45 +0300
+
+virgo-api (2.17.10) stable; urgency=low
+
+  Other
+  * Enhance file tracking and snapshot handling in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 17:32:37 +0300
+
+virgo-api (2.17.9) stable; urgency=low
+
+  Other
+  * Enhance performance tracking in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 16:43:32 +0300
+
+virgo-api (2.17.8) stable; urgency=low
+
+  Other
+  * Enhance file renaming logic in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 15:46:48 +0300
+
+virgo-api (2.17.7) stable; urgency=low
+
+  Other
+  * Improve snapshot handling
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 15:12:23 +0300
+
+virgo-api (2.17.6) stable; urgency=low
+
+  Other
+  * Prove the proxy is the proxy before believing it
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 05:00:10 +0300
+
+virgo-api (2.17.5) stable; urgency=low
+
+  Other
+  * Take the fleet's word only from the node itself
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 03:58:18 +0300
+
+virgo-api (2.17.4) stable; urgency=low
+
+  Other
+  * sk Authelia once, and keep nothing of its answer
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 03:22:20 +0300
+
+virgo-api (2.17.3) stable; urgency=low
+
+  Other
+  * Rebuild an app's project file when recreating it Stop asking Authelia about a node still being set up
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 02:56:33 +0300
+
+virgo-api (2.17.2) stable; urgency=low
+
+  Other
+  * Take identity from Authelia, and tell strangers nothing
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 02:21:59 +0300
+
+virgo-api (2.17.1) stable; urgency=low
+
+  Other
+  * Turn unauthorized visitors away from the node's own pages
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 01:17:37 +0300
+
+virgo-api (2.17.0) stable; urgency=low
+
+  Other
+  * Sign users in through Authelia's API instead of its portal
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 00:44:44 +0300
+
+virgo-api (2.16.29) stable; urgency=low
+
+  Other
+  * Reorder core app definitions in storage module for consistency between Traefik and Authelia configurations.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 16:07:09 +0300
+
+virgo-api (2.16.28) stable; urgency=low
+
+  Other
+  * Implement 'force' option for app installation, allowing reinstallation of existing apps without data loss
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 15:42:06 +0300
+
+virgo-api (2.16.27) stable; urgency=low
+
+  Other
+  * Add core app installation logic to storage module, including SSL configuration and environment setup for Traefik and Authelia. Emit events for configuration updates and integrate app installation into the preparation process.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 15:20:09 +0300
+
+virgo-api (2.16.26) stable; urgency=low
+
+  Other
+  * Add event listener for storage fetch and trigger fetch on storage preparation
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 14:17:51 +0300
+
+virgo-api (2.16.25) stable; urgency=low
+
+  Other
+  * Enhance storage module initialization by improving event emissions for configuration updates and user management
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 13:51:02 +0300
+
+virgo-api (2.16.24) stable; urgency=low
+
+  Other
+  * Refactor indexer and database modules to improve query handling and database connection management. Introduce a unified query function in the indexer for better error handling and streamline database opening logic to accommodate scenarios where the pool is not available. Enhance configuration handling in fleet and storage modules to ensure proper initialization and event emission when the database becomes accessible.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 12:36:56 +0300
+
+virgo-api (2.16.23) stable; urgency=low
+
+  Other
+  * Improve password change logic to handle missing Authelia user file gracefully. Add error handling for file read operation and ensure compatibility with first-run setup scenarios.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 11:05:23 +0300
+
+virgo-api (2.16.22) stable; urgency=low
+
+  Other
+  * Update package.json to include iputils-arping dependency. Refactor network module to add isAddressInUse function for checking IP address availability and improve error handling during network interface updates.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 10:50:12 +0300
+
+virgo-api (2.16.21) stable; urgency=low
+
+  Other
+  * Refactor JSON parsing across modules to handle empty outputs gracefully. Update error handling in various functions to log warnings instead of errors for better clarity. Improve connection and dataset management in host and indexer modules.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 10:21:39 +0300
+
+virgo-api (2.16.20) stable; urgency=low
+
+  Other
+  * Complete setup process
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 01:09:25 +0300
+
+virgo-api (2.16.19) stable; urgency=low
+
+  Other
+  * Enhance host and storage modules with drive ID mapping and Docker data management. Introduce utility functions for filesystem operations and dataset handling. Update password change logic to accommodate first-run setup scenarios.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 00:32:20 +0300
+
+virgo-api (2.16.18) stable; urgency=low
+
+  Other
+  * Refactor authentication and setup handling in BaseModule and HostModule. Introduce setup_state utility for managing setup completion state. Add storage module for handling importable storage pools and update watcher to use new setup state management.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 12 Aug 2026 21:20:39 +0300
+
+virgo-api (2.16.17) stable; urgency=low
+
+  Other
+  * Introduce state_digest utility for canonicalizing payloads to prevent unnecessary emissions
+
+ -- univrs <voyager@univrs.cloud>  Thu, 6 Aug 2026 15:31:57 +0300
+
+virgo-api (2.16.16) stable; urgency=low
+
+  Other
+  * Enhance fleet and docker modules with app update job handling and summary reporting.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 6 Aug 2026 00:00:41 +0300
+
+virgo-api (2.16.15) stable; urgency=low
+
+  Other
+  * Add email normalization to fleet registration process
+
+ -- univrs <voyager@univrs.cloud>  Wed, 5 Aug 2026 17:56:07 +0300
+
+virgo-api (2.16.14) stable; urgency=low
+
+  Other
+  * Refactor fleet module to introduce nodeId management and improve registration process. Added resolveNodeId function to generate and persist nodeId, updated registerNode to use nodeId instead of serialNumber, and simplified system info retrieval.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 5 Aug 2026 10:39:49 +0300
+
+virgo-api (2.16.13) stable; urgency=low
+
+  Other
+  * Restrict self-signed certificate trust to loopback in fleet proxy and require valid fleet certificates on node sockets
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 30 Jul 2026 00:36:48 +0300
+
+virgo-api (2.16.12) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Jul 2026 10:49:30 +0300
+
+virgo-api (2.16.11) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 23 Jul 2026 19:01:44 +0300
+
+virgo-api (2.16.10) stable; urgency=low
+
+  Other
+  * Add storage reporting to fleet module and update host polling to emit storage updates
+
+ -- univrs <voyager@univrs.cloud>  Thu, 23 Jul 2026 19:00:55 +0300
+
+virgo-api (2.16.9) stable; urgency=low
+
+  Other
+  * Switch to using nmcli with array arguments and enhance output processing.
+  * Refactor service logs connection handling to use Promise for cleanup on process close/error and add error logging for stream startup failures
+
+ -- univrs <voyager@univrs.cloud>  Wed, 22 Jul 2026 18:55:04 +0300
+
+virgo-api (2.16.8) stable; urgency=low
+
+  Other
+  * Refactor
+  * Enhance DNS configuration handling in network module; limit DNS server inputs to 3, refactor DNS retrieval methods, and ensure proper DNS settings for manual connections.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 22 Jul 2026 16:59:41 +0300
+
+virgo-api (2.16.7) stable; urgency=low
+
+  Other
+  * Refactor indexer: split index.js, fix lock/FTS robustness
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 19 Jul 2026 23:47:59 +0300
+
+virgo-api (2.16.6) stable; urgency=low
+
+  Other
+  * Fleet module to track and report host updates, including update progress and state
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 00:24:20 +0300
+
+virgo-api (2.16.5) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Jul 2026 23:27:49 +0300
+
+virgo-api (2.16.4) stable; urgency=low
+
+  Other
+  * Refactor host module to introduce update progress tracking
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Jul 2026 23:26:20 +0300
+
+virgo-api (2.16.3) stable; urgency=low
+
+  Other
+  * Refactor fleet module to handle separate updates for system and apps. Emit app updates from Docker module, enhancing the reporting mechanism for both host and app updates.
+
+ -- univrs <voyager@univrs.cloud>  Tue, 14 Jul 2026 20:28:41 +0300
+
+virgo-api (2.16.2) stable; urgency=low
+
+  Other
+  * Implement updates reporting in fleet module and modify host module to emit updates with data. This change allows the fleet to receive and report host updates effectively.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 14 Jul 2026 00:49:18 +0300
+
+virgo-api (2.16.1) stable; urgency=low
+
+  Other
+  * Enhance database configuration with SQLite PRAGMA settings for improved performance and add random startup delay for fleet connections to mitigate server load during reconnections.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 10 Jul 2026 11:57:29 +0300
+
+virgo-api (2.16.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Jul 2026 10:50:42 +0300
+
+virgo-api (2.15.11) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Refactor error handling responses to use 'message' key instead of 'error' in middleware and fleet configuration. Update fleet acknowledgment responses for consistency.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Jul 2026 10:50:28 +0300
+
+virgo-api (2.15.10) stable; urgency=low
+
+  Other
+  * Add deleteConfiguration method and fleet:unregister event handling
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 20:04:00 +0300
+
+virgo-api (2.15.9) stable; urgency=low
+
+  Other
+  * Enhance BaseModule authentication logic to support remote user and groups from handshake auth
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 10:41:04 +0300
+
+virgo-api (2.15.8) stable; urgency=low
+
+  Other
+  * Update fleet_proxy.js to set default remote user and groups for socket connections
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 10:04:25 +0300
+
+virgo-api (2.15.7) stable; urgency=low
+
+  Other
+  * Enhance fleet_proxy.js with HTTPS support and custom fetch dispatcher
+  * Refactor fleet_proxy.js to enhance TLS options for secure socket connections
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 02:56:17 +0300
+
+virgo-api (2.15.6) stable; urgency=low
+
+  Other
+  * Refactor fleet_proxy.js to support chunked HTTP requests
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 01:59:17 +0300
+
+virgo-api (2.15.5) stable; urgency=low
+
+  Other
+  * Refactor fleet_proxy.js to use centralized distFolder path
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 01:07:29 +0300
+
+virgo-api (2.15.4) stable; urgency=low
+
+  Other
+  * Implement fleet management module with socket.io integration
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 00:03:01 +0300
+
+virgo-api (2.15.3) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Add allowScripts configuration
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Jul 2026 15:11:05 +0300
+
+virgo-api (2.15.2) stable; urgency=low
+
+  Other
+  * Add fleet configuration to app settings and initialize DataService in main function
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Jul 2026 13:28:18 +0300
+
+virgo-api (2.15.1) stable; urgency=low
+
+  Other
+  * Introduced a new runtime module to handle runtime events and emit node role information
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Jul 2026 12:36:34 +0300
+
+virgo-api (2.15.0) stable; urgency=low
+
+  Other
+  * Revert to 43af482 without rewriting history.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Jul 2026 00:02:12 +0300
+
+virgo-api (2.14.12) stable; urgency=low
+
+  Other
+  * Refactor fleet module to improve local proxy session management
+  * Enhance fleet module local proxy session configuration
+  * Add asset handling to fleet module
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 23:01:45 +0300
+
+virgo-api (2.14.11) stable; urgency=low
+
+  Other
+  * Refactor fleet module to enhance configuration management and registration process
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 20:26:12 +0300
+
+virgo-api (2.14.10) stable; urgency=low
+
+  Other
+  * Implement runtime module and enhance fleet registration
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 20:03:54 +0300
+
+virgo-api (2.14.9) stable; urgency=low
+
+  Other
+  * Enhance fleet module and configuration management
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 17:26:28 +0300
+
+virgo-api (2.14.8) stable; urgency=low
+
+  Other
+  * Refactor GitHub Actions workflow to streamline steps by removing unnecessary names for actions
+  * Add fleet configuration support and update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 15:46:46 +0300
+
+virgo-api (2.14.7) stable; urgency=low
+
+  Other
+  * Fix comparison in indexDbWatcher to use the correct database path constant
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 11:46:49 +0300
+
+virgo-api (2.14.6) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Jun 2026 17:18:08 +0300
+
+virgo-api (2.14.5) stable; urgency=low
+
+  Other
+  * Update dependencies and refactor imports to use namespace imports for improved clarity and consistency across multiple modules
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Jun 2026 09:54:13 +0300
+
+virgo-api (2.14.4) stable; urgency=low
+
+  Other
+  * Fix apt-listchanges email_address formatting in SMTP configuration to use commas for recipient separation
+
+ -- univrs <voyager@univrs.cloud>  Fri, 12 Jun 2026 10:32:27 +0300
+
+virgo-api (2.14.3) stable; urgency=low
+
+  Other
+  * Fix formatting of email_address in SMTP configuration to remove unnecessary quotes
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Jun 2026 21:29:55 +0300
+
+virgo-api (2.14.2) stable; urgency=low
+
+  Other
+  * Refactor imports in bookmark module files to use namespace imports for improved clarity and consistency
+  * Refactor imports across multiple modules to use namespace imports for improved clarity and consistency
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Jun 2026 11:05:18 +0300
+
+virgo-api (2.14.1) stable; urgency=low
+
+  Other
+  * Refactor imports in multiple files to use namespace imports for better clarity and consistency
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Jun 2026 10:35:53 +0300
+
+virgo-api (2.14.0) stable; urgency=low
+
+  Other
+  * Feat: Refactor docker pull progress parser to improve progress calculation and handling of image layers
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Jun 2026 10:29:25 +0300
+
+virgo-api (2.13.57) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Refactor docker pull progress parser to improve progress calculation and handling of image layers
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Jun 2026 09:05:49 +0300
+
+virgo-api (2.13.56) stable; urgency=low
+
+  Other
+  * Enhance update state management
+
+ -- univrs <voyager@univrs.cloud>  Thu, 28 May 2026 20:08:29 +0300
+
+virgo-api (2.13.55) stable; urgency=low
+
+  Other
+  * Refactor update completion process to use async file writing and reset PID file
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 May 2026 22:51:35 +0300
+
+virgo-api (2.13.54) stable; urgency=low
+
+  Other
+  * Enhance update management
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 May 2026 21:39:00 +0300
+
+virgo-api (2.13.53) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 May 2026 20:52:02 +0300
+
+virgo-api (2.13.52) stable; urgency=low
+
+  Other
+  * Improve update state management and completion tracking
+
+ -- univrs <voyager@univrs.cloud>  Tue, 19 May 2026 21:49:07 +0300
+
+virgo-api (2.13.51) stable; urgency=low
+
+  Other
+  * Refactor ShareModule to improve folder share configuration handling
+
+ -- univrs <voyager@univrs.cloud>  Tue, 19 May 2026 16:38:27 +0300
+
+virgo-api (2.13.50) stable; urgency=low
+
+  Other
+  * Implement disk usage caching and ZFS dataset integration in ShareModule
+  * Add projectspace management to ShareModule
+
+ -- univrs <voyager@univrs.cloud>  Tue, 19 May 2026 13:13:41 +0300
+
+virgo-api (2.13.49) stable; urgency=low
+
+  Other
+  * Enhance indexing performance metrics by adding tracking for backfilled files and orphan samples. Update the `stats` function to report these metrics, improving diagnostic capabilities. Introduce self-repair logging for backfilled file rows and refine orphan sample handling during snapshot processing.
+
+ -- univrs <voyager@univrs.cloud>  Tue, 19 May 2026 07:12:11 +0300
+
+virgo-api (2.13.48) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update package dependencies and enhance snapshot error handling in indexer
+
+ -- univrs <voyager@univrs.cloud>  Mon, 18 May 2026 18:03:35 +0300
+
+virgo-api (2.13.47) stable; urgency=low
+
+  Other
+  * Add orphan sample tracking and improve ZFS path unescaping logic
+  * Add index database watcher to monitor changes and emit events
+
+ -- univrs <voyager@univrs.cloud>  Thu, 14 May 2026 13:47:16 +0300
+
+virgo-api (2.13.46) stable; urgency=low
+
+  Other
+  * Enhance snapshot handling in indexer by adding error management for stat failures and improving performance metrics. Introduce functions to track and report failures during snapshot processing, including detailed logging for recoverable errors. Update stats reporting to include last run metrics for orphan changes, stat failures, and failed snapshots.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 14 May 2026 12:37:03 +0300
+
+virgo-api (2.13.45) stable; urgency=low
+
+  Other
+  * Implement syncMapForRename function to update fileByPath map during batch processing, ensuring accurate handling of file renames and preventing stale entries. Update flushIncrementalBatch and flushUnifiedBatch functions to utilize this new synchronization logic.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 May 2026 23:55:58 +0300
+
+virgo-api (2.13.44) stable; urgency=low
+
+  Other
+  * Update noise path filtering in indexer to include Nextcloud app bundles in NOISE_DIR_GLOBS, enhancing the exclusion criteria for indexing.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 May 2026 22:27:27 +0300
+
+virgo-api (2.13.43) stable; urgency=low
+
+  Other
+  * Enhance noise path filtering in indexer by introducing glob pattern matching for directory subtrees. Add support for NOISE_DIR_GLOBS and update isNoisePath function to account for both exact names and glob patterns.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 May 2026 22:12:05 +0300
+
+virgo-api (2.13.42) stable; urgency=low
+
+  Other
+  * Refactor database path handling in indexer and improve temp file management by using the index database directory for temporary files.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 May 2026 21:49:15 +0300
+
+virgo-api (2.13.41) stable; urgency=low
+
+  Other
+  * Implement noise path filtering and enhance temp file management in indexer
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 May 2026 21:37:38 +0300
+
+virgo-api (2.13.40) stable; urgency=low
+
+  Other
+  * Add scheduled job handling to queues
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 May 2026 03:57:40 +0300
+
+virgo-api (2.13.39) stable; urgency=low
+
+  Other
+  * Enhance indexer functionality and statistics tracking
+
+ -- univrs <voyager@univrs.cloud>  Tue, 12 May 2026 17:18:59 +0300
+
+virgo-api (2.13.38) stable; urgency=low
+
+  Other
+  * Fix typo, use this instead of module
+
+ -- univrs <voyager@univrs.cloud>  Tue, 12 May 2026 13:42:38 +0300
+
+virgo-api (2.13.37) stable; urgency=low
+
+  Other
+  * Refactor Docker module metrics handling
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 12 May 2026 13:00:44 +0300
+
+virgo-api (2.13.36) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Refactor file rename handling in indexer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 12 May 2026 07:16:10 +0300
+
+virgo-api (2.13.35) stable; urgency=low
+
+  Other
+  * Fix plist module import
+
+ -- univrs <voyager@univrs.cloud>  Sat, 9 May 2026 11:10:30 +0300
+
+virgo-api (2.13.34) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 9 May 2026 10:55:37 +0300
+
+virgo-api (2.13.33) stable; urgency=low
+
+  Other
+  * Enhance time machine configuration in share module
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Apr 2026 18:28:23 +0300
+
+virgo-api (2.13.32) stable; urgency=low
+
+  Other
+  * Remove metrics module
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Apr 2026 00:13:50 +0300
+
+virgo-api (2.13.31) stable; urgency=low
+
+  Other
+  * Update dependencies and enhance share module logic
+
+ -- univrs <voyager@univrs.cloud>  Mon, 27 Apr 2026 17:18:07 +0300
+
+virgo-api (2.13.30) stable; urgency=low
+
+  Other
+  * Update guest access logic in share module
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Apr 2026 12:48:37 +0300
+
+virgo-api (2.13.29) stable; urgency=low
+
+  Other
+  * Refactor validUsers parsing to handle multiple delimiters in share module
+  * Prevent group assignment for authenticated user on profile update
+  * Add support for custom folder paths in share module
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Apr 2026 12:00:52 +0300
+
+virgo-api (2.13.28) stable; urgency=low
+
+  Other
+  * Update dependencie
+
+ -- univrs <voyager@univrs.cloud>  Thu, 23 Apr 2026 20:32:46 +0300
+
+virgo-api (2.13.27) stable; urgency=low
+
+  Other
+  * Check for existing datasets before creation in share module
+
+ -- univrs <voyager@univrs.cloud>  Mon, 20 Apr 2026 23:59:46 +0300
+
+virgo-api (2.13.26) stable; urgency=low
+
+  Other
+  * Ensure appIconsDir is created before saving application icons
+  * Add creation of asset directories in setup migration
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 20 Apr 2026 23:40:12 +0300
+
+virgo-api (2.13.25) stable; urgency=low
+
+  Other
+  * Fix calls on false cache value
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Apr 2026 11:54:44 +0300
+
+virgo-api (2.13.24) stable; urgency=low
+
+  Other
+  * CLI: list installed apps
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Apr 2026 10:01:20 +0300
+
+virgo-api (2.13.23) stable; urgency=low
+
+  Other
+  * Add application management commands and refactor CLI structure
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Apr 2026 23:15:47 +0300
+
+virgo-api (2.13.22) stable; urgency=low
+
+  Other
+  * Show entity name in indexer jobs if name available
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Apr 2026 15:07:07 +0300
+
+virgo-api (2.13.21) stable; urgency=low
+
+  Other
+  * Enhance dataset handling in Docker and Share modules. Update dataset paths in DockerModule and initialize dataset property in ShareModule. Improve Traefik configuration error handling.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Apr 2026 14:48:28 +0300
+
+virgo-api (2.13.20) stable; urgency=low
+
+  Other
+  * Refactor indexer command structure and remove deprecated configuration files. Introduce new dataset handling in commands and improve error handling in database operations.
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Apr 2026 13:36:01 +0300
+
+virgo-api (2.13.19) stable; urgency=low
+
+  Other
+  * Indexer stats returns camelCased
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Apr 2026 21:21:05 +0300
+
+virgo-api (2.13.18) stable; urgency=low
+
+  Other
+  * Add meta table for last run timestamp and update stats output
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Apr 2026 21:02:39 +0300
+
+virgo-api (2.13.17) stable; urgency=low
+
+  Other
+  * Update indexer command to suppress output and improve error logging
+  * Implement real-time stats updates in IndexerModule and enhance scheduled indexing functionality
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Apr 2026 19:22:48 +0300
+
+virgo-api (2.13.16) stable; urgency=low
+
+  Other
+  * Scheduled indexer run every hour
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Apr 2026 15:48:59 +0300
+
+virgo-api (2.13.15) stable; urgency=low
+
+  Other
+  * Refactor watcher.js by removing unused functions and simplifying configuration watching logic
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Apr 2026 16:10:55 +0300
+
+virgo-api (2.13.14) stable; urgency=low
+
+  Other
+  * Rename proxy fields for update operation
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Apr 2026 14:40:27 +0300
+
+virgo-api (2.13.13) stable; urgency=low
+
+  Other
+  * Refactor user lock/unlock messages for consistency
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Apr 2026 14:15:56 +0300
+
+virgo-api (2.13.12) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+  * Add trusted proxies configuration
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Apr 2026 12:29:14 +0300
+
+virgo-api (2.13.11) stable; urgency=low
+
+  Other
+  * Update indexer config exclude list
+
+ -- univrs <voyager@univrs.cloud>  Sat, 4 Apr 2026 22:57:15 +0300
+
+virgo-api (2.13.10) stable; urgency=low
+
+  Other
+  * Force correct user for folders shares
+
+ -- univrs <voyager@univrs.cloud>  Sat, 4 Apr 2026 10:40:39 +0300
+
+virgo-api (2.13.9) stable; urgency=low
+
+  Other
+  * Improve share update/delete security
+
+ -- univrs <voyager@univrs.cloud>  Sat, 4 Apr 2026 00:54:08 +0300
+
+virgo-api (2.13.8) stable; urgency=low
+
+  Other
+  * Add 'messier/folders' dataset to setup
+  * Add folder management functionality to share module
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Apr 2026 23:40:18 +0300
+
+virgo-api (2.13.7) stable; urgency=low
+
+  Other
+  * Implement reindex command and enhance search options
+  * Add path filtering option to search and changes commands
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Apr 2026 16:08:04 +0300
+
+virgo-api (2.13.6) stable; urgency=low
+
+  Other
+  * Refactor top datasets query in stats function for improved performance
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 23:40:00 +0300
+
+virgo-api (2.13.5) stable; urgency=low
+
+  Other
+  * Enhance indexing process with session tracking and restart count
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 22:54:43 +0300
+
+virgo-api (2.13.4) stable; urgency=low
+
+  Other
+  * Add error handling for ZFS diff failures in indexing process
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 22:03:36 +0300
+
+virgo-api (2.13.3) stable; urgency=low
+
+  Other
+  * Refactor indexing and walking processes to improve batch logging and progress indication. Replace direct console output with a unified logging function for better readability and maintainability. Remove worker threads from the walker module, simplifying the implementation to run entirely on the main thread, which enhances performance and reduces complexity.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 21:24:50 +0300
+
+virgo-api (2.13.2) stable; urgency=low
+
+  Other
+  * Implement deletion of changes for orphaned files in the indexing process, ensuring database integrity by removing associated changes before deleting orphaned files. This change enhances the cleanup operations within the run function.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 20:23:22 +0300
+
+virgo-api (2.13.1) stable; urgency=low
+
+  Other
+  * Refactor console log statements in indexing functions to improve output formatting by adjusting newline placement.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 20:11:10 +0300
+
+virgo-api (2.13.0) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 19:48:38 +0300
+
+virgo-api (2.12.41) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 19:43:38 +0300
+
+virgo-api (2.12.40) stable; urgency=low
+
+  Other
+  * Enhance database indexing with bulk mode operations and FTS management. Introduce functions to enable and disable bulk mode, checkpoint WAL, and optimize snapshot processing. Add new indexes for improved query performance and refactor incremental indexing logic to reduce overhead.
+  * Increase batch sizes for incremental processing in indexer and walker modules. Introduce a utility function to determine file sizes, enhancing the handling of file metadata during indexing operations.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 19:34:04 +0300
+
+virgo-api (2.12.39) stable; urgency=low
+
+  Other
+  * Add ZFS Indexer configuration file and update dotenv path
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 16:14:03 +0300
+
+virgo-api (2.12.38) stable; urgency=low
+
+  Other
+  * Update dotenv configuration to enable quiet mode
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 15:31:46 +0300
+
+virgo-api (2.12.37) stable; urgency=low
+
+  Other
+  * Update shebang in the virgo script to disable ExperimentalWarning
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 15:18:23 +0300
+
+virgo-api (2.12.36) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Add ZFS snapshot indexing and querying functionality
+  * Update executable name
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 15:13:58 +0300
+
+virgo-api (2.12.35) stable; urgency=low
+
+  Other
+  * Refactor user role assignment logic
+
+ -- univrs <voyager@univrs.cloud>  Thu, 26 Mar 2026 17:55:20 +0200
+
+virgo-api (2.12.34) stable; urgency=low
+
+  Other
+  * Change how setup completed is checked
+
+ -- univrs <voyager@univrs.cloud>  Wed, 25 Mar 2026 19:00:16 +0200
+
+virgo-api (2.12.33) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 25 Mar 2026 18:44:19 +0200
+
+virgo-api (2.12.32) stable; urgency=low
+
+  Other
+  * Change how setup completed is checked
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 25 Mar 2026 18:41:32 +0200
+
+virgo-api (2.12.31) stable; urgency=low
+
+  Other
+  * Refactor Docker update checking logic to use imageId as the key for deduplication, allowing independent comparison of containers running different versions of the same image. This change improves the accuracy of update detection and reduces redundant registry requests.
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Mar 2026 02:35:47 +0200
+
+virgo-api (2.12.30) stable; urgency=low
+
+  Other
+  * Refactor Docker image reference parsing and manifest fetching logic to support multiple registries. Introduced a unified method for retrieving image digests, enhancing compatibility with public registries and improving error handling for private registries.
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Mar 2026 02:03:58 +0200
+
+virgo-api (2.12.29) stable; urgency=low
+
+  Other
+  * Refactor loadServices function to improve service unit handling by distinguishing between active and unloaded units. Added memory and description mapping for better service state representation. Updated service retrieval logic for clarity and consistency.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 20:18:02 +0200
+
+virgo-api (2.12.28) stable; urgency=low
+
+  Other
+  * Refactor service state determination logic by removing redundant conditional checks. This simplifies the code and enhances maintainability.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 16:15:20 +0200
+
+virgo-api (2.12.27) stable; urgency=low
+
+  Other
+  * Enhance service unit handling by allowing template name resolution for unit files and improving broken service detection. Updated logic to check for both 'not-found' and 'error' states.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 15:56:03 +0200
+
+virgo-api (2.12.26) stable; urgency=low
+
+  Other
+  * Add service restart
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 13:40:02 +0200
+
+virgo-api (2.12.25) stable; urgency=low
+
+  Other
+  * Refactor service management functions to use 'unit' instead of 'serviceName' for improved clarity and error handling. Added checks for broken services before enabling, starting, or stopping units.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 13:36:06 +0200
+
+virgo-api (2.12.24) stable; urgency=low
+
+  Other
+  * Add  service management and expand unit types
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 13:20:03 +0200
+
+virgo-api (2.12.23) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Add system service enable,disable,start,stop functionality
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 12:55:53 +0200
+
+virgo-api (2.12.22) stable; urgency=low
+
+  Other
+  * Fix github actions
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Mar 2026 19:50:52 +0200
+
+virgo-api (2.12.21) stable; urgency=low
+
+  Other
+  * Sync package.json and package-lock.json
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Mar 2026 19:48:47 +0200
+
+virgo-api (2.12.20) stable; urgency=low
+
+  Other
+  * Update github actions
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Mar 2026 19:46:10 +0200
+
+virgo-api (2.12.19) stable; urgency=low
+
+  Other
+  * Add service logs and update socket event names
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Mar 2026 21:51:02 +0200
+
+virgo-api (2.12.18) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Mar 2026 20:51:06 +0200
+
+virgo-api (2.12.17) stable; urgency=low
+
+  Other
+  * Force import pool in setup
+
+ -- univrs <voyager@univrs.cloud>  Wed, 18 Mar 2026 12:57:36 +0200
+
+virgo-api (2.12.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Mar 2026 22:39:30 +0200
+
+virgo-api (2.12.15) stable; urgency=low
+
+  Other
+  * Fix notification migration script errors
+  * Update setup and migrations
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Mar 2026 22:37:42 +0200
+
+virgo-api (2.12.14) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Mar 2026 19:05:56 +0200
+
+virgo-api (2.12.13) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Mar 2026 19:13:59 +0200
+
+virgo-api (2.12.12) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 26 Feb 2026 19:43:31 +0200
+
+virgo-api (2.12.11) stable; urgency=low
+
+  Other
+  * Improve host polling performance
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Feb 2026 16:55:08 +0200
+
+virgo-api (2.12.10) stable; urgency=low
+
+  Other
+  * Trust only local proxy
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 18 Feb 2026 21:19:35 +0200
+
+virgo-api (2.12.9) stable; urgency=low
+
+  Other
+  * Show disk throughput
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 15:17:10 +0200
+
+virgo-api (2.12.8) stable; urgency=low
+
+  Other
+  * Metrics show actual data read write per minute, not avreage speed per minute
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 12:24:57 +0200
+
+virgo-api (2.12.7) stable; urgency=low
+
+  Other
+  * Improve disk io fetched data
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 10:50:34 +0200
+
+virgo-api (2.12.6) stable; urgency=low
+
+  Other
+  * Fix metrics fetch for disk io
+
+ -- univrs <voyager@univrs.cloud>  Sun, 15 Feb 2026 13:06:42 +0200
+
+virgo-api (2.12.5) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Fix metrics
+
+ -- univrs <voyager@univrs.cloud>  Sun, 15 Feb 2026 11:22:24 +0200
+
+virgo-api (2.12.4) stable; urgency=low
+
+  Other
+  * Metrics provide disk read write and network rx tx
+
+ -- univrs <voyager@univrs.cloud>  Sun, 15 Feb 2026 08:06:19 +0200
+
+virgo-api (2.12.3) stable; urgency=low
+
+  Other
+  * Fix metrics data
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Feb 2026 22:13:06 +0200
+
+virgo-api (2.12.2) stable; urgency=low
+
+  Other
+  * Disable migration
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 18:03:49 +0200
+
+virgo-api (2.12.1) stable; urgency=low
+
+  Other
+  * Store app and bookmark icons on pool
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 16:53:08 +0200
+
+virgo-api (2.12.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 16:18:15 +0200
+
+virgo-api (2.11.48) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+  * Save bookmark icons
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 16:18:08 +0200
+
+virgo-api (2.11.47) stable; urgency=low
+
+  Other
+  * Logs should provide timestamp
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Feb 2026 18:26:21 +0200
+
+virgo-api (2.11.46) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Feb 2026 11:20:39 +0200
+
+virgo-api (2.11.45) stable; urgency=low
+
+  Other
+  * Properly cleanup terminal exec processes on disconnect
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Feb 2026 11:20:13 +0200
+
+virgo-api (2.11.44) stable; urgency=low
+
+  Other
+  * Remove time machine progress, it is unreliable
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Feb 2026 19:59:13 +0200
+
+virgo-api (2.11.43) stable; urgency=low
+
+  Other
+  * Wait a second for chokidar to updated it's watched list
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Feb 2026 13:21:35 +0200
+
+virgo-api (2.11.42) stable; urgency=low
+
+  Other
+  * Fix time machine watchers
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Feb 2026 13:14:42 +0200
+
+virgo-api (2.11.41) stable; urgency=low
+
+  Other
+  * Fix Ignoring unknown escape sequences for \;
+
+ -- univrs <voyager@univrs.cloud>  Sun, 1 Feb 2026 20:15:33 +0200
+
+virgo-api (2.11.40) stable; urgency=low
+
+  Other
+  * Fix time machine watcher
+
+ -- univrs <voyager@univrs.cloud>  Sun, 1 Feb 2026 19:50:38 +0200
+
+virgo-api (2.11.39) stable; urgency=low
+
+  Other
+  * Add Apple property list parser package
+  * Provide time machine details, snapshots and progress
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 1 Feb 2026 18:58:41 +0200
+
+virgo-api (2.11.38) stable; urgency=low
+
+  Other
+  * Delete and update share
+  * Delete and update time machine
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Jan 2026 21:05:26 +0200
+
+virgo-api (2.11.37) stable; urgency=low
+
+  Other
+  * Create time machine
+
+ -- univrs <voyager@univrs.cloud>  Thu, 29 Jan 2026 22:59:35 +0200
+
+virgo-api (2.11.36) stable; urgency=low
+
+  Other
+  * Remove auth api
+
+ -- univrs <voyager@univrs.cloud>  Tue, 27 Jan 2026 22:49:35 +0200
+
+virgo-api (2.11.35) stable; urgency=low
+
+  Other
+  * Install undici as package
+
+ -- univrs <voyager@univrs.cloud>  Tue, 27 Jan 2026 21:50:09 +0200
+
+virgo-api (2.11.34) stable; urgency=low
+
+  Other
+  * Websocket allow cookies
+  * Add rest api for auth
+
+ -- univrs <voyager@univrs.cloud>  Tue, 27 Jan 2026 21:30:42 +0200
+
+virgo-api (2.11.33) stable; urgency=low
+
+  Other
+  * Fix bookmark proxy update
+
+ -- univrs <voyager@univrs.cloud>  Mon, 26 Jan 2026 21:38:07 +0200
+
+virgo-api (2.11.32) stable; urgency=low
+
+  Other
+  * Bookmark can be proxied
+
+ -- univrs <voyager@univrs.cloud>  Mon, 26 Jan 2026 20:47:26 +0200
+
+virgo-api (2.11.31) stable; urgency=low
+
+  Other
+  * Fix import path
+
+ -- univrs <voyager@univrs.cloud>  Sun, 25 Jan 2026 13:49:21 +0200
+
+virgo-api (2.11.30) stable; urgency=low
+
+  Other
+  * Cleanup bullmq redis keys on startup
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 25 Jan 2026 13:42:39 +0200
+
+virgo-api (2.11.29) stable; urgency=low
+
+  Other
+  * Swap pages uses logarithmic scale
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 Jan 2026 12:06:30 +0200
+
+virgo-api (2.11.28) stable; urgency=low
+
+  Other
+  * FIx metrics data point normalization
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Jan 2026 20:36:33 +0200
+
+virgo-api (2.11.27) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Provide snapshots list
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Jan 2026 11:46:18 +0200
+
+virgo-api (2.11.26) stable; urgency=low
+
+  Other
+  * Update node to 24
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Jan 2026 23:09:25 +0200
+
+virgo-api (2.11.25) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Jan 2026 23:01:53 +0200
+
+virgo-api (2.11.24) stable; urgency=low
+
+  Other
+  * Don't need container.name
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Jan 2026 07:33:26 +0200
+
+virgo-api (2.11.23) stable; urgency=low
+
+  Other
+  * Increase up delay to 1 minute
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Jan 2026 19:21:15 +0200
+
+virgo-api (2.11.22) stable; urgency=low
+
+  Other
+  * Wait for network connection to be available
+  * Remove url from applications db table
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Jan 2026 19:12:29 +0200
+
+virgo-api (2.11.21) stable; urgency=low
+
+  Other
+  * Remove unneded migrations
+  * Remove orphans when updating apps
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Jan 2026 11:34:12 +0200
+
+virgo-api (2.11.20) stable; urgency=low
+
+  Other
+  * Don't aggregate memory metrics
+
+ -- univrs <voyager@univrs.cloud>  Fri, 16 Jan 2026 15:40:44 +0200
+
+virgo-api (2.11.19) stable; urgency=low
+
+  Other
+  * Fix metrics for disk io usage
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 16 Jan 2026 15:35:00 +0200
+
+virgo-api (2.11.18) stable; urgency=low
+
+  Other
+  * Template type no longer exists
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Jan 2026 20:51:00 +0200
+
+virgo-api (2.11.17) stable; urgency=low
+
+  Other
+  * User service name instead of container name when performing service actions
+  * Use template name instead of id for install
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Jan 2026 20:42:31 +0200
+
+virgo-api (2.11.16) stable; urgency=low
+
+  Other
+  * Fix undefined on service action
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Jan 2026 20:25:13 +0200
+
+virgo-api (2.11.15) stable; urgency=low
+
+  Other
+  * Make docker operations more resilient and less dependent on state
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Jan 2026 16:11:20 +0200
+
+virgo-api (2.11.14) stable; urgency=low
+
+  Other
+  * Fix project paths
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Jan 2026 14:58:02 +0200
+
+virgo-api (2.11.13) stable; urgency=low
+
+  Other
+  * Wait for exit code file to be written (handle race condition)
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 18:16:10 +0200
+
+virgo-api (2.11.12) stable; urgency=low
+
+  Other
+  * Improve update error handling
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 17:53:59 +0200
+
+virgo-api (2.11.11) stable; urgency=low
+
+  Other
+  * Mark as has updates if tag changed in compose file
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 10:17:52 +0200
+
+virgo-api (2.11.10) stable; urgency=low
+
+  Other
+  * Update stack files daily
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 01:46:28 +0200
+
+virgo-api (2.11.9) stable; urgency=low
+
+  Other
+  * Improve findContainerByAppName
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Jan 2026 12:22:18 +0200
+
+virgo-api (2.11.8) stable; urgency=low
+
+  Other
+  * Remove i2c install from action
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Jan 2026 03:01:21 +0200
+
+virgo-api (2.11.7) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Jan 2026 02:53:31 +0200
+
+virgo-api (2.11.6) stable; urgency=low
+
+  Other
+  * Handle unix socket connection error so app does not crash
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Jan 2026 19:35:48 +0200
+
+virgo-api (2.11.5) stable; urgency=low
+
+  Other
+  * Use unix socket to read UPS data
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Jan 2026 15:23:04 +0200
+
+virgo-api (2.11.4) stable; urgency=low
+
+  Other
+  * Increase wait time after changing network, so it does not report 0 speed
+  * If default interface, wait for speed
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Jan 2026 21:05:40 +0200
+
+virgo-api (2.11.3) stable; urgency=low
+
+  Other
+  * Fix network bond logic
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Jan 2026 20:28:13 +0200
+
+virgo-api (2.11.2) stable; urgency=low
+
+  Other
+  * Fix dns and search domain when creating bond
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Jan 2026 18:01:43 +0200
+
+virgo-api (2.11.1) stable; urgency=low
+
+  Other
+  * If bond read network speed from active slave
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Jan 2026 17:39:40 +0200
+
+virgo-api (2.11.0) stable; urgency=low
+
+  Other
+  * Comment about bond
+  * Return network interfaces and support bond
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Jan 2026 17:16:53 +0200
+
+virgo-api (2.10.68) stable; urgency=low
+
+  Other
+  * Apps can be installed multiple times, improve finding containers
+
+ -- univrs <voyager@univrs.cloud>  Sun, 4 Jan 2026 23:44:52 +0200
+
+virgo-api (2.10.67) stable; urgency=low
+
+  Other
+  * Use systeminformation for docker stats
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Dec 2025 18:36:41 +0200
+
+virgo-api (2.10.66) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 29 Dec 2025 21:45:37 +0100
+
+virgo-api (2.10.65) stable; urgency=low
+
+  Other
+  * Fix migration execution order
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Dec 2025 19:51:14 +0200
+
+virgo-api (2.10.64) stable; urgency=low
+
+  Other
+  * If app or bookmark has midding ordering db row, still return them
+  * Rename configuration order to item order
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Dec 2025 19:31:25 +0200
+
+virgo-api (2.10.63) stable; urgency=low
+
+  Other
+  * Provide better share space usage
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Dec 2025 16:13:54 +0200
+
+virgo-api (2.10.62) stable; urgency=low
+
+  Other
+  * Provide better share space usage
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Dec 2025 15:22:45 +0200
+
+virgo-api (2.10.61) stable; urgency=low
+
+  Other
+  * Return share path
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Dec 2025 14:51:22 +0200
+
+virgo-api (2.10.60) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 24 Dec 2025 19:28:44 +0200
+
+virgo-api (2.10.59) stable; urgency=low
+
+  Other
+  * 1st draft of initial setup
+  * Separate allowed actions list for apps and services
+
+ -- univrs <voyager@univrs.cloud>  Wed, 24 Dec 2025 19:28:04 +0200
+
+virgo-api (2.10.58) stable; urgency=low
+
+  Other
+  * Enable notifications for data corruption events
+
+ -- univrs <voyager@univrs.cloud>  Tue, 23 Dec 2025 12:47:16 +0200
+
+virgo-api (2.10.57) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 22 Dec 2025 18:12:54 +0200
+
+virgo-api (2.10.56) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 22 Dec 2025 09:17:57 +0200
+
+virgo-api (2.10.55) stable; urgency=low
+
+  Other
+  * Provide both raw and normalized values
+
+ -- univrs <voyager@univrs.cloud>  Thu, 18 Dec 2025 17:11:39 +0200
+
+virgo-api (2.10.54) stable; urgency=low
+
+  Other
+  * Metrics return full 1st hour
+
+ -- univrs <voyager@univrs.cloud>  Thu, 18 Dec 2025 16:21:29 +0200
+
+virgo-api (2.10.53) stable; urgency=low
+
+  Other
+  * Don't cache series ids
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 22:37:46 +0200
+
+virgo-api (2.10.52) stable; urgency=low
+
+  Other
+  * Enable/disable metrics installs/uninstall PCP app
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 17:53:43 +0200
+
+virgo-api (2.10.51) stable; urgency=low
+
+  Other
+  * Provide data using PCP api
+  * Change how how to enable disable metrics
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 17:33:51 +0200
+
+virgo-api (2.10.50) stable; urgency=low
+
+  Other
+  * Fix wrong memory usage report for services
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 14:14:30 +0200
+
+virgo-api (2.10.49) stable; urgency=low
+
+  Other
+  * Use apt instead of apt-get
+  * Fix zram script
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 14:09:23 +0200
+
+virgo-api (2.10.48) stable; urgency=low
+
+  Other
+  * Optimize: Create docker client util, reduce memory usage
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 13:12:29 +0200
+
+virgo-api (2.10.47) stable; urgency=low
+
+  Other
+  * Fix missing loop
+  * Provide service memory usage
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 12:36:44 +0200
+
+virgo-api (2.10.46) stable; urgency=low
+
+  Other
+  * Fix: Queue memory leak, reuse instead of create on every connection
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 12:02:19 +0200
+
+virgo-api (2.10.45) stable; urgency=low
+
+  Other
+  * Fix: EventEmitter memory leak
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 10:15:53 +0200
+
+virgo-api (2.10.44) stable; urgency=low
+
+  Other
+  * Fix PCP archive lookup
+  * Improve metrics performance
+  * Improve metrics performance
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 06:22:00 +0200
+
+virgo-api (2.10.43) stable; urgency=low
+
+  Other
+  * Format code
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 02:44:35 +0200
+
+virgo-api (2.10.42) stable; urgency=low
+
+  Other
+  * Fix metrics not querying into the past 12 hours
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 02:36:56 +0200
+
+virgo-api (2.10.41) stable; urgency=low
+
+  Other
+  * Don't load metrics on startup
+
+ -- univrs <voyager@univrs.cloud>  Mon, 15 Dec 2025 20:25:29 +0200
+
+virgo-api (2.10.40) stable; urgency=low
+
+  Other
+  * Process metrics
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 15 Dec 2025 19:57:35 +0200
+
+virgo-api (2.10.39) stable; urgency=low
+
+  Other
+  * Add missing key for jobs
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Dec 2025 20:35:43 +0200
+
+virgo-api (2.10.38) stable; urgency=low
+
+  Other
+  * Create dataset to store metrics
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Dec 2025 20:24:39 +0200
+
+virgo-api (2.10.37) stable; urgency=low
+
+  Other
+  * Metrics install/enable/disable
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Dec 2025 17:17:09 +0200
+
+virgo-api (2.10.36) stable; urgency=low
+
+  Other
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Dec 2025 11:13:20 +0200
+
+virgo-api (2.10.35) stable; urgency=low
+
+  Other
+  * Disable NVMe-oF services
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Dec 2025 23:04:09 +0200
+
+virgo-api (2.10.34) stable; urgency=low
+
+  Other
+  * Configure zram
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Dec 2025 13:54:11 +0200
+
+virgo-api (2.10.33) stable; urgency=low
+
+  Other
+  * Change remove to uninstall
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Dec 2025 04:26:35 +0200
+
+virgo-api (2.10.32) stable; urgency=low
+
+  Other
+  * Improve performance
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Dec 2025 17:42:40 +0200
+
+virgo-api (2.10.31) stable; urgency=low
+
+  Other
+  * Provide app+container cpu+memory resource metrics
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Dec 2025 15:31:28 +0200
+
+virgo-api (2.10.30) stable; urgency=low
+
+  Other
+  * Fiddle with logic
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Dec 2025 00:05:11 +0200
+
+virgo-api (2.10.29) stable; urgency=low
+
+  Other
+  * Fix app remove not cleaning  up
+
+ -- univrs <voyager@univrs.cloud>  Tue, 9 Dec 2025 23:13:16 +0200
+
+virgo-api (2.10.28) stable; urgency=low
+
+  Other
+  * Update logic to fetch apps  stack file
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 9 Dec 2025 23:01:54 +0200
+
+virgo-api (2.10.27) stable; urgency=low
+
+  Other
+  * Fix typo
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 11:46:05 +0200
+
+virgo-api (2.10.26) stable; urgency=low
+
+  Other
+  * Initialize services in module
+  * Configuration requires auth and admin role
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 11:29:53 +0200
+
+virgo-api (2.10.25) stable; urgency=low
+
+  Other
+  * Fetch services
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 11:02:43 +0200
+
+virgo-api (2.10.24) stable; urgency=low
+
+  Other
+  * Wait for updates list to generate before stopping checking state
+
+ -- univrs <voyager@univrs.cloud>  Sat, 6 Dec 2025 22:11:49 +0200
+
+virgo-api (2.10.23) stable; urgency=low
+
+  Other
+  * Reduce host system services polling frequency
+
+ -- univrs <voyager@univrs.cloud>  Sat, 6 Dec 2025 21:50:44 +0200
+
+virgo-api (2.10.22) stable; urgency=low
+
+  Other
+  * Update LICENSE
+  * Provide host system services
+  * Provide host system services only to logged in and admin type users
+
+ -- univrs <voyager@univrs.cloud>  Sat, 6 Dec 2025 21:43:24 +0200
+
+virgo-api (2.10.21) stable; urgency=low
+
+  Other
+  * Log apt-listchanges
+
+ -- univrs <voyager@univrs.cloud>  Fri, 5 Dec 2025 00:09:10 +0200
+
+virgo-api (2.10.20) stable; urgency=low
+
+  Other
+  * Shares poll instead of cron
+
+ -- univrs <voyager@univrs.cloud>  Thu, 4 Dec 2025 19:31:20 +0200
+
+virgo-api (2.10.19) stable; urgency=low
+
+  Other
+  * Periodically check shares for size change
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 4 Dec 2025 19:13:28 +0200
+
+virgo-api (2.10.18) stable; urgency=low
+
+  Other
+  * If migrations fail, don't fail api startup
+
+ -- univrs <voyager@univrs.cloud>  Tue, 2 Dec 2025 23:29:11 +0200
+
+virgo-api (2.10.17) stable; urgency=low
+
+  Other
+  * Revert back to using systemctl
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Nov 2025 03:32:46 +0200
+
+virgo-api (2.10.16) stable; urgency=low
+
+  Other
+  * Update gitignore
+  * Update
+  * Fix binary path
+  * Run script as commonjs
+  * CD before running script
+  * Fix missing async in migrations
+  * Update logging text
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Nov 2025 03:23:16 +0200
+
+virgo-api (2.10.15) stable; urgency=low
+
+  Other
+  * Run migrations on postinstall
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Nov 2025 02:49:17 +0200
+
+virgo-api (2.10.14) stable; urgency=low
+
+  Other
+  * Fix typo
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Nov 2025 11:43:58 +0200
+
+virgo-api (2.10.13) stable; urgency=low
+
+  Other
+  * Add natural language processing to transform action verbs
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Nov 2025 11:34:36 +0200
+
+virgo-api (2.10.12) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Application recreate action
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Nov 2025 10:45:43 +0200
+
+virgo-api (2.10.11) stable; urgency=low
+
+  Other
+  * Do not discard request on connection
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Nov 2025 13:37:21 +0200
+
+virgo-api (2.10.10) stable; urgency=low
+
+  Other
+  * Improve performance of websocket server
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Nov 2025 13:27:58 +0200
+
+virgo-api (2.10.9) stable; urgency=low
+
+  Other
+  * Change websocket path to /api instead of /socket.io
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Nov 2025 11:13:54 +0200
+
+virgo-api (2.10.8) stable; urgency=low
+
+  Other
+  * Fix smtp configuration
+
+ -- univrs <voyager@univrs.cloud>  Mon, 24 Nov 2025 14:57:52 +0200
+
+virgo-api (2.10.7) stable; urgency=low
+
+  Other
+  * Fix smtp configuration
+
+ -- univrs <voyager@univrs.cloud>  Mon, 24 Nov 2025 14:30:09 +0200
+
+virgo-api (2.10.6) stable; urgency=low
+
+  Other
+  * Always set update state while running
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Nov 2025 10:08:46 +0200
+
+virgo-api (2.10.5) stable; urgency=low
+
+  Other
+  * Improve missing file handleing
+  * Improve missing file handling
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Nov 2025 03:09:00 +0200
+
+virgo-api (2.10.4) stable; urgency=low
+
+  Other
+  * Save update exit status value to report correct state
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Nov 2025 02:42:42 +0200
+
+virgo-api (2.10.3) stable; urgency=low
+
+  Other
+  * Refactor
+  * Improve on update progress check
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Nov 2025 01:22:17 +0200
+
+virgo-api (2.10.2) stable; urgency=low
+
+  Other
+  * Fix update logs stream
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Nov 2025 00:29:22 +0200
+
+virgo-api (2.10.1) stable; urgency=low
+
+  Other
+  * Minor refactor
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Nov 2025 23:49:17 +0200
+
+virgo-api (2.10.0) stable; urgency=low
+
+  Other
+  * Improve system update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Nov 2025 23:13:19 +0200
+
+virgo-api (2.9.9) stable; urgency=low
+
+  Other
+  * Fix file usage, require instead of import
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Nov 2025 13:30:38 +0200
+
+virgo-api (2.9.8) stable; urgency=low
+
+  Other
+  * Update notification service with migration step
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Nov 2025 13:05:34 +0200
+
+virgo-api (2.9.7) stable; urgency=low
+
+  Other
+  * Configure apt-listchanges to send emails
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Nov 2025 12:25:56 +0200
+
+virgo-api (2.9.6) stable; urgency=low
+
+  Other
+  * Use || instead of ??
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Nov 2025 19:11:04 +0200
+
+virgo-api (2.9.5) stable; urgency=low
+
+  Other
+  * Provide detailed app storage usage
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Nov 2025 19:02:09 +0200
+
+virgo-api (2.9.4) stable; urgency=low
+
+  Other
+  * Fix notifications
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Nov 2025 18:15:39 +0200
+
+virgo-api (2.9.3) stable; urgency=low
+
+  Other
+  * Remove bsd-mailx dependency
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Nov 2025 18:00:42 +0200
+
+virgo-api (2.9.2) stable; urgency=low
+
+  Other
+  * Move docker updates check to scheduled
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Nov 2025 10:27:56 +0200
+
+virgo-api (2.9.1) stable; urgency=low
+
+  Other
+  * Provide more pools details
+
+ -- univrs <voyager@univrs.cloud>  Mon, 17 Nov 2025 22:37:34 +0200
+
+virgo-api (2.9.0) stable; urgency=low
+
+  Other
+  * Provice app resource metrics
+
+ -- univrs <voyager@univrs.cloud>  Mon, 17 Nov 2025 12:57:54 +0200
+
+virgo-api (2.8.12) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Refactor pre & post install scripts
+  * FIx file name
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 15 Nov 2025 23:00:16 +0200
+
+virgo-api (2.8.11) stable; urgency=low
+
+  Other
+  * Improve docker pull progress parsing
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Nov 2025 12:47:47 +0200
+
+virgo-api (2.8.10) stable; urgency=low
+
+  Other
+  * Progress per layer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 11 Nov 2025 21:37:10 +0200
+
+virgo-api (2.8.9) stable; urgency=low
+
+  Other
+  * Fix typo in reference for title
+
+ -- univrs <voyager@univrs.cloud>  Tue, 11 Nov 2025 16:57:00 +0200
+
+virgo-api (2.8.8) stable; urgency=low
+
+  Other
+  * Add progress to job
+
+ -- univrs <voyager@univrs.cloud>  Tue, 11 Nov 2025 16:35:41 +0200
+
+virgo-api (2.8.7) stable; urgency=low
+
+  Other
+  * Fix return data structure for SN
+
+ -- univrs <voyager@univrs.cloud>  Mon, 10 Nov 2025 18:59:21 +0200
+
+virgo-api (2.8.6) stable; urgency=low
+
+  Other
+  * Fix missed replace
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Nov 2025 12:12:32 +0200
+
+virgo-api (2.8.5) stable; urgency=low
+
+  Other
+  * Improvements
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Nov 2025 12:05:16 +0200
+
+virgo-api (2.8.4) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 5 Nov 2025 00:00:47 +0200
+
+virgo-api (2.8.3) stable; urgency=low
+
+  Other
+  * Use node 22
+
+ -- univrs <voyager@univrs.cloud>  Fri, 31 Oct 2025 12:33:03 +0200
+
+virgo-api (2.8.2) stable; urgency=low
+
+  Other
+  * Install npm package verbose
+
+ -- univrs <voyager@univrs.cloud>  Fri, 31 Oct 2025 12:18:10 +0200
+
+virgo-api (2.8.1) stable; urgency=low
+
+  Other
+  * Update package-lock.json
+  * Update dependencies
+  * Override validator package version
+  * Remove node_modules
+
+ -- univrs <voyager@univrs.cloud>  Fri, 31 Oct 2025 12:06:28 +0200
+
+virgo-api (2.8.0) stable; urgency=low
+
+  Other
+  * Update workflow nodejs to 24 as it is the new LTS
+
+ -- univrs <voyager@univrs.cloud>  Fri, 31 Oct 2025 11:45:29 +0200
+
+virgo-api (2.7.14) stable; urgency=low
+
+  Other
+  * Docker hub requires the service query param, other don't
+
+ -- univrs <voyager@univrs.cloud>  Thu, 30 Oct 2025 21:39:42 +0200
+
+virgo-api (2.7.13) stable; urgency=low
+
+  Other
+  * Fix accept headers in registry manifest check
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Oct 2025 22:56:17 +0200
+
+virgo-api (2.7.12) stable; urgency=low
+
+  Other
+  * Configure the server to serve SPA
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Oct 2025 22:19:07 +0200
+
+virgo-api (2.7.11) stable; urgency=low
+
+  Other
+  * Improve app container updates check
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Oct 2025 10:52:44 +0200
+
+virgo-api (2.7.10) stable; urgency=low
+
+  Other
+  * Extract paths as private variables
+  * Extract paths as private variables
+  * Update dependencies
+  * Refactor: add Poller class for polling
+  * Clear polling timeout when stopping
+
+ -- univrs <voyager@univrs.cloud>  Sun, 26 Oct 2025 13:14:58 +0200
+
+virgo-api (2.7.9) stable; urgency=low
+
+  Other
+  * Remove return from setter
+  * Fix loop
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 17:22:38 +0300
+
+virgo-api (2.7.8) stable; urgency=low
+
+  Other
+  * Refactor update emission to use plugin state
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 14:49:49 +0300
+
+virgo-api (2.7.7) stable; urgency=low
+
+  Other
+  * Emit app updates from plugin
+  * Fix polling timeout logic in polling.js
+  * Fix polling timeout handling in polling.js
+  * Add null check before setting polling timeout
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 14:37:29 +0300
+
+virgo-api (2.7.6) stable; urgency=low
+
+  Other
+  * Fix: check for app updates on server start not on connection
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 11:05:03 +0300
+
+virgo-api (2.7.5) stable; urgency=low
+
+  Other
+  * Create UPS plugin
+  * Check for updates on app start and plugin register
+  * Move apps update check to update plugin
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 10:39:17 +0300
+
+virgo-api (2.7.4) stable; urgency=low
+
+  Other
+  * Rever scheduled job id
+  * Check UPS every 10 minutes
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 07:05:25 +0300
+
+virgo-api (2.7.3) stable; urgency=low
+
+  Other
+  * Fix polling plugin loading
+  * Stop polling after 1 minute of o socket clients
+  * Load data on server startup not on client connection
+  * Remove existing scheduled jobs when adding
+  * Actually don't need to remove before adding scheduled jobs
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 04:17:27 +0300
+
+virgo-api (2.7.2) stable; urgency=low
+
+  Other
+  * Refactor shares loading and emitting
+
+ -- univrs <voyager@univrs.cloud>  Sun, 19 Oct 2025 13:52:02 +0300
+
+virgo-api (2.7.1) stable; urgency=low
+
+  Other
+  * On install create storage space if not exists
+
+ -- univrs <voyager@univrs.cloud>  Sat, 18 Oct 2025 15:29:00 +0300
+
+virgo-api (2.7.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Oct 2025 18:14:41 +0300
+
+virgo-api (2.6.34) stable; urgency=low
+
+  Other
+  * Refactor server
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Oct 2025 18:10:55 +0300
+
+virgo-api (2.6.33) stable; urgency=low
+
+  Other
+  * Fix engine version
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Oct 2025 17:12:25 +0300
+
+virgo-api (2.6.32) stable; urgency=low
+
+  Other
+  * Update Node.js version in build workflow
+  * Update Node and npm version requirements
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Oct 2025 17:10:18 +0300
+
+virgo-api (2.6.31) stable; urgency=low
+
+  Other
+  * Update dependency installation in workflow
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Oct 2025 16:46:34 +0300
+
+virgo-api (2.6.30) stable; urgency=low
+
+  Other
+  * Update npm install command to ignore scripts
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Oct 2025 16:37:47 +0300
+
+virgo-api (2.6.29) stable; urgency=low
+
+  Other
+  * Update package-lock.json
+  * Add build and release badge to README
+  * Update README to simplify DEB build instructions
+  * Update README.md
+  * Update GitHub Actions runner to Ubuntu 24.04 ARM
+  * Update dependency installation command in workflow
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Oct 2025 16:25:03 +0300
+
+virgo-api (2.6.28) stable; urgency=low
+
+  Other
+  * Update package lock
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Oct 2025 21:49:57 +0300
+
+virgo-api (2.6.27) stable; urgency=low
+
+  Other
+  * Add build and release workflow
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Oct 2025 21:44:52 +0300
+
+virgo-api (2.6.26) stable; urgency=low
+
+  Other
+  * Check before emit
+  * auth middleware should be before all routes
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Oct 2025 08:17:10 +0000
+
+virgo-api (2.6.25) stable; urgency=low
+
+  Other
+  * Fix event observer callbacks not beeing async
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Oct 2025 21:39:54 +0300
+
+virgo-api (2.6.24) stable; urgency=low
+
+  Other
+  * Update package-lock.json
+  * Update dependencies
+  * Add ischroot check in preinstall
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Oct 2025 21:25:20 +0300
+
+virgo-api (2.6.23) stable; urgency=low
+
+  Other
+  * Refactor static router
+  * Update package-lock.json
+  * Move node upgrade to preinstall
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Oct 2025 21:15:53 +0300
+
+virgo-api (2.6.22) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Improve containers polling and keep cached for 1 minute after all client disconnected
+  * Refactor and improve polling
+  * Override deprecated packages
+  * Bump nodejs version
+  * Remove body-parser, already built in
+
+ -- univrs <voyager@univrs.cloud>  Fri, 10 Oct 2025 15:52:17 +0300
+
+virgo-api (2.6.21) stable; urgency=low
+
+  Other
+  * Set correct organization name in self signed certificate
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 11:44:11 +0300
+
+virgo-api (2.6.20) stable; urgency=low
+
+  Other
+  * Improve installed node version detection
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 03:28:20 +0300
+
+virgo-api (2.6.19) stable; urgency=low
+
+  Other
+  * Start service after install
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 03:20:31 +0300
+
+virgo-api (2.6.18) stable; urgency=low
+
+  Other
+  * Update nodejs only when not on the latest LTS
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 03:14:34 +0300
+
+virgo-api (2.6.17) stable; urgency=low
+
+  Other
+  * Improve migrations loading
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 02:58:40 +0300
+
+virgo-api (2.6.16) stable; urgency=low
+
+  Other
+  * Fix file move operation
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 02:23:12 +0300
+
+virgo-api (2.6.15) stable; urgency=low
+
+  Other
+  * Move db to pool
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 02:12:48 +0300
+
+virgo-api (2.6.14) stable; urgency=low
+
+  Other
+  * Update dns search
+
+ -- univrs <voyager@univrs.cloud>  Sun, 5 Oct 2025 16:05:47 +0300
+
+virgo-api (2.6.13) stable; urgency=low
+
+  Other
+  * Use const where appropiate
+  * Update hostname and domain name
+
+ -- univrs <voyager@univrs.cloud>  Sun, 5 Oct 2025 15:00:47 +0300
+
+virgo-api (2.6.12) stable; urgency=low
+
+  Other
+  * Fix async/await for network config loading
+  * Broader try/catch
+
+ -- univrs <voyager@univrs.cloud>  Sat, 4 Oct 2025 17:51:00 +0300
+
+virgo-api (2.6.11) stable; urgency=low
+
+  Other
+  * Revert to default websocket ping
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Oct 2025 23:03:12 +0300
+
+virgo-api (2.6.10) stable; urgency=low
+
+  Other
+  * Increase websocket ping
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Oct 2025 22:46:32 +0300
+
+virgo-api (2.6.9) stable; urgency=low
+
+  Other
+  * Update icons
+  * Refactor
+  * load ploguns after constructor finishes
+  * Make more async await
+  * Make functions fat arrow functions
+  * Update gateway as part of interface
+  * Emit jobs and delay job finish on interface update
+  * Improve network interface update and websocket timeout
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Oct 2025 21:26:54 +0300
+
+virgo-api (2.6.8) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Add host network actions
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Oct 2025 12:05:22 +0300
+
+virgo-api (2.6.7) stable; urgency=low
+
+  Other
+  * Rename service actions
+  * Add ordering plugin
+  * Fix internal emitter
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Sep 2025 15:08:50 +0300
+
+virgo-api (2.6.6) stable; urgency=low
+
+  Other
+  * Refactor: move files into dir as index
+  * Fix plugin loading
+  * Fix plugin loading
+  * Add bookmark jobs
+  * Check if user has permissions to do stuff with bookmarks
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Sun, 28 Sep 2025 16:02:41 +0300
+
+virgo-api (2.6.5) stable; urgency=low
+
+  Other
+  * Remove unused method
+  * Refactor: extract bookmarks from docker
+
+ -- univrs <voyager@univrs.cloud>  Sun, 28 Sep 2025 14:17:03 +0300
+
+virgo-api (2.6.4) stable; urgency=low
+
+  Other
+  * Add internal event emitter
+
+ -- univrs <voyager@univrs.cloud>  Sun, 28 Sep 2025 11:58:21 +0300
+
+virgo-api (2.6.3) stable; urgency=low
+
+  Other
+  * Fix duplicate method names
+
+ -- univrs <voyager@univrs.cloud>  Sun, 28 Sep 2025 11:11:43 +0300
+
+virgo-api (2.6.2) stable; urgency=low
+
+  Other
+  * Fix find
+  * Cleanup
+  * Remoev debuging
+  * Return order
+  * Fix associations
+  * Return raw data
+  * Convert to plain object
+  * Fix missing order rows
+
+ -- univrs <voyager@univrs.cloud>  Sun, 28 Sep 2025 01:20:07 +0300
+
+virgo-api (2.6.1) stable; urgency=low
+
+  Other
+  * Add order field
+  * Order by category
+
+ -- univrs <voyager@univrs.cloud>  Sat, 27 Sep 2025 23:40:49 +0300
+
+virgo-api (2.6.0) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Migrate to sqlite
+  * Add missing package
+  * Don't close db connection after migration ends
+
+ -- univrs <voyager@univrs.cloud>  Sat, 27 Sep 2025 22:02:38 +0300
+
+virgo-api (2.5.19) stable; urgency=low
+
+  Other
+  * Use values from config.js
+
+ -- univrs <voyager@univrs.cloud>  Sat, 27 Sep 2025 15:01:07 +0300
+
+virgo-api (2.5.18) stable; urgency=low
+
+  Other
+  * Use pipe to avoid shell
+
+ -- univrs <voyager@univrs.cloud>  Fri, 26 Sep 2025 01:46:49 +0300
+
+virgo-api (2.5.17) stable; urgency=low
+
+  Other
+  * Fix upgrade command
+
+ -- univrs <voyager@univrs.cloud>  Fri, 26 Sep 2025 01:17:12 +0300
+
+virgo-api (2.5.16) stable; urgency=low
+
+  Other
+  * Improve upgrade progress
+
+ -- univrs <voyager@univrs.cloud>  Fri, 26 Sep 2025 00:28:41 +0300
+
+virgo-api (2.5.15) stable; urgency=low
+
+  Other
+  * Make check upgrade async
+
+ -- univrs <voyager@univrs.cloud>  Fri, 26 Sep 2025 00:08:42 +0300
+
+virgo-api (2.5.14) stable; urgency=low
+
+  Other
+  * Use shell for upgrade
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Sep 2025 23:51:06 +0300
+
+virgo-api (2.5.13) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Sep 2025 23:47:01 +0300
+
+virgo-api (2.5.12) stable; urgency=low
+
+  Other
+  * More secure execution
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Sep 2025 23:33:26 +0300
+
+virgo-api (2.5.11) stable; urgency=low
+
+  Other
+  * Fix exec
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Sep 2025 19:22:17 +0300
+
+virgo-api (2.5.10) stable; urgency=low
+
+  Other
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Sep 2025 18:50:31 +0300
+
+virgo-api (2.5.9) stable; urgency=low
+
+  Other
+  * Improve upgrade
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Sep 2025 13:14:36 +0300
+
+virgo-api (2.5.8) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Use tee to write upgrade logs to file
+
+ -- univrs <voyager@univrs.cloud>  Tue, 23 Sep 2025 12:40:32 +0300
+
+virgo-api (2.5.7) stable; urgency=low
+
+  Other
+  * Remove unused imports
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Sep 2025 08:50:57 +0300
+
+virgo-api (2.5.6) stable; urgency=low
+
+  Other
+  * Fix imports
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Sep 2025 23:24:33 +0300
+
+virgo-api (2.5.5) stable; urgency=low
+
+  Other
+  * Weather plugin
+  * Weather plugin
+  * Fix import path
+  * Make private public
+  * Share plugin
+  * Configuration plugin
+  * Fix class variable init
+  * Fix private declarations
+  * Fix private declarations
+  * Refactor
+  * Refactor
+  * Job plugin
+  * Docker plugin
+  * Fix streams
+  * Refactor
+  * Refactor
+  * Host plugin
+  * Don't start polling willy nilly
+  * Add name to plugins
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Sep 2025 23:17:51 +0300
+
+virgo-api (2.5.4) stable; urgency=low
+
+  Other
+  * Fixes and improvements
+  * Rename emitters to plugins
+  * Fix paths and imports
+  * Fix variable name
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Sep 2025 17:34:44 +0300
+
+virgo-api (2.5.3) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Sep 2025 11:18:27 +0300
+
+virgo-api (2.5.2) stable; urgency=low
+
+  Other
+  * Use Base emitter for host
+
+ -- univrs <voyager@univrs.cloud>  Mon, 15 Sep 2025 16:21:37 +0300
+
+virgo-api (2.5.1) stable; urgency=low
+
+  Other
+  * Refactor queue job names
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Sep 2025 14:52:32 +0300
+
+virgo-api (2.5.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Sep 2025 14:21:04 +0300
+
+virgo-api (2.4.0) stable; urgency=low
+
+  Other
+  * Fix docker polling
+  * Refactor socket event names
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Sep 2025 14:21:02 +0300
+
+virgo-api (2.3.4) stable; urgency=low
+
+  Other
+  * Use Base emitter for docker
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Sep 2025 00:58:01 +0300
+
+virgo-api (2.3.3) stable; urgency=low
+
+  Other
+  * Refactor base emitter
+  * Use Base emitter for users
+  * Use Base emitter for weather
+  * Use Base emitter for jobs
+  * Use Base emitter for shares
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Sep 2025 20:33:23 +0300
+
+virgo-api (2.3.2) stable; urgency=low
+
+  Other
+  * Added file watcher utils
+  * Use FileWatcher everywhere
+  * Create Base emitter
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Sep 2025 17:53:20 +0300
+
+virgo-api (2.3.1) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Sep 2025 15:19:07 +0300
+
+virgo-api (2.3.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Sep 2025 17:54:01 +0300
+
+virgo-api (2.2.29) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * chore
+  * Only admin can manage apps and bookmarks
+  * Only admin can manage settings
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Sep 2025 17:53:54 +0300
+
+virgo-api (2.2.28) stable; urgency=low
+
+  Other
+  * If not admin only allow own profile and password change
+
+ -- univrs <voyager@univrs.cloud>  Sat, 6 Sep 2025 15:08:02 +0300
+
+virgo-api (2.2.27) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 30 Aug 2025 19:25:30 +0300
+
+virgo-api (2.2.26) stable; urgency=low
+
+  Other
+  * Fix race condition of writing configuration file
+
+ -- univrs <voyager@univrs.cloud>  Thu, 28 Aug 2025 21:11:08 +0300
+
+virgo-api (2.2.25) stable; urgency=low
+
+  Other
+  * FIx 1st app install and 1st bookmark create
+
+ -- univrs <voyager@univrs.cloud>  Thu, 28 Aug 2025 20:24:17 +0300
+
+virgo-api (2.2.24) stable; urgency=low
+
+  Other
+  * Allow app removal, but keep data
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 Aug 2025 17:29:47 +0300
+
+virgo-api (2.2.23) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Download and set app icon on install and update
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 Aug 2025 15:59:49 +0300
+
+virgo-api (2.2.22) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Check file exists before touch
+
+ -- univrs <voyager@univrs.cloud>  Sun, 24 Aug 2025 20:15:56 +0300
+
+virgo-api (2.2.21) stable; urgency=low
+
+  Other
+  * Improve app services update check
+
+ -- univrs <voyager@univrs.cloud>  Mon, 18 Aug 2025 19:17:39 +0300
+
+virgo-api (2.2.20) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 17 Aug 2025 12:08:37 +0300
+
+virgo-api (2.2.19) stable; urgency=low
+
+  Other
+  * Update does autoremove
+
+ -- univrs <voyager@univrs.cloud>  Thu, 14 Aug 2025 22:23:17 +0300
+
+virgo-api (2.2.18) stable; urgency=low
+
+  Other
+  * Refactor
+  * Fix weather fetch timeout
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 Aug 2025 20:42:21 +0300
+
+virgo-api (2.2.17) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Return jobs waiting in queues
+  * Update dependencies
+  * Set bookmark category
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 Aug 2025 14:12:07 +0300
+
+virgo-api (2.2.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Manage bookmarks
+
+ -- univrs <voyager@univrs.cloud>  Sun, 10 Aug 2025 16:45:16 +0300
+
+virgo-api (2.2.15) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Fix drives reporting error when sata and not nvme
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 1 Aug 2025 13:49:55 +0200
+
+virgo-api (2.2.14) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Jul 2025 18:30:38 +0300
+
+virgo-api (2.2.13) stable; urgency=low
+
+  Other
+  * Run npm audit fix
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Jul 2025 19:32:56 +0300
+
+virgo-api (2.2.12) stable; urgency=low
+
+  Other
+  * Provide ZFS version
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Jul 2025 19:02:32 +0300
+
+virgo-api (2.2.11) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Jul 2025 17:36:40 +0300
+
+virgo-api (2.2.10) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 27 Jun 2025 17:50:29 +0300
+
+virgo-api (2.2.9) stable; urgency=low
+
+  Other
+  * Fix app install and update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Jun 2025 18:09:48 +0200
+
+virgo-api (2.2.8) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 18 Jun 2025 19:35:32 +0300
+
+virgo-api (2.2.7) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Jun 2025 13:12:30 +0300
+
+virgo-api (2.2.6) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Refactor watchers
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 May 2025 12:20:56 +0300
+
+virgo-api (2.2.5) stable; urgency=low
+
+  Other
+  * Use queues to poll templates
+  * Remove polling jobs on complete
+  * Keep 1 job for every scheduler
+  * Fix UPS structure reset
+
+ -- univrs <voyager@univrs.cloud>  Thu, 22 May 2025 18:17:29 +0300
+
+virgo-api (2.2.4) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 20 May 2025 20:28:54 +0300
+
+virgo-api (2.2.3) stable; urgency=low
+
+  Other
+  * Don't fail update if can't download docker compose yml
+
+ -- univrs <voyager@univrs.cloud>  Wed, 14 May 2025 22:03:35 +0300
+
+virgo-api (2.2.2) stable; urgency=low
+
+  Other
+  * Update docker compose when updating app
+
+ -- univrs <voyager@univrs.cloud>  Wed, 14 May 2025 20:37:48 +0300
+
+virgo-api (2.2.1) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Prune images after update
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 May 2025 21:55:10 +0300
+
+virgo-api (2.2.0) stable; urgency=low
+
+  Other
+  * Add weather emitter
+
+ -- univrs <voyager@univrs.cloud>  Fri, 9 May 2025 15:35:57 +0300
+
+virgo-api (2.1.13) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Always update job schedulers
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 May 2025 01:28:53 +0300
+
+virgo-api (2.1.12) stable; urgency=low
+
+  Other
+  * Use jobs to poll for updates
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 May 2025 14:33:49 +0300
+
+virgo-api (2.1.11) stable; urgency=low
+
+  Other
+  * Format code
+  * Use better file watcher, shares no longer polling but watching config files
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 May 2025 16:17:20 +0300
+
+virgo-api (2.1.10) stable; urgency=low
+
+  Other
+  * Refactoring
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 May 2025 12:22:53 +0300
+
+virgo-api (2.1.9) stable; urgency=low
+
+  Other
+  * Improve app updates state changes
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 May 2025 21:32:20 +0300
+
+virgo-api (2.1.8) stable; urgency=low
+
+  Other
+  * Use async/await
+  * Use async/await
+  * Use async/await
+  * Use async/await
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 May 2025 15:13:45 +0300
+
+virgo-api (2.1.7) stable; urgency=low
+
+  Other
+  * Use async/await
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Apr 2025 23:09:21 +0300
+
+virgo-api (2.1.6) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Resize container terminal to match client size
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Apr 2025 12:30:05 +0300
+
+virgo-api (2.1.5) stable; urgency=low
+
+  Other
+  * After update completes, update updates cache
+  * Support docker.io ghcr.io lscr.io registries
+  * Update dependencies
+  * Improve updates detection
+
+ -- univrs <voyager@univrs.cloud>  Tue, 29 Apr 2025 00:46:43 +0300
+
+virgo-api (2.1.4) stable; urgency=low
+
+  Other
+  * Uninstall unused deps
+  * Check for updates
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Apr 2025 15:48:57 +0300
+
+virgo-api (2.1.3) stable; urgency=low
+
+  Other
+  * No more proxies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 22 Apr 2025 15:46:54 +0300
+
+virgo-api (2.1.2) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Apr 2025 22:54:54 +0300
+
+virgo-api (2.1.1) stable; urgency=low
+
+  Other
+  * Update stack url generation
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Apr 2025 12:15:54 +0300
+
+virgo-api (2.1.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Apr 2025 21:11:05 +0300
+
+virgo-api (2.0.13) stable; urgency=low
+
+  Other
+  * Camel case storage keys
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Apr 2025 21:10:56 +0300
+
+virgo-api (2.0.12) stable; urgency=low
+
+  Other
+  * Stream logs
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Apr 2025 19:09:41 +0300
+
+virgo-api (2.0.11) stable; urgency=low
+
+  Other
+  * Add service actions, not just for apps
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Apr 2025 14:34:42 +0300
+
+virgo-api (2.0.10) stable; urgency=low
+
+  Other
+  * User lock/unlock
+
+ -- univrs <voyager@univrs.cloud>  Sat, 12 Apr 2025 11:30:45 +0300
+
+virgo-api (2.0.9) stable; urgency=low
+
+  Other
+  * Don't allow other users to change owner profile
+  * Fix profile update
+  * Improve profile update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 16:05:10 +0300
+
+virgo-api (2.0.8) stable; urgency=low
+
+  Other
+  * Don't create users disabled
+  * Set user disabled state
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 14:48:54 +0300
+
+virgo-api (2.0.7) stable; urgency=low
+
+  Other
+  * Fix typo
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 14:00:23 +0300
+
+virgo-api (2.0.6) stable; urgency=low
+
+  Other
+  * Fix user password update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 13:42:49 +0300
+
+virgo-api (2.0.5) stable; urgency=low
+
+  Other
+  * Manage users
+  * Set fullname of the user
+  * Fix user delete process
+  * Update dependencies
+  * Change any user password, only owner can change his own password
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 13:31:42 +0300
+
+virgo-api (2.0.4) stable; urgency=low
+
+  Other
+  * Return user email
+
+ -- univrs <voyager@univrs.cloud>  Thu, 10 Apr 2025 21:34:40 +0300
+
+virgo-api (2.0.3) stable; urgency=low
+
+  Other
+  * Update profile and change password, with jobs
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Apr 2025 22:13:45 +0300
+
+virgo-api (2.0.2) stable; urgency=low
+
+  Other
+  * Fix typo
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 23:40:31 +0300
+
+virgo-api (2.0.1) stable; urgency=low
+
+  Other
+  * Fix queues overlapping
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 23:35:26 +0300
+
+virgo-api (2.0.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 20:50:03 +0300
+
+virgo-api (1.2.39) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Peform docker actions with jobs
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 20:49:54 +0300
+
+virgo-api (1.2.38) stable; urgency=low
+
+  Other
+  * Use correct format
+  * Sigle quote .env values Single-quoted (') values are used literally.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Apr 2025 20:37:20 +0300
+
+virgo-api (1.2.37) stable; urgency=low
+
+  Other
+  * Build for arm64 only
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Apr 2025 20:47:52 +0300
+
+virgo-api (1.2.36) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Package lock
+  * Allow releaseinfo change
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Apr 2025 20:27:51 +0300
+
+virgo-api (1.2.35) stable; urgency=low
+
+  Other
+  * Add jobs and install docker compose with jobs
+  * Forgot the file
+  * Don't double fetch users
+  * Added container name field
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Apr 2025 23:29:48 +0300
+
+virgo-api (1.2.34) stable; urgency=low
+
+  Other
+  * Add redis server as dependency and install BullMQ
+
+ -- univrs <voyager@univrs.cloud>  Tue, 1 Apr 2025 23:10:27 +0300
+
+virgo-api (1.2.33) stable; urgency=low
+
+  Other
+  * Use apt-get
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 22:58:40 +0300
+
+virgo-api (1.2.32) stable; urgency=low
+
+  Other
+  * Install apps of type 3
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 19:45:33 +0300
+
+virgo-api (1.2.31) stable; urgency=low
+
+  Other
+  * Return docker containers with labels
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Mar 2025 21:56:29 +0300
+
+virgo-api (1.2.30) stable; urgency=low
+
+  Other
+  * Improve data stream
+  * Detect shell of a container
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Mar 2025 01:43:32 +0200
+
+virgo-api (1.2.29) stable; urgency=low
+
+  Other
+  * Handle docker terminal
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 23:03:13 +0200
+
+virgo-api (1.2.28) stable; urgency=low
+
+  Other
+  * Improvements
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 16:27:10 +0200
+
+virgo-api (1.2.27) stable; urgency=low
+
+  Other
+  * Remove -e from echo, not needed
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 16:01:15 +0200
+
+virgo-api (1.2.26) stable; urgency=low
+
+  Other
+  * Change samba user password
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 15:45:55 +0200
+
+virgo-api (1.2.25) stable; urgency=low
+
+  Other
+  * Change user password
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 15:22:56 +0200
+
+virgo-api (1.2.24) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Mar 2025 21:29:20 +0000
+
+virgo-api (1.2.23) stable; urgency=low
+
+  Other
+  * Read data file only when changes, use file watcher
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Mar 2025 21:14:19 +0200
+
+virgo-api (1.2.22) stable; urgency=low
+
+  Other
+  * Add --json-int param to return int instead of string
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Mar 2025 11:45:49 +0200
+
+virgo-api (1.2.21) stable; urgency=low
+
+  Other
+  * Use native zfs/zpool json outputs
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Mar 2025 11:20:07 +0200
+
+virgo-api (1.2.20) stable; urgency=low
+
+  Other
+  * Provide API version
+
+ -- univrs <voyager@univrs.cloud>  Sat, 15 Mar 2025 10:52:22 +0200
+
+virgo-api (1.2.19) stable; urgency=low
+
+  Other
+  * Clear the account cookie value if session is terminated
+  * Support notification recipients
+
+ -- univrs <voyager@univrs.cloud>  Sat, 8 Mar 2025 20:47:56 +0200
+
+virgo-api (1.2.18) stable; urgency=low
+
+  Other
+  * Clear account cookie
+
+ -- univrs <voyager@univrs.cloud>  Sat, 8 Mar 2025 15:03:14 +0200
+
+virgo-api (1.2.17) stable; urgency=low
+
+  Other
+  * We actually need another package
+
+ -- univrs <voyager@univrs.cloud>  Sat, 8 Mar 2025 01:58:58 +0200
+
+virgo-api (1.2.16) stable; urgency=low
+
+  Other
+  * Use mailx to send email instead of sendmail
+
+ -- univrs <voyager@univrs.cloud>  Sat, 8 Mar 2025 01:35:31 +0200
+
+virgo-api (1.2.15) stable; urgency=low
+
+  Other
+  * Do not preinstall package
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 23:45:58 +0200
+
+virgo-api (1.2.14) stable; urgency=low
+
+  Other
+  * Preinstall msmtp dependency
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 23:35:40 +0200
+
+virgo-api (1.2.13) stable; urgency=low
+
+  Other
+  * Run full-upgrade instead of just upgrade
+  * Rever changes
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 23:04:19 +0200
+
+virgo-api (1.2.12) stable; urgency=low
+
+  Other
+  * Remove zfsutils-linux as dependency, should be installed by default on the system
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 21:54:47 +0200
+
+virgo-api (1.2.11) stable; urgency=low
+
+  Other
+  * Only emit configuration if logged in
+  * Setup email notification for ZFS events via ZED
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 21:39:23 +0200
+
+virgo-api (1.2.10) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 16:38:06 +0200
+
+virgo-api (1.2.9) stable; urgency=low
+
+  Other
+  * Manage SMTP server configuration
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 12:51:04 +0200
+
+virgo-api (1.2.8) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 2 Mar 2025 15:11:32 +0200
+
+virgo-api (1.2.7) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 1 Mar 2025 11:10:18 +0200
+
+virgo-api (1.2.6) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Feb 2025 14:23:49 +0200
+
+virgo-api (1.2.5) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Feb 2025 22:14:39 +0200
+
+virgo-api (1.2.4) stable; urgency=low
+
+  Other
+  * Fix shares list resetting
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Feb 2025 22:02:55 +0000
+
+virgo-api (1.2.3) stable; urgency=low
+
+  Other
+  * Fix shares list resetting
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Feb 2025 19:39:55 +0000
+
+virgo-api (1.2.2) stable; urgency=low
+
+  Other
+  * Offer share space info
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Feb 2025 21:08:33 +0200
+
+virgo-api (1.2.1) stable; urgency=low
+
+  Other
+  * Query only non deleted proxy hosts
+  * Update host.js
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Feb 2025 16:16:04 +0000
+
+virgo-api (1.2.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Feb 2025 22:30:51 +0200
+
+virgo-api (1.1.23) stable; urgency=low
+
+  Other
+  * Set correct coockie domain so both local and public domains work
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Feb 2025 22:30:43 +0200
+
+virgo-api (1.1.22) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Feb 2025 13:52:24 +0200
+
+virgo-api (1.1.21) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Feb 2025 02:13:25 +0200
+
+virgo-api (1.1.20) stable; urgency=low
+
+  Other
+  * Return pool status
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Feb 2025 01:05:38 +0200
+
+virgo-api (1.1.19) stable; urgency=low
+
+  Other
+  * Fix missing index
+
+ -- univrs <voyager@univrs.cloud>  Fri, 14 Feb 2025 14:56:50 +0200
+
+virgo-api (1.1.18) stable; urgency=low
+
+  Other
+  * Add nvme-cli dependency and return nvme temperature threshold values
+
+ -- univrs <voyager@univrs.cloud>  Fri, 14 Feb 2025 14:45:41 +0200
+
+virgo-api (1.1.17) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 2 Feb 2025 18:31:38 +0000
+
+virgo-api (1.1.16) stable; urgency=low
+
+  Other
+  * Fix updates
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Jan 2025 13:17:34 +0200
+
+virgo-api (1.1.15) stable; urgency=low
+
+  Other
+  * Improve data collection and structure
+
+ -- univrs <voyager@univrs.cloud>  Mon, 25 Nov 2024 12:58:24 +0200
+
+virgo-api (1.1.14) stable; urgency=low
+
+  Other
+  * Check docker actions if allowed to perform
+
+ -- univrs <voyager@univrs.cloud>  Sat, 16 Nov 2024 13:49:38 +0200
+
+virgo-api (1.1.13) stable; urgency=low
+
+  Other
+  * Allow kernel upgrades
+
+ -- univrs <voyager@univrs.cloud>  Sat, 9 Nov 2024 16:23:17 +0200
+
+virgo-api (1.1.12) stable; urgency=low
+
+  Other
+  * If upgrade fails, stay failed
+
+ -- univrs <voyager@univrs.cloud>  Wed, 6 Nov 2024 09:58:06 +0200
+
+virgo-api (1.1.11) stable; urgency=low
+
+  Other
+  * Return smb share comment section
+
+ -- univrs <voyager@univrs.cloud>  Mon, 4 Nov 2024 00:59:27 +0200
+
+virgo-api (1.1.10) stable; urgency=low
+
+  Other
+  * Use lts instead of stable when running n
+
+ -- univrs <voyager@univrs.cloud>  Sun, 3 Nov 2024 14:10:36 +0200
+
+virgo-api (1.1.9) stable; urgency=low
+
+  Other
+  * Keep old conf files when updating packages
+
+ -- univrs <voyager@univrs.cloud>  Sun, 3 Nov 2024 13:58:31 +0200
+
+virgo-api (1.1.8) stable; urgency=low
+
+  Other
+  * Merge
+  * Start after network online
+
+ -- univrs <voyager@univrs.cloud>  Sat, 2 Nov 2024 21:21:12 +0200
+
+virgo-api (1.1.7) stable; urgency=low
+
+  Other
+  * Add missing path to executable
+
+ -- univrs <voyager@univrs.cloud>  Fri, 1 Nov 2024 20:53:14 +0200
+
+virgo-api (1.1.6) stable; urgency=low
+
+  Other
+  * Update nodejs to the latest LTS version
+  * Update engine version
+
+ -- univrs <voyager@univrs.cloud>  Fri, 1 Nov 2024 20:42:28 +0200
+
+virgo-api (1.1.5) stable; urgency=low
+
+  Other
+  * Provide host network info
+  * Return correct FQDN
+  * Update sqlite file path
+
+ -- univrs <voyager@univrs.cloud>  Mon, 28 Oct 2024 03:03:09 +0200
+
+virgo-api (1.1.4) stable; urgency=low
+
+  Other
+  * Add linux system user node module
+  * Show users
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 26 Oct 2024 13:50:52 +0300
+
+virgo-api (1.1.3) stable; urgency=low
+
+  Other
+  * Rebuild package-lock.json
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Oct 2024 23:28:35 +0300
+
+virgo-api (1.1.2) stable; urgency=low
+
+  Other
+  * Check if UPS hardware exists
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Oct 2024 22:05:51 +0300
+
+virgo-api (1.1.1) stable; urgency=low
+
+  Other
+  * Upgrade is more quiet
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Oct 2024 21:03:32 +0300
+
+virgo-api (1.1.0) stable; urgency=low
+
+  Other
+  * Add I2C as optional dependency
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Oct 2024 20:26:44 +0300
+
+virgo-api (1.0.60) stable; urgency=low
+
+  Other
+  * Watch power state change instead of poll
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Oct 2024 15:15:24 +0300
+
+virgo-api (1.0.59) stable; urgency=low
+
+  Other
+  * Add smartmontools as dependency
+
+ -- univrs <voyager@univrs.cloud>  Sat, 19 Oct 2024 01:21:04 +0300
+
+virgo-api (1.0.58) stable; urgency=low
+
+  Other
+  * Allow clients to see if upgrade is running so maintenance can be shown
+  * Shares has valid users
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Oct 2024 18:51:49 +0300
+
+virgo-api (1.0.57) stable; urgency=low
+
+  Other
+  * Allow clients to see if upgrade is running so maintenance can be shown
+  * Allow clients to see if upgrade is running so maintenance can be shown
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Oct 2024 00:29:59 +0300
+
+virgo-api (1.0.56) stable; urgency=low
+
+  Other
+  * Return time machine status on smb share
+
+ -- univrs <voyager@univrs.cloud>  Tue, 15 Oct 2024 20:26:21 +0300
+
+virgo-api (1.0.55) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Fix cookie encode
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Oct 2024 02:29:17 +0300
+
+virgo-api (1.0.54) stable; urgency=low
+
+  Other
+  * Add configuration emitter
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Oct 2024 01:23:52 +0300
+
+virgo-api (1.0.53) stable; urgency=low
+
+  Other
+  * Update package-lock
+  * Remove debug code
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 01:44:06 +0300
+
+virgo-api (1.0.52) stable; urgency=low
+
+  Other
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 23:56:41 +0300
+
+virgo-api (1.0.51) stable; urgency=low
+
+  Other
+  * Don't clear progress in case upgrade fails
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 10:33:11 -0400
+
+virgo-api (1.0.50) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 10:12:30 -0400
+
+virgo-api (1.0.49) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 07:23:04 -0400
+
+virgo-api (1.0.48) stable; urgency=low
+
+  Other
+  * Test
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 07:18:29 -0400
+
+virgo-api (1.0.47) stable; urgency=low
+
+  Other
+  * Test
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 06:35:01 -0400
+
+virgo-api (1.0.46) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 06:18:06 -0400
+
+virgo-api (1.0.45) stable; urgency=low
+
+  Other
+  * Try something new
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 06:03:41 -0400
+
+virgo-api (1.0.44) stable; urgency=low
+
+  Other
+  * Try something new
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 06:00:35 -0400
+
+virgo-api (1.0.43) stable; urgency=low
+
+  Other
+  * debug
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 05:29:29 -0400
+
+virgo-api (1.0.42) stable; urgency=low
+
+  Other
+  * Trim response from file read
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 05:21:16 -0400
+
+virgo-api (1.0.41) stable; urgency=low
+
+  Other
+  * Emit check update finished after the updates are fetched
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 04:12:09 -0400
+
+virgo-api (1.0.40) stable; urgency=low
+
+  Other
+  * Properly handle user sessions
+  * Fix emits
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 08:26:23 +0300
+
+virgo-api (1.0.39) stable; urgency=low
+
+  Other
+  * Properly handle user sessions
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 04:51:22 +0300
+
+virgo-api (1.0.38) stable; urgency=low
+
+  Other
+  * Updated dependencies
+  * Properly handle user sessions
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 04:35:36 +0300
+
+virgo-api (1.0.37) stable; urgency=low
+
+  Other
+  * Emit certain data only authorized users
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 01:18:12 +0300
+
+virgo-api (1.0.36) stable; urgency=low
+
+  Other
+  * Don't allow unauthorised users to check for updates or check for running upgrades
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 00:30:11 +0300
+
+virgo-api (1.0.35) stable; urgency=low
+
+  Other
+  * Don't forget to emit upgrade null on startup and no upgrade is running
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 21:01:31 +0300
+
+virgo-api (1.0.34) stable; urgency=low
+
+  Other
+  * Return null if not authenticated instead of false
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 20:46:17 +0300
+
+virgo-api (1.0.33) stable; urgency=low
+
+  Other
+  * Keep update checks in state
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 18:29:00 +0300
+
+virgo-api (1.0.32) stable; urgency=low
+
+  Other
+  * Check for updates
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 16:06:44 +0300
+
+virgo-api (1.0.31) stable; urgency=low
+
+  Other
+  * Read upgrade.log after virgo-api update
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 23:43:34 +0300
+
+virgo-api (1.0.30) stable; urgency=low
+
+  Other
+  * Read upgrade.log after virgo-api update
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 23:29:32 +0300
+
+virgo-api (1.0.29) stable; urgency=low
+
+  Other
+  * Read upgrade.log after virgo-api update
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 23:22:25 +0300
+
+virgo-api (1.0.28) stable; urgency=low
+
+  Other
+  * Read upgrade.log after virgo-api update
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 23:19:35 +0300
+
+virgo-api (1.0.27) stable; urgency=low
+
+  Other
+  * Watch upgrade.log after virgo-api update
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 23:13:56 +0300
+
+virgo-api (1.0.26) stable; urgency=low
+
+  Other
+  * Watch upgrade.log after virgo-api update
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 23:07:59 +0300
+
+virgo-api (1.0.25) stable; urgency=low
+
+  Other
+  * Resume upgrade process after virgo-api updated
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 22:59:07 +0300
+
+virgo-api (1.0.24) stable; urgency=low
+
+  Other
+  * If virgo-api is updated during upgrade, don't kill the upgrade process
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 21:40:24 +0300
+
+virgo-api (1.0.23) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 14:59:14 +0000
+
+virgo-api (1.0.22) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Upgrade child process will not be killed
+  * Add touch package
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 14:00:45 +0000
+
+virgo-api (1.0.21) stable; urgency=low
+
+  Other
+  * On service start emit reboot and shutdown false
+  * Update dependencies
+  * Upgrade is non interactive
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 13:58:27 +0300
+
+virgo-api (1.0.20) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Add reboot and shutdown
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Oct 2024 18:54:27 +0300
+
+virgo-api (1.0.19) stable; urgency=low
+
+  Other
+  * Require authentication to perform actions
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Sep 2024 20:09:09 +0000
+
+virgo-api (1.0.18) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 27 Aug 2024 18:42:02 +0000
+
+virgo-api (1.0.17) stable; urgency=low
+
+  Other
+  * Use own domain
+
+ -- univrs <voyager@univrs.cloud>  Mon, 26 Aug 2024 09:16:06 +0300
+
+virgo-api (1.0.16) stable; urgency=low
+
+  Other
+  * Install dependency
+  * Perform container actions
+  * Format
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Aug 2024 16:34:58 +0000
+
+virgo-api (1.0.15) stable; urgency=low
+
+  Other
+  * Add docker socket action
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Jul 2024 20:41:43 +0300
+
+virgo-api (1.0.14) stable; urgency=low
+
+  Other
+  * Increase polling time
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Jul 2024 17:25:35 +0000
+
+virgo-api (1.0.13) stable; urgency=low
+
+  Other
+  * Get shares
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Jul 2024 19:20:51 +0300
+
+virgo-api (1.0.12) stable; urgency=low
+
+  Other
+  * Bump
+  * Add jq as dependency
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Jul 2024 20:05:29 +0300
+
+virgo-api (1.0.11) stable; urgency=low
+
+  Other
+  * Increse polling time (#2)
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Jul 2024 19:50:53 +0300
+

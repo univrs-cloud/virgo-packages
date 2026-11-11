@@ -1,0 +1,6425 @@
+virgo-ui (2.23.12) stable; urgency=low
+
+  Features
+  * show the NAS in place of the box on the up to date image
+  * show each update's changelog in the Updates list, with show/hide all, and indent the update progress log
+
+ -- univrs <voyager@univrs.cloud>  Wed, 11 Nov 2026 12:41:23 +0200
+
+virgo-ui (2.23.11) stable; urgency=low
+
+  Features
+  * show isometric images on the maintenance, rebooting and powered off screens
+
+ -- univrs <voyager@univrs.cloud>  Wed, 11 Nov 2026 02:30:56 +0200
+
+virgo-ui (2.23.10) stable; urgency=low
+
+  Features
+  * add illustrated empty and no-match states to the list pages and move Updates, Settings and About to a Node menu group
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 23:27:20 +0200
+
+virgo-ui (2.23.9) stable; urgency=low
+
+  Other
+  * split the changelog and release notes on the version commits instead of the tags
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 20:31:46 +0200
+
+virgo-ui (2.23.8) stable; urgency=low
+
+  Other
+  * use the changelog entry of each release as its GitHub release notes
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 20:08:05 +0200
+
+virgo-ui (2.23.7) stable; urgency=low
+
+  Other
+  * ship a changelog of the commit messages since each release in the package
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 20:04:38 +0200
+
+virgo-ui (2.23.6) stable; urgency=low
+
+  Features
+  * replace a drive from the topology through a modal of replacement candidates, and confirm before expanding or replacing
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Nov 2026 17:18:35 +0200
+
+virgo-ui (2.23.5) stable; urgency=low
+
+  Features
+  * add a reload button next to the Storage title that rereads the drives and pools
+  * use u-button for inline actions, add reload to the pool and service details, move Stop into the service menu and make dropdowns solid
+
+ -- univrs <voyager@univrs.cloud>  Mon, 9 Nov 2026 16:19:37 +0200
+
+virgo-ui (2.23.4) stable; urgency=low
+
+  Features
+  * show expand as an inline icon button in the pool details and end sentence tooltips with a period
+
+ -- univrs <voyager@univrs.cloud>  Mon, 9 Nov 2026 10:43:34 +0200
+
+virgo-ui (2.23.3) stable; urgency=low
+
+  Features
+  * match legend icons to the usage bar colors, show stripe instead of Data on topology badges and drop the Topology tab count
+  * expand a pool from its actions through a modal showing the current and new groups and the added capacity
+
+ -- univrs <voyager@univrs.cloud>  Mon, 9 Nov 2026 10:00:22 +0200
+
+virgo-ui (2.23.2) stable; urgency=low
+
+  Features
+  * say per pair for mirror layouts with more than one pair
+
+ -- univrs <voyager@univrs.cloud>  Sun, 8 Nov 2026 21:46:06 +0200
+
+virgo-ui (2.23.1) stable; urgency=low
+
+  Features
+  * hold Continue on univrs.cloud until the certificate is issued and keep showing that setup is still checking
+
+ -- univrs <voyager@univrs.cloud>  Sun, 8 Nov 2026 20:35:28 +0200
+
+virgo-ui (2.23.0) stable; urgency=low
+
+  Features
+  * pick a pool layout per drive type, with faster or more space and the recommended one preselected
+
+ -- univrs <voyager@univrs.cloud>  Sun, 8 Nov 2026 14:39:17 +0200
+
+virgo-ui (2.22.22) stable; urgency=low
+
+  Features
+  * let the admin reboot later after an update and remind them with a toast until the node reboots
+
+  Other
+  * bump sass to 1.108.1
+
+ -- univrs <voyager@univrs.cloud>  Sat, 7 Nov 2026 22:03:06 +0200
+
+virgo-ui (2.22.21) stable; urgency=low
+
+  Features
+  * open other nodes from their name on the Dashboard, and fix the Activity and Storage column widths in the Fleet sites table
+
+ -- univrs <voyager@univrs.cloud>  Sat, 7 Nov 2026 12:03:32 +0200
+
+virgo-ui (2.22.20) stable; urgency=low
+
+  Fixes
+  * match the terminal scrollbar to the page scrollbar and show no empty scrollbar while the app loads
+
+ -- univrs <voyager@univrs.cloud>  Sat, 7 Nov 2026 01:14:05 +0200
+
+virgo-ui (2.22.19) stable; urgency=low
+
+  Fixes
+  * match the page scrollbar to the list scrollbars, hide it on sign-in, maintenance and power screens and while a list page loads
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 23:37:42 +0200
+
+virgo-ui (2.22.18) stable; urgency=low
+
+  Features
+  * show search fields with a placeholder instead of a floating label, keep the icon picker one width and close it on Escape or when focus leaves
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 21:47:40 +0200
+
+virgo-ui (2.22.17) stable; urgency=low
+
+  Fixes
+  * show no empty folders or time capsule while they load and tint a group being reordered to match dark mode
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 13:02:18 +0200
+
+virgo-ui (2.22.16) stable; urgency=low
+
+  Features
+  * show only the actions that can run in the app, service and system service menus
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 12:48:48 +0200
+
+virgo-ui (2.22.15) stable; urgency=low
+
+  Features
+  * add a table view to sites, lay out the profile like the node's and give the sign in screens a background that follows dark mode
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 11:46:24 +0200
+
+virgo-ui (2.22.14) stable; urgency=low
+
+  Features
+  * add row icons to lists and tidy the state and sessions columns on mobile
+
+  Other
+  * bump sass to 1.108.0
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 10:49:11 +0200
+
+virgo-ui (2.22.13) stable; urgency=low
+
+  Fixes
+  * match the gap under page titles to the gap above on mobile
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Nov 2026 08:00:21 +0200
+
+virgo-ui (2.22.12) stable; urgency=low
+
+  Features
+  * rename time machines to time capsule with backup disks
+
+  Fixes
+  * read u-select light DOM options before the first render to avoid a second update
+  * keep textarea height fixed and mask text scrolled under its floating label
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 23:40:02 +0200
+
+virgo-ui (2.22.11) stable; urgency=low
+
+  Features
+  * show the dashboard node list even when this is the only node
+  * replace the dark mode switch with auto, light and dark theme options in the account menu
+
+  Other
+  * move surface, border and shadow colors into tokens and use Bootstrap variables
+  * use the exact Interfere color tokens and keep floating windows opaque
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 20:05:05 +0200
+
+virgo-ui (2.22.10) stable; urgency=low
+
+  Features
+  * adapt dashboard status for phones, refactor stylesheets and clear app logs on close
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 15:32:50 +0200
+
+virgo-ui (2.22.9) stable; urgency=low
+
+  Fixes
+  * keep color mode of nodes opened through fleet separate from fleet
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 13:29:11 +0200
+
+virgo-ui (2.22.8) stable; urgency=low
+
+  Fixes
+  * center address icons with their text in dashboard node chips
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 13:24:55 +0200
+
+virgo-ui (2.22.7) stable; urgency=low
+
+  Fixes
+  * square inner corners of dashboard status columns and stop weather click errors without a location
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 13:20:20 +0200
+
+virgo-ui (2.22.6) stable; urgency=low
+
+  Features
+  * move dashboard status into a full-width band above the apps
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 13:06:48 +0200
+
+virgo-ui (2.22.5) stable; urgency=low
+
+  Fixes
+  * darken gray and blue badge tints
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 09:21:41 +0200
+
+virgo-ui (2.22.4) stable; urgency=low
+
+  Fixes
+  * adjust dashboard column sizes and paddings
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 02:19:35 +0200
+
+virgo-ui (2.22.3) stable; urgency=low
+
+  Fixes
+  * dashboard data storage drives badge visibility
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 01:56:58 +0200
+
+virgo-ui (2.22.2) stable; urgency=low
+
+  Features
+  * give setup the sidebar shell with a collapsed menu and flat steps
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 00:44:12 +0200
+
+virgo-ui (2.22.1) stable; urgency=low
+
+  Fixes
+  * use the theme border on Fleet node cards and storage pills
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 00:28:59 +0200
+
+virgo-ui (2.22.0) stable; urgency=low
+
+  Features
+  * name the node's fqdn in the reboot and shut down confirms
+  * restyle the node and Fleet interface with a sidebar shell, split detail pages and dark mode
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Nov 2026 00:20:25 +0200
+
+virgo-ui (2.21.55) stable; urgency=low
+
+  Features
+  * warn against forwarding port 22 in the setup port forwarding step
+
+  Fixes
+  * use the simple fingerprint icon for About and biometric sign in
+
+ -- univrs <voyager@univrs.cloud>  Tue, 3 Nov 2026 17:55:33 +0200
+
+virgo-ui (2.21.54) stable; urgency=low
+
+  Other
+  * rename the shortcut icon search box class to shortcut-icon-search
+
+ -- univrs <voyager@univrs.cloud>  Tue, 3 Nov 2026 12:18:42 +0200
+
+virgo-ui (2.21.53) stable; urgency=low
+
+  Other
+  * switch the icons from Font Awesome to Phosphor, and app and service logs that load all at once instead of line by line
+
+ -- univrs <voyager@univrs.cloud>  Tue, 3 Nov 2026 11:48:02 +0200
+
+virgo-ui (2.21.52) stable; urgency=low
+
+  Other
+  * one label and value layout across About, Network and Settings, a cloud icon for Fleet, and the Profile link tooltip closing before the page opens
+
+ -- univrs <voyager@univrs.cloud>  Tue, 3 Nov 2026 03:44:49 +0200
+
+virgo-ui (2.21.51) stable; urgency=low
+
+  Other
+  * refresh package-lock.json
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Nov 2026 22:34:00 +0200
+
+virgo-ui (2.21.50) stable; urgency=low
+
+  Other
+  * trim the Font Awesome CSS and fonts to the icons in use, and a white crown on the Owner badge
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Nov 2026 21:16:14 +0200
+
+virgo-ui (2.21.49) stable; urgency=low
+
+  Other
+  * solid icons and a green Start in action menus, Ethernet icon for network and the firewall header aligned with its icon
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Nov 2026 19:24:17 +0200
+
+virgo-ui (2.21.48) stable; urgency=low
+
+  Features
+  * show the resource timeline to admins only
+
+  Other
+  * bump moment-timezone, sass and webpack-cli
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Nov 2026 10:58:44 +0200
+
+virgo-ui (2.21.47) stable; urgency=low
+
+  Features
+  * vertical timeline grouped by day, with browse and roll back on each restore point beside the search
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Oct 2026 19:43:42 +0200
+
+virgo-ui (2.21.46) stable; urgency=low
+
+  Features
+  * snapshots column last and sortable, as in folders
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Oct 2026 15:07:40 +0200
+
+virgo-ui (2.21.45) stable; urgency=low
+
+  Other
+  * drop the Access on column from the folders and time machines lists
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Oct 2026 14:56:49 +0200
+
+virgo-ui (2.21.44) stable; urgency=low
+
+  Other
+  * grayscale font smoothing in Firefox on macOS
+  * shrink slightly while pressed
+  * equal-width digits in the CPU block
+  * no underline on Check for new updates
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Oct 2026 12:40:09 +0200
+
+virgo-ui (2.21.43) stable; urgency=low
+
+  Other
+  * antialias font rendering on the page body
+  * avoid a lone word on the last line of wrapped text
+  * darker grey for stopped apps, disabled actions and off-state dots
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Oct 2026 12:01:12 +0200
+
+virgo-ui (2.21.42) stable; urgency=low
+
+  Features
+  * browse, search, download and restore the snapshots of a folder's own dataset
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 19:09:42 +0200
+
+virgo-ui (2.21.41) stable; urgency=low
+
+  Features
+  * snapshot timeline, search, browse and restore on Nextcloud user folders, shared with apps
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 14:36:38 +0200
+
+virgo-ui (2.21.40) stable; urgency=low
+
+  Features
+  * show the node name and domain in the tab title
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 13:04:13 +0200
+
+virgo-ui (2.21.39) stable; urgency=low
+
+  Features
+  * show the current node's name and domain in the node picker tooltip and the page title
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 12:51:22 +0200
+
+virgo-ui (2.21.38) stable; urgency=low
+
+  Features
+  * show the node name in the tab title and as a tooltip on the collapsed site switcher, add a back to site manager link in the menu
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Oct 2026 12:17:11 +0200
+
+virgo-ui (2.21.37) stable; urgency=low
+
+  Features
+  * show network rates in bps, keep digits and ip addresses at a steady width, grey out stopped app logos and show a sliding bar while loading
+
+ -- univrs <voyager@univrs.cloud>  Thu, 29 Oct 2026 09:33:26 +0200
+
+virgo-ui (2.21.36) stable; urgency=low
+
+  Fixes
+  * show the ram values in the unit of their total and the cache limit as in settings
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 22:40:04 +0200
+
+virgo-ui (2.21.35) stable; urgency=low
+
+  Fixes
+  * snapshot screens use the button component with a red roll back, memory legend spreads across the card without wrapping
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 22:19:06 +0200
+
+virgo-ui (2.21.34) stable; urgency=low
+
+  Features
+  * mark text that has a tooltip with a dotted underline
+  * put network rates on one line and shrink the storage figures
+  * split RAM into in use and cache with the cache limit and hit ratio
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 21:36:00 +0200
+
+virgo-ui (2.21.33) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 19:56:22 +0200
+
+virgo-ui (2.21.32) stable; urgency=low
+
+  Fixes
+  * stop the snapshot slider on every restore point
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 19:40:50 +0200
+
+virgo-ui (2.21.31) stable; urgency=low
+
+  Fixes
+  * stop the snapshot slider jumping to an update from another hour, drop aria and role attributes nothing reads
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 19:24:22 +0200
+
+virgo-ui (2.21.30) stable; urgency=low
+
+  Features
+  * enable roll back on every snapshot that records its image digests
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 18:43:50 +0200
+
+virgo-ui (2.21.29) stable; urgency=low
+
+  Features
+  * show update snapshots on the timeline and roll an app back to one
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 12:36:14 +0200
+
+virgo-ui (2.21.28) stable; urgency=low
+
+  Features
+  * set the zfs memory cache size limit with a slider
+
+  Fixes
+  * update log scrolls with the app's scrollbar and edge shadows, spaced evenly around the divider
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Oct 2026 09:49:26 +0200
+
+virgo-ui (2.21.27) stable; urgency=low
+
+  Fixes
+  * each chart point shows the average of its seconds instead of the peak
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 Oct 2026 12:49:55 +0300
+
+virgo-ui (2.21.26) stable; urgency=low
+
+  Other
+  * request app stats only while the Apps page or Topology is open and visible
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 Oct 2026 12:11:33 +0300
+
+virgo-ui (2.21.25) stable; urgency=low
+
+  Features
+  * cpu and ram charts turn red at 90% and above, steady rx/tx and ram figures with two decimals
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 22:56:28 +0300
+
+virgo-ui (2.21.24) stable; urgency=low
+
+  Other
+  * cpu temperature and fan from the host:cpu:sensors event
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 21:34:04 +0300
+
+virgo-ui (2.21.23) stable; urgency=low
+
+  Fixes
+  * resize the status charts when the column width changes
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 20:38:36 +0300
+
+virgo-ui (2.21.22) stable; urgency=low
+
+  Fixes
+  * chart tooltip follows the pointer at a fixed width, lighter gray badges
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 20:19:47 +0300
+
+virgo-ui (2.21.21) stable; urgency=low
+
+  Features
+  * hour-long cpu, ram and network charts with a shared timeframe slider, topology share traffic only on shares with open files
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 18:25:02 +0300
+
+virgo-ui (2.21.20) stable; urgency=low
+
+  Other
+  * plain grid icon for Apps in the menu and page header, bump dotenv and webpack
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Oct 2026 10:13:41 +0300
+
+virgo-ui (2.21.19) stable; urgency=low
+
+  Features
+  * split fit from the zoom buttons in the controls
+  * smoother traffic arms sized by traffic, gray idle arms and a node toggle
+
+  Other
+  * bump sass to 1.106.1
+
+ -- univrs <voyager@univrs.cloud>  Thu, 22 Oct 2026 10:41:36 +0300
+
+virgo-ui (2.21.18) stable; urgency=low
+
+  Fixes
+  * hide the page scrollbar while a window is maximized
+
+  Other
+  * pin node 24.22.1 in the release build
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 17:01:49 +0300
+
+virgo-ui (2.21.17) stable; urgency=low
+
+  Other
+  * require node 24.22.1 and npm 11.19.1, update sass and skip the parcel watcher install script
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 16:33:03 +0300
+
+virgo-ui (2.21.16) stable; urgency=low
+
+  Features
+  * scale traffic dots and bands to the network link speed
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 14:59:27 +0300
+
+virgo-ui (2.21.15) stable; urgency=low
+
+  Fixes
+  * keep open app windows across reboots and updates
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 10:48:46 +0300
+
+virgo-ui (2.21.14) stable; urgency=low
+
+  Features
+  * add folder and time machine details and smb clients in topology
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Oct 2026 00:46:59 +0300
+
+virgo-ui (2.21.13) stable; urgency=low
+
+  Fixes
+  * keep the user role from overwriting the runtime role
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Oct 2026 17:01:40 +0300
+
+virgo-ui (2.21.12) stable; urgency=low
+
+  Features
+  * pause while hidden, gray out stopped apps and soften icons over traffic
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Oct 2026 16:53:31 +0300
+
+virgo-ui (2.21.11) stable; urgency=low
+
+  Fixes
+  * keep traffic consistent when branches fold and share dots by real traffic
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Oct 2026 14:00:32 +0300
+
+virgo-ui (2.21.10) stable; urgency=low
+
+  Fixes
+  * keep toggles clickable and aligned, and leave collapsed branches in place
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Oct 2026 13:49:00 +0300
+
+virgo-ui (2.21.9) stable; urgency=low
+
+  Features
+  * curved links, compact leaves, alphabetical apps and livelier traffic
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Oct 2026 13:36:17 +0300
+
+virgo-ui (2.21.8) stable; urgency=low
+
+  Features
+  * pace traffic dots per link, denser and evenly spawned
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Oct 2026 12:53:21 +0300
+
+virgo-ui (2.21.7) stable; urgency=low
+
+  Features
+  * show live network traffic as flowing bands and dots
+
+  Fixes
+  * empty folders and time machine cards use the card grid widths
+
+ -- univrs <voyager@univrs.cloud>  Sun, 18 Oct 2026 22:03:55 +0300
+
+virgo-ui (2.21.6) stable; urgency=low
+
+  Features
+  * loading screen shows the app icon on a squircle over the page background
+
+ -- univrs <voyager@univrs.cloud>  Sun, 18 Oct 2026 11:25:49 +0300
+
+virgo-ui (2.21.5) stable; urgency=low
+
+  Features
+  * spring easing, distance-based durations and open from the launching icon
+
+ -- univrs <voyager@univrs.cloud>  Sun, 18 Oct 2026 10:52:09 +0300
+
+virgo-ui (2.21.4) stable; urgency=low
+
+  Features
+  * animate open, close, minimize, restore and maximize
+
+ -- univrs <voyager@univrs.cloud>  Sun, 18 Oct 2026 10:42:28 +0300
+
+virgo-ui (2.21.3) stable; urgency=low
+
+  Fixes
+  * connectors keep each branch's line style from the stem, toggle hover and internal branch colors
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 19:34:05 +0300
+
+virgo-ui (2.21.2) stable; urgency=low
+
+  Features
+  * pinch to zoom on touch, legend below the tree and clearer zoom controls
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 19:19:43 +0300
+
+virgo-ui (2.21.1) stable; urgency=low
+
+  Features
+  * show how traffic reaches the node, its apps, shares and peer nodes
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 17:55:34 +0300
+
+virgo-ui (2.21.0) stable; urgency=low
+
+  Features
+  * add list counts, table scrollbars with scroll shadows and update progress icons
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 12:58:29 +0300
+
+virgo-ui (2.20.48) stable; urgency=low
+
+  Other
+  * always set up the latest node 24
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 00:48:32 +0300
+
+virgo-ui (2.20.47) stable; urgency=low
+
+  Other
+  * update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 Oct 2026 00:04:53 +0300
+
+virgo-ui (2.20.46) stable; urgency=low
+
+  Fixes
+  * give inner form fields a name and drop empty autocomplete
+  * reorder stopped and linkless apps and mute their titles
+
+ -- univrs <voyager@univrs.cloud>  Fri, 16 Oct 2026 08:57:49 +0300
+
+virgo-ui (2.20.45) stable; urgency=low
+
+  Fixes
+  * stretch search inputs to full width in Chrome
+
+ -- univrs <voyager@univrs.cloud>  Fri, 16 Oct 2026 01:29:59 +0300
+
+virgo-ui (2.20.44) stable; urgency=low
+
+  Other
+  * update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 20:12:26 +0300
+
+virgo-ui (2.20.43) stable; urgency=low
+
+  Features
+  * show the app status badge only when not all containers are running
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 20:08:04 +0300
+
+virgo-ui (2.20.42) stable; urgency=low
+
+  Features
+  * badge Apps for app updates and Storage for pool, drive and capacity problems
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 19:16:06 +0300
+
+virgo-ui (2.20.41) stable; urgency=low
+
+  Features
+  * move the site picker to the drawer's bottom bar on phones
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Oct 2026 12:00:31 +0300
+
+virgo-ui (2.20.40) stable; urgency=low
+
+  Features
+  * list sessions per user and in the profile, with sign out for one or all
+
+  Fixes
+  * open the sign out tooltip to the left of its icon
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Oct 2026 16:14:53 +0300
+
+virgo-ui (2.20.39) stable; urgency=low
+
+  Fixes
+  * title the session list sessions, since not all of them are active
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Oct 2026 15:34:45 +0300
+
+virgo-ui (2.20.38) stable; urgency=low
+
+  Features
+  * mark the current session with a pulsing dot and use the sign out icon to end a session
+  * show a session as active now while it has an open connection
+
+  Other
+  * write conditionals on separate lines
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Oct 2026 13:55:18 +0300
+
+virgo-ui (2.20.37) stable; urgency=low
+
+  Fixes
+  * stack the certificate warning's reason under its title
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 17:38:58 +0300
+
+virgo-ui (2.20.36) stable; urgency=low
+
+  Features
+  * add a step list, keep the cards one height and hold the network steps until the core apps are reinstalled
+
+  Fixes
+  * stop reserving the euro-office node name
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 17:27:56 +0300
+
+virgo-ui (2.20.35) stable; urgency=low
+
+  Features
+  * show the firewall rules and blocked addresses and let an address be unblocked
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 13:44:20 +0300
+
+virgo-ui (2.20.34) stable; urgency=low
+
+  Features
+  * let app windows use the camera, microphone and screen sharing
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 12:10:52 +0300
+
+virgo-ui (2.20.33) stable; urgency=low
+
+  Features
+  * show the snapshot state in the list, tab and filters and let a new folder skip snapshots
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 10:14:44 +0300
+
+virgo-ui (2.20.32) stable; urgency=low
+
+  Features
+  * show the next data integrity check on the pool details
+  * show and switch snapshotting per app and folder
+
+ -- univrs <voyager@univrs.cloud>  Mon, 12 Oct 2026 09:27:51 +0300
+
+virgo-ui (2.20.31) stable; urgency=low
+
+  Features
+  * redesign the app details services list, tabs and action controls
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Oct 2026 02:53:34 +0300
+
+virgo-ui (2.20.30) stable; urgency=low
+
+  Features
+  * move the apps and services filters into a single chip panel
+
+  Fixes
+  * lighten the pool chip background on the node view
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Oct 2026 01:10:13 +0300
+
+virgo-ui (2.20.29) stable; urgency=low
+
+  Features
+  * replace the univrs and fleet logos and animate them on the sign in screens
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 17:54:25 +0300
+
+virgo-ui (2.20.28) stable; urgency=low
+
+  Fixes
+  * open the actions menu above the logs and terminal panels
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 12:57:19 +0300
+
+virgo-ui (2.20.27) stable; urgency=low
+
+  Fixes
+  * match the row height of the other lists
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 09:54:17 +0300
+
+virgo-ui (2.20.26) stable; urgency=low
+
+  Fixes
+  * line up the section text with the top of the card content
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 09:40:36 +0300
+
+virgo-ui (2.20.25) stable; urgency=low
+
+  Fixes
+  * reload when the session ends so a stale login is not shown
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 09:35:28 +0300
+
+virgo-ui (2.20.24) stable; urgency=low
+
+  Fixes
+  * even out the spacing inside badges with icons
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 01:35:00 +0300
+
+virgo-ui (2.20.23) stable; urgency=low
+
+  Fixes
+  * keep the node picker above the scrolling menu and tidy the site cards
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 01:16:40 +0300
+
+virgo-ui (2.20.22) stable; urgency=low
+
+  Fixes
+  * lighten the empty state boxes
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 00:52:07 +0300
+
+virgo-ui (2.20.21) stable; urgency=low
+
+  Fixes
+  * line the alert icons up with the first line of text
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 00:42:31 +0300
+
+virgo-ui (2.20.20) stable; urgency=low
+
+  Fixes
+  * keep the acknowledgement visible in small confirm dialogs
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 00:38:41 +0300
+
+virgo-ui (2.20.19) stable; urgency=low
+
+  Features
+  * move the interface to bootstrap 6
+
+  Fixes
+  * show the sign in button as an icon with a tooltip in the collapsed menu
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Oct 2026 00:29:32 +0300
+
+virgo-ui (2.20.18) stable; urgency=low
+
+  Fixes
+  * drop the duplicate divider in the collapsed menu while updating
+
+ -- univrs <voyager@univrs.cloud>  Fri, 9 Oct 2026 08:12:17 +0300
+
+virgo-ui (2.20.17) stable; urgency=low
+
+  Features
+  * show update stage icons in update progress and nudge collapsed menu badges
+
+ -- univrs <voyager@univrs.cloud>  Fri, 9 Oct 2026 01:23:09 +0300
+
+virgo-ui (2.20.16) stable; urgency=low
+
+  Features
+  * close app windows from the collapsed menu and widen its scroll area
+
+ -- univrs <voyager@univrs.cloud>  Fri, 9 Oct 2026 00:59:56 +0300
+
+virgo-ui (2.20.15) stable; urgency=low
+
+  Fixes
+  * open app links and windows without a referrer
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 23:55:52 +0300
+
+virgo-ui (2.20.14) stable; urgency=low
+
+  Fixes
+  * align page heading icons with the content below
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 22:22:20 +0300
+
+virgo-ui (2.20.13) stable; urgency=low
+
+  Features
+  * redesign settings, network, about, profile and updates pages as annotated cards
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 22:16:38 +0300
+
+virgo-ui (2.20.12) stable; urgency=low
+
+  Features
+  * snap app windows to halves and quarters by dragging to the edges
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 17:41:48 +0300
+
+virgo-ui (2.20.11) stable; urgency=low
+
+  Fixes
+  * keep open app windows across a system update
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 17:02:18 +0300
+
+virgo-ui (2.20.10) stable; urgency=low
+
+  Features
+  * shape menu app icon tiles as squircles where the browser supports it
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 16:53:01 +0300
+
+virgo-ui (2.20.9) stable; urgency=low
+
+  Fixes
+  * make side menu rows 36px tall so collapsed items are square
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 13:53:18 +0300
+
+virgo-ui (2.20.8) stable; urgency=low
+
+  Fixes
+  * center the logo over the menu icons
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 13:42:14 +0300
+
+virgo-ui (2.20.7) stable; urgency=low
+
+  Features
+  * add collapsible primary menu and remember open app windows across reloads
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 13:11:48 +0300
+
+virgo-ui (2.20.6) stable; urgency=low
+
+  Features
+  * treat maximized app windows as pages and open proxied shortcuts in windows
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Oct 2026 01:48:01 +0300
+
+virgo-ui (2.20.5) stable; urgency=low
+
+  Features
+  * open apps in windows from the dashboard
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 23:22:46 +0300
+
+virgo-ui (2.20.4) stable; urgency=low
+
+  Features
+  * add terminal search and clickable links, and tint warning and error lines with a gray timestamp in logs
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 21:26:54 +0300
+
+virgo-ui (2.20.3) stable; urgency=low
+
+  Fixes
+  * keep list pages within the viewport on mobile and let logs and terminal cover the detail tabs
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 09:06:02 +0300
+
+virgo-ui (2.20.2) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 Oct 2026 01:11:39 +0300
+
+virgo-ui (2.20.1) stable; urgency=low
+
+  Features
+  * offer browse files only for nextcloud and show a disabled roll back for other apps
+
+ -- univrs <voyager@univrs.cloud>  Tue, 6 Oct 2026 18:27:49 +0300
+
+virgo-ui (2.20.0) stable; urgency=low
+
+  Features
+  * browse a nextcloud snapshot, filter by what changed, and download or restore a selection
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 6 Oct 2026 00:42:11 +0300
+
+virgo-ui (2.19.53) stable; urgency=low
+
+  Features
+  * list unmanaged stacks and containers with details and actions
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Oct 2026 21:01:06 +0300
+
+virgo-ui (2.19.52) stable; urgency=low
+
+  Fixes
+  * scroll to the preselected restore folder, keep the modal scrollbar and hide tooltips on click
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 22:41:39 +0300
+
+virgo-ui (2.19.51) stable; urgency=low
+
+  Features
+  * restore files from snapshot search with a folder picker, new folders and highlighted tree paths
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 22:06:51 +0300
+
+virgo-ui (2.19.50) stable; urgency=low
+
+  Features
+  * show a multiple badge with the instance count and list instances in the installed tab
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 19:11:25 +0300
+
+virgo-ui (2.19.49) stable; urgency=low
+
+  Features
+  * keep templates flagged multiple installable and validate the instance name
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 18:43:48 +0300
+
+virgo-ui (2.19.48) stable; urgency=low
+
+  Fixes
+  * read the account cookie named after a label of the current host
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Oct 2026 02:42:33 +0300
+
+virgo-ui (2.19.47) stable; urgency=low
+
+  Other
+  * show snapshot search on nextcloud only and drop the indexer switch and stats
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 Oct 2026 23:13:12 +0300
+
+virgo-ui (2.19.46) stable; urgency=low
+
+  Other
+  * move the snapshots tab into its own template and add a restore placeholder
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 Oct 2026 10:45:11 +0300
+
+virgo-ui (2.19.45) stable; urgency=low
+
+  Features
+  * rework the snapshots tab around search and drop the delete button
+
+ -- univrs <voyager@univrs.cloud>  Fri, 2 Oct 2026 01:26:11 +0300
+
+virgo-ui (2.19.44) stable; urgency=low
+
+  Features
+  * download files and folders from snapshot search results
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 23:00:23 +0300
+
+virgo-ui (2.19.43) stable; urgency=low
+
+  Features
+  * remember apps and system services filters across reloads
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 21:45:30 +0300
+
+virgo-ui (2.19.42) stable; urgency=low
+
+  Features
+  * show proxied and private access badges after the link
+
+  Fixes
+  * keep the learn more link and its icon on one line
+
+  Other
+  * lock install domains from each field's auth policy
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 20:16:44 +0300
+
+virgo-ui (2.19.41) stable; urgency=low
+
+  Fixes
+  * lock install domains using template auth defaults
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 18:53:07 +0300
+
+virgo-ui (2.19.40) stable; urgency=low
+
+  Fixes
+  * size the logs list to its container
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 14:53:39 +0300
+
+virgo-ui (2.19.39) stable; urgency=low
+
+  Other
+  * rename the logo png to univrs.png
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 13:51:44 +0300
+
+virgo-ui (2.19.38) stable; urgency=low
+
+  Other
+  * rename the logo file to univrs.svg
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Oct 2026 11:54:13 +0300
+
+virgo-ui (2.19.37) stable; urgency=low
+
+  Fixes
+  * show the current virtual ip in the dns instructions
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 21:47:14 +0300
+
+virgo-ui (2.19.36) stable; urgency=low
+
+  Features
+  * tell moves apart from renames in snapshot search
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 21:01:22 +0300
+
+virgo-ui (2.19.35) stable; urgency=low
+
+  Features
+  * show what a renamed file was called in snapshot search
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 20:36:57 +0300
+
+virgo-ui (2.19.34) stable; urgency=low
+
+  Features
+  * add a state filter to snapshot search and label first versions as added
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 19:31:48 +0300
+
+virgo-ui (2.19.33) stable; urgency=low
+
+  Fixes
+  * align snapshot search restore points with the name above
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 18:52:56 +0300
+
+virgo-ui (2.19.32) stable; urgency=low
+
+  Features
+  * render snapshot search results as a compact folder tree
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 18:46:47 +0300
+
+virgo-ui (2.19.31) stable; urgency=low
+
+  Features
+  * stack snapshots into the used bar, show space saved and move fleet to the top of settings
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 18:17:37 +0300
+
+virgo-ui (2.19.30) stable; urgency=low
+
+  Features
+  * add app list filters and collapse dashboard indexer details by default
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 18:06:16 +0300
+
+virgo-ui (2.19.29) stable; urgency=low
+
+  Features
+  * color filter chips blue when a value is applied
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 17:52:55 +0300
+
+virgo-ui (2.19.28) stable; urgency=low
+
+  Features
+  * rerun the snapshot search when a filter chip changes
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 12:34:03 +0300
+
+virgo-ui (2.19.27) stable; urgency=low
+
+  Features
+  * link to the docs from the account menu and each setup step
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 11:46:38 +0300
+
+virgo-ui (2.19.26) stable; urgency=low
+
+  Features
+  * search files across snapshots with the indexer in a snapshots tab
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Sep 2026 08:28:00 +0300
+
+virgo-ui (2.19.25) stable; urgency=low
+
+  Features
+  * browse snapshots as restore points on a timeline and orbits
+
+ -- univrs <voyager@univrs.cloud>  Tue, 29 Sep 2026 20:56:02 +0300
+
+virgo-ui (2.19.24) stable; urgency=low
+
+  Fixes
+  * close the zfs version entry with dd
+
+ -- univrs <voyager@univrs.cloud>  Tue, 29 Sep 2026 12:57:38 +0300
+
+virgo-ui (2.19.23) stable; urgency=low
+
+  Other
+  * remove Plausible analytics and tracker dependency
+
+ -- univrs <voyager@univrs.cloud>  Mon, 28 Sep 2026 22:14:53 +0300
+
+virgo-ui (2.19.22) stable; urgency=low
+
+  Features
+  * type switcher, multi-select filter with counts and pills
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Sep 2026 22:32:51 +0300
+
+virgo-ui (2.19.21) stable; urgency=low
+
+  Features
+  * show space lost to mismatched drive sizes in the storage step
+
+  Other
+  * let DEB_ARCH decide the package architecture
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Sep 2026 16:28:33 +0300
+
+virgo-ui (2.19.20) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Sep 2026 08:29:30 +0300
+
+virgo-ui (2.19.19) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Sep 2026 07:52:04 +0300
+
+virgo-ui (2.19.18) stable; urgency=low
+
+  Features
+  * default the certificate choice to the node's resolver
+
+  Fixes
+  * ask for a cert resolver on custom cluster domains
+
+ -- univrs <voyager@univrs.cloud>  Sat, 26 Sep 2026 00:19:15 +0300
+
+virgo-ui (2.19.17) stable; urgency=low
+
+  Features
+  * join the discovered node's cluster, keep fleet registration required on univrs.cloud
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 22:32:11 +0300
+
+virgo-ui (2.19.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 20:52:43 +0300
+
+virgo-ui (2.19.15) stable; urgency=low
+
+  Fixes
+  * warn that host edits don't reconfigure apps, keep proxied shortcuts off node names
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 18:29:52 +0300
+
+virgo-ui (2.19.14) stable; urgency=low
+
+  Features
+  * list the terminal first among the core apps
+  * add the cluster name to setup and the network page, install apps under it, group fleet sites by it
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 18:05:36 +0300
+
+virgo-ui (2.19.13) stable; urgency=low
+
+  Features
+  * disable removing an online univrs.cloud node, warn before releasing an offline one's domain
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 14:09:41 +0300
+
+virgo-ui (2.19.12) stable; urgency=low
+
+  Features
+  * keep fleet enabled while the domain is on univrs.cloud
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 14:00:52 +0300
+
+virgo-ui (2.19.11) stable; urgency=low
+
+  Other
+  * virgo-ui: fix(network): word the virtual IP tip for more than two nodes
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Sep 2026 10:48:56 +0300
+
+virgo-ui (2.19.10) stable; urgency=low
+
+  Features
+  * ask for the host and wildcard A records as a list, shown only for a valid name
+
+  Fixes
+  * ask for a wildcard A record alongside the host record
+  * hide the access hint until the hostname and domain are valid
+
+  Other
+  * highlight DNS rules to configure
+
+ -- univrs <voyager@univrs.cloud>  Thu, 24 Sep 2026 23:23:32 +0300
+
+virgo-ui (2.19.9) stable; urgency=low
+
+  Fixes
+  * let a skipped fleet registration past the wizard guard
+
+ -- univrs <voyager@univrs.cloud>  Thu, 24 Sep 2026 14:54:50 +0300
+
+virgo-ui (2.19.8) stable; urgency=low
+
+  Features
+  * fix reference error
+
+  Fixes
+  * detect a leased address and advance the interface step once the node reports it static
+
+ -- univrs <voyager@univrs.cloud>  Thu, 24 Sep 2026 14:20:41 +0300
+
+virgo-ui (2.19.7) stable; urgency=low
+
+  Features
+  * gate univrs.cloud names on the fleet and allow skipping registration elsewhere
+
+  Other
+  * share one options object across the devserver proxy entries
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 24 Sep 2026 13:01:10 +0300
+
+virgo-ui (2.19.6) stable; urgency=low
+
+  Fixes
+  * keep the profile link in the account menu while a node updates from fleet
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 23 Sep 2026 20:15:27 +0300
+
+virgo-ui (2.19.5) stable; urgency=low
+
+  Fixes
+  * close a tooltip whose element is discarded mid-render
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Sep 2026 00:39:44 +0300
+
+virgo-ui (2.19.4) stable; urgency=low
+
+  Features
+  * mark the current site in the node view's site picker and truncate long site names
+
+ -- univrs <voyager@univrs.cloud>  Sat, 19 Sep 2026 15:32:17 +0300
+
+virgo-ui (2.19.3) stable; urgency=low
+
+  Features
+  * group the node view's site picker by cluster and give it a solid background on mobile
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 19 Sep 2026 15:10:58 +0300
+
+virgo-ui (2.19.2) stable; urgency=low
+
+  Other
+  * format topology labels and tooltips in templates and stop sending the pool name
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Sep 2026 15:08:53 +0300
+
+virgo-ui (2.19.1) stable; urgency=low
+
+  Features
+  * expand pool topology views with auxiliary devices and replacement activity
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Sep 2026 14:24:34 +0300
+
+virgo-ui (2.19.0) stable; urgency=low
+
+  Other
+  * Update description
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 20:50:45 +0300
+
+virgo-ui (2.18.66) stable; urgency=low
+
+  Features
+  * tell missing, unreachable and failed UPS readings apart
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 19:42:49 +0300
+
+virgo-ui (2.18.65) stable; urgency=low
+
+  Features
+  * surface missing-UPS and unreachable-service states on the fleet card and node dashboard
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 19:08:58 +0300
+
+virgo-ui (2.18.64) stable; urgency=low
+
+  Features
+  * surface SMART drive health across the dashboard, pool list and topology
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 18:41:38 +0300
+
+virgo-ui (2.18.63) stable; urgency=low
+
+  Fixes
+  * spin the app and container actions while a service job runs
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Sep 2026 16:08:33 +0300
+
+virgo-ui (2.18.62) stable; urgency=low
+
+  Fixes
+  * hide the reconnecting toast while the node powers off or restarts
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Sep 2026 22:33:59 +0300
+
+virgo-ui (2.18.61) stable; urgency=low
+
+  Features
+  * keep the last state on socket loss and show a reconnecting toast
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Sep 2026 19:32:17 +0300
+
+virgo-ui (2.18.60) stable; urgency=low
+
+  Fixes
+  * follow the node only when its new address or name replaces the origin
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Sep 2026 14:30:56 +0300
+
+virgo-ui (2.18.59) stable; urgency=low
+
+  Features
+  * show the UPS tile even when no UPS is found
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Sep 2026 13:49:19 +0300
+
+virgo-ui (2.18.58) stable; urgency=low
+
+  Features
+  * gate a confirm behind an acknowledgement
+  * show what a layout costs before it is chosen
+
+  Other
+  * label the pool facts the way the pool screen does
+  * name the pool layouts by what they give you
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 22:56:47 +0300
+
+virgo-ui (2.18.57) stable; urgency=low
+
+  Features
+  * choose the pool layout in the wizard
+
+  Other
+  * Render topology after pool exists
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 21:22:03 +0300
+
+virgo-ui (2.18.56) stable; urgency=low
+
+  Features
+  * choose the pool layout in the wizard
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 21:02:53 +0300
+
+virgo-ui (2.18.55) stable; urgency=low
+
+  Features
+  * choose the pool layout in the wizard
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 20:53:41 +0300
+
+virgo-ui (2.18.54) stable; urgency=low
+
+  Features
+  * choose the pool layout in the wizard
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Sep 2026 20:43:14 +0300
+
+virgo-ui (2.18.53) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Thu, 10 Sep 2026 00:02:20 +0300
+
+virgo-ui (2.18.52) stable; urgency=low
+
+  Other
+  * rewrite promise chains as async/await
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 23:59:30 +0300
+
+virgo-ui (2.18.51) stable; urgency=low
+
+  Fixes
+  * allow installing on x64
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 16:59:49 +0300
+
+virgo-ui (2.18.50) stable; urgency=low
+
+  Features
+  * build and release amd64 packages alongside arm64
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Sep 2026 16:55:46 +0300
+
+virgo-ui (2.18.49) stable; urgency=low
+
+  Other
+  * Switch used icons for better representation
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Sep 2026 23:49:53 +0300
+
+virgo-ui (2.18.48) stable; urgency=low
+
+  Fixes
+  * correct capacity and data error placement
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Sep 2026 18:30:57 +0300
+
+virgo-ui (2.18.47) stable; urgency=low
+
+  Features
+  * add a pool detail view
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Sep 2026 17:22:02 +0300
+
+virgo-ui (2.18.46) stable; urgency=low
+
+  Features
+  * run system updates without reloading the page feat(node): show a maintenance page while updating or rebooting
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Sep 2026 04:45:46 +0300
+
+virgo-ui (2.18.45) stable; urgency=low
+
+  Other
+  * rename bookmarks to shortcuts
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Sep 2026 17:50:45 +0300
+
+virgo-ui (2.18.44) stable; urgency=low
+
+  Features
+  * show a connection animation while a node view loads
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Sep 2026 14:26:19 +0300
+
+virgo-ui (2.18.43) stable; urgency=low
+
+  Fixes
+  * route only once the node has reported its state
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Sep 2026 12:40:51 +0300
+
+virgo-ui (2.18.42) stable; urgency=low
+
+  Fixes
+  * stop resubmitting an unchanged network interface
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Sep 2026 10:57:29 +0300
+
+virgo-ui (2.18.41) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 19:48:46 +0300
+
+virgo-ui (2.18.40) stable; urgency=low
+
+  Other
+  * Improve profile dropdown
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 19:45:02 +0300
+
+virgo-ui (2.18.39) stable; urgency=low
+
+  Fixes
+  * make the current site inert in the node picker
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 19:29:17 +0300
+
+virgo-ui (2.18.38) stable; urgency=low
+
+  Fixes
+  * stop unregistering the asset service worker on every load
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 19:11:38 +0300
+
+virgo-ui (2.18.37) stable; urgency=low
+
+  Other
+  * Update service worker
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 19:01:27 +0300
+
+virgo-ui (2.18.36) stable; urgency=low
+
+  Fixes
+  * recover from a stale asset service worker
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 18:51:52 +0300
+
+virgo-ui (2.18.35) stable; urgency=low
+
+  Fixes
+  * improve remote connection recovery and proxy reliability
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 18:36:35 +0300
+
+virgo-ui (2.18.34) stable; urgency=low
+
+  Fixes
+  * preserve WebRTC connections across signaling reconnects
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 18:08:53 +0300
+
+virgo-ui (2.18.33) stable; urgency=low
+
+  Features
+  * show name and email in the account toggle
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 15:06:25 +0300
+
+virgo-ui (2.18.32) stable; urgency=low
+
+  Features
+  * decode gzipped assets in the service worker
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 09:59:35 +0300
+
+virgo-ui (2.18.31) stable; urgency=low
+
+  Other
+  * start the node transport before the runtime handshake
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 09:45:34 +0300
+
+virgo-ui (2.18.30) stable; urgency=low
+
+  Features
+  * pull node assets through the service worker
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 02:49:07 +0300
+
+virgo-ui (2.18.29) stable; urgency=low
+
+  Fixes
+  * gate node asset proxying on transport readiness
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 02:07:41 +0300
+
+virgo-ui (2.18.28) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 01:23:01 +0300
+
+virgo-ui (2.18.27) stable; urgency=low
+
+  Features
+  * route node assets over a dedicated data channel
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Sep 2026 01:21:58 +0300
+
+virgo-ui (2.18.26) stable; urgency=low
+
+  Features
+  * harden WebRTC fallback and switchover
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 22:31:18 +0300
+
+virgo-ui (2.18.25) stable; urgency=low
+
+  Other
+  * Refactor WebRTC transport connection handling and cleanup logic
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 21:07:44 +0300
+
+virgo-ui (2.18.24) stable; urgency=low
+
+  Other
+  * Fix WebRTC transport reconnect, namespace close, frame validation
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 20:52:39 +0300
+
+virgo-ui (2.18.23) stable; urgency=low
+
+  Other
+  * Refactor: rename file to match pattern
+  * Remove asset worker
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 20:20:18 +0300
+
+virgo-ui (2.18.22) stable; urgency=low
+
+  Other
+  * Add WebRTC transport and asset worker functionality
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Sep 2026 19:53:32 +0300
+
+virgo-ui (2.18.21) stable; urgency=low
+
+  Other
+  * Fix node health tooltip
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 19:02:10 +0300
+
+virgo-ui (2.18.20) stable; urgency=low
+
+  Other
+  * Fix tip text
+  * Group nodes
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 18:46:23 +0300
+
+virgo-ui (2.18.19) stable; urgency=low
+
+  Other
+  * Fix weather forcast trigger
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 14:35:10 +0300
+
+virgo-ui (2.18.18) stable; urgency=low
+
+  Other
+  * Handle reboot/shutdown from any page
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 13:32:53 +0300
+
+virgo-ui (2.18.17) stable; urgency=low
+
+  Other
+  * Refresh after reboot so nothing is stale
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 13:01:57 +0300
+
+virgo-ui (2.18.16) stable; urgency=low
+
+  Other
+  * Improve virtual ip tip messages
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 12:06:59 +0300
+
+virgo-ui (2.18.15) stable; urgency=low
+
+  Other
+  * Lock the virtual IP field on a standby
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Sep 2026 11:56:56 +0300
+
+virgo-ui (2.18.14) stable; urgency=low
+
+  Other
+  * Hide nodes card on dashboard if nothig adopted or nothing to adopt
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 23:56:44 +0300
+
+virgo-ui (2.18.13) stable; urgency=low
+
+  Other
+  * Fix password input visiblity toggle icon and virtual ip duplicte on dashboard
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 23:37:02 +0300
+
+virgo-ui (2.18.12) stable; urgency=low
+
+  Other
+  * Improve dashboard layout
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 22:54:32 +0300
+
+virgo-ui (2.18.11) stable; urgency=low
+
+  Other
+  * Show virtual ip on dashboard
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 22:05:36 +0300
+
+virgo-ui (2.18.10) stable; urgency=low
+
+  Other
+  * Improve adopt button logic
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 21:47:49 +0300
+
+virgo-ui (2.18.9) stable; urgency=low
+
+  Other
+  * Show current node in nodes list
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 21:34:12 +0300
+
+virgo-ui (2.18.8) stable; urgency=low
+
+  Other
+  * Improve nodes adoption
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 21:21:14 +0300
+
+virgo-ui (2.18.7) stable; urgency=low
+
+  Other
+  * Add peer adoption to the dashboard
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Sep 2026 19:19:05 +0300
+
+virgo-ui (2.18.6) stable; urgency=low
+
+  Other
+  * Send the framing headers in development
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 1 Sep 2026 11:10:13 +0300
+
+virgo-ui (2.18.5) stable; urgency=low
+
+  Other
+  * Morph the node picker instead of replacing its markup
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Aug 2026 16:34:44 +0300
+
+virgo-ui (2.18.4) stable; urgency=low
+
+  Other
+  * Add disconnected event handlers for container logs and terminal streams
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 20:57:17 +0300
+
+virgo-ui (2.18.3) stable; urgency=low
+
+  Other
+  * Remove netmask display from virtual IP section in network.html
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 16:34:43 +0300
+
+virgo-ui (2.18.2) stable; urgency=low
+
+  Other
+  * Add cross-validation for virtual IP and related fields in network forms; enhance form validation logic
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 15:57:37 +0300
+
+virgo-ui (2.18.1) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 15:35:21 +0300
+
+virgo-ui (2.18.0) stable; urgency=low
+
+  Other
+  * Add virtual IP management features to network interface configuration
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Aug 2026 15:34:24 +0300
+
+virgo-ui (2.17.23) stable; urgency=low
+
+  Other
+  * Add analytics to the fleet UI
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Aug 2026 15:32:21 +0300
+
+virgo-ui (2.17.22) stable; urgency=low
+
+  Other
+  * Improve app install checks
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 07:34:02 +0300
+
+virgo-ui (2.17.21) stable; urgency=low
+
+  Other
+  * Show a result icon on the hostname availability check
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 05:33:51 +0300
+
+virgo-ui (2.17.20) stable; urgency=low
+
+  Other
+  * Fix cert polling
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 05:22:02 +0300
+
+virgo-ui (2.17.19) stable; urgency=low
+
+  Other
+  * Check name availability and wait for the certificate during setup
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 04:42:41 +0300
+
+virgo-ui (2.17.18) stable; urgency=low
+
+  Other
+  * Check node name availability during setup
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Aug 2026 02:46:16 +0300
+
+virgo-ui (2.17.17) stable; urgency=low
+
+  Other
+  * Adjust active sessions list
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Aug 2026 11:34:12 +0300
+
+virgo-ui (2.17.16) stable; urgency=low
+
+  Other
+  * Show active sessions in the fleet profile
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Aug 2026 11:11:17 +0300
+
+virgo-ui (2.17.15) stable; urgency=low
+
+  Other
+  * Show active sessions in the fleet profile and revocation
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Aug 2026 00:31:38 +0300
+
+virgo-ui (2.17.14) stable; urgency=low
+
+  Other
+  * Stop the local marker gating the biometric sign-in button
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Aug 2026 12:42:53 +0300
+
+virgo-ui (2.17.13) stable; urgency=low
+
+  Other
+  * Gate biometric sign-in on the device sensor
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Aug 2026 12:24:02 +0300
+
+virgo-ui (2.17.12) stable; urgency=low
+
+  Other
+  * Add biometric sign-in to the fleet role
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Aug 2026 12:10:19 +0300
+
+virgo-ui (2.17.11) stable; urgency=low
+
+  Other
+  * Refactor node update progress
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Aug 2026 13:19:32 +0300
+
+virgo-ui (2.17.10) stable; urgency=low
+
+  Other
+  * Menu suffle
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Aug 2026 22:44:28 +0300
+
+virgo-ui (2.17.9) stable; urgency=low
+
+  Other
+  * Update header styles for consistency across templates
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Aug 2026 14:11:45 +0300
+
+virgo-ui (2.17.8) stable; urgency=low
+
+  Other
+  * Fix job toasts
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Aug 2026 23:10:44 +0300
+
+virgo-ui (2.17.7) stable; urgency=low
+
+  Other
+  * Fix UPS badge colors
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Aug 2026 22:32:43 +0300
+
+virgo-ui (2.17.6) stable; urgency=low
+
+  Other
+  * Added UPS status indicators in the fleet dashboard, including battery charge and power source information, enhancing user awareness of system status
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Aug 2026 22:19:50 +0300
+
+virgo-ui (2.17.5) stable; urgency=low
+
+  Other
+  * Remove notfifications from header
+  * Refactor header and navigation rendering logic
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Aug 2026 17:21:59 +0300
+
+virgo-ui (2.17.4) stable; urgency=low
+
+  Other
+  * Enhance app and system updates modals with subscription management
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Aug 2026 09:03:37 +0300
+
+virgo-ui (2.17.3) stable; urgency=low
+
+  Other
+  * Refine resource indexer stats template logic
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 18:35:32 +0300
+
+virgo-ui (2.17.2) stable; urgency=low
+
+  Other
+  * Refactor template rendering to use safe output methods
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Aug 2026 14:40:18 +0300
+
+virgo-ui (2.17.1) stable; urgency=low
+
+  Other
+  * Cleanup
+  * Read the sign in and sign out result from the status
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 03:22:10 +0300
+
+virgo-ui (2.17.0) stable; urgency=low
+
+  Other
+  * Sign in from the node's own login screen
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Aug 2026 00:44:17 +0300
+
+virgo-ui (2.16.60) stable; urgency=low
+
+  Other
+  * Remove settle pattern
+  * Improve setup steps navigation logic
+
+ -- univrs <voyager@univrs.cloud>  Fri, 14 Aug 2026 19:56:07 +0300
+
+virgo-ui (2.16.59) stable; urgency=low
+
+  Other
+  * Update webfonts
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 19:42:21 +0300
+
+virgo-ui (2.16.58) stable; urgency=low
+
+  Other
+  * Enhance apps setup logic to ensure proper navigation and state management. Update app readiness checks and modify templates to reflect app states accurately. Refactor job handling to exclude app installation jobs from progress notifications.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 15:57:36 +0300
+
+virgo-ui (2.16.57) stable; urgency=low
+
+  Other
+  * Implement apps setup step with associated templates and services. Update job progress handling and navigation to include apps step. Add new partials for apps state and job progress, and integrate core apps installation logic.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 15:22:38 +0300
+
+virgo-ui (2.16.56) stable; urgency=low
+
+  Other
+  *  Update logic to ensure proper handling of job completion and step advancement based on pool availability
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 14:17:13 +0300
+
+virgo-ui (2.16.55) stable; urgency=low
+
+  Other
+  * Refactor job conclusion logic across multiple setup steps to ensure that only jobs that have reported back can conclude the step. Update comments for clarity and improve state management during job processing.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 13:43:31 +0300
+
+virgo-ui (2.16.54) stable; urgency=low
+
+  Other
+  * Update welcome step navigation to use dynamic path resolution for improved flexibility. Add nextStepPath function to streamline step transitions.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 13:27:52 +0300
+
+virgo-ui (2.16.53) stable; urgency=low
+
+  Other
+  * Refactor job rendering logic to handle optional repeat property. Update wizard step order for improved navigation. Enhance host setup UI with additional instructions and better layout. Streamline interface step handling by removing unnecessary elements and improving state management during network updates.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 13:20:40 +0300
+
+virgo-ui (2.16.52) stable; urgency=low
+
+  Other
+  * Update navigation logic to ensure proper redirection based on pool availability
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 12:36:19 +0300
+
+virgo-ui (2.16.51) stable; urgency=low
+
+  Other
+  * Enhance form submission handling to prevent resubmission when the submit button is disabled. Introduce job management for various setup steps, ensuring UI reflects job states and provides user feedback during operations. Update button states and loading indicators across multiple steps for improved user experience.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 11:25:23 +0300
+
+virgo-ui (2.16.50) stable; urgency=low
+
+  Other
+  * Add setup steps for password, ports, and finish. Update navigation and wizard steps to include new components. Enhance storage state handling and improve user interface elements across various steps.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Aug 2026 01:10:13 +0300
+
+virgo-ui (2.16.49) stable; urgency=low
+
+  Other
+  * Restore indexer switch from app state when confirm is cancelled
+  * Implement setup wizard with enhanced error handling and new UI components for fleet registration, network configuration, and storage management. Add EULA acceptance and improve navigation flow between steps.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 12 Aug 2026 21:41:35 +0300
+
+virgo-ui (2.16.48) stable; urgency=low
+
+  Other
+  * Add app updates modal and functionality for managing application updates from fleet
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 6 Aug 2026 00:46:25 +0300
+
+virgo-ui (2.16.47) stable; urgency=low
+
+  Other
+  * Enhance form handling and input behavior across multiple modules.  Improved readonly input focus behavior in components and adjusted modal input focus logic to exclude readonly fields.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 5 Aug 2026 17:56:52 +0300
+
+virgo-ui (2.16.46) stable; urgency=low
+
+  Other
+  * Refactor fleet registration logic to check for fleet token instead of null value
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 5 Aug 2026 09:55:03 +0300
+
+virgo-ui (2.16.45) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 30 Jul 2026 00:42:07 +0300
+
+virgo-ui (2.16.44) stable; urgency=low
+
+  Other
+  * Update notification hints to include storage issues and improve user experience with notification prompts
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Jul 2026 16:55:36 +0300
+
+virgo-ui (2.16.43) stable; urgency=low
+
+  Other
+  * Improved storage scan status display
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Jul 2026 10:48:57 +0300
+
+virgo-ui (2.16.42) stable; urgency=low
+
+  Other
+  * Update health indicators, improve scan status icons, and adjust capacity display for better clarity.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Jul 2026 00:00:18 +0300
+
+virgo-ui (2.16.41) stable; urgency=low
+
+  Other
+  * Add storage health alerts in sites view
+
+ -- univrs <voyager@univrs.cloud>  Thu, 23 Jul 2026 22:56:23 +0300
+
+virgo-ui (2.16.40) stable; urgency=low
+
+  Other
+  * Streamline the structure of service and app information sections
+
+ -- univrs <voyager@univrs.cloud>  Wed, 22 Jul 2026 21:24:05 +0300
+
+virgo-ui (2.16.39) stable; urgency=low
+
+  Other
+  * Enhance logging and terminal connection feedback: update status indicators to reflect connection states, improve error handling, and ensure logs are displayed correctly during connection attempts
+
+ -- univrs <voyager@univrs.cloud>  Wed, 22 Jul 2026 19:00:51 +0300
+
+virgo-ui (2.16.38) stable; urgency=low
+
+  Other
+  * Refactor structure. Remove deprecated modules and enhance application initialization process.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 22 Jul 2026 17:46:31 +0300
+
+virgo-ui (2.16.37) stable; urgency=low
+
+  Other
+  * Enhance network interface modal: add DNS server management, update validation rules, and improve DHCP handling. Ensure proper rendering of network settings and maintain form state on modal interactions.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 22 Jul 2026 16:59:13 +0300
+
+virgo-ui (2.16.36) stable; urgency=low
+
+  Other
+  * Refactor notification handling in fleet profile and improve toast component functionality
+
+ -- univrs <voyager@univrs.cloud>  Mon, 20 Jul 2026 17:36:25 +0300
+
+virgo-ui (2.16.35) stable; urgency=low
+
+  Other
+  * Improve notification management in profile settings
+
+ -- univrs <voyager@univrs.cloud>  Mon, 20 Jul 2026 15:21:20 +0300
+
+virgo-ui (2.16.34) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Add push notification support for fleet PWA: implement service worker, notification management, and UI integration
+
+ -- univrs <voyager@univrs.cloud>  Mon, 20 Jul 2026 13:41:59 +0300
+
+virgo-ui (2.16.33) stable; urgency=low
+
+  Other
+  * Enhance PWA support by adding fleet manifest and icons; update HTML to reflect new branding and fix image references
+
+ -- univrs <voyager@univrs.cloud>  Sat, 18 Jul 2026 23:04:06 +0300
+
+virgo-ui (2.16.32) stable; urgency=low
+
+  Other
+  * Refine node update UI: standardize badge tint colors for various update states to improve visual consistency
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 15:19:49 +0300
+
+virgo-ui (2.16.31) stable; urgency=low
+
+  Other
+  * Update node update UI: adjust badge tint colors, change hover-reveal text for completion and failure states
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 14:57:27 +0300
+
+virgo-ui (2.16.30) stable; urgency=low
+
+  Other
+  * Fix modal vertical centering issue when contained inside web component
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 14:19:37 +0300
+
+virgo-ui (2.16.29) stable; urgency=low
+
+  Other
+  * Enhance system update UI with hover-reveal badges and update completion functionality; refactor update methods for clarity
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 14:01:49 +0300
+
+virgo-ui (2.16.28) stable; urgency=low
+
+  Other
+  * Improve error handling in system updates by displaying the actual error message when starting a system update fails
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 13:01:14 +0300
+
+virgo-ui (2.16.27) stable; urgency=low
+
+  Other
+  * Add node system updates functionality
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 12:48:02 +0300
+
+virgo-ui (2.16.26) stable; urgency=low
+
+  Other
+  * Reduce connectivity progress bar tint
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 01:01:28 +0300
+
+virgo-ui (2.16.25) stable; urgency=low
+
+  Other
+  * Improve layout and positioning of update indicators
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 00:39:29 +0300
+
+virgo-ui (2.16.24) stable; urgency=low
+
+  Other
+  * Display detailed states and progress indicators, enhancing user feedback during updates
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Jul 2026 00:24:02 +0300
+
+virgo-ui (2.16.23) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Enhance layout and visibility of progress indicators
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Jul 2026 23:20:02 +0300
+
+virgo-ui (2.16.22) stable; urgency=low
+
+  Other
+  * Add progress indicators for update process, display current stage and percentage during download and installation, improving user feedback during updates
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Jul 2026 23:04:57 +0300
+
+virgo-ui (2.16.21) stable; urgency=low
+
+  Other
+  * Update link styles in node.html: adjust line height for system and app update links to enhance readability
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Jul 2026 19:52:39 +0300
+
+virgo-ui (2.16.20) stable; urgency=low
+
+  Other
+  * Adjust padding and font size in node.html for improved layout consistency
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Jul 2026 19:32:21 +0300
+
+virgo-ui (2.16.19) stable; urgency=low
+
+  Other
+  * Fix typo in node.html: corrected '___' to '_'
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Jul 2026 19:15:45 +0300
+
+virgo-ui (2.16.18) stable; urgency=low
+
+  Other
+  * Refactor node connectivity display
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Jul 2026 18:53:40 +0300
+
+virgo-ui (2.16.17) stable; urgency=low
+
+  Other
+  * Add connectivity display to node partial: implement progress bars to visualize node connectivity status over time, enhancing user insight into network performance.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Jul 2026 17:47:58 +0300
+
+virgo-ui (2.16.16) stable; urgency=low
+
+  Other
+  * Enhance node update display: separate badges for system and app updates, improving clarity and user navigation to respective update pages.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 14 Jul 2026 20:28:28 +0300
+
+virgo-ui (2.16.15) stable; urgency=low
+
+  Other
+  * Enhance node update badge: wrap badge in a link to direct users to the system updates page, improving accessibility and user experience.
+
+ -- univrs <voyager@univrs.cloud>  Tue, 14 Jul 2026 01:26:48 +0300
+
+virgo-ui (2.16.14) stable; urgency=low
+
+  Other
+  * Refactor profile rendering: update email display logic and adjust dropdown menu alignment in profile partials for improved UI consistency.
+
+ -- univrs <voyager@univrs.cloud>  Tue, 14 Jul 2026 01:10:02 +0300
+
+virgo-ui (2.16.13) stable; urgency=low
+
+  Other
+  * Add update badge to node partial: display available updates with tooltip indicating count of updates for nodes.
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 14 Jul 2026 00:48:51 +0300
+
+virgo-ui (2.16.12) stable; urgency=low
+
+  Other
+  * Refactor form handling in MFA, sign-in, and sign-up modules: unify form selectors to 'u-form', enhance focus handling for input fields, and update HTML structure for better clarity in partials.
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Jul 2026 20:58:47 +0300
+
+virgo-ui (2.16.11) stable; urgency=low
+
+  Other
+  * Add multi-factor authentication (MFA) features: implement MFA setup and challenge screens, integrate QR code generation for MFA, and create account confirmation flow. Remove legacy login module and update fleet navigation for new routes. Update package dependencies including qrcode and postcss.
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Jul 2026 20:16:59 +0300
+
+virgo-ui (2.16.10) stable; urgency=low
+
+  Other
+  * Update webpack configuration: set publicPath to an empty string and add iOS support in the manifest configuration.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 12 Jul 2026 16:47:37 +0300
+
+virgo-ui (2.16.9) stable; urgency=low
+
+  Other
+  * Refactor fleet profile and sites modules: update user service import, enhance sites rendering logic with new partials, and improve HTML structure for better loading states.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 12 Jul 2026 15:07:20 +0300
+
+virgo-ui (2.16.8) stable; urgency=low
+
+  Other
+  * Refactor profile module structure: update HTML layout to include a container for the profile body and adjust JavaScript to target the new structure for rendering profile information.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 12 Jul 2026 14:36:44 +0300
+
+virgo-ui (2.16.7) stable; urgency=low
+
+  Other
+  * Refactor fleet module structure: migrate fleet components to a new directory, implement login and profile management features, and enhance error handling during application initialization. Update SCSS for theme consistency and add new partials for header, login, and profile modals.
+  * Add account management functionality: create account partial and module, implement sign-out feature, and update header to utilize new account component.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 12 Jul 2026 14:03:42 +0300
+
+virgo-ui (2.16.6) stable; urgency=low
+
+  Other
+  * Enhance power management in fleet mode: redirect to fleet root on reboot/shutdown and maintain state on socket disconnect
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Jul 2026 20:48:32 +0300
+
+virgo-ui (2.16.5) stable; urgency=low
+
+  Other
+  * Add group revocation functionality
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Jul 2026 06:33:06 +0300
+
+virgo-ui (2.16.4) stable; urgency=low
+
+  Other
+  * Redesign fleet grid
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Jul 2026 22:37:41 +0300
+
+virgo-ui (2.16.3) stable; urgency=low
+
+  Other
+  * Add min-width and max-width utilities to SCSS, update HTML for consistent class usage
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Jul 2026 15:26:07 +0300
+
+virgo-ui (2.16.2) stable; urgency=low
+
+  Other
+  * Update tag padding for consistency with Tagify and adjust dropdown z-index for improved layering
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Jul 2026 12:47:21 +0300
+
+virgo-ui (2.16.1) stable; urgency=low
+
+  Other
+  * Add email verification prompt to registration flow and handle verification failure notifications
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Jul 2026 11:53:44 +0300
+
+virgo-ui (2.16.0) stable; urgency=low
+
+  Other
+  * Refactor admin and node management notifications to use consistent status checks and improve error messaging
+
+ -- univrs <voyager@univrs.cloud>  Thu, 9 Jul 2026 10:51:22 +0300
+
+virgo-ui (2.15.22) stable; urgency=low
+
+  Other
+  * Refactor node sorting logic in fleet and node services for improved readability and consistency
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 23:13:31 +0300
+
+virgo-ui (2.15.21) stable; urgency=low
+
+  Other
+  * Add focus functionality to the first input field in login and registration forms
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 22:45:11 +0300
+
+virgo-ui (2.15.20) stable; urgency=low
+
+  Other
+  * Remove nodes module and related components from the project, including HTML templates, services, and routing logic for fleet role.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 20:44:53 +0300
+
+virgo-ui (2.15.19) stable; urgency=low
+
+  Other
+  * Add tag component styles and functionality for admin management
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 20:03:50 +0300
+
+virgo-ui (2.15.18) stable; urgency=low
+
+  Other
+  * Update node display logic to conditionally render links based on online status in fleet views
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 16:25:43 +0300
+
+virgo-ui (2.15.17) stable; urgency=low
+
+  Other
+  * Integrate node view initialization and enhance update redirection logic
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 12:35:49 +0300
+
+virgo-ui (2.15.16) stable; urgency=low
+
+  Other
+  * Enhance node picker functionality in fleet role
+  * Enhance fleet modal and header functionality
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 12:13:58 +0300
+
+virgo-ui (2.15.15) stable; urgency=low
+
+  Other
+  * Update namespace handling in Store class to restrict proxying for specific namespaces
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 11:43:10 +0300
+
+virgo-ui (2.15.14) stable; urgency=low
+
+  Other
+  * Refactor fleet role handling in runtime logic
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 10:40:55 +0300
+
+virgo-ui (2.15.13) stable; urgency=low
+
+  Other
+  * Refactor account sign-out functionality and update account display logic
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 10:10:16 +0300
+
+virgo-ui (2.15.12) stable; urgency=low
+
+  Other
+  * Add node view functionality with navigation enhancements
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 02:55:41 +0300
+
+virgo-ui (2.15.11) stable; urgency=low
+
+  Other
+  * Update fleet templates to include moment.js for date formatting in node displays.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 02:12:08 +0300
+
+virgo-ui (2.15.10) stable; urgency=low
+
+  Other
+  * Implement periodic node updates in fleet and display last seen timestamp for offline nodes.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 01:21:37 +0300
+
+virgo-ui (2.15.9) stable; urgency=low
+
+  Other
+  * Enhance fleet node handling by adding conditional namespace logic and restricting fleet role access on node views.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 01:07:20 +0300
+
+virgo-ui (2.15.8) stable; urgency=low
+
+  Other
+  * Refactor account sign-out logic to use dynamic FQDN retrieval and enhance fleet node display with invited status badge.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 00:37:45 +0300
+
+virgo-ui (2.15.7) stable; urgency=low
+
+  Other
+  * Add fleet login and management features, including new admin modal, node management, and updated asset paths for fleet components.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 00:24:09 +0300
+
+virgo-ui (2.15.6) stable; urgency=low
+
+  Other
+  * Update asset paths to remove leading slashes for consistency and add fleet toggle functionality with corresponding service updates.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Jul 2026 00:03:27 +0300
+
+virgo-ui (2.15.5) stable; urgency=low
+
+  Other
+  * Add fleet management (WIP)
+  * Replace fleet status text with a toggle switch
+  * Add fleet management features, including role-based routing, new admin modal, and node management components. Update styles for fleet navigation and implement node invite and delete functionalities.
+
+ -- univrs <voyager@univrs.cloud>  Tue, 7 Jul 2026 20:44:13 +0300
+
+virgo-ui (2.15.4) stable; urgency=low
+
+  Other
+  * Update package.json to allow specific scripts
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Jul 2026 15:11:19 +0300
+
+virgo-ui (2.15.3) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Dasgboard: gray out unclickable cards, remove pointer events from unclickable cards
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Jul 2026 14:53:19 +0300
+
+virgo-ui (2.15.2) stable; urgency=low
+
+  Other
+  * Implement nodes module with search and sorting functionality, update routing based on runtime role, and refactor navigation to conditionally display nodes. Introduce runtime service for role management and adjust related components for improved fleet mode support.
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Jul 2026 12:35:54 +0300
+
+virgo-ui (2.15.1) stable; urgency=low
+
+  Other
+  * Update various services to handle job filtering and state management more robustly
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Jul 2026 10:10:34 +0300
+
+virgo-ui (2.15.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 23:55:01 +0300
+
+virgo-ui (2.14.4) stable; urgency=low
+
+  Other
+  * Restore codebase to 6d5012a.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 23:54:41 +0300
+
+virgo-ui (2.14.16) stable; urgency=low
+
+  Other
+  * Refactor application initialization and role management in index and runtime files. Introduce local state variables for account initialization and login display, and optimize role state updates to prevent unnecessary re-renders. Enhance bootstrap signature handling for improved fleet mode integration.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 23:34:10 +0300
+
+virgo-ui (2.14.15) stable; urgency=low
+
+  Other
+  * Update webpack configuration to remove unused assetIcon import and enhance lodash template settings to include assetIcon utility for improved dynamic image handling.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 23:20:02 +0300
+
+virgo-ui (2.14.14) stable; urgency=low
+
+  Other
+  * Enhance asset handling and fleet mode integration by introducing assetIcon utility for dynamic image paths. Update webpack configuration to support new asset routes and modify various components to utilize the assetIcon function for consistent image rendering across the application.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 23:01:36 +0300
+
+virgo-ui (2.14.13) stable; urgency=low
+
+  Other
+  * Refactor socket path handling in Store class to improve namespace management in fleet mode. Update getSocketNamespace method to return the correct API path based on node selection and namespace, enhancing clarity and functionality.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 22:19:22 +0300
+
+virgo-ui (2.14.12) stable; urgency=low
+
+  Other
+  * Refactor role management in store and index files to utilize global state for fleet mode checks. Replace runtime service dependencies with local state variables for improved clarity and maintainability.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 22:00:56 +0300
+
+virgo-ui (2.14.11) stable; urgency=low
+
+  Other
+  * Refactor node service integration by replacing direct imports with a new centralized sites service. Update components to utilize the new service for site retrieval and selection logic, enhancing fleet mode handling and improving code organization.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 21:46:05 +0300
+
+virgo-ui (2.14.10) stable; urgency=low
+
+  Other
+  * Refactor node service and system integration to streamline node retrieval and enhance fleet mode handling. Update dashboard components to improve state checks and ensure robust rendering of network and CPU statistics. Adjust navigation logic to conditionally display site links based on availability.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 21:39:53 +0300
+
+virgo-ui (2.14.9) stable; urgency=low
+
+  Other
+  * Update site display to show 'Invited' badge for non-owner sites in site and dropdown views, enhancing user clarity on site ownership status.
+  * Implement fleet mode enhancements by introducing a 'fleet-empty' module for improved user experience when no sites are available. Refactor node service to support asynchronous node retrieval and update navigation middleware to handle fleet mode conditions. Adjust theme styles for better layout in empty state scenarios.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 21:11:02 +0300
+
+virgo-ui (2.14.8) stable; urgency=low
+
+  Other
+  * Refactor fleet update modal by removing unused job status handling and improving form state management. Update UI to disable the edit button during registration and remove unnecessary status elements for a cleaner interface.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 20:34:47 +0300
+
+virgo-ui (2.14.7) stable; urgency=low
+
+  Other
+  * Enhance fleet update functionality by adding job status handling and improving UI feedback. Introduce registration status messages and manage form state during updates. Update fleet display logic to reflect live job progress in the UI.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 20:25:57 +0300
+
+virgo-ui (2.14.6) stable; urgency=low
+
+  Other
+  * Refactor runtime service integration by removing the config/runtime module and updating references to use shell/services/runtime. Adjust authentication checks and node selection logic accordingly.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 20:03:45 +0300
+
+virgo-ui (2.14.5) stable; urgency=low
+
+  Other
+  * Add site management features including site access control, deletion, and listing. Integrate site data into the UI with search and sorting capabilities. Update authentication checks for fleet mode.
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 17:26:36 +0300
+
+virgo-ui (2.14.4) stable; urgency=low
+
+  Other
+  * Refactor GitHub Actions workflow to streamline build and release steps
+  * Implement fleet mode functionality with account management, login, and fleet settings integration
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Jul 2026 15:47:02 +0300
+
+virgo-ui (2.14.3) stable; urgency=low
+
+  Other
+  * Refactor site navigation layout to enhance UI consistency
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Jul 2026 14:03:08 +0300
+
+virgo-ui (2.14.2) stable; urgency=low
+
+  Other
+  * Refactor authentication checks to remove dependency on isAuthenticated for admin features
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Jul 2026 13:28:18 +0300
+
+virgo-ui (2.14.1) stable; urgency=low
+
+  Other
+  * Add site management modal and integrate site data into navigation
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Jul 2026 13:16:14 +0300
+
+virgo-ui (2.14.0) stable; urgency=low
+
+  Other
+  * Refactor navigation rendering to include site selection and update system service integration
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Jun 2026 22:42:09 +0300
+
+virgo-ui (2.13.32) stable; urgency=low
+
+  Other
+  * Refactor icon fetching logic and improve error handling in application initialization
+  * Update package dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Jun 2026 17:16:24 +0300
+
+virgo-ui (2.13.31) stable; urgency=low
+
+  Other
+  * Update dependencies and enhance layout styling with backdrop filter and opacity adjustments
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Jun 2026 09:49:05 +0300
+
+virgo-ui (2.13.30) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 12 Jun 2026 23:18:30 +0300
+
+virgo-ui (2.13.29) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Jun 2026 21:39:28 +0300
+
+virgo-ui (2.13.28) stable; urgency=low
+
+  Other
+  * Add Inter font support and update SCSS files for styling
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Jun 2026 16:05:30 +0300
+
+virgo-ui (2.13.27) stable; urgency=low
+
+  Other
+  * Update dependencies and improve job progress display logic
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Jun 2026 09:04:27 +0300
+
+virgo-ui (2.13.26) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 May 2026 20:48:57 +0300
+
+virgo-ui (2.13.25) stable; urgency=low
+
+  Other
+  * Adjust layout for change events display
+
+ -- univrs <voyager@univrs.cloud>  Thu, 14 May 2026 23:32:20 +0300
+
+virgo-ui (2.13.24) stable; urgency=low
+
+  Other
+  * Enhance resource indexer stats display with detailed health indicators and change type badges
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 14 May 2026 13:51:11 +0300
+
+virgo-ui (2.13.23) stable; urgency=low
+
+  Other
+  * Refactor storage progress display and update column headers for clarity
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 May 2026 04:42:53 +0300
+
+virgo-ui (2.13.22) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Add network metrics to app details
+
+ -- univrs <voyager@univrs.cloud>  Tue, 12 May 2026 13:23:50 +0300
+
+virgo-ui (2.13.21) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 9 May 2026 10:53:21 +0300
+
+virgo-ui (2.13.20) stable; urgency=low
+
+  Other
+  * Always sort dashboard cateogies in a given order
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Apr 2026 21:37:40 +0300
+
+virgo-ui (2.13.19) stable; urgency=low
+
+  Other
+  * Remove metrics module
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Apr 2026 00:08:08 +0300
+
+virgo-ui (2.13.18) stable; urgency=low
+
+  Other
+  * Updated dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 27 Apr 2026 17:20:50 +0300
+
+virgo-ui (2.13.17) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 25 Apr 2026 10:15:33 +0300
+
+virgo-ui (2.13.16) stable; urgency=low
+
+  Other
+  * Refactor module imports in application initialization for improved error handling and performance
+
+ -- univrs <voyager@univrs.cloud>  Sat, 25 Apr 2026 10:14:17 +0300
+
+virgo-ui (2.13.15) stable; urgency=low
+
+  Other
+  * Allow selecting disabled users
+  * Enhance folder deletion confirmation with custom folder handling and dynamic action messaging
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Apr 2026 21:09:41 +0300
+
+virgo-ui (2.13.14) stable; urgency=low
+
+  Other
+  * Refactor folder creation and update modals to use dynamic user checkboxes for authorized users.
+  * Add path display to folder update modal
+  * Enhance folder creation modal with loading state and dynamic path selection. Implement custom path retrieval and update validation for refquota input.
+  * Update loading state styles in modals and adjust no-content height for better responsiveness
+
+ -- univrs <voyager@univrs.cloud>  Fri, 24 Apr 2026 12:58:32 +0300
+
+virgo-ui (2.13.13) stable; urgency=low
+
+  Other
+  * Update package dependencies and improve memory and disk usage display in metrics graphs
+
+ -- univrs <voyager@univrs.cloud>  Thu, 23 Apr 2026 20:34:11 +0300
+
+virgo-ui (2.13.12) stable; urgency=low
+
+  Other
+  * Enhance app layout by adding snapshot indexing icon
+  * App details and app layout conditionally display resource metrics based on active container states, improving user experience during loading states
+
+ -- univrs <voyager@univrs.cloud>  Fri, 17 Apr 2026 10:47:39 +0300
+
+virgo-ui (2.13.11) stable; urgency=low
+
+  Other
+  * Refactor network usage rendering to use a default link capacity constant for yAxisMax, ensuring safe value handling
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Apr 2026 17:13:02 +0300
+
+virgo-ui (2.13.10) stable; urgency=low
+
+  Other
+  * Fixing by computing dataMax from finite numbers only and validating Y positions before calling createLinearGradient
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Apr 2026 16:35:47 +0300
+
+virgo-ui (2.13.9) stable; urgency=low
+
+  Other
+  * Refactor subscription management
+  * Update attachStore callback from afterCallbacks to beforeCallbacks in Docker service subscription
+  * Add error handling for subscriber callbacks in createSubscription
+  * Refactor subscription handling to use 'unsubscribe' instead of 'subscription' across multiple modules
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 14 Apr 2026 00:32:04 +0300
+
+virgo-ui (2.13.8) stable; urgency=low
+
+  Other
+  * Implement indexer configuration
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Apr 2026 15:12:44 +0300
+
+virgo-ui (2.13.7) stable; urgency=low
+
+  Other
+  * Show indexer last run at
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Apr 2026 21:23:04 +0300
+
+virgo-ui (2.13.6) stable; urgency=low
+
+  Other
+  * Add indexer stats to resources monitor
+
+ -- univrs <voyager@univrs.cloud>  Sat, 11 Apr 2026 20:05:42 +0300
+
+virgo-ui (2.13.5) stable; urgency=low
+
+  Other
+  * Add services state management to Host store
+  * Refactor rendering logic in various modules to eliminate unnecessary template creation, improving performance and code clarity. This includes updates to how rows are generated for apps, bookmarks, folders, and other entities, ensuring a more efficient DOM manipulation process.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Apr 2026 21:12:55 +0300
+
+virgo-ui (2.13.4) stable; urgency=low
+
+  Other
+  * Refactor subscription handling across multiple modules to utilize a new `createSubscription` utility, improving code consistency and maintainability. This change removes redundant subscription logic and enhances job filtering for various entities.
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Apr 2026 17:36:16 +0300
+
+virgo-ui (2.13.3) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Manage trusted proxies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 8 Apr 2026 15:17:23 +0300
+
+virgo-ui (2.13.2) stable; urgency=low
+
+  Other
+  * Refactor table column widths and alignment across multiple modules for improved layout consistency.
+
+ -- univrs <voyager@univrs.cloud>  Tue, 7 Apr 2026 22:05:11 +0300
+
+virgo-ui (2.13.1) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Refactor search functionality across multiple modules to use a new utility function for fuzzy filtering.
+
+ -- univrs <voyager@univrs.cloud>  Tue, 7 Apr 2026 12:54:04 +0300
+
+virgo-ui (2.13.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sat, 4 Apr 2026 00:56:09 +0300
+
+virgo-ui (2.12.42) stable; urgency=low
+
+  Other
+  * Implement folders management
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 4 Apr 2026 00:54:50 +0300
+
+virgo-ui (2.12.41) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Apr 2026 23:49:31 +0300
+
+virgo-ui (2.12.40) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 1 Apr 2026 19:48:21 +0300
+
+virgo-ui (2.12.39) stable; urgency=low
+
+  Other
+  * Feat: user can be admin or regular user
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 26 Mar 2026 17:44:37 +0200
+
+virgo-ui (2.12.38) stable; urgency=low
+
+  Other
+  * Change how setup completed is detected
+
+ -- univrs <voyager@univrs.cloud>  Wed, 25 Mar 2026 19:05:11 +0200
+
+virgo-ui (2.12.37) stable; urgency=low
+
+  Other
+  * Fix: lazy module navigation UX and preserve deep-link detail routes
+
+ -- univrs <voyager@univrs.cloud>  Tue, 24 Mar 2026 18:17:00 +0200
+
+virgo-ui (2.12.36) stable; urgency=low
+
+  Other
+  * Reorder system menu items
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Mar 2026 20:43:47 +0200
+
+virgo-ui (2.12.35) stable; urgency=low
+
+  Other
+  * Refactor subscription handling in various services to utilize requestAnimationFrame for improved performance and responsiveness during state updates
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Mar 2026 10:13:07 +0200
+
+virgo-ui (2.12.34) stable; urgency=low
+
+  Other
+  * Refactor module loading and subscription handling across various services to improve performance and maintainability.
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Mar 2026 09:28:34 +0200
+
+virgo-ui (2.12.33) stable; urgency=low
+
+  Other
+  * Refactor image update checks in app services to remove unused imageName parameter, streamlining the logic for determining container updates.
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Mar 2026 02:41:17 +0200
+
+virgo-ui (2.12.32) stable; urgency=low
+
+  Other
+  * Enhance service details and action visibility by updating conditions to check for active state and masked unit states. This improves the accuracy of memory usage display and action availability in the system services module.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 20:50:03 +0200
+
+virgo-ui (2.12.31) stable; urgency=low
+
+  Other
+  * Refactor service state handling in system services module to use 'sub' instead of 'state', update filter options, and enhance action visibility based on service activity. Added new filter states for improved service management.
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 16:19:59 +0200
+
+virgo-ui (2.12.30) stable; urgency=low
+
+  Other
+  * Update service action dropdown to handle masked unit states and improve action visibility based on service state
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 15:05:12 +0200
+
+virgo-ui (2.12.29) stable; urgency=low
+
+  Other
+  * Enhance service action dropdown to show "No actions" when no valid options are available, and streamline the display of enable/disable actions based on service state and type
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 14:46:35 +0200
+
+virgo-ui (2.12.28) stable; urgency=low
+
+  Other
+  * Refactor service action dropdown to conditionally display options based on service state and type
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 14:34:44 +0200
+
+virgo-ui (2.12.27) stable; urgency=low
+
+  Other
+  * Add service action functionality and update templates
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Mar 2026 14:18:44 +0200
+
+virgo-ui (2.12.26) stable; urgency=low
+
+  Other
+  * Fix offcanvas must be over toast, also bad placement of offcanvas in dom caused zindex issues because of stacking
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Mar 2026 22:26:48 +0200
+
+virgo-ui (2.12.25) stable; urgency=low
+
+  Other
+  * Update github actions
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Mar 2026 19:33:25 +0200
+
+virgo-ui (2.12.24) stable; urgency=low
+
+  Other
+  * Snapshots list collapsible
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Mar 2026 19:24:16 +0200
+
+virgo-ui (2.12.23) stable; urgency=low
+
+  Other
+  * FIx actions from details
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Mar 2026 08:17:06 +0200
+
+virgo-ui (2.12.22) stable; urgency=low
+
+  Other
+  * Imprive snapshots list
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Mar 2026 22:10:52 +0200
+
+virgo-ui (2.12.21) stable; urgency=low
+
+  Other
+  * Stream service logs
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Mar 2026 22:03:32 +0200
+
+virgo-ui (2.12.20) stable; urgency=low
+
+  Other
+  * Improve app details
+  * Basic service details
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Mar 2026 20:50:34 +0200
+
+virgo-ui (2.12.19) stable; urgency=low
+
+  Other
+  * Validate unique fields
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Mar 2026 16:20:27 +0200
+
+virgo-ui (2.12.18) stable; urgency=low
+
+  Other
+  * Fix N² callback invocations in service subscribe pattern
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Mar 2026 11:21:14 +0200
+
+virgo-ui (2.12.17) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Mar 2026 22:41:02 +0200
+
+virgo-ui (2.12.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Mar 2026 19:06:28 +0200
+
+virgo-ui (2.12.15) stable; urgency=low
+
+  Other
+  * Fix notifier toast hide on mouse leave
+
+ -- univrs <voyager@univrs.cloud>  Tue, 17 Feb 2026 23:03:52 +0200
+
+virgo-ui (2.12.14) stable; urgency=low
+
+  Other
+  * Show disk throughput
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 15:16:14 +0200
+
+virgo-ui (2.12.13) stable; urgency=low
+
+  Other
+  * Metrics show actual data read write per minute, not avreage speed per minute
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 12:25:30 +0200
+
+virgo-ui (2.12.12) stable; urgency=low
+
+  Other
+  * Can't use icon class, already assigned to something else
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 11:22:28 +0200
+
+virgo-ui (2.12.11) stable; urgency=low
+
+  Other
+  * Fix bookmark update
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 11:06:14 +0200
+
+virgo-ui (2.12.10) stable; urgency=low
+
+  Other
+  * Make hidden input component
+
+ -- univrs <voyager@univrs.cloud>  Mon, 16 Feb 2026 11:00:03 +0200
+
+virgo-ui (2.12.9) stable; urgency=low
+
+  Other
+  * Metrics show disk read write and network rx tx
+
+ -- univrs <voyager@univrs.cloud>  Sun, 15 Feb 2026 08:07:02 +0200
+
+virgo-ui (2.12.8) stable; urgency=low
+
+  Other
+  * Untrack file
+  * Show metrics only to admins
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Feb 2026 21:39:19 +0200
+
+virgo-ui (2.12.7) stable; urgency=low
+
+  Other
+  * Use PNG for PWA icons
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Feb 2026 18:40:48 +0200
+
+virgo-ui (2.12.6) stable; urgency=low
+
+  Other
+  * Update sizes
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Feb 2026 17:34:11 +0200
+
+virgo-ui (2.12.5) stable; urgency=low
+
+  Other
+  * Update logo, fix missed png
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Feb 2026 13:59:48 +0200
+
+virgo-ui (2.12.4) stable; urgency=low
+
+  Other
+  * Update logo
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Feb 2026 13:56:13 +0200
+
+virgo-ui (2.12.3) stable; urgency=low
+
+  Other
+  * Improve bookmark icon usage
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 21:26:46 +0200
+
+virgo-ui (2.12.2) stable; urgency=low
+
+  Other
+  * Remove unused icons
+  * Refactor
+  * Cleanup
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 18:04:54 +0200
+
+virgo-ui (2.12.1) stable; urgency=low
+
+  Other
+  * Search show both light and dark icons
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 16:30:07 +0200
+
+virgo-ui (2.12.0) stable; urgency=low
+
+  Other
+  * Bookmark select icon
+
+ -- univrs <voyager@univrs.cloud>  Fri, 13 Feb 2026 16:20:12 +0200
+
+virgo-ui (2.11.34) stable; urgency=low
+
+  Other
+  * Improve distructive action confirm messages, by default focus on cancel in the confirm dialog
+
+ -- univrs <voyager@univrs.cloud>  Wed, 11 Feb 2026 18:03:21 +0200
+
+virgo-ui (2.11.33) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 10 Feb 2026 16:20:11 +0200
+
+virgo-ui (2.11.32) stable; urgency=low
+
+  Other
+  * Fix terminal height
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Feb 2026 18:36:50 +0200
+
+virgo-ui (2.11.31) stable; urgency=low
+
+  Other
+  * Format logs and show connection with connect option when disconnected
+  * Terminal show connection with connect option when disconnected
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Feb 2026 18:29:11 +0200
+
+virgo-ui (2.11.30) stable; urgency=low
+
+  Other
+  * Set terminal font size
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Feb 2026 13:32:03 +0200
+
+virgo-ui (2.11.29) stable; urgency=low
+
+  Other
+  * Improve logs and terminal
+
+ -- univrs <voyager@univrs.cloud>  Fri, 6 Feb 2026 11:33:23 +0200
+
+virgo-ui (2.11.28) stable; urgency=low
+
+  Other
+  * Remove time machine progress, it is unreliable
+
+ -- univrs <voyager@univrs.cloud>  Mon, 2 Feb 2026 20:03:38 +0200
+
+virgo-ui (2.11.27) stable; urgency=low
+
+  Other
+  * Show time machine snapshots count, oldest latest and progress
+
+ -- univrs <voyager@univrs.cloud>  Sun, 1 Feb 2026 18:57:10 +0200
+
+virgo-ui (2.11.26) stable; urgency=low
+
+  Other
+  * Time machine delete
+  * Update time machine
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 31 Jan 2026 21:39:40 +0200
+
+virgo-ui (2.11.25) stable; urgency=low
+
+  Other
+  * form.getData() return string, not boolean for checkbox
+  * Update dependencies
+  * Create time machine
+  * Use button component
+  * Fix copy to clipboard in time machines
+  * Add red background on destructive dropdown item hover
+
+ -- univrs <voyager@univrs.cloud>  Fri, 30 Jan 2026 00:35:09 +0200
+
+virgo-ui (2.11.24) stable; urgency=low
+
+  Other
+  * Remove debug logs
+
+ -- univrs <voyager@univrs.cloud>  Mon, 26 Jan 2026 21:40:36 +0200
+
+virgo-ui (2.11.23) stable; urgency=low
+
+  Other
+  * Fix bookmark payload
+
+ -- univrs <voyager@univrs.cloud>  Mon, 26 Jan 2026 21:39:12 +0200
+
+virgo-ui (2.11.22) stable; urgency=low
+
+  Other
+  * Fix input component suffix and prefix border radius
+  * Bookmark can be proxied
+
+ -- univrs <voyager@univrs.cloud>  Mon, 26 Jan 2026 21:01:19 +0200
+
+virgo-ui (2.11.21) stable; urgency=low
+
+  Other
+  * Fix metrics on large screens
+
+ -- univrs <voyager@univrs.cloud>  Sun, 25 Jan 2026 21:13:09 +0200
+
+virgo-ui (2.11.20) stable; urgency=low
+
+  Other
+  * Highlight metrics row on hover, improve tooltip
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 Jan 2026 12:53:12 +0200
+
+virgo-ui (2.11.19) stable; urgency=low
+
+  Other
+  * Fix swap pages output
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 Jan 2026 12:09:51 +0200
+
+virgo-ui (2.11.18) stable; urgency=low
+
+  Other
+  * Group snapshots by frequency
+  * Handle open app details with page reload
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Jan 2026 18:32:51 +0200
+
+virgo-ui (2.11.17) stable; urgency=low
+
+  Other
+  * Fix undefined variable
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Jan 2026 13:34:17 +0200
+
+virgo-ui (2.11.16) stable; urgency=low
+
+  Other
+  * Show snapshots and details
+
+ -- univrs <voyager@univrs.cloud>  Fri, 23 Jan 2026 13:08:44 +0200
+
+virgo-ui (2.11.15) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Jan 2026 22:58:42 +0200
+
+virgo-ui (2.11.14) stable; urgency=low
+
+  Other
+  * FIx setup wizard app check
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Jan 2026 07:41:27 +0200
+
+virgo-ui (2.11.13) stable; urgency=low
+
+  Other
+  * Don't use container.name
+
+ -- univrs <voyager@univrs.cloud>  Wed, 21 Jan 2026 07:29:09 +0200
+
+virgo-ui (2.11.12) stable; urgency=low
+
+  Other
+  * Fix app url
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Jan 2026 13:15:43 +0200
+
+virgo-ui (2.11.11) stable; urgency=low
+
+  Other
+  * Return multiple urls per app if they exist
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Jan 2026 12:49:52 +0200
+
+virgo-ui (2.11.10) stable; urgency=low
+
+  Other
+  * Fix app and service matching
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 19 Jan 2026 11:58:47 +0200
+
+virgo-ui (2.11.9) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Pass app name instead of id
+
+ -- univrs <voyager@univrs.cloud>  Thu, 15 Jan 2026 20:47:19 +0200
+
+virgo-ui (2.11.8) stable; urgency=low
+
+  Other
+  * Dashboard show network speed
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 21:17:32 +0200
+
+virgo-ui (2.11.7) stable; urgency=low
+
+  Other
+  * Remove useless decorations
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 19:25:00 +0200
+
+virgo-ui (2.11.6) stable; urgency=low
+
+  Other
+  * Improve service names mathing
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 10:43:22 +0200
+
+virgo-ui (2.11.5) stable; urgency=low
+
+  Other
+  * Needs setup update containers name check
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 Jan 2026 10:31:39 +0200
+
+virgo-ui (2.11.4) stable; urgency=low
+
+  Other
+  * Fix progress bar component not rendering desired color
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Jan 2026 15:52:56 +0200
+
+virgo-ui (2.11.3) stable; urgency=low
+
+  Other
+  * Fix app url not populating
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Jan 2026 12:27:53 +0200
+
+virgo-ui (2.11.2) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Remove progress threshold from scrub
+
+ -- univrs <voyager@univrs.cloud>  Sun, 11 Jan 2026 02:58:43 +0200
+
+virgo-ui (2.11.1) stable; urgency=low
+
+  Other
+  * Show when UPS is charging
+
+ -- univrs <voyager@univrs.cloud>  Sat, 10 Jan 2026 15:22:09 +0200
+
+virgo-ui (2.11.0) stable; urgency=low
+
+  Other
+  * API returns network interfaces (all, not just default)
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Jan 2026 17:09:05 +0200
+
+virgo-ui (2.10.56) stable; urgency=low
+
+  Other
+  * Support listing multiple app instances
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 Jan 2026 00:11:20 +0200
+
+virgo-ui (2.10.55) stable; urgency=low
+
+  Other
+  * Use dynamic vertical height
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Jan 2026 16:15:20 +0200
+
+virgo-ui (2.10.54) stable; urgency=low
+
+  Other
+  * Progress component
+
+ -- univrs <voyager@univrs.cloud>  Sat, 3 Jan 2026 16:01:29 +0200
+
+virgo-ui (2.10.53) stable; urgency=low
+
+  Other
+  * Add confirmation to restart actions
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 Jan 2026 13:57:47 +0200
+
+virgo-ui (2.10.52) stable; urgency=low
+
+  Other
+  * Some columns sort default descending
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Dec 2025 22:37:15 +0200
+
+virgo-ui (2.10.51) stable; urgency=low
+
+  Other
+  * Fix console and logs zindex
+  * Improve dashboard network chart
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Dec 2025 01:12:22 +0200
+
+virgo-ui (2.10.50) stable; urgency=low
+
+  Other
+  * Fix services filter
+  * Adjust storage actions column padding
+  * Improve folders view
+  * Improve time machines view
+
+ -- univrs <voyager@univrs.cloud>  Thu, 25 Dec 2025 16:25:01 +0200
+
+virgo-ui (2.10.49) stable; urgency=low
+
+  Other
+  * Reorganise primary menu items
+  * Improve app actions logic
+
+ -- univrs <voyager@univrs.cloud>  Wed, 24 Dec 2025 19:36:24 +0200
+
+virgo-ui (2.10.48) stable; urgency=low
+
+  Other
+  * Improve lists render
+
+ -- univrs <voyager@univrs.cloud>  Tue, 23 Dec 2025 00:22:41 +0200
+
+virgo-ui (2.10.47) stable; urgency=low
+
+  Other
+  * Reduce dashboard height on mobile
+  * Show storage in table view, improve data integrity message
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 22 Dec 2025 18:11:28 +0200
+
+virgo-ui (2.10.46) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 22 Dec 2025 09:00:54 +0200
+
+virgo-ui (2.10.45) stable; urgency=low
+
+  Other
+  * Metrics toggle collapse
+
+ -- univrs <voyager@univrs.cloud>  Thu, 18 Dec 2025 22:21:06 +0200
+
+virgo-ui (2.10.44) stable; urgency=low
+
+  Other
+  * Use normalized values to render graph
+  * Show tooltip with raw values
+
+ -- univrs <voyager@univrs.cloud>  Thu, 18 Dec 2025 17:11:47 +0200
+
+virgo-ui (2.10.43) stable; urgency=low
+
+  Other
+  * FIx console overflow
+
+ -- univrs <voyager@univrs.cloud>  Thu, 18 Dec 2025 00:05:30 +0200
+
+virgo-ui (2.10.42) stable; urgency=low
+
+  Other
+  * Add a gap between columns
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 23:31:10 +0200
+
+virgo-ui (2.10.41) stable; urgency=low
+
+  Other
+  * Improve mobile rendering of lists
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 23:06:13 +0200
+
+virgo-ui (2.10.40) stable; urgency=low
+
+  Other
+  * Improve rendering of metrics
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 22:23:51 +0200
+
+virgo-ui (2.10.39) stable; urgency=low
+
+  Other
+  * Improve rendering of metrics
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 19:50:26 +0200
+
+virgo-ui (2.10.38) stable; urgency=low
+
+  Other
+  * Render onyl available data
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 17:16:05 +0200
+
+virgo-ui (2.10.37) stable; urgency=low
+
+  Other
+  * FIx wrong field used for network interface in dashboard network stats
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 14:41:24 +0200
+
+virgo-ui (2.10.36) stable; urgency=low
+
+  Other
+  * Show service memory usage and order by it
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 12:36:11 +0200
+
+virgo-ui (2.10.35) stable; urgency=low
+
+  Other
+  * Fix container actions
+
+ -- univrs <voyager@univrs.cloud>  Wed, 17 Dec 2025 11:43:52 +0200
+
+virgo-ui (2.10.34) stable; urgency=low
+
+  Other
+  * Make open app effect
+  * Update app center
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 17:15:30 +0200
+
+virgo-ui (2.10.33) stable; urgency=low
+
+  Other
+  * Update button labels
+  * Fix system update check button
+  * Improve services filter
+  * Make search input longer on mobile
+  * Hide scrollbar on services when logs and console is open
+  * More responsive scrollbar show-hide
+  * Use css to handle scrollbar visibility, faster than js
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 15:00:21 +0200
+
+virgo-ui (2.10.32) stable; urgency=low
+
+  Other
+  * Poll metrics every 1 minute while modal is open
+  * Poll metrics every 1 minute while modal is open
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 09:29:42 +0200
+
+virgo-ui (2.10.31) stable; urgency=low
+
+  Other
+  * Update metrics rendering based on new data structure
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 06:22:44 +0200
+
+virgo-ui (2.10.30) stable; urgency=low
+
+  Other
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Dec 2025 00:45:42 +0200
+
+virgo-ui (2.10.29) stable; urgency=low
+
+  Other
+  * Improve scrolling
+  * Metrics scheleton
+  * Render dummy graphs
+  * Render dummy graphs
+  * Show metrics
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 15 Dec 2025 20:11:47 +0200
+
+virgo-ui (2.10.28) stable; urgency=low
+
+  Other
+  * Rename prop from enabled to isDIsabled
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Dec 2025 17:05:35 +0200
+
+virgo-ui (2.10.27) stable; urgency=low
+
+  Other
+  * Metrics placeholder
+  * Improve scrollable lists
+  * Fix header jumping when toggling fullscreen modal
+  * Add button loading state and reset loading state
+  * Enable/disable metrics collection
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Dec 2025 16:21:03 +0200
+
+virgo-ui (2.10.26) stable; urgency=low
+
+  Other
+  * Change primary menu order
+  * Improve app details
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Dec 2025 11:13:53 +0200
+
+virgo-ui (2.10.25) stable; urgency=low
+
+  Other
+  * Improve network stats graph colors
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Dec 2025 15:10:30 +0200
+
+virgo-ui (2.10.24) stable; urgency=low
+
+  Other
+  * Form component uses signals to remove event listeners
+  * Refine layout sizes
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Dec 2025 11:42:07 +0200
+
+virgo-ui (2.10.23) stable; urgency=low
+
+  Other
+  * Change remove to uninstall
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Dec 2025 04:28:38 +0200
+
+virgo-ui (2.10.22) stable; urgency=low
+
+  Other
+  * Improve component tips
+  * Add badge web component
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Dec 2025 03:30:50 +0200
+
+virgo-ui (2.10.21) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Tone down shell access icons
+  * Instruct logged in user on users page about his profile page, mark logged in user with badge
+
+ -- univrs <voyager@univrs.cloud>  Fri, 12 Dec 2025 15:00:28 +0200
+
+virgo-ui (2.10.20) stable; urgency=low
+
+  Other
+  * Add classMap when using dynamic classes
+  * Add button web component
+  * Add missing icons
+  * Truncate bookmark texts
+  * Users searchable and orderable
+
+ -- univrs <voyager@univrs.cloud>  Fri, 12 Dec 2025 12:29:49 +0200
+
+virgo-ui (2.10.19) stable; urgency=low
+
+  Other
+  * Truncate title and link
+  * Truncate title and link
+  * Hide link icon on mobile
+  * Adjust details height on mobile
+
+ -- univrs <voyager@univrs.cloud>  Thu, 11 Dec 2025 21:35:19 +0200
+
+virgo-ui (2.10.18) stable; urgency=low
+
+  Other
+  * Add icons
+  * Add icons
+  * Add resource metrics progress bar
+  * Improve app details
+
+ -- univrs <voyager@univrs.cloud>  Thu, 11 Dec 2025 19:33:04 +0200
+
+virgo-ui (2.10.17) stable; urgency=low
+
+  Other
+  * Fix logs and temrinal logs height
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Dec 2025 20:48:55 +0200
+
+virgo-ui (2.10.16) stable; urgency=low
+
+  Other
+  * Improve table ordering icons
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Dec 2025 17:57:17 +0200
+
+virgo-ui (2.10.15) stable; urgency=low
+
+  Other
+  * Show only used memory, without caches
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Dec 2025 16:54:33 +0200
+
+virgo-ui (2.10.14) stable; urgency=low
+
+  Other
+  * Show app+container cpu and memory usage
+
+ -- univrs <voyager@univrs.cloud>  Wed, 10 Dec 2025 15:30:01 +0200
+
+virgo-ui (2.10.13) stable; urgency=low
+
+  Other
+  * Add notifier and toast web component
+  * Fix updating toast, must use classMap in LIT
+  * Remove hide progress indicator
+  * Use notifier component
+  * Remove unused template
+  * Update notification type
+
+ -- univrs <voyager@univrs.cloud>  Tue, 9 Dec 2025 23:26:49 +0200
+
+virgo-ui (2.10.12) stable; urgency=low
+
+  Other
+  * Fix service action events
+
+ -- univrs <voyager@univrs.cloud>  Tue, 9 Dec 2025 09:34:36 +0200
+
+virgo-ui (2.10.11) stable; urgency=low
+
+  Other
+  * Fix dropdown position and spacing
+  * Subscribe only to updates state
+  * Preserve active navigation on re-render of nav
+
+ -- univrs <voyager@univrs.cloud>  Mon, 8 Dec 2025 21:56:01 +0200
+
+virgo-ui (2.10.10) stable; urgency=low
+
+  Other
+  * Improve apps rendering
+  * Improve mobile rendering
+  * Improve mobile rendering
+  * Improve bookmarks rendering
+  * Fix sticky heading visually
+
+ -- univrs <voyager@univrs.cloud>  Mon, 8 Dec 2025 20:27:38 +0200
+
+virgo-ui (2.10.9) stable; urgency=low
+
+  Other
+  * Don't wrap table cell content
+  * Redesign apps + services view
+
+ -- univrs <voyager@univrs.cloud>  Mon, 8 Dec 2025 14:45:29 +0200
+
+virgo-ui (2.10.8) stable; urgency=low
+
+  Other
+  * Apps list, ordering, search
+
+ -- univrs <voyager@univrs.cloud>  Mon, 8 Dec 2025 03:06:12 +0200
+
+virgo-ui (2.10.7) stable; urgency=low
+
+  Other
+  * Mark failed services
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 22:58:16 +0200
+
+virgo-ui (2.10.6) stable; urgency=low
+
+  Other
+  * Services failed state filter
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 22:54:51 +0200
+
+virgo-ui (2.10.5) stable; urgency=low
+
+  Other
+  * Show updates count badge on primary menu, removed it from the header
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 21:48:12 +0200
+
+virgo-ui (2.10.4) stable; urgency=low
+
+  Other
+  * Add service search
+  * Filter services
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 14:27:40 +0200
+
+virgo-ui (2.10.3) stable; urgency=low
+
+  Other
+  * Fix off canvas menu height
+  * Sync services action
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 11:53:22 +0200
+
+virgo-ui (2.10.2) stable; urgency=low
+
+  Other
+  * Improve click detection for table ordering
+
+ -- univrs <voyager@univrs.cloud>  Sun, 7 Dec 2025 00:08:03 +0200
+
+virgo-ui (2.10.1) stable; urgency=low
+
+  Other
+  * Show table sorting icons and cursor for heading
+
+ -- univrs <voyager@univrs.cloud>  Sat, 6 Dec 2025 23:53:27 +0200
+
+virgo-ui (2.10.0) stable; urgency=low
+
+  Other
+  * Add stripes to memory progress bar
+  * Refactor
+  * Update LICENSE
+  * System services page
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 6 Dec 2025 21:45:25 +0200
+
+virgo-ui (2.9.41) stable; urgency=low
+
+  Other
+  * Fix legend color
+  * Fix spacing in cards
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Wed, 3 Dec 2025 21:33:38 +0200
+
+virgo-ui (2.9.40) stable; urgency=low
+
+  Other
+  * Show more accurate RAM usage
+
+ -- univrs <voyager@univrs.cloud>  Wed, 3 Dec 2025 14:03:00 +0200
+
+virgo-ui (2.9.39) stable; urgency=low
+
+  Other
+  * Update spacings in layout
+  * Improve dashboard layout and ordering
+
+ -- univrs <voyager@univrs.cloud>  Tue, 2 Dec 2025 23:28:53 +0200
+
+virgo-ui (2.9.38) stable; urgency=low
+
+  Other
+  * Use ResizeObserver on modal body instead of window resize, more efficient
+
+ -- univrs <voyager@univrs.cloud>  Tue, 2 Dec 2025 13:13:49 +0200
+
+virgo-ui (2.9.37) stable; urgency=low
+
+  Other
+  * Fix update event sending actions too
+
+ -- univrs <voyager@univrs.cloud>  Tue, 2 Dec 2025 09:38:36 +0200
+
+virgo-ui (2.9.36) stable; urgency=low
+
+  Other
+  * Fix input group rounded corners
+  * Improve modal scroll cleanup
+
+ -- univrs <voyager@univrs.cloud>  Tue, 2 Dec 2025 01:23:27 +0200
+
+virgo-ui (2.9.35) stable; urgency=low
+
+  Other
+  * Fix modal header overlapping input focus ring
+
+ -- univrs <voyager@univrs.cloud>  Tue, 2 Dec 2025 00:57:40 +0200
+
+virgo-ui (2.9.34) stable; urgency=low
+
+  Other
+  * Fix modal scrolling when there is no footer
+
+ -- univrs <voyager@univrs.cloud>  Tue, 2 Dec 2025 00:16:34 +0200
+
+virgo-ui (2.9.33) stable; urgency=low
+
+  Other
+  * Cleanup scrollbar on modal close
+
+ -- univrs <voyager@univrs.cloud>  Mon, 1 Dec 2025 23:00:42 +0200
+
+virgo-ui (2.9.32) stable; urgency=low
+
+  Other
+  * Fix scrollbar when reopening and no longer needs it
+
+ -- univrs <voyager@univrs.cloud>  Mon, 1 Dec 2025 22:38:48 +0200
+
+virgo-ui (2.9.31) stable; urgency=low
+
+  Other
+  * Modal header and footer are translucent to hint for scrollable content
+
+ -- univrs <voyager@univrs.cloud>  Mon, 1 Dec 2025 22:30:16 +0200
+
+virgo-ui (2.9.30) stable; urgency=low
+
+  Other
+  * Use appropiate icons for folders and time machines
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Nov 2025 19:56:34 +0200
+
+virgo-ui (2.9.29) stable; urgency=low
+
+  Other
+  * Add footer to cards
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Nov 2025 11:58:00 +0200
+
+virgo-ui (2.9.28) stable; urgency=low
+
+  Other
+  * Validate notification sender
+  * Dashboard lighter
+  * Dashboard lighter
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Nov 2025 11:32:42 +0200
+
+virgo-ui (2.9.27) stable; urgency=low
+
+  Other
+  * Improve layout
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Nov 2025 00:37:31 +0200
+
+virgo-ui (2.9.26) stable; urgency=low
+
+  Other
+  * Input type tags
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Nov 2025 23:17:06 +0200
+
+virgo-ui (2.9.25) stable; urgency=low
+
+  Other
+  * Update gitignore
+  * Invalid feedback does not shift layout
+  * Submit form when pressing return
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Nov 2025 13:00:08 +0200
+
+virgo-ui (2.9.24) stable; urgency=low
+
+  Other
+  * Improve confirm dialog action button text, reflect the action it will perform
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Nov 2025 20:58:23 +0200
+
+virgo-ui (2.9.23) stable; urgency=low
+
+  Other
+  * Improve drag drop lib
+  * Make drag drop lib more generic
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Nov 2025 14:47:47 +0200
+
+virgo-ui (2.9.22) stable; urgency=low
+
+  Other
+  * Use dashed attribute names
+  * Add more form input validations
+  * Application recreate action
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Nov 2025 10:51:02 +0200
+
+virgo-ui (2.9.21) stable; urgency=low
+
+  Other
+  * Use classMap
+  * Refactor form component
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Nov 2025 01:33:06 +0200
+
+virgo-ui (2.9.20) stable; urgency=low
+
+  Other
+  * Fix checked as property not boolean
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 23:13:00 +0200
+
+virgo-ui (2.9.19) stable; urgency=low
+
+  Other
+  * Use static style for css, more simple
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 22:04:25 +0200
+
+virgo-ui (2.9.18) stable; urgency=low
+
+  Other
+  * On form reset enable buttons
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 17:28:12 +0200
+
+virgo-ui (2.9.17) stable; urgency=low
+
+  Other
+  * Remove redundant variables
+  * Remove dummy code
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 17:11:20 +0200
+
+virgo-ui (2.9.16) stable; urgency=low
+
+  Other
+  * Add checkbox web component
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 17:03:20 +0200
+
+virgo-ui (2.9.15) stable; urgency=low
+
+  Other
+  * Fix network interface method toggle
+  * Add switch web component
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 15:28:40 +0200
+
+virgo-ui (2.9.14) stable; urgency=low
+
+  Other
+  * Add input suffix and prefix
+  * On submit if has invalid input focus on 1st invalid input
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 12:27:06 +0200
+
+virgo-ui (2.9.13) stable; urgency=low
+
+  Other
+  * Uncommnet code
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 04:57:54 +0200
+
+virgo-ui (2.9.12) stable; urgency=low
+
+  Other
+  * Form validation selector can be multiple
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 04:57:16 +0200
+
+virgo-ui (2.9.11) stable; urgency=low
+
+  Other
+  * Use form web component
+  * Use form web component
+  * Use form web component
+  * Use form web component
+  * Use form web component
+  * Use form web component
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 04:08:39 +0200
+
+virgo-ui (2.9.10) stable; urgency=low
+
+  Other
+  * Format code
+  * Add form component validation
+  * Use form web component
+  * Form reset clears validation errors
+
+ -- univrs <voyager@univrs.cloud>  Thu, 27 Nov 2025 02:25:31 +0200
+
+virgo-ui (2.9.9) stable; urgency=low
+
+  Other
+  * Form reset restores web components
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Nov 2025 17:47:23 +0200
+
+virgo-ui (2.9.8) stable; urgency=low
+
+  Other
+  * Improve password toggle
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Nov 2025 17:43:19 +0200
+
+virgo-ui (2.9.7) stable; urgency=low
+
+  Other
+  * Fix form validation
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Nov 2025 17:38:22 +0200
+
+virgo-ui (2.9.6) stable; urgency=low
+
+  Other
+  * Add input web component
+  * Fix typo
+  * Add select web component
+  * Add textarea web component
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Nov 2025 16:52:11 +0200
+
+virgo-ui (2.9.5) stable; urgency=low
+
+  Other
+  * Remove protocol from address text, not href
+  * Fix spacing around page title
+  * Fix spacing around page title
+  * Adjust columns by screen size
+  * Improve cards design
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Nov 2025 21:08:35 +0200
+
+virgo-ui (2.9.4) stable; urgency=low
+
+  Other
+  * Change websocket path to /api instead of /socket.io
+  * Defensive coding
+
+ -- univrs <voyager@univrs.cloud>  Tue, 25 Nov 2025 11:18:32 +0200
+
+virgo-ui (2.9.3) stable; urgency=low
+
+  Other
+  * Use IEC binary prefixes
+
+ -- univrs <voyager@univrs.cloud>  Mon, 24 Nov 2025 19:47:02 +0200
+
+virgo-ui (2.9.2) stable; urgency=low
+
+  Other
+  * Don't import provided packages
+
+ -- univrs <voyager@univrs.cloud>  Mon, 24 Nov 2025 17:31:09 +0200
+
+virgo-ui (2.9.1) stable; urgency=low
+
+  Other
+  * Improve service unsubscribe and logout redirection
+
+ -- univrs <voyager@univrs.cloud>  Mon, 24 Nov 2025 14:15:54 +0200
+
+virgo-ui (2.9.0) stable; urgency=low
+
+  Other
+  * Allow reboot after update if required
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Nov 2025 23:48:34 +0200
+
+virgo-ui (2.8.0) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Improve system update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 21 Nov 2025 23:12:42 +0200
+
+virgo-ui (2.7.7) stable; urgency=low
+
+  Other
+  * Add input description with tooltip
+  * Fix floating labels for Firefox
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Nov 2025 19:57:42 +0200
+
+virgo-ui (2.7.6) stable; urgency=low
+
+  Other
+  * Show snapshot size for each app
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Nov 2025 15:02:33 +0200
+
+virgo-ui (2.7.5) stable; urgency=low
+
+  Other
+  * Show app service running / all services
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Nov 2025 12:58:17 +0200
+
+virgo-ui (2.7.4) stable; urgency=low
+
+  Other
+  * Use new key
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Nov 2025 19:24:25 +0200
+
+virgo-ui (2.7.3) stable; urgency=low
+
+  Other
+  * Add tooltips
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 19 Nov 2025 10:27:33 +0200
+
+virgo-ui (2.7.2) stable; urgency=low
+
+  Other
+  * Storage space detailed
+
+ -- univrs <voyager@univrs.cloud>  Mon, 17 Nov 2025 22:36:26 +0200
+
+virgo-ui (2.7.1) stable; urgency=low
+
+  Other
+  * Show resource metrics when expanded
+  * Improve app center tabs and modal
+
+ -- univrs <voyager@univrs.cloud>  Mon, 17 Nov 2025 15:48:04 +0200
+
+virgo-ui (2.7.0) stable; urgency=low
+
+  Other
+  * Show app resource usage
+
+ -- univrs <voyager@univrs.cloud>  Mon, 17 Nov 2025 12:56:46 +0200
+
+virgo-ui (2.6.8) stable; urgency=low
+
+  Other
+  * Fix dashboard network chart rendering
+
+ -- univrs <voyager@univrs.cloud>  Sat, 15 Nov 2025 22:59:50 +0200
+
+virgo-ui (2.6.7) stable; urgency=low
+
+  Other
+  * Use percentWeighted for progress
+
+ -- univrs <voyager@univrs.cloud>  Thu, 13 Nov 2025 12:18:35 +0200
+
+virgo-ui (2.6.6) stable; urgency=low
+
+  Other
+  * Show proggress based on layers
+
+ -- univrs <voyager@univrs.cloud>  Tue, 11 Nov 2025 21:40:53 +0200
+
+virgo-ui (2.6.5) stable; urgency=low
+
+  Other
+  * Show progress active for pulling
+
+ -- univrs <voyager@univrs.cloud>  Tue, 11 Nov 2025 17:07:43 +0200
+
+virgo-ui (2.6.4) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Show job progress bars in toast
+
+ -- univrs <voyager@univrs.cloud>  Tue, 11 Nov 2025 16:34:29 +0200
+
+virgo-ui (2.6.3) stable; urgency=low
+
+  Other
+  * Add novalidate to forms
+  * Improvements
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Nov 2025 00:18:35 +0200
+
+virgo-ui (2.6.2) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Hide url for HostSNI matches, they are not reachable via browser
+
+ -- univrs <voyager@univrs.cloud>  Wed, 5 Nov 2025 00:00:23 +0200
+
+virgo-ui (2.6.1) stable; urgency=low
+
+  Other
+  * Use node 22 to build
+
+ -- univrs <voyager@univrs.cloud>  Fri, 31 Oct 2025 12:33:51 +0200
+
+virgo-ui (2.6.0) stable; urgency=low
+
+  Other
+  * Update workflow nodejs to 24 as it is the new LTS
+
+ -- univrs <voyager@univrs.cloud>  Fri, 31 Oct 2025 11:45:00 +0200
+
+virgo-ui (2.5.32) stable; urgency=low
+
+  Other
+  * Use correct class for select inputs, was missing down chevron
+  * Use better icon for select dropdown indicator
+
+ -- univrs <voyager@univrs.cloud>  Wed, 29 Oct 2025 16:17:16 +0200
+
+virgo-ui (2.5.31) stable; urgency=low
+
+  Other
+  * Improve navigation for software update and setup wizard
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Oct 2025 21:24:28 +0200
+
+virgo-ui (2.5.30) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+  * Improve page navigation, add middleware
+
+ -- univrs <voyager@univrs.cloud>  Tue, 28 Oct 2025 20:49:30 +0200
+
+virgo-ui (2.5.29) stable; urgency=low
+
+  Other
+  * Highlight focused button
+
+ -- univrs <voyager@univrs.cloud>  Tue, 21 Oct 2025 07:04:39 +0300
+
+virgo-ui (2.5.28) stable; urgency=low
+
+  Other
+  * Update build-and-release.yml
+  * Order entities alphabetically
+
+ -- univrs <voyager@univrs.cloud>  Sat, 18 Oct 2025 10:54:58 +0300
+
+virgo-ui (2.5.27) stable; urgency=low
+
+  Other
+  * Add build status badge to README
+  * Rename workflow to 'Build and release'
+  * Update package-lock.json
+  * Revise DEB build instructions in README
+  * Update runner version to Ubuntu 24.04 ARM
+  * Fix engine version
+
+ -- univrs <voyager@univrs.cloud>  Thu, 16 Oct 2025 17:11:58 +0300
+
+virgo-ui (2.5.26) stable; urgency=low
+
+  Other
+  * Upgrade actions/checkout and actions/setup-node
+  * Allow manual trigger of action
+  * Change run on worflow job
+  * Change engine verions
+  * Fix build steps
+  * Require tag when manual action is triggered
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Oct 2025 21:35:27 +0300
+
+virgo-ui (2.5.25) stable; urgency=low
+
+  Other
+  * Add node-deb as dev dependency
+  * Create build-and-release.yml
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Oct 2025 21:08:37 +0300
+
+virgo-ui (2.5.24) stable; urgency=low
+
+  Other
+  * Fix refactor error
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Oct 2025 16:21:52 +0300
+
+virgo-ui (2.5.23) stable; urgency=low
+
+  Other
+  * Use single import for validator
+  * Fix dialog visibility order
+
+ -- univrs <voyager@univrs.cloud>  Mon, 13 Oct 2025 18:45:06 +0300
+
+virgo-ui (2.5.22) stable; urgency=low
+
+  Other
+  * Update package-lock.json
+  * Stack dialogs above modals
+
+ -- univrs <voyager@univrs.cloud>  Sun, 12 Oct 2025 03:27:17 +0300
+
+virgo-ui (2.5.21) stable; urgency=low
+
+  Other
+  * Update package-lock.json
+  * Add custom alert and confirm dialogs
+
+ -- univrs <voyager@univrs.cloud>  Sun, 12 Oct 2025 01:31:02 +0300
+
+virgo-ui (2.5.20) stable; urgency=low
+
+  Other
+  * Bump nodejs version
+
+ -- univrs <voyager@univrs.cloud>  Fri, 10 Oct 2025 15:52:27 +0300
+
+virgo-ui (2.5.19) stable; urgency=low
+
+  Other
+  * Meh
+  * Get rid of babek and import es module
+  * Use alias for esm files
+
+ -- univrs <voyager@univrs.cloud>  Fri, 10 Oct 2025 02:50:03 +0300
+
+virgo-ui (2.5.18) stable; urgency=low
+
+  Other
+  * Update package-lock.json
+  * Remove unused axios
+
+ -- univrs <voyager@univrs.cloud>  Fri, 10 Oct 2025 02:10:26 +0300
+
+virgo-ui (2.5.17) stable; urgency=low
+
+  Other
+  * Revert dev server mode to development
+  * Use tree shakeable validator imports
+
+ -- univrs <voyager@univrs.cloud>  Fri, 10 Oct 2025 01:23:36 +0300
+
+virgo-ui (2.5.16) stable; urgency=low
+
+  Other
+  * Replace save with update
+  * Reduce bundle size
+
+ -- univrs <voyager@univrs.cloud>  Fri, 10 Oct 2025 01:00:21 +0300
+
+virgo-ui (2.5.15) stable; urgency=low
+
+  Other
+  * Fix ip validation
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 02:29:46 +0300
+
+virgo-ui (2.5.14) stable; urgency=low
+
+  Other
+  * Validate ip
+
+ -- univrs <voyager@univrs.cloud>  Mon, 6 Oct 2025 02:12:58 +0300
+
+virgo-ui (2.5.13) stable; urgency=low
+
+  Other
+  * Beter handle websockets when server is disconnecting due to network interface changes
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Oct 2025 21:25:48 +0300
+
+virgo-ui (2.5.12) stable; urgency=low
+
+  Other
+  * Move gateway into interface
+  * Fix spacing
+  * Save jobs in state when connecting
+  * Reload on network interface update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Oct 2025 18:16:26 +0300
+
+virgo-ui (2.5.11) stable; urgency=low
+
+  Other
+  * Send network interface name
+  * Send interface name default gateway
+
+ -- univrs <voyager@univrs.cloud>  Fri, 3 Oct 2025 13:40:01 +0300
+
+virgo-ui (2.5.10) stable; urgency=low
+
+  Other
+  * Update icons
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Oct 2025 18:45:22 +0300
+
+virgo-ui (2.5.9) stable; urgency=low
+
+  Other
+  * Add network actions
+  * Fix interface form reset
+  * Update dependencies
+  * Reduce bundle size
+
+ -- univrs <voyager@univrs.cloud>  Thu, 2 Oct 2025 17:11:50 +0300
+
+virgo-ui (2.5.8) stable; urgency=low
+
+  Other
+  * Better icon colors
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Sep 2025 22:07:23 +0300
+
+virgo-ui (2.5.7) stable; urgency=low
+
+  Other
+  * Move bookmarks to its own store
+  * Drag and drop to reorder dashboard apps and bookmarks
+  * Add dashboard ordering
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Sep 2025 15:35:15 +0300
+
+virgo-ui (2.5.6) stable; urgency=low
+
+  Other
+  * User order field to sort
+
+ -- univrs <voyager@univrs.cloud>  Sun, 28 Sep 2025 14:46:20 +0300
+
+virgo-ui (2.5.5) stable; urgency=low
+
+  Other
+  * Update modal border radius
+  * App center show app category
+  * Software updates a scrollable list
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 27 Sep 2025 15:02:09 +0300
+
+virgo-ui (2.5.4) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Change wording and aling stuff
+
+ -- univrs <voyager@univrs.cloud>  Fri, 26 Sep 2025 21:57:21 +0300
+
+virgo-ui (2.5.3) stable; urgency=low
+
+  Other
+  * Fix typo
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 23 Sep 2025 12:34:51 +0300
+
+virgo-ui (2.5.2) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 16 Sep 2025 11:18:15 +0300
+
+virgo-ui (2.5.1) stable; urgency=low
+
+  Other
+  * Update job name to match new format
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Sep 2025 15:12:18 +0300
+
+virgo-ui (2.5.0) stable; urgency=low
+
+  Other
+  * Update icons
+  * Refactor socket event names
+
+ -- univrs <voyager@univrs.cloud>  Sun, 14 Sep 2025 14:20:27 +0300
+
+virgo-ui (2.4.32) stable; urgency=low
+
+  Other
+  * Don't show version in the navigation
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Sep 2025 21:46:27 +0300
+
+virgo-ui (2.4.31) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 13 Sep 2025 15:17:31 +0300
+
+virgo-ui (2.4.30) stable; urgency=low
+
+  Other
+  * Fix app install form values submission
+
+ -- univrs <voyager@univrs.cloud>  Thu, 28 Aug 2025 20:23:29 +0300
+
+virgo-ui (2.4.29) stable; urgency=low
+
+  Other
+  * Improve devserver proxy
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 28 Aug 2025 10:48:03 +0300
+
+virgo-ui (2.4.28) stable; urgency=low
+
+  Other
+  * Allow app remove, but keep data
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 Aug 2025 17:30:02 +0300
+
+virgo-ui (2.4.27) stable; urgency=low
+
+  Other
+  * Add missing app logo
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 Aug 2025 16:40:01 +0300
+
+virgo-ui (2.4.26) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Change icon property variable
+  * Remove font path variable, same as source
+  * Add svg icons
+  * Remove SVG icons, they are downloaded on install or update
+  * Keep only non app icons
+  * Set install strategy to auto
+
+ -- univrs <voyager@univrs.cloud>  Tue, 26 Aug 2025 16:29:02 +0300
+
+virgo-ui (2.4.25) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 18 Aug 2025 19:18:14 +0300
+
+virgo-ui (2.4.24) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 17 Aug 2025 12:08:02 +0300
+
+virgo-ui (2.4.23) stable; urgency=low
+
+  Other
+  * Fix setup required check, returned false positive
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 Aug 2025 21:42:11 +0300
+
+virgo-ui (2.4.22) stable; urgency=low
+
+  Other
+  * Show job progress for waiting jobs
+  * Fix bookmark add
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 Aug 2025 19:31:27 +0300
+
+virgo-ui (2.4.21) stable; urgency=low
+
+  Other
+  * Pick bookmark category
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 13 Aug 2025 13:48:16 +0300
+
+virgo-ui (2.4.20) stable; urgency=low
+
+  Other
+  * Fix bookmark update service call
+
+ -- univrs <voyager@univrs.cloud>  Sun, 10 Aug 2025 16:51:32 +0300
+
+virgo-ui (2.4.19) stable; urgency=low
+
+  Other
+  * Remove reduced motion so icons animate
+
+ -- univrs <voyager@univrs.cloud>  Fri, 8 Aug 2025 22:05:37 +0200
+
+virgo-ui (2.4.18) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Fix floating labels in firefox
+  * Bookmark create/update/delete
+  * Update icons
+
+ -- univrs <voyager@univrs.cloud>  Fri, 8 Aug 2025 21:51:02 +0200
+
+virgo-ui (2.4.17) stable; urgency=low
+
+  Other
+  * When updates check is running change text
+
+ -- univrs <voyager@univrs.cloud>  Fri, 1 Aug 2025 14:14:57 +0200
+
+virgo-ui (2.4.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 1 Aug 2025 13:50:27 +0200
+
+virgo-ui (2.4.15) stable; urgency=low
+
+  Other
+  * Prepare setup wizard
+  * Setup wizard preparations
+
+ -- univrs <voyager@univrs.cloud>  Tue, 29 Jul 2025 20:45:08 +0300
+
+virgo-ui (2.4.14) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Logo navigates to home
+  * Check for updates from updates page
+
+ -- univrs <voyager@univrs.cloud>  Tue, 29 Jul 2025 14:30:16 +0300
+
+virgo-ui (2.4.13) stable; urgency=low
+
+  Other
+  * Only admin users can have access everywhere
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Jul 2025 18:30:49 +0300
+
+virgo-ui (2.4.12) stable; urgency=low
+
+  Other
+  * Show ZFS version
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Jul 2025 19:02:07 +0300
+
+virgo-ui (2.4.11) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Jul 2025 17:38:18 +0300
+
+virgo-ui (2.4.10) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 27 Jun 2025 17:51:15 +0300
+
+virgo-ui (2.4.9) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 18 Jun 2025 19:36:07 +0300
+
+virgo-ui (2.4.8) stable; urgency=low
+
+  Other
+  * Move expand/compress actions await from under notifications
+  * Add icon before service name
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Jun 2025 19:16:08 +0300
+
+virgo-ui (2.4.7) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Align terminal and logs container
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Jun 2025 18:54:36 +0300
+
+virgo-ui (2.4.6) stable; urgency=low
+
+  Other
+  * Reconnect socket when app becomes visible
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Jun 2025 13:10:31 +0300
+
+virgo-ui (2.4.5) stable; urgency=low
+
+  Other
+  * Ignore repeat jobs
+  * Improve rendering and error handeling
+
+ -- univrs <voyager@univrs.cloud>  Sat, 24 May 2025 17:04:45 +0300
+
+virgo-ui (2.4.4) stable; urgency=low
+
+  Other
+  * Show which service has updates
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Tue, 20 May 2025 20:28:23 +0300
+
+virgo-ui (2.4.3) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Fix weather popover toggle
+  * Bold active primary menu
+  * Disable app remove button
+
+ -- univrs <voyager@univrs.cloud>  Sat, 17 May 2025 12:00:03 +0300
+
+virgo-ui (2.4.2) stable; urgency=low
+
+  Other
+  * Check if smtp key exists
+
+ -- univrs <voyager@univrs.cloud>  Wed, 14 May 2025 21:10:16 +0300
+
+virgo-ui (2.4.1) stable; urgency=low
+
+  Other
+  * Update app icons
+
+ -- univrs <voyager@univrs.cloud>  Tue, 13 May 2025 18:09:24 +0300
+
+virgo-ui (2.4.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Fri, 9 May 2025 15:34:58 +0300
+
+virgo-ui (2.3.21) stable; urgency=low
+
+  Other
+  * Add weather store and load weather from API
+
+ -- univrs <voyager@univrs.cloud>  Fri, 9 May 2025 15:34:40 +0300
+
+virgo-ui (2.3.20) stable; urgency=low
+
+  Other
+  * Weather forecast
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 May 2025 02:12:16 +0300
+
+virgo-ui (2.3.19) stable; urgency=low
+
+  Other
+  * WIP weather forecast
+  * Clean up state of completed jobs
+
+ -- univrs <voyager@univrs.cloud>  Tue, 6 May 2025 22:30:26 +0000
+
+virgo-ui (2.3.18) stable; urgency=low
+
+  Other
+  * Move toast template into partial
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Wed, 7 May 2025 00:34:14 +0000
+
+virgo-ui (2.3.17) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Mon, 5 May 2025 22:33:59 +0300
+
+virgo-ui (2.3.16) stable; urgency=low
+
+  Other
+  * Use new instead of create
+  * Check for new updates on updates page
+  * Show spinning gear icon when something is happening with an app
+
+ -- univrs <voyager@univrs.cloud>  Sun, 4 May 2025 20:17:38 +0300
+
+virgo-ui (2.3.15) stable; urgency=low
+
+  Other
+  * Updated dependencies
+  * Fix toast position and overlaying
+
+ -- univrs <voyager@univrs.cloud>  Thu, 1 May 2025 22:26:28 +0300
+
+virgo-ui (2.3.14) stable; urgency=low
+
+  Other
+  * Use async/await
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Apr 2025 22:46:38 +0300
+
+virgo-ui (2.3.13) stable; urgency=low
+
+  Other
+  * Trigger terminal resize to fit client size, render using canvas
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Apr 2025 12:30:45 +0300
+
+virgo-ui (2.3.12) stable; urgency=low
+
+  Other
+  * Fix app has updates on dashboard
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Apr 2025 08:01:46 +0300
+
+virgo-ui (2.3.11) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Remove logging
+  * Fix app has updates on dashboard
+
+ -- univrs <voyager@univrs.cloud>  Wed, 30 Apr 2025 07:56:46 +0300
+
+virgo-ui (2.3.10) stable; urgency=low
+
+  Other
+  * Improve updates detection
+  * Change websecure to https
+
+ -- univrs <voyager@univrs.cloud>  Tue, 29 Apr 2025 21:50:58 +0300
+
+virgo-ui (2.3.9) stable; urgency=low
+
+  Other
+  * Fix app install validation errors
+
+ -- univrs <voyager@univrs.cloud>  Mon, 28 Apr 2025 21:56:41 +0300
+
+virgo-ui (2.3.8) stable; urgency=low
+
+  Other
+  * Fix network domain render && prepopulate domain in app install
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Apr 2025 16:19:26 +0300
+
+virgo-ui (2.3.7) stable; urgency=low
+
+  Other
+  * Install app updates
+  * Update dependencies
+  * Show app install domain prefix
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Apr 2025 15:47:13 +0300
+
+virgo-ui (2.3.6) stable; urgency=low
+
+  Other
+  * Rename pihole.png to pihole_.png
+  * Add files via upload
+  * FIx typo
+  * Update dependencies
+  * Show if updates are available
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Apr 2025 15:25:42 +0300
+
+virgo-ui (2.3.5) stable; urgency=low
+
+  Other
+  * Drop proxies dependency, use labels
+  * Add Traefik logo
+
+ -- univrs <voyager@univrs.cloud>  Tue, 22 Apr 2025 17:10:03 +0300
+
+virgo-ui (2.3.4) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Support input type email
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Apr 2025 14:59:51 +0300
+
+virgo-ui (2.3.3) stable; urgency=low
+
+  Other
+  * Add app install input types
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Apr 2025 22:53:00 +0300
+
+virgo-ui (2.3.2) stable; urgency=low
+
+  Other
+  * Remove installed badge
+  * Don't fail if storage has no scan status
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Apr 2025 21:11:54 +0300
+
+virgo-ui (2.3.1) stable; urgency=low
+
+  Other
+  * Return tooltip on lock icons
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Apr 2025 21:08:00 +0300
+
+virgo-ui (2.3.0) stable; urgency=low
+
+  Other
+  * Replace svg icons with font icons
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Apr 2025 20:57:52 +0300
+
+virgo-ui (2.2.64) stable; urgency=low
+
+  Other
+  * Fix wrong service name
+
+ -- univrs <voyager@univrs.cloud>  Tue, 15 Apr 2025 23:16:10 +0300
+
+virgo-ui (2.2.63) stable; urgency=low
+
+  Other
+  * Fix time machine service
+
+ -- univrs <voyager@univrs.cloud>  Tue, 15 Apr 2025 23:05:43 +0300
+
+virgo-ui (2.2.62) stable; urgency=low
+
+  Other
+  * Fix missing variable
+
+ -- univrs <voyager@univrs.cloud>  Tue, 15 Apr 2025 23:00:40 +0300
+
+virgo-ui (2.2.61) stable; urgency=low
+
+  Other
+  * Improve folder/time machine instructions with tooltip
+
+ -- univrs <voyager@univrs.cloud>  Tue, 15 Apr 2025 22:56:15 +0300
+
+virgo-ui (2.2.60) stable; urgency=low
+
+  Other
+  * View service logs
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Apr 2025 21:47:19 +0300
+
+virgo-ui (2.2.59) stable; urgency=low
+
+  Other
+  * Add service actions
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Apr 2025 14:35:12 +0300
+
+virgo-ui (2.2.58) stable; urgency=low
+
+  Other
+  * Validate app install fields are not empty
+  * Disable field autocomplete
+
+ -- univrs <voyager@univrs.cloud>  Sat, 12 Apr 2025 14:22:36 +0300
+
+virgo-ui (2.2.57) stable; urgency=low
+
+  Other
+  * User lock/unlock
+
+ -- univrs <voyager@univrs.cloud>  Sat, 12 Apr 2025 11:33:09 +0300
+
+virgo-ui (2.2.56) stable; urgency=low
+
+  Other
+  * Improve profile render
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 16:19:41 +0300
+
+virgo-ui (2.2.55) stable; urgency=low
+
+  Other
+  * Improve profile update
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 16:03:04 +0300
+
+virgo-ui (2.2.54) stable; urgency=low
+
+  Other
+  * Don't allow password change for disabled users
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 14:57:35 +0300
+
+virgo-ui (2.2.53) stable; urgency=low
+
+  Other
+  * Show user disabled state
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 14:48:21 +0300
+
+virgo-ui (2.2.52) stable; urgency=low
+
+  Other
+  * User password change. Group app center apps
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Apr 2025 13:18:21 +0300
+
+virgo-ui (2.2.51) stable; urgency=low
+
+  Other
+  * Update and delete user
+  * Fix navbar dropdown background transparency
+
+ -- univrs <voyager@univrs.cloud>  Thu, 10 Apr 2025 23:29:34 +0300
+
+virgo-ui (2.2.50) stable; urgency=low
+
+  Other
+  * Create user
+
+ -- univrs <voyager@univrs.cloud>  Thu, 10 Apr 2025 22:29:28 +0300
+
+virgo-ui (2.2.49) stable; urgency=low
+
+  Other
+  * Add password input visibility toggle
+  * Dropdown has glass effect background
+
+ -- univrs <voyager@univrs.cloud>  Thu, 10 Apr 2025 16:24:41 +0300
+
+virgo-ui (2.2.48) stable; urgency=low
+
+  Other
+  * Validate account profile/password inputs
+
+ -- univrs <voyager@univrs.cloud>  Wed, 9 Apr 2025 22:31:40 +0300
+
+virgo-ui (2.2.47) stable; urgency=low
+
+  Other
+  * Settings uses queues
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 23:35:59 +0300
+
+virgo-ui (2.2.46) stable; urgency=low
+
+  Other
+  * Better handle of toasts for jobs
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 20:54:09 +0300
+
+virgo-ui (2.2.45) stable; urgency=low
+
+  Other
+  * Improve styling
+  * Fix rendering for shut down / powered off
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 14:57:46 +0300
+
+virgo-ui (2.2.44) stable; urgency=low
+
+  Other
+  * Fix apps expanded heights
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Apr 2025 01:41:44 +0300
+
+virgo-ui (2.2.43) stable; urgency=low
+
+  Other
+  * Fix layout spacing
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Apr 2025 15:56:46 +0300
+
+virgo-ui (2.2.42) stable; urgency=low
+
+  Other
+  * Use correct format
+  * Fix dashboard links
+  * Removed reduced motion option from spinner
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Apr 2025 23:05:20 +0300
+
+virgo-ui (2.2.41) stable; urgency=low
+
+  Other
+  * Inform some app services are not running
+  * Build for arm64 onlu
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Apr 2025 20:47:59 +0300
+
+virgo-ui (2.2.40) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Apr 2025 11:09:11 +0300
+
+virgo-ui (2.2.39) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Apr 2025 11:07:38 +0300
+
+virgo-ui (2.2.38) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Apr 2025 11:05:32 +0300
+
+virgo-ui (2.2.37) stable; urgency=low
+
+  Other
+  * Fix icons spacing
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Apr 2025 13:09:29 +0300
+
+virgo-ui (2.2.36) stable; urgency=low
+
+  Other
+  * Delete unused file
+  * Package lock
+  * Generate css variables for colors
+  * Show app container states
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Apr 2025 12:46:57 +0300
+
+virgo-ui (2.2.35) stable; urgency=low
+
+  Other
+  * Show app install progress with toasts
+  * Update dependencies
+  * Improve on apps list and view
+
+ -- univrs <voyager@univrs.cloud>  Thu, 3 Apr 2025 23:29:21 +0300
+
+virgo-ui (2.2.34) stable; urgency=low
+
+  Other
+  * Added job store
+
+ -- univrs <voyager@univrs.cloud>  Tue, 1 Apr 2025 23:13:55 +0300
+
+virgo-ui (2.2.33) stable; urgency=low
+
+  Other
+  * Fix url matching between proxy and container
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 23:19:11 +0300
+
+virgo-ui (2.2.32) stable; urgency=low
+
+  Other
+  * App install toast uses title of app not name
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 22:35:07 +0300
+
+virgo-ui (2.2.31) stable; urgency=low
+
+  Other
+  * Fix input serialization for all inputs
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 22:19:48 +0300
+
+virgo-ui (2.2.30) stable; urgency=low
+
+  Other
+  * Support select input from templates
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 22:11:42 +0300
+
+virgo-ui (2.2.29) stable; urgency=low
+
+  Other
+  * Install apps
+  * Fix missing hidden inputs
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 21:04:11 +0300
+
+virgo-ui (2.2.28) stable; urgency=low
+
+  Other
+  * Add Ghost app icon
+  * Improve app/bookmark icon src
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 14:13:29 +0300
+
+virgo-ui (2.2.27) stable; urgency=low
+
+  Other
+  * Improve input nameing
+
+ -- univrs <voyager@univrs.cloud>  Mon, 31 Mar 2025 10:33:26 +0300
+
+virgo-ui (2.2.26) stable; urgency=low
+
+  Other
+  * Use space better
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Mar 2025 23:46:42 +0300
+
+virgo-ui (2.2.25) stable; urgency=low
+
+  Other
+  * Remove debug logging
+  * Better usage of space
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Mar 2025 23:11:27 +0300
+
+virgo-ui (2.2.24) stable; urgency=low
+
+  Other
+  * update
+  * Remove junk files
+  * Get app containers and allow to console into each container of a compose project
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Mar 2025 21:57:47 +0300
+
+virgo-ui (2.2.23) stable; urgency=low
+
+  Other
+  * Show console connect in the card, not in the actions dropdown
+
+ -- univrs <voyager@univrs.cloud>  Sun, 30 Mar 2025 10:30:47 +0300
+
+virgo-ui (2.2.22) stable; urgency=low
+
+  Other
+  * Support app console
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 23:47:03 +0200
+
+virgo-ui (2.2.21) stable; urgency=low
+
+  Other
+  * Fix navigation
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 15:52:46 +0200
+
+virgo-ui (2.2.20) stable; urgency=low
+
+  Other
+  * Don't pass username for profile and password change, use values from session on the server
+  * Fix typo
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 15:38:00 +0200
+
+virgo-ui (2.2.19) stable; urgency=low
+
+  Other
+  * Add profile page with edit and password change (wip)
+  * Update dependencies
+  * focus 1st input after modal is shown
+  * Don't focus hidden inputs
+  * Submit profile forms
+
+ -- univrs <voyager@univrs.cloud>  Sat, 29 Mar 2025 10:06:00 +0200
+
+virgo-ui (2.2.18) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Fri, 28 Mar 2025 18:02:20 +0200
+
+virgo-ui (2.2.17) stable; urgency=low
+
+  Other
+  * Remove debug log
+  * Render containers and configurations with new data structure
+  * Remove debug logging
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Mar 2025 21:21:11 +0200
+
+virgo-ui (2.2.16) stable; urgency=low
+
+  Other
+  * Upate dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 26 Mar 2025 20:40:00 +0200
+
+virgo-ui (2.2.15) stable; urgency=low
+
+  Other
+  * Show MAC address and drives serial number
+  * Fix click event handler
+
+ -- univrs <voyager@univrs.cloud>  Mon, 24 Mar 2025 22:34:14 +0200
+
+virgo-ui (2.2.14) stable; urgency=low
+
+  Other
+  * Render storage with new API data
+  * Show hint on how to access folders
+
+ -- univrs <voyager@univrs.cloud>  Sun, 23 Mar 2025 23:30:19 +0200
+
+virgo-ui (2.2.13) stable; urgency=low
+
+  Other
+  * Set network graph max Y based on interface speed
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Mar 2025 11:21:46 +0200
+
+virgo-ui (2.2.12) stable; urgency=low
+
+  Other
+  * Show apps published ports
+  * Show UI and API versions
+
+ -- univrs <voyager@univrs.cloud>  Sat, 15 Mar 2025 10:53:07 +0200
+
+virgo-ui (2.2.11) stable; urgency=low
+
+  Other
+  * Improve notifications view
+
+ -- univrs <voyager@univrs.cloud>  Sun, 9 Mar 2025 20:06:02 +0200
+
+virgo-ui (2.2.10) stable; urgency=low
+
+  Other
+  * List all recipients
+  * Manage notification recipients
+  * Improve notification recipients data processing
+  * Handle empty recipients and show error message
+
+ -- univrs <voyager@univrs.cloud>  Sat, 8 Mar 2025 22:08:19 +0200
+
+virgo-ui (2.2.9) stable; urgency=low
+
+  Other
+  * Fix app center list visibility
+
+ -- univrs <voyager@univrs.cloud>  Sat, 8 Mar 2025 17:07:25 +0200
+
+virgo-ui (2.2.8) stable; urgency=low
+
+  Other
+  * Render notification recipients
+
+ -- univrs <voyager@univrs.cloud>  Sat, 8 Mar 2025 16:26:43 +0200
+
+virgo-ui (2.2.7) stable; urgency=low
+
+  Other
+  * Remove console log
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 18:47:25 +0200
+
+virgo-ui (2.2.6) stable; urgency=low
+
+  Other
+  * Add notification server
+  * Add encryption option to SMTP settings
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 18:25:50 +0200
+
+virgo-ui (2.2.5) stable; urgency=low
+
+  Other
+  * Check if scan results is an object
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 7 Mar 2025 12:54:47 +0200
+
+virgo-ui (2.2.4) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 2 Mar 2025 15:11:10 +0200
+
+virgo-ui (2.2.3) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 1 Mar 2025 11:10:51 +0200
+
+virgo-ui (2.2.2) stable; urgency=low
+
+  Other
+  * Show more detailed space usage for folders and time machines
+  * Show pool scrub paused state
+
+ -- univrs <voyager@univrs.cloud>  Sat, 22 Feb 2025 14:30:06 +0200
+
+virgo-ui (2.2.1) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 20 Feb 2025 20:56:33 +0200
+
+virgo-ui (2.2.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Feb 2025 20:38:51 +0200
+
+virgo-ui (2.1.29) stable; urgency=low
+
+  Other
+  * Show data integrity on storage page
+  * Visual tweaks
+
+ -- univrs <voyager@univrs.cloud>  Tue, 18 Feb 2025 20:38:34 +0200
+
+virgo-ui (2.1.28) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Show pool scrub progress
+
+ -- univrs <voyager@univrs.cloud>  Sun, 16 Feb 2025 02:27:24 +0200
+
+virgo-ui (2.1.27) stable; urgency=low
+
+  Other
+  * Use nvme threshold to color drives by temperature
+
+ -- univrs <voyager@univrs.cloud>  Fri, 14 Feb 2025 14:45:51 +0200
+
+virgo-ui (2.1.26) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sun, 2 Feb 2025 18:33:48 +0000
+
+virgo-ui (2.1.25) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Wed, 15 Jan 2025 13:19:26 +0200
+
+virgo-ui (2.1.24) stable; urgency=low
+
+  Other
+  * Chek for missing values
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Dec 2024 21:42:03 +0200
+
+virgo-ui (2.1.23) stable; urgency=low
+
+  Other
+  * Fix dashboard network interface name now showing
+
+ -- univrs <voyager@univrs.cloud>  Wed, 27 Nov 2024 10:25:52 +0200
+
+virgo-ui (2.1.22) stable; urgency=low
+
+  Other
+  * Added about page
+
+ -- univrs <voyager@univrs.cloud>  Mon, 25 Nov 2024 12:59:24 +0200
+
+virgo-ui (2.1.21) stable; urgency=low
+
+  Other
+  * Show correct hostname
+  * Don't show remove action on dashboard
+
+ -- univrs <voyager@univrs.cloud>  Sat, 16 Nov 2024 13:52:51 +0200
+
+virgo-ui (2.1.20) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Sat, 9 Nov 2024 16:35:45 +0200
+
+virgo-ui (2.1.19) stable; urgency=low
+
+  Other
+  * Upgrade continue redirects to /
+
+ -- univrs <voyager@univrs.cloud>  Thu, 7 Nov 2024 10:10:21 +0200
+
+virgo-ui (2.1.18) stable; urgency=low
+
+  Other
+  * Show smb share comment (more user friendly) instead of name (more tech friendly)
+
+ -- univrs <voyager@univrs.cloud>  Mon, 4 Nov 2024 01:00:38 +0200
+
+virgo-ui (2.1.17) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Improve upgrade log output
+
+ -- univrs <voyager@univrs.cloud>  Sun, 3 Nov 2024 20:43:00 +0200
+
+virgo-ui (2.1.16) stable; urgency=low
+
+  Other
+  * Redesign notifications dropdown
+
+ -- univrs <voyager@univrs.cloud>  Sun, 3 Nov 2024 20:20:12 +0200
+
+virgo-ui (2.1.15) stable; urgency=low
+
+  Other
+  * Merge
+  * Show notifications (fake data)
+
+ -- univrs <voyager@univrs.cloud>  Sun, 3 Nov 2024 00:21:13 +0200
+
+virgo-ui (2.1.14) stable; urgency=low
+
+  Other
+  * Update engine version
+  * Improve primary button
+
+ -- univrs <voyager@univrs.cloud>  Sat, 2 Nov 2024 21:22:11 +0200
+
+virgo-ui (2.1.13) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 1 Nov 2024 14:26:55 +0200
+
+virgo-ui (2.1.12) stable; urgency=low
+
+  Other
+  * Show network address with cidr notation
+  * Use backdrop filter to blur background elements
+  * Try catch to prevent failure
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Oct 2024 22:46:45 +0200
+
+virgo-ui (2.1.11) stable; urgency=low
+
+  Other
+  * Handle page reload and page not found
+  * Add glass effect filter
+
+ -- univrs <voyager@univrs.cloud>  Sun, 27 Oct 2024 00:23:14 +0300
+
+virgo-ui (2.1.10) stable; urgency=low
+
+  Other
+  * Load modules only if authenticated
+  * Improve network page
+
+ -- univrs <voyager@univrs.cloud>  Sat, 26 Oct 2024 22:10:52 +0300
+
+virgo-ui (2.1.9) stable; urgency=low
+
+  Other
+  * Remove debug logging
+  * Fix upgrading spinner and text spacing
+
+ -- univrs <voyager@univrs.cloud>  Sat, 26 Oct 2024 17:06:06 +0300
+
+virgo-ui (2.1.8) stable; urgency=low
+
+  Other
+  * Show network information on network page
+
+ -- univrs <voyager@univrs.cloud>  Sat, 26 Oct 2024 16:58:52 +0300
+
+virgo-ui (2.1.7) stable; urgency=low
+
+  Other
+  * Add storage module
+  * Improve update/upgrade views
+
+ -- univrs <voyager@univrs.cloud>  Fri, 25 Oct 2024 00:25:03 +0300
+
+virgo-ui (2.1.6) stable; urgency=low
+
+  Other
+  * Add inflaction
+  * Add software update module
+  * Upadate text
+  * Fix typo
+  * Adjust offcanvas height
+
+ -- univrs <voyager@univrs.cloud>  Thu, 24 Oct 2024 11:57:35 +0300
+
+virgo-ui (2.1.5) stable; urgency=low
+
+  Other
+  * Fix lock icon aligment
+
+ -- univrs <voyager@univrs.cloud>  Tue, 22 Oct 2024 17:33:24 +0300
+
+virgo-ui (2.1.4) stable; urgency=low
+
+  Other
+  * Show users
+
+ -- univrs <voyager@univrs.cloud>  Tue, 22 Oct 2024 17:21:52 +0300
+
+virgo-ui (2.1.3) stable; urgency=low
+
+  Other
+  * If can load I2C but no UPS device don't render it
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Oct 2024 22:04:31 +0300
+
+virgo-ui (2.1.2) stable; urgency=low
+
+  Other
+  * If no UPS HW don't render
+
+ -- univrs <voyager@univrs.cloud>  Mon, 21 Oct 2024 20:27:42 +0300
+
+virgo-ui (2.1.1) stable; urgency=low
+
+  Other
+  * Fix missed rename
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Oct 2024 22:20:58 +0300
+
+virgo-ui (2.1.0) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Oct 2024 21:57:59 +0300
+
+virgo-ui (2.0.12) stable; urgency=low
+
+  Other
+  * Rename SMB shares to Folders, improve observable store state change subscribe callback logic
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Oct 2024 21:57:55 +0300
+
+virgo-ui (2.0.11) stable; urgency=low
+
+  Other
+  * Remove ignored file
+  * Update dependencies
+  * Align center badge in title
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Oct 2024 16:02:35 +0300
+
+virgo-ui (2.0.10) stable; urgency=low
+
+  Other
+  * Fix header height while upgrade is running
+  * Update gitignore
+
+ -- univrs <voyager@univrs.cloud>  Sun, 20 Oct 2024 15:11:21 +0300
+
+virgo-ui (2.0.9) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Sat, 19 Oct 2024 19:48:48 +0300
+
+virgo-ui (2.0.8) stable; urgency=low
+
+  Other
+  * Show bookmarks
+  * Show SMB shares
+  * Show time machines
+  * Show access for shares and time machines
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Oct 2024 19:29:59 +0300
+
+virgo-ui (2.0.7) stable; urgency=low
+
+  Other
+  * Fix update badge text decoration
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Oct 2024 12:36:41 +0300
+
+virgo-ui (2.0.6) stable; urgency=low
+
+  Other
+  * Fix navigation on mobile
+  * Show apps in apps page, without details for now
+
+ -- univrs <voyager@univrs.cloud>  Fri, 18 Oct 2024 12:06:27 +0300
+
+virgo-ui (2.0.5) stable; urgency=low
+
+  Other
+  * Refactor: introduce modules, allow navigation between modules
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Oct 2024 22:24:07 +0300
+
+virgo-ui (2.0.4) stable; urgency=low
+
+  Other
+  * Improve layout
+
+ -- univrs <voyager@univrs.cloud>  Thu, 17 Oct 2024 00:55:38 +0300
+
+virgo-ui (2.0.3) stable; urgency=low
+
+  Other
+  * Hide some actions on the dashboard
+  * Refactor header structure
+
+ -- univrs <voyager@univrs.cloud>  Wed, 16 Oct 2024 11:22:10 +0300
+
+virgo-ui (2.0.2) stable; urgency=low
+
+  Other
+  * Show time machine backups and other improvements
+
+ -- univrs <voyager@univrs.cloud>  Tue, 15 Oct 2024 21:19:36 +0300
+
+virgo-ui (2.0.1) stable; urgency=low
+
+  Other
+  * Only show menu items if authenticated
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Oct 2024 22:27:24 +0300
+
+virgo-ui (2.0.0) stable; urgency=low
+
+  Other
+  * Remove useless classes
+  * Update the design
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Oct 2024 22:18:29 +0300
+
+virgo-ui (1.0.59) stable; urgency=low
+
+  Other
+  * Add icons in modal titles
+  * Improve on colors
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Oct 2024 11:08:51 +0300
+
+virgo-ui (1.0.58) stable; urgency=low
+
+  Other
+  * Fix upgrade header
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Oct 2024 00:30:16 +0300
+
+virgo-ui (1.0.57) stable; urgency=low
+
+  Other
+  * Add outline to all buttons
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Oct 2024 00:23:48 +0300
+
+virgo-ui (1.0.56) stable; urgency=low
+
+  Other
+  * Add a bit of color
+
+ -- univrs <voyager@univrs.cloud>  Mon, 14 Oct 2024 00:14:34 +0300
+
+virgo-ui (1.0.55) stable; urgency=low
+
+  Other
+  * Define primary color in variables
+  * Show apps empty state
+
+ -- univrs <voyager@univrs.cloud>  Sun, 13 Oct 2024 19:57:58 +0300
+
+virgo-ui (1.0.54) stable; urgency=low
+
+  Other
+  * Use better colors for text selection
+
+ -- univrs <voyager@univrs.cloud>  Sun, 13 Oct 2024 18:01:39 +0300
+
+virgo-ui (1.0.53) stable; urgency=low
+
+  Other
+  * Morph the upgrade steps list and scroll to bottom when user returns to bottom of the steps list
+
+ -- univrs <voyager@univrs.cloud>  Sun, 13 Oct 2024 12:15:08 +0300
+
+virgo-ui (1.0.52) stable; urgency=low
+
+  Other
+  * Get location using API and validate inputs
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Oct 2024 21:12:25 +0300
+
+virgo-ui (1.0.51) stable; urgency=low
+
+  Other
+  * Revert commented event listeners
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Oct 2024 02:36:03 +0300
+
+virgo-ui (1.0.50) stable; urgency=low
+
+  Other
+  * Save location for weather
+  * Update dependencies
+  * Fix cookie decode
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Oct 2024 02:29:43 +0300
+
+virgo-ui (1.0.49) stable; urgency=low
+
+  Other
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Fri, 11 Oct 2024 01:22:45 +0300
+
+virgo-ui (1.0.48) stable; urgency=low
+
+  Other
+  * Unsubscribe from bootstrap service after render
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 21:13:51 +0300
+
+virgo-ui (1.0.47) stable; urgency=low
+
+  Other
+  * Fix tooltips and morphdom
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 20:49:57 +0300
+
+virgo-ui (1.0.46) stable; urgency=low
+
+  Other
+  * Provide version dynamically
+  * Refactor and improve performance
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 15:10:06 +0300
+
+virgo-ui (1.0.45) stable; urgency=low
+
+  Other
+  * Fix footer rendering
+  * Refine status card
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 11:50:03 +0300
+
+virgo-ui (1.0.44) stable; urgency=low
+
+  Other
+  * Add system status title and rearrange
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 11:14:38 +0300
+
+virgo-ui (1.0.43) stable; urgency=low
+
+  Other
+  * Update package-lock
+  * Fix multi click on check for update
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 01:37:56 +0300
+
+virgo-ui (1.0.42) stable; urgency=low
+
+  Other
+  * Refactor
+
+ -- univrs <voyager@univrs.cloud>  Tue, 8 Oct 2024 00:01:25 +0300
+
+virgo-ui (1.0.41) stable; urgency=low
+
+  Other
+  * improve morphing
+  * Refactoring
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 17:46:18 +0000
+
+virgo-ui (1.0.40) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 16:58:53 +0300
+
+virgo-ui (1.0.39) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 16:58:52 +0300
+
+virgo-ui (1.0.38) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 16:58:51 +0300
+
+virgo-ui (1.0.37) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 16:58:50 +0300
+
+virgo-ui (1.0.36) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 16:58:49 +0300
+
+virgo-ui (1.0.35) stable; urgency=low
+
+  Other
+  * Emit complete upgrade
+  * Test?
+  * Revert
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 16:58:43 +0300
+
+virgo-ui (1.0.34) stable; urgency=low
+
+  Other
+  * Test
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 06:27:02 -0400
+
+virgo-ui (1.0.33) stable; urgency=low
+
+  Other
+  * Check if there is an upgrade running
+  * Try something different
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 06:14:34 -0400
+
+virgo-ui (1.0.32) stable; urgency=low
+
+ -- univrs <voyager@univrs.cloud>  Mon, 7 Oct 2024 04:18:23 -0400
+
+virgo-ui (1.0.31) stable; urgency=low
+
+  Other
+  * Don't flicker during api restart on update
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 20:44:13 +0300
+
+virgo-ui (1.0.30) stable; urgency=low
+
+  Other
+  * Get check updates state from API
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 18:28:27 +0300
+
+virgo-ui (1.0.29) stable; urgency=low
+
+  Other
+  * Format code
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 16:08:37 +0300
+
+virgo-ui (1.0.28) stable; urgency=low
+
+  Other
+  * Add confirmation for actions
+  * Bump version
+  * Check for updates
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 15:35:53 +0300
+
+virgo-ui (1.0.27) stable; urgency=low
+
+  Other
+  * Clean app center modal before rendering new items
+
+ -- univrs <voyager@univrs.cloud>  Sun, 6 Oct 2024 11:15:29 +0300
+
+virgo-ui (1.0.26) stable; urgency=low
+
+  Other
+  * Bump version
+  * Improve upgrade screen
+
+ -- univrs <voyager@univrs.cloud>  Sat, 5 Oct 2024 13:57:05 +0300
+
+virgo-ui (1.0.25) stable; urgency=low
+
+  Other
+  * Improve upgrade process
+
+ -- univrs <voyager@univrs.cloud>  Fri, 4 Oct 2024 02:03:54 +0300
+
+virgo-ui (1.0.24) stable; urgency=low
+
+  Other
+  * Add restart
+  * Update dependencies
+  * Add restart confirmation
+  * Bump version
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Oct 2024 23:35:15 +0300
+
+virgo-ui (1.0.23) stable; urgency=low
+
+  Other
+  * Use lodash-es
+  * Use lodash-es
+
+ -- univrs <voyager@univrs.cloud>  Wed, 2 Oct 2024 18:22:46 +0300
+
+virgo-ui (1.0.22) stable; urgency=low
+
+  Other
+  * Update dependencies and drop support for IE
+
+ -- univrs <voyager@univrs.cloud>  Tue, 17 Sep 2024 02:01:38 +0300
+
+virgo-ui (1.0.21) stable; urgency=low
+
+  Other
+  * Bump version
+  * Rename OS to VirgoOS
+
+ -- univrs <voyager@univrs.cloud>  Mon, 9 Sep 2024 22:01:42 +0300
+
+virgo-ui (1.0.20) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Improve morphing
+  * Added dummy settings modal
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 5 Sep 2024 19:45:50 +0000
+
+virgo-ui (1.0.19) stable; urgency=low
+
+  Other
+  * Fix morphing
+
+ -- univrs <voyager@univrs.cloud>  Wed, 28 Aug 2024 18:44:53 +0300
+
+virgo-ui (1.0.18) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Update dependencies
+  * Bump version
+
+ -- univrs <voyager@univrs.cloud>  Tue, 27 Aug 2024 18:44:22 +0000
+
+virgo-ui (1.0.17) stable; urgency=low
+
+  Other
+  * Update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Thu, 8 Aug 2024 21:08:18 +0300
+
+virgo-ui (1.0.16) stable; urgency=low
+
+  Other
+  * Update dependencies
+  * Send entity id instead of name
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Jul 2024 20:44:30 +0300
+
+virgo-ui (1.0.15) stable; urgency=low
+
+  Other
+  * Add drive temperature
+  * Remove tooltip position
+  * Bump version
+  * Emit app and bookmark actions
+
+ -- univrs <voyager@univrs.cloud>  Wed, 31 Jul 2024 20:19:13 +0300
+
+virgo-ui (1.0.14) stable; urgency=low
+
+  Other
+  * Bump version
+  * Fix state checking
+
+ -- univrs <voyager@univrs.cloud>  Tue, 30 Jul 2024 10:28:17 +0300
+
