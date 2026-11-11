@@ -1,3 +1,10 @@
+virgo-api (2.23.11) stable; urgency=low
+
+  Features
+  * fall back to the source package for changelogs apt cannot fetch, and show each entry's date on its version line
+
+ -- univrs <voyager@univrs.cloud>  Wed, 11 Nov 2026 13:08:37 +0200
+
 virgo-api (2.23.10) stable; urgency=low
 
   Features

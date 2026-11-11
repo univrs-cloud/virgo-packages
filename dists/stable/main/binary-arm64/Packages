@@ -1,13 +1,13 @@
 Package: virgo-api
-Version: 2.23.10
+Version: 2.23.11
 Architecture: arm64
 Maintainer: univrs
 Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server,iputils-arping,network-manager,avahi-daemon,avahi-utils,zip
-Filename: ./dists/stable/main/binary-arm64/virgo-api_2.23.10_arm64.deb
-Size: 14961250
-MD5sum: 028db02b1074b1cd27c092a6e6ec108e
-SHA1: 918b011d9a08e6703cb5311920533f66c7714688
-SHA256: 2ecee1e84145fd21ac0156974863599beca690f5a4a3a239068d9ca0be87742e
+Filename: ./dists/stable/main/binary-arm64/virgo-api_2.23.11_arm64.deb
+Size: 14961996
+MD5sum: 21d196cc6af8a7d54b2b876d8de85076
+SHA1: 45ddb3c2e5bfbd44948ad5a9cd0e6d10e961bf25
+SHA256: 1b77b2de4ff871b4dc2c1d16901f920f77e0584a5df33364a5eb538e06711bd3
 Section: base
 Priority: optional
 Description: virgoOS API
