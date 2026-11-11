@@ -1,3 +1,11 @@
+virgo-ui (2.23.14) stable; urgency=low
+
+  Fixes
+  * drop the extra gap above the update log before it scrolls
+  * stop phone pages scrolling past the menu bar and center the wrapped empty state text
+
+ -- univrs <voyager@univrs.cloud>  Wed, 11 Nov 2026 15:02:12 +0200
+
 virgo-ui (2.23.13) stable; urgency=low
 
   Fixes
