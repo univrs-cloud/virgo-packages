@@ -1,3 +1,10 @@
+virgo-ui (2.23.17) stable; urgency=low
+
+  Features
+  * reveal the new theme in a circle from the clicked theme button
+
+ -- univrs <voyager@univrs.cloud>  Thu, 12 Nov 2026 00:16:07 +0200
+
 virgo-ui (2.23.16) stable; urgency=low
 
   Features
