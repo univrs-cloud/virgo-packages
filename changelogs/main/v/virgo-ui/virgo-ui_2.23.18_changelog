@@ -1,3 +1,11 @@
+virgo-ui (2.23.18) stable; urgency=low
+
+  Features
+  * play sounds for toasts and confirmation dialogs
+  * float particles behind the login screens and match their card to dashboard cards
+
+ -- univrs <voyager@univrs.cloud>  Thu, 12 Nov 2026 02:49:01 +0200
+
 virgo-ui (2.23.17) stable; urgency=low
 
   Features
