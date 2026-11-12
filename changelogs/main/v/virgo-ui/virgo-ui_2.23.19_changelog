@@ -1,3 +1,11 @@
+virgo-ui (2.23.19) stable; urgency=low
+
+  Fixes
+  * brighten the node IPs and stats card text to the disabled app gray
+  * open the account menu over app windows when the menu is expanded
+
+ -- univrs <voyager@univrs.cloud>  Thu, 12 Nov 2026 11:58:29 +0200
+
 virgo-ui (2.23.18) stable; urgency=low
 
   Features
