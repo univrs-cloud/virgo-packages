@@ -1,3 +1,10 @@
+virgo-ui (2.23.21) stable; urgency=low
+
+  Features
+  * open setup on a welcome screen and name the first step EULA
+
+ -- univrs <voyager@univrs.cloud>  Thu, 12 Nov 2026 22:58:52 +0200
+
 virgo-ui (2.23.20) stable; urgency=low
 
   Other
