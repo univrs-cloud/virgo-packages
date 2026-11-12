@@ -1,3 +1,10 @@
+virgo-api (2.23.13) stable; urgency=low
+
+  Other
+  * require node 24.22.3 and build with it in CI
+
+ -- univrs <voyager@univrs.cloud>  Thu, 12 Nov 2026 13:38:13 +0200
+
 virgo-api (2.23.12) stable; urgency=low
 
   Features
