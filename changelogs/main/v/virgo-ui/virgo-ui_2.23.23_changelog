@@ -1,3 +1,10 @@
+virgo-ui (2.23.23) stable; urgency=low
+
+  Features
+  * open node namespaces directly on a ready data channel
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Nov 2026 08:35:16 +0200
+
 virgo-ui (2.23.22) stable; urgency=low
 
   Fixes
