@@ -1,3 +1,11 @@
+virgo-ui (2.23.24) stable; urgency=low
+
+  Fixes
+  * style the logs scrollbar and bump postcss and sass
+  * lighten the progress bar and timeline tracks in dark mode
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Nov 2026 10:53:33 +0200
+
 virgo-ui (2.23.23) stable; urgency=low
 
   Features
