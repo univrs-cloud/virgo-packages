@@ -1,3 +1,10 @@
+virgo-api (2.23.14) stable; urgency=low
+
+  Fixes
+  * stop resending buffered WebRTC data channel frames
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Nov 2026 10:16:07 +0200
+
 virgo-api (2.23.13) stable; urgency=low
 
   Other
