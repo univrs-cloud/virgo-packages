@@ -1,3 +1,10 @@
+virgo-ui (2.23.22) stable; urgency=low
+
+  Fixes
+  * await clipboard copy and copy addresses as plain text
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Nov 2026 02:10:18 +0200
+
 virgo-ui (2.23.21) stable; urgency=low
 
   Features
