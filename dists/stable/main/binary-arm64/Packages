@@ -1,0 +1,43 @@
+Package: virgo-api
+Version: 2.23.15
+Architecture: arm64
+Maintainer: univrs
+Depends: apt-show-versions,smartmontools,nvme-cli,jq,msmtp-mta,bsd-mailx,redis-server,iputils-arping,network-manager,avahi-daemon,avahi-utils,zip
+Filename: ./dists/stable/main/binary-arm64/virgo-api_2.23.15_arm64.deb
+Size: 14967202
+MD5sum: a799c9591add18ab28f51675a969ef9e
+SHA1: 7db7df283e6d62abc7c8717cc51c9d3a7d41f2ff
+SHA256: af2061fb2e99f29d82b79e708cbabbbe09d5d8ebd04392494a6087ddb7421562
+Section: base
+Priority: optional
+Description: virgoOS API
+
+Package: virgo-ui
+Version: 2.23.24
+Architecture: arm64
+Maintainer: univrs
+Filename: ./dists/stable/main/binary-arm64/virgo-ui_2.23.24_arm64.deb
+Size: 15487876
+MD5sum: a1d47fed9e6a4436ba6b2c749ba0a2f8
+SHA1: 91bceacb42bac6fc8e42d1dfb3e49cc91547ea69
+SHA256: d71c5e3b8cdab97e268d639fb1d22512663ad9ec67a14bf978b382c4a1640b80
+Section: base
+Priority: optional
+Description: virgoOS UI
+
+Package: virgo-ups
+Version: 2.2.0
+Architecture: arm64
+Maintainer: Mihai Balint <balint.mihai@gmail.com>
+Installed-Size: 91
+Depends: python3-smbus, python3-gpiozero, nut-client, nut-server
+Filename: ./dists/stable/main/binary-arm64/virgo-ups_2.2.0_arm64.deb
+Size: 18550
+MD5sum: 9019a95e06bad2ab2554edafd6cddbdd
+SHA1: 8bb833f0918a2096052cde07a182c18f9f2f59f2
+SHA256: 361a60497441f7d94a86da47e3f438dcc6c2ea282296219c4a5bd29a5e998e95
+Section: utils
+Priority: extra
+Description: UPS monitoring and automatic power-off services package
+ Ensures that UPS monitoring and automatic power-off service is installed and running
+
