@@ -1,3 +1,10 @@
+virgo-api (2.23.19) stable; urgency=low
+
+  Fixes
+  * retry claiming the virtual IP when the boot check gave up
+
+ -- univrs <voyager@univrs.cloud>  Tue, 17 Nov 2026 01:20:32 +0200
+
 virgo-api (2.23.18) stable; urgency=low
 
   Features
