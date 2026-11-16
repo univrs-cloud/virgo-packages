@@ -1,3 +1,18 @@
+virgo-api (2.23.18) stable; urgency=low
+
+  Features
+  * refuse adopting or pairing nodes on a different virgo-api version
+  * depend on mbuffer and pv for replication transfers
+  * sign peer calls and answers over their event and payload and reject unverified ones
+
+  Fixes
+  * restrict /messier/.config to its owner
+
+  Other
+  * bump systeminformation to 5.33.23
+
+ -- univrs <voyager@univrs.cloud>  Tue, 17 Nov 2026 00:35:07 +0200
+
 virgo-api (2.23.17) stable; urgency=low
 
   Features
