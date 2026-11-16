@@ -1,3 +1,11 @@
+virgo-api (2.23.16) stable; urgency=low
+
+  Features
+  * report container start times and bump cron-parser
+  * roll back a folder to a snapshot
+
+ -- univrs <voyager@univrs.cloud>  Sat, 14 Nov 2026 22:40:22 +0200
+
 virgo-api (2.23.15) stable; urgency=low
 
   Other
