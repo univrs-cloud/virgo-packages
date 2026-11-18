@@ -1,3 +1,12 @@
+virgo-ui (2.23.29) stable; urgency=low
+
+  Features
+  * show weekly snapshots in the restore point timeline
+  * always show the protection and recovery tabs of folders
+  * add snapshot rule details showing the apps and folders that follow each rule
+
+ -- univrs <voyager@univrs.cloud>  Wed, 18 Nov 2026 01:57:41 +0200
+
 virgo-ui (2.23.28) stable; urgency=low
 
   Features
