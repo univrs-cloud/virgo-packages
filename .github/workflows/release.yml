@@ -22,9 +22,11 @@ jobs:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE }}
       
       - name: Download .deb packages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for repo in virgo-api virgo-ui virgo-ups; do
-            release=$(curl -s "https://api.github.com/repos/univrs-cloud/$repo/releases/latest")
+            release=$(curl -fsS -H "Authorization: Bearer $GH_TOKEN" "https://api.github.com/repos/univrs-cloud/$repo/releases/latest")
             for arch in arm64 amd64; do
               dir="dists/stable/main/binary-$arch"
               mkdir -p "$dir"
@@ -34,7 +36,7 @@ jobs:
                 echo "::warning::latest $repo release has no $arch package"
                 continue
               fi
-              curl -fL -H "Accept: application/octet-stream" -o "$dir/$name" "$url"
+              curl -fL -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/octet-stream" -o "$dir/$name" "$url"
             done
           done
 
