@@ -1,3 +1,10 @@
+virgo-api (2.23.21) stable; urgency=low
+
+  Features
+  * serve the app page while the node is starting
+
+ -- univrs <voyager@univrs.cloud>  Wed, 18 Nov 2026 19:35:23 +0200
+
 virgo-api (2.23.20) stable; urgency=low
 
   Features

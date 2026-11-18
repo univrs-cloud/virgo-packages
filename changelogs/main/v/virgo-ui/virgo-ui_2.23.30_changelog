@@ -1,3 +1,10 @@
+virgo-ui (2.23.30) stable; urgency=low
+
+  Features
+  * show a starting screen while the node is starting
+
+ -- univrs <voyager@univrs.cloud>  Wed, 18 Nov 2026 19:35:28 +0200
+
 virgo-ui (2.23.29) stable; urgency=low
 
   Features
