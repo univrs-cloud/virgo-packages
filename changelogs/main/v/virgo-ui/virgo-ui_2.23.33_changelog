@@ -1,3 +1,10 @@
+virgo-ui (2.23.33) stable; urgency=low
+
+  Features
+  * show and install Nextcloud app updates on the node and from the fleet
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 12:18:22 +0200
+
 virgo-ui (2.23.32) stable; urgency=low
 
   Features

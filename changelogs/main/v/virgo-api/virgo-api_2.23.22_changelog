@@ -1,3 +1,10 @@
+virgo-api (2.23.22) stable; urgency=low
+
+  Features
+  * check and install Nextcloud app updates, apps first when Nextcloud itself updates
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 12:18:25 +0200
+
 virgo-api (2.23.21) stable; urgency=low
 
   Features
