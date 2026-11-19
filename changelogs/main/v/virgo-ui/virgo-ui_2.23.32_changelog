@@ -1,3 +1,21 @@
+virgo-ui (2.23.32) stable; urgency=low
+
+  Features
+  * add biometric sign-in to fleet inside the android app
+  * hide passkey sign-in in fleet profile inside the android app
+  * draw the options ourselves so they can show rich content, and keep floating labels one color
+  * show each snapshot rule's details in the rule picker
+
+  Fixes
+  * re-check fields that a modal draws again each time it opens
+
+  Other
+  * call fleet biometric sign-in a passkey
+  * use a scan icon for fleet passkey sign-in
+  * leave a gap between the options and the scrollbar
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 11:00:41 +0200
+
 virgo-ui (2.23.31) stable; urgency=low
 
   Other
