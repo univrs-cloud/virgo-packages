@@ -1,3 +1,10 @@
+virgo-api (2.23.26) stable; urgency=low
+
+  Fixes
+  * delete accounts and domains instead of removing them
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 01:41:34 +0200
+
 virgo-api (2.23.25) stable; urgency=low
 
   Other

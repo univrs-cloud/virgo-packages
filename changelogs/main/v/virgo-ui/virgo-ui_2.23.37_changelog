@@ -1,3 +1,11 @@
+virgo-ui (2.23.37) stable; urgency=low
+
+  Fixes
+  * say signing in works through the node's address
+  * delete mail accounts and domains instead of removing them, require a checkbox to delete a backup disk, say Create on New account dialogs and reword the delete checkboxes
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 01:41:33 +0200
+
 virgo-ui (2.23.36) stable; urgency=low
 
   Features
