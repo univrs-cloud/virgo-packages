@@ -1,3 +1,18 @@
+virgo-ui (2.23.36) stable; urgency=low
+
+  Features
+  * require a checkbox to remove a mail account or domain, disable removing a domain that still has accounts or aliases
+  * Nextcloud accounts tab with groups, chips for groups and mail aliases, mail storage limit without unlimited
+  * change a Nextcloud account's password, lock and unlock accounts, edit from a pencil next to the menu
+  * edit from a pencil next to the menu in user details, show a chevron on every row
+
+  Fixes
+  * use the single menu for pool details on phones, drop the empty menu and the system pool's expand button
+  * add Edit and Refresh tooltips to icon buttons, give the mail Unblock button a visible hover
+  * add tabindex -1 to every dialog root
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 20:25:50 +0200
+
 virgo-ui (2.23.35) stable; urgency=low
 
   Fixes

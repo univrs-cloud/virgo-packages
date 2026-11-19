@@ -1,3 +1,14 @@
+virgo-api (2.23.24) stable; urgency=low
+
+  Features
+  * list, add, edit, disable, enable and delete Nextcloud accounts and manage groups, run occ without the shell wrapper; drop unlimited mail storage
+  * change an account's password and word disabling as locking
+
+  Other
+  * read DKIM keys by the selector map like rspamd's default config, drop older layout handling
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 20:25:54 +0200
+
 virgo-api (2.23.23) stable; urgency=low
 
   Features
