@@ -1,3 +1,10 @@
+virgo-api (2.23.25) stable; urgency=low
+
+  Other
+  * read zfs and zpool output as JSON
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 01:25:54 +0200
+
 virgo-api (2.23.24) stable; urgency=low
 
   Features
