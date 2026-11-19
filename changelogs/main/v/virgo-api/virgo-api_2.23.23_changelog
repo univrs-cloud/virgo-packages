@@ -1,3 +1,11 @@
+virgo-api (2.23.23) stable; urgency=low
+
+  Features
+  * include each app update's changelog from Nextcloud's app store copy
+  * manage domains, DKIM keys, accounts, aliases, storage limits and blocked IPs
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 14:07:37 +0200
+
 virgo-api (2.23.22) stable; urgency=low
 
   Features

@@ -1,3 +1,18 @@
+virgo-ui (2.23.35) stable; urgency=low
+
+  Fixes
+  * mail domain setup modal has no footer, it closes from header close button
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 14:12:11 +0200
+
+virgo-ui (2.23.34) stable; urgency=low
+
+  Features
+  * show what's new for each Nextcloud app update
+  * manage MailServer from its details, always show input prefixes and suffixes, widen confirmations
+
+ -- univrs <voyager@univrs.cloud>  Thu, 19 Nov 2026 14:07:33 +0200
+
 virgo-ui (2.23.33) stable; urgency=low
 
   Features
