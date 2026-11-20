@@ -1,3 +1,13 @@
+virgo-ui (2.23.40) stable; urgency=low
+
+  Features
+  * send the phone's key certificates when enrolling biometric sign-in, update dependencies
+
+  Fixes
+  * require at least 8 characters for the signup password
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 15:02:51 +0200
+
 virgo-ui (2.23.39) stable; urgency=low
 
   Features

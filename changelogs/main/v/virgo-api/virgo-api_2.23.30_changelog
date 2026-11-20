@@ -1,3 +1,17 @@
+virgo-api (2.23.30) stable; urgency=low
+
+  Other
+  * update dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 15:02:55 +0200
+
+virgo-api (2.23.29) stable; urgency=low
+
+  Fixes
+  * only the node holding the virtual IP starts pairings, and it hands members their keys
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 14:49:49 +0200
+
 virgo-api (2.23.28) stable; urgency=low
 
   Features
