@@ -1,3 +1,17 @@
+virgo-api (2.23.28) stable; urgency=low
+
+  Features
+  * set up a virgo-replication user and swap SSH keys between paired nodes, name nodes in pairing errors
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 02:26:15 +0200
+
+virgo-api (2.23.27) stable; urgency=low
+
+  Fixes
+  * name the account, domain, alias, group and snapshot rule in job messages
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 02:09:07 +0200
+
 virgo-api (2.23.26) stable; urgency=low
 
   Fixes
