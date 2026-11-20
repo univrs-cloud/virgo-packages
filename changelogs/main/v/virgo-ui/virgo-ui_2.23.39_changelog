@@ -1,3 +1,14 @@
+virgo-ui (2.23.39) stable; urgency=low
+
+  Features
+  * show why a node cannot be opened at its own address
+  * add illustrations for each reason a node cannot be opened
+
+  Fixes
+  * say a node's files may have been changed when it cannot be verified
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 14:33:32 +0200
+
 virgo-ui (2.23.38) stable; urgency=low
 
   Features
