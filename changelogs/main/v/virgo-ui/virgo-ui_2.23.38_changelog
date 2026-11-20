@@ -1,3 +1,10 @@
+virgo-ui (2.23.38) stable; urgency=low
+
+  Features
+  * sign each release's file list and check node assets against it in the service worker
+
+ -- univrs <voyager@univrs.cloud>  Fri, 20 Nov 2026 13:39:28 +0200
+
 virgo-ui (2.23.37) stable; urgency=low
 
   Fixes
