@@ -1,3 +1,18 @@
+virgo-ui (2.23.41) stable; urgency=low
+
+  Features
+  * switch the icons from Phosphor to Lucide and add icons to the New buttons
+  * move detail tabs that do not fit into a More menu
+
+  Fixes
+  * title the blocked IP dialog like its New blocked IP button
+
+  Other
+  * split the bundle into large vendor packages and per-area page files, drop unused moment locales
+  * serve the dev server over http2
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Nov 2026 01:08:01 +0200
+
 virgo-ui (2.23.40) stable; urgency=low
 
   Features
