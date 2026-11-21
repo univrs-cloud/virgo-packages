@@ -1,3 +1,11 @@
+virgo-ui (2.23.42) stable; urgency=low
+
+  Fixes
+  * center the status dot on the node name in the sites table
+  * fill the rail window close button red on hover
+
+ -- univrs <voyager@univrs.cloud>  Sat, 21 Nov 2026 08:36:31 +0200
+
 virgo-ui (2.23.41) stable; urgency=low
 
   Features
