@@ -1,3 +1,10 @@
+virgo-api (2.23.31) stable; urgency=low
+
+  Features
+  * point node names at their own address in Pi-hole
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Nov 2026 14:07:08 +0200
+
 virgo-api (2.23.30) stable; urgency=low
 
   Other
