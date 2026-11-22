@@ -1,3 +1,10 @@
+virgo-api (2.23.32) stable; urgency=low
+
+  Fixes
+  * write Pi-hole node addresses only on the virtual IP holder
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Nov 2026 14:20:19 +0200
+
 virgo-api (2.23.31) stable; urgency=low
 
   Features

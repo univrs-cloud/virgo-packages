@@ -1,3 +1,10 @@
+virgo-ui (2.23.43) stable; urgency=low
+
+  Features
+  * allow only node scope apps to install off the virtual IP holder
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Nov 2026 14:25:16 +0200
+
 virgo-ui (2.23.42) stable; urgency=low
 
   Fixes
