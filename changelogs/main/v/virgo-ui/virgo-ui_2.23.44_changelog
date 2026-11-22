@@ -1,3 +1,10 @@
+virgo-ui (2.23.44) stable; urgency=low
+
+  Features
+  * replace the cube logo with the wolf in node and Fleet and drop the Fleet icon
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Nov 2026 21:47:26 +0200
+
 virgo-ui (2.23.43) stable; urgency=low
 
   Features
