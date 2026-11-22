@@ -1,3 +1,10 @@
+virgo-api (2.23.33) stable; urgency=low
+
+  Features
+  * serve the interface at the cluster address
+
+ -- univrs <voyager@univrs.cloud>  Sun, 22 Nov 2026 15:15:39 +0200
+
 virgo-api (2.23.32) stable; urgency=low
 
   Fixes
