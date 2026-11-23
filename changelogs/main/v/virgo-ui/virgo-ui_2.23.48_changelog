@@ -1,3 +1,10 @@
+virgo-ui (2.23.48) stable; urgency=low
+
+  Other
+  * use the folder plus corner icon for new folder actions
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Nov 2026 16:33:01 +0200
+
 virgo-ui (2.23.47) stable; urgency=low
 
   Other
