@@ -1,3 +1,10 @@
+virgo-ui (2.23.47) stable; urgency=low
+
+  Other
+  * update lucide-static to 1.78.0 and use the exit arrow icon for shortcuts
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Nov 2026 13:59:19 +0200
+
 virgo-ui (2.23.46) stable; urgency=low
 
   Features

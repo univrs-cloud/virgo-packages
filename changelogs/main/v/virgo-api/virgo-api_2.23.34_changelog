@@ -1,3 +1,10 @@
+virgo-api (2.23.34) stable; urgency=low
+
+  Other
+  * update ioredis to 6.1.0
+
+ -- univrs <voyager@univrs.cloud>  Mon, 23 Nov 2026 14:00:04 +0200
+
 virgo-api (2.23.33) stable; urgency=low
 
   Features
