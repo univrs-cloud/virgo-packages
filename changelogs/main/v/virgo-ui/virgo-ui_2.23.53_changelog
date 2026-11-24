@@ -1,3 +1,17 @@
+virgo-ui (2.23.53) stable; urgency=low
+
+  Fixes
+  * use the refresh icon for recreate
+
+ -- univrs <voyager@univrs.cloud>  Wed, 25 Nov 2026 00:48:36 +0200
+
+virgo-ui (2.23.52) stable; urgency=low
+
+  Fixes
+  * center the menu icons and keep the selected item at regular weight
+
+ -- univrs <voyager@univrs.cloud>  Wed, 25 Nov 2026 00:43:40 +0200
+
 virgo-ui (2.23.51) stable; urgency=low
 
   Fixes
