@@ -5,20 +5,20 @@ Codename: stable
 Architectures: arm64 amd64
 Components: main
 Changelogs: https://packages.univrs.cloud/changelogs/@CHANGEPATH@_changelog
-Date: Tue, 24 Nov 2026 08:06:09 +0000
+Date: Tue, 24 Nov 2026 09:35:31 +0000
 MD5Sum:
- 3bc61febf4eb3cecca2b371e3ae9ab72              218 Release
- 45fe66313efeb1988221b604324227bf             1533 main/binary-amd64/Packages
- 57e241bdf4f6d6e02b49e7034fa30cc7             1533 main/binary-arm64/Packages
+ bcb408935ed501e6d279992c88a6950f              218 Release
+ 9dab2c0826fcf183e28701498987f76a             1533 main/binary-amd64/Packages
+ ab726f8943e363ef44a6d2a36a712343             1533 main/binary-arm64/Packages
 SHA1:
- 5b2218a747390905560f7e28eacef6789635b75e              218 Release
- 72c39f7b186849dba57aaec449df293ef6079508             1533 main/binary-amd64/Packages
- c668dce8d0443516de18e1bfc2878995327faa4b             1533 main/binary-arm64/Packages
+ 50c9f57c981ed30d6329f0761d6d066e78bc69a5              218 Release
+ abc687c1eca1d815c9272f69f16c01c619ab8177             1533 main/binary-amd64/Packages
+ 86632776f17aa448641ca36691be3ac2eec922cf             1533 main/binary-arm64/Packages
 SHA256:
- 704424606e2c6c05fc564184414bc7f53771682b29bac77b97c8a5506ace4a9a              218 Release
- 2477d735c0adb334503aff30611c57b9cc986e19fbdcdcd2416fae8c861884ac             1533 main/binary-amd64/Packages
- 84eeb5d5d864128d5a07f891fcb2b40b04ce867c9f3076318483f7bf51e0895d             1533 main/binary-arm64/Packages
+ 68aa21a91ac85fb37d069e76f88eeaf6e29b594ea73259311c88f9532ae6ac30              218 Release
+ 84cd730291cd8863850a45847e6e1cce644a6aa80f4bcc43a06e91e00bcf0982             1533 main/binary-amd64/Packages
+ 108c911e31b5812d417af0430fc5465442bdce861e9d6d0129885949378e4442             1533 main/binary-arm64/Packages
 SHA512:
- b2bf2d131005e6d9775461543ac049f9e20642c2dbff7975173be1760ddd548983d091b847de8946d436c481c322f35f5889d584c4fe6a4deae6987348849ff1              218 Release
- 6241737a0ba53dec00d8a116e6442bb4ed24d867986e9e2366cda415a880d4ece816d05ebf43a80d58f3c2a41bbc5ee2c40325aba8c30a21f648df4b77822613             1533 main/binary-amd64/Packages
- 1cf7ea9780cad9f3e256d4f4d0bf8de96b6e0e3f72fedbf3cb6a7f11fef277e15d8cec1fc8ce028b45cb5e29f20e6fcd536ca5ccd0ecc3f313d35660f9f648e3             1533 main/binary-arm64/Packages
+ 446da4297f30a6e80be44356c09f0535ed6457dfde85266a6b94e1c7ffabc8d31fbddb980dbc2fc73c43a819ea1d7ba1b501ab8c5927786b5b45559c2fe982f6              218 Release
+ 4174302ccc24a41fd87a7553f3b38eca6f3581def0e141b259abf3e46c075bfde66d1154614a967b78b503e64ff6ca9ea4c5808264598ccbcadebd361fc19e09             1533 main/binary-amd64/Packages
+ 2133b23783cafaa23ec7ba0af5cea323983765a9c9718b6045e432076abf601863f40d093ae3bf4a12f8a8779fdae95580381e376be464a07ee1c992e5340c11             1533 main/binary-arm64/Packages
