@@ -1,3 +1,10 @@
+virgo-ui (2.23.49) stable; urgency=low
+
+  Features
+  * add external backup nodes and pairing requests
+
+ -- univrs <voyager@univrs.cloud>  Tue, 24 Nov 2026 09:59:08 +0200
+
 virgo-ui (2.23.48) stable; urgency=low
 
   Other
