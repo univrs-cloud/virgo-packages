@@ -1,3 +1,10 @@
+virgo-api (2.23.38) stable; urgency=low
+
+  Features
+  * add custom apps, editing installed apps and port conflict checks
+
+ -- univrs <voyager@univrs.cloud>  Fri, 27 Nov 2026 14:25:31 +0200
+
 virgo-api (2.23.37) stable; urgency=low
 
   Other
