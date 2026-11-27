@@ -1,3 +1,10 @@
+virgo-api (2.23.39) stable; urgency=low
+
+  Features
+  * load Nextcloud accounts and mail server data at startup
+
+ -- univrs <voyager@univrs.cloud>  Sat, 28 Nov 2026 00:05:21 +0200
+
 virgo-api (2.23.38) stable; urgency=low
 
   Features

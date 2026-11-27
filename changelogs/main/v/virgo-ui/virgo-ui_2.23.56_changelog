@@ -1,3 +1,10 @@
+virgo-ui (2.23.56) stable; urgency=low
+
+  Other
+  * read Nextcloud updates and accounts from one state
+
+ -- univrs <voyager@univrs.cloud>  Sat, 28 Nov 2026 00:24:52 +0200
+
 virgo-ui (2.23.55) stable; urgency=low
 
   Features
