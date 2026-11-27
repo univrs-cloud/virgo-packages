@@ -1,3 +1,10 @@
+virgo-api (2.23.37) stable; urgency=low
+
+  Other
+  * drop applied index and post-install migrations and bump dependencies
+
+ -- univrs <voyager@univrs.cloud>  Fri, 27 Nov 2026 09:18:01 +0200
+
 virgo-api (2.23.36) stable; urgency=low
 
   Features

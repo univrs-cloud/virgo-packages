@@ -1,3 +1,16 @@
+virgo-ui (2.23.54) stable; urgency=low
+
+  Features
+  * send the iOS App Attest proof when enrolling biometric sign-in
+  * add account deletion to the profile danger zone
+  * regenerate recovery codes from the profile page and show how many are left
+  * change the authenticator app from the profile page
+
+  Other
+  * bump lucide-static to 1.82.0
+
+ -- univrs <voyager@univrs.cloud>  Fri, 27 Nov 2026 09:20:18 +0200
+
 virgo-ui (2.23.53) stable; urgency=low
 
   Fixes
