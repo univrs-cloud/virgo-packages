@@ -13,14 +13,14 @@ Priority: optional
 Description: virgoOS API
 
 Package: virgo-ui
-Version: 2.23.58
+Version: 2.23.59
 Architecture: amd64
 Maintainer: univrs
-Filename: ./dists/stable/main/binary-amd64/virgo-ui_2.23.58_amd64.deb
-Size: 15541954
-MD5sum: 86db5a0229940a0ae82e817fbc018e00
-SHA1: 040dd89727e3ea65427bb1e3d2d776577f901c75
-SHA256: 41b1c8ba4204629e408146cb14cfa2970ef52ba02fb0d082e30866d891d6d8fb
+Filename: ./dists/stable/main/binary-amd64/virgo-ui_2.23.59_amd64.deb
+Size: 15546564
+MD5sum: eb05b10556e6bbeda7e66381c8951f4d
+SHA1: 8fae69c5c458d44e6121dc49cb9f83aa234e6834
+SHA256: 35fd400c741e497f0174ebd8e087911dc446d9a70c498b1e2ec7fd83831fb8ea
 Section: base
 Priority: optional
 Description: virgoOS UI

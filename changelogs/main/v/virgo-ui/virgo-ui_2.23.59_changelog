@@ -1,3 +1,10 @@
+virgo-ui (2.23.59) stable; urgency=low
+
+  Fixes
+  * wait 3 seconds before showing a lost node connection
+
+ -- univrs <voyager@univrs.cloud>  Sat, 28 Nov 2026 16:07:08 +0200
+
 virgo-ui (2.23.58) stable; urgency=low
 
   Features
