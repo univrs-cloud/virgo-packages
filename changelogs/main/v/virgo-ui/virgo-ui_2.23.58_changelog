@@ -1,3 +1,11 @@
+virgo-ui (2.23.58) stable; urgency=low
+
+  Features
+  * open nodes from table rows with a chevron, outline the invited badge, bump lucide-static, autoprefixer and postcss
+  * show status badges on the tab icon for node and fleet, keep nodes updating while disconnected visible, open the NAS status tooltip from the whole icon and use small site count badges
+
+ -- univrs <voyager@univrs.cloud>  Sat, 28 Nov 2026 15:52:35 +0200
+
 virgo-ui (2.23.57) stable; urgency=low
 
   Features
